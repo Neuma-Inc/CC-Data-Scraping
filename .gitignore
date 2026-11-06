@@ -1,0 +1,43 @@
+# Python & Runtime Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pkl
+.venv/
+venv/
+env/
+
+# Node & Frontend
+node_modules/
+
+# Secrets, Cookies & Auth
+.env
+.env.*
+*cookie*
+*cookies*
+*token*
+*secret*
+auth*
+*.pem
+*.key
+
+# Office & OS Temp Files
+~$*
+.DS_Store
+Thumbs.db
+*.bak
+*.bak_*
+*.tmp
+
+# Exclude non-dataset directories in workspace root
+01-调研报告/
+03-抓取工具/
+99-旧版与临时/
+MediaCrawler/
+tmp/
+数据抓取工具/
+交接文档.md
+
+# Exclude PPTX binary decks in outputs (keep only .csv, .xlsx, .html, .md, .json data outputs)
+outputs/*.pptx
+outputs/*.png

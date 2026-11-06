@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>减重课程市场调研 · 数据采集方法论与母词裂变树状图</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 1980px;
+    background: #F1F5F9;
+    font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    color: #0F172A;
+    padding: 26px 30px 30px 30px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page-card {
+    background: #FFFFFF;
+    border-radius: 14px;
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    overflow: hidden;
+    position: relative;
+  }
+  /* Top Header */
+  .header {
+    background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 65%, #1D4ED8 100%);
+    color: #FFFFFF;
+    padding: 22px 32px 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 4px solid #F59E0B;
+  }
+  .header-left .kicker {
+    display: inline-block;
+    background: rgba(245, 158, 11, 0.22);
+    border: 1px solid rgba(251, 191, 36, 0.65);
+    color: #FDE68A;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+  }
+  .header-left h1 {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    line-height: 1.25;
+    color: #FFFFFF;
+  }
+  .header-left .subtitle {
+    margin-top: 6px;
+    font-size: 13.5px;
+    color: #DBEAFE;
+    line-height: 1.45;
+  }
+  .header-left .subtitle b {
+    color: #FDE68A;
+  }
+  .header-right {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+  }
+  .kpi-pill {
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 8px 14px;
+    text-align: right;
+    min-width: 130px;
+  }
+  .kpi-pill .num {
+    font-size: 21px;
+    font-weight: 800;
+    color: #FDE68A;
+    line-height: 1.15;
+    white-space: nowrap;
+  }
+  .kpi-pill .lab {
+    font-size: 11px;
+    color: #E2E8F0;
+    margin-top: 3px;
+    white-space: nowrap;
+  }
+
+  /* Section 1: 6-step pipeline banner */
+  .pipeline-bar {
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 14px 28px;
+  }
+  .pipeline-title {
+    font-size: 12.5px;
+    font-weight: 800;
+    color: #1E3A8A;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pipeline-title span.note {
+    font-weight: 500;
+    color: #475569;
+    font-size: 12px;
+  }
+  .pipeline-steps {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  .p-step {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-top: 3px solid #1E3A8A;
+    border-radius: 8px;
+    padding: 9px 11px;
+    position: relative;
+  }
+  .p-step.highlight {
+    border-top-color: #D97706;
+    background: #FFFBEB;
+  }
+  .p-step.success {
+    border-top-color: #0F766E;
+    background: #F0FDF4;
+  }
+  .p-step .s-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    gap: 4px;
+  }
+  .p-step .s-num {
+    font-size: 11px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: #1E3A8A;
+    padding: 1px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .p-step.highlight .s-num { background: #D97706; }
+  .p-step.success .s-num { background: #0F766E; }
+  .p-step .s-metric {
+    font-size: 13px;
+    font-weight: 800;
+    color: #0F172A;
+    white-space: nowrap;
+  }
+  .p-step .s-name {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #1E293B;
+    margin-bottom: 3px;
+  }
+  .p-step .s-desc {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.4;
+  }
+
+  /* Section 2: Main Tree Container */
+  .tree-section {
+    padding: 16px 24px 14px 24px;
+    position: relative;
+  }
+  .col-headers {
+    display: grid;
+    grid-template-columns: 152px 226px 380px 496px 560px;
+    gap: 14px;
+    margin-bottom: 10px;
+  }
+  .col-hdr {
+    background: #0F172A;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .col-hdr.c1 { background: #1E3A8A; }
+  .col-hdr.c2 { background: #0F766E; }
+  .col-hdr.c3 { background: #B45309; }
+  .col-hdr.c4 { background: #7C2D12; }
+  .col-hdr .sub {
+    font-size: 10.5px;
+    font-weight: 500;
+    color: #E2E8F0;
+    background: rgba(255,255,255,0.14);
+    padding: 2px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  .tree-body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 152px 226px 380px 496px 560px;
+    gap: 14px;
+    align-items: stretch;
+  }
+  #tree-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .tree-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+    z-index: 2;
+  }
+  .tree-col.root-col {
+    justify-content: center;
+  }
+
+  /* Node Cards */
+  .root-box {
+    background: linear-gradient(180deg, #0F172A 0%, #1E293B 100%);
+    color: #FFFFFF;
+    border: 2px solid #F59E0B;
+    border-radius: 10px;
+    padding: 14px 11px;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.16);
+  }
+  .root-box .r-tag {
+    display: inline-block;
+    background: #F59E0B;
+    color: #0F172A;
+    font-size: 10.5px;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+  }
+  .root-box .r-title {
+    font-size: 14.5px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  .root-box .r-stat {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 6px;
+    padding: 6px 7px;
+    margin-bottom: 6px;
+    font-size: 10.8px;
+    line-height: 1.42;
+    color: #E2E8F0;
+  }
+  .root-box .r-stat b {
+    color: #FDE68A;
+  }
+
+  /* Col 1: 8 Mother Words */
+  .m-group {
+    background: #F8FAFC;
+    border: 1px solid #93C5FD;
+    border-left: 4px solid #1E3A8A;
+    border-radius: 8px;
+    padding: 8px 9px;
+  }
+  .m-group.g-pain { border-left-color: #DC2626; border-color: #FCA5A5; background: #FEF2F2; }
+  .m-group.g-sugar { border-left-color: #0F766E; border-color: #5EEAD4; background: #F0FDFA; }
+  .m-group.g-serv { border-left-color: #B45309; border-color: #FCD34D; background: #FFFBEB; }
+
+  .m-group-hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 800;
+    color: #1E3A8A;
+    margin-bottom: 5px;
+    white-space: nowrap;
+  }
+  .m-group.g-pain .m-group-hdr { color: #991B1B; }
+  .m-group.g-sugar .m-group-hdr { color: #115E59; }
+  .m-group.g-serv .m-group-hdr { color: #92400E; }
+
+  .m-word-card {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+  }
+  .m-word-card:last-child { margin-bottom: 0; }
+  .m-word-name {
+    font-size: 12.5px;
+    font-weight: 800;
+    color: #0F172A;
+    white-space: nowrap;
+  }
+  .m-word-meta {
+    font-size: 10px;
+    color: #475569;
+    text-align: right;
+    white-space: nowrap;
+  }
+  .m-word-meta .badge-v3 {
+    background: #DCFCE7;
+    color: #166534;
+    font-weight: 700;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-size: 9.5px;
+  }
+  .m-word-meta .badge-warn {
+    background: #FEF3C7;
+    color: #92400E;
+    font-weight: 700;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-size: 9.5px;
+  }
+  .m-footnote {
+    margin-top: 5px;
+    font-size: 10px;
+    color: #475569;
+    line-height: 1.35;
+    border-top: 1px dashed #CBD5E1;
+    padding-top: 4px;
+  }
+
+  /* Col 2: 43 Stems grouped into 8 plain-spoken tracks */
+  .stem-box {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-left: 4px solid #0F766E;
+    border-radius: 7px;
+    padding: 6px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stem-box.s-ind { border-left-color: #1E3A8A; }
+  .stem-box.s-scene { border-left-color: #0F766E; }
+  .stem-box.s-fail { border-left-color: #B45309; }
+  .stem-box.s-body { border-left-color: #7C2D12; }
+  .stem-box.s-drug { border-left-color: #6D28D9; }
+  .stem-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    gap: 6px;
+  }
+  .stem-title {
+    font-size: 11.8px;
+    font-weight: 800;
+    color: #0F172A;
+    white-space: nowrap;
+  }
+  .stem-count {
+    font-size: 10px;
+    font-weight: 700;
+    color: #0F766E;
+    background: #CCFBF1;
+    padding: 1px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .stem-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .stem-tag {
+    font-size: 10.3px;
+    background: #F1F5F9;
+    border: 1px solid #CBD5E1;
+    color: #1E293B;
+    padding: 1px 5px;
+    border-radius: 3px;
+    line-height: 1.32;
+  }
+  .stem-tag.root-t {
+    background: #DBEAFE;
+    border-color: #93C5FD;
+    color: #1E3A8A;
+    font-weight: 700;
+  }
+
+  /* Col 3: Level 3 Target Search Terms (8 groups matching Col 2) */
+  .kw-box {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-left: 4px solid #D97706;
+    border-radius: 7px;
+    padding: 6px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .kw-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    gap: 6px;
+  }
+  .kw-title {
+    font-size: 11.6px;
+    font-weight: 800;
+    color: #78350F;
+    white-space: nowrap;
+  }
+  .kw-rule {
+    font-size: 9.8px;
+    font-weight: 700;
+    color: #92400E;
+    background: #FEF3C7;
+    padding: 1px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .kw-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .kw-chip {
+    font-size: 10.2px;
+    background: #FFFBEB;
+    border: 1px solid #FDE68A;
+    color: #1E293B;
+    padding: 1px 5px;
+    border-radius: 3px;
+    line-height: 1.32;
+  }
+  .kw-chip b {
+    color: #B45309;
+    font-weight: 700;
+  }
+  .kw-chip.v3 {
+    background: #F8FAFC;
+    border-color: #CBD5E1;
+    color: #334155;
+  }
+
+  /* Col 4: Final Locked Crowd Structure (4 Types / 8 Crowds + A2 Drug + Unattributed/Noise) */
+  .crowd-group {
+    background: #FFFFFF;
+    border: 1.5px solid #CBD5E1;
+    border-left: 5px solid #1E3A8A;
+    border-radius: 8px;
+    padding: 7px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .crowd-group.cg-a {
+    border-left-color: #1E3A8A;
+    border-color: #93C5FD;
+    background: #F8FAFC;
+  }
+  .crowd-group.cg-c {
+    border-left-color: #0F766E;
+    border-color: #5EEAD4;
+    background: #F0FDFA;
+  }
+  .crowd-group.cg-b {
+    border-left-color: #B45309;
+    border-color: #FCD34D;
+    background: #FFFBEB;
+  }
+  .crowd-group.cg-d {
+    border-left-color: #7C2D12;
+    border-color: #FDBA74;
+    background: #FFF7ED;
+  }
+  .crowd-group.cg-a2 {
+    border-left-color: #6D28D9;
+    border-color: #C4B5FD;
+    background: #F5F3FF;
+  }
+  .cg-hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+    gap: 6px;
+  }
+  .cg-title {
+    font-size: 12.5px;
+    font-weight: 800;
+    color: #0F172A;
+    white-space: nowrap;
+  }
+  .cg-badge {
+    font-size: 10.5px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: #1E3A8A;
+    padding: 1.5px 7px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .crowd-group.cg-c .cg-badge { background: #0F766E; }
+  .crowd-group.cg-b .cg-badge { background: #B45309; }
+  .crowd-group.cg-d .cg-badge { background: #9A3412; }
+  .crowd-group.cg-a2 .cg-badge { background: #6D28D9; }
+
+  .sub-crowd-row {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    padding: 4px 7px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+  }
+  .sub-crowd-row:last-child { margin-bottom: 0; }
+  .sub-crowd-row.star {
+    background: #FEFCE8;
+    border-color: #FDE047;
+  }
+  .sc-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .sc-name {
+    font-size: 11.4px;
+    font-weight: 800;
+    color: #0F172A;
+    white-space: nowrap;
+  }
+  .sc-desc {
+    font-size: 10px;
+    color: #475569;
+    line-height: 1.3;
+  }
+  .sc-right {
+    text-align: right;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .sc-pct {
+    font-size: 12px;
+    font-weight: 800;
+    color: #1E3A8A;
+  }
+  .crowd-group.cg-c .sc-pct { color: #0F766E; }
+  .crowd-group.cg-b .sc-pct { color: #B45309; }
+  .crowd-group.cg-d .sc-pct { color: #9A3412; }
+  .crowd-group.cg-a2 .sc-pct { color: #6D28D9; }
+  .sc-vol {
+    font-size: 9.8px;
+    color: #64748B;
+  }
+
+  /* Bottom Section: Platform Breakdown + Audit Notes */
+  .bottom-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr 1.15fr;
+    gap: 14px;
+    padding: 12px 24px 20px 24px;
+    background: #F8FAFC;
+    border-top: 1px solid #E2E8F0;
+  }
+  .b-card {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
+  .b-card h3 {
+    font-size: 12.5px;
+    font-weight: 800;
+    color: #1E3A8A;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .b-card h3 span {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #64748B;
+  }
+  table.mini-tb {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.8px;
+  }
+  table.mini-tb th {
+    background: #F1F5F9;
+    color: #334155;
+    text-align: left;
+    padding: 4px 6px;
+    font-weight: 700;
+    border-bottom: 1px solid #CBD5E1;
+    white-space: nowrap;
+  }
+  table.mini-tb td {
+    padding: 4px 6px;
+    border-bottom: 1px solid #E2E8F0;
+    color: #1E293B;
+    white-space: nowrap;
+  }
+  table.mini-tb tr:last-child td {
+    border-bottom: none;
+    font-weight: 800;
+    background: #F8FAFC;
+  }
+  .num-r { text-align: right !important; font-variant-numeric: tabular-nums; }
+  .note-list {
+    list-style: none;
+    font-size: 10.8px;
+    color: #334155;
+    line-height: 1.48;
+  }
+  .note-list li {
+    margin-bottom: 5px;
+    padding-left: 10px;
+    position: relative;
+  }
+  .note-list li:last-child { margin-bottom: 0; }
+  .note-list li::before {
+    content: "▪";
+    position: absolute;
+    left: 0;
+    color: #D97706;
+    font-weight: 800;
+  }
+  .note-list b {
+    color: #0F172A;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-card">
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="kicker">数据溯源与方法论全景图 · 严禁拍脑袋与预先套课名 · 100% 真实搜索词还原</div>
+      <h1>减重课程市场调研：从「8 个一级母词」到「4,283 篇内容 / 93,410 条评论」是怎么来的？</h1>
+      <div class="subtitle">
+        不看平台推荐流（推荐流是算法想让你看的），<b>只抓用户在搜索框真正在搜的词</b>：<b>1 级（8 个母词）→ 2 级（43 个补盲裂变词干）→ 3 级（五平台下拉联想筛出的靶向词）→ 4 级（按搜索词客观映射四大类八人群 + 用药期）</b>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="kpi-pill">
+        <div class="num">8 → 43</div>
+        <div class="lab">1级母词 → 2级裂变词干</div>
+      </div>
+      <div class="kpi-pill">
+        <div class="num">1,329 → 1,225</div>
+        <div class="lab">五平台联想词 → 排雷合格词</div>
+      </div>
+      <div class="kpi-pill">
+        <div class="num">4,283 篇</div>
+        <div class="lab">五平台去重净有效内容</div>
+      </div>
+      <div class="kpi-pill">
+        <div class="num">93,410 条</div>
+        <div class="lab">全量真实评论（83,936归属人群）</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6-STEP PIPELINE -->
+  <div class="pipeline-bar">
+    <div class="pipeline-title">
+      <span>📊 六步客观数据采集漏斗（先撒网抓真实搜索词，再按数据自然聚类，绝不预先编造课程包装名）</span>
+      <span class="note">数据时间窗：2026-05-03 至 2026-11-03（近半年）｜抓取范围：小红书 · 抖音 · B站 · 知乎 · 微博（微信/视频号因反爬未纳入）</span>
+    </div>
+    <div class="pipeline-steps">
+      <div class="p-step">
+        <div class="s-head"><span class="s-num">STEP 1</span><span class="s-metric">8 个一级母词</span></div>
+        <div class="s-name">定母词：测重合度与排雷</div>
+        <div class="s-desc">覆盖泛减重/受挫/控糖/营养师4类入口；B站实测词间重合度<b>最高仅0.25</b>；替掉27%股票污染的裸词「反弹」改用「复胖」</div>
+      </div>
+      <div class="p-step">
+        <div class="s-head"><span class="s-num">STEP 2</span><span class="s-metric">43 个二级词干</span></div>
+        <div class="s-name">裂变词干：8母词 + 35补盲</div>
+        <div class="s-desc">补齐只搜“减肥”抓不到的真实盲区：胰岛素抵抗/脂肪肝/多囊/产后/更年期/夜班应酬/复胖维持/司美/价格</div>
+      </div>
+      <div class="p-step highlight">
+        <div class="s-head"><span class="s-num">STEP 3</span><span class="s-metric">1,329 → 1,225 词</span></div>
+        <div class="s-name">五平台跑下拉联想 + 硬排雷</div>
+        <div class="s-desc">收五平台搜索框真实下拉词1,329条；硬过滤删104条（不沾减重85/纯疾病科普12/财经游戏考证6/超长1）</div>
+      </div>
+      <div class="p-step highlight">
+        <div class="s-head"><span class="s-num">STEP 4</span><span class="s-metric">88 / 130 / 173 词</span></div>
+        <div class="s-name">枢纽度打分筛选靶向抓取词</div>
+        <div class="s-desc"><b>打分 = 跨平台数×3 + min(带出词干数,6)</b>；第一轮88词（实落库82词）入库，v3定稿扩至173词（P1 68/P2 103/P3 2）</div>
+      </div>
+      <div class="p-step">
+        <div class="s-head"><span class="s-num">STEP 5</span><span class="s-metric">5,314 → 4,283 篇</span></div>
+        <div class="s-name">定向抓取正文与评论 + 去重除噪</div>
+        <div class="s-desc">近半年5,314篇按内容ID去重得4,314篇；剔除31篇卖课/考证软文（518评）单列审计，净有效<b>4,283篇 + 93,410评</b></div>
+      </div>
+      <div class="p-step success">
+        <div class="s-head"><span class="s-num">STEP 6</span><span class="s-metric">83,936 条归属人群</span></div>
+        <div class="s-name">按搜索词映射「四大类八人群」</div>
+        <div class="s-desc">按帖子「抓取搜索词」归入<b>A指标39.7% : C场景32.0% : B失败22.3% : D体量5.9%</b> + A2用药期6.7%（另9,474条泛讨论不计入分母）</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TREE SECTION -->
+  <div class="tree-section">
+    <div class="col-headers">
+      <div class="col-hdr"><span>起点 · 总探针</span><span class="sub">定向搜词</span></div>
+      <div class="col-hdr c1"><span>1 级 · 8 个一级母词</span><span class="sub">4 大基础入口</span></div>
+      <div class="col-hdr c2"><span>2 级 · 母词裂变 43 个二级词干</span><span class="sub">8 母词 + 35 补盲词干</span></div>
+      <div class="col-hdr c3"><span>3 级 · 五平台下拉联想筛出靶向词</span><span class="sub">附全表实抓篇数/评论数</span></div>
+      <div class="col-hdr c4"><span>4 级 · 落库 4,283 篇 / 93,410 评 → 四大类八人群汇总</span><span class="sub">主报告锁定口径（分母 83,936）</span></div>
+    </div>
+
+    <div class="tree-body" id="tree-body">
+      <svg id="tree-svg"></svg>
+
+      <!-- COL 0: ROOT -->
+      <div class="tree-col root-col">
+        <div class="root-box" id="node-root">
+          <div class="r-tag">数据总源头</div>
+          <div class="r-title">减重市场用户真实搜索探针</div>
+          <div class="r-stat">
+            <b>为什么不抓推荐流？</b><br/>
+            推荐流是平台算法推给你的热点；搜索框下拉词才是用户遇到问题时的<b>真实主动提问</b>。
+          </div>
+          <div class="r-stat">
+            <b>五平台覆盖</b><br/>
+            · 小红书：1,044篇 / 18,468评<br/>
+            · 抖音：812篇 / 29,828评<br/>
+            · B站：1,380篇 / 35,342评<br/>
+            · 知乎：737篇 / 8,176评<br/>
+            · 微博：310篇 / 1,596评
+          </div>
+          <div class="r-stat">
+            <b>三层证据相互校验</b><br/>
+            ① 4,283篇+93,410评（主证据）<br/>
+            ② 400帖682条人工编码（挖卡点）<br/>
+            ③ 11份访谈+公开政策药价（锚点）
+          </div>
+        </div>
+      </div>
+
+      <!-- COL 1: 8 MOTHER WORDS (4 GROUPS) -->
+      <div class="tree-col">
+        <div class="m-group" id="m-g1">
+          <div class="m-group-hdr"><span>① 大盘泛减重母词</span><span>2 词</span></div>
+          <div class="m-word-card">
+            <span class="m-word-name">减肥</span>
+            <span class="m-word-meta">污染 0%｜大盘基线对照</span>
+          </div>
+          <div class="m-word-card">
+            <span class="m-word-name">减脂</span>
+            <span class="m-word-meta">污染 0%｜食谱/运动入口</span>
+          </div>
+          <div class="m-footnote">声量最大但意图仅 3.6%，主要做大盘基线对照与日常减脂餐裂变</div>
+        </div>
+
+        <div class="m-group g-pain" id="m-g2">
+          <div class="m-group-hdr"><span>② 减重受挫与复胖母词</span><span>3 词</span></div>
+          <div class="m-word-card">
+            <span class="m-word-name">瘦不下来</span>
+            <span class="m-word-meta">污染 0%｜归因/卡秤入口</span>
+          </div>
+          <div class="m-word-card">
+            <span class="m-word-name">复胖</span>
+            <span class="m-word-meta"><span class="badge-v3">v3新增</span> 替掉股票污染词</span>
+          </div>
+          <div class="m-word-card">
+            <span class="m-word-name">减肥反弹了怎么办</span>
+            <span class="m-word-meta">污染 0%｜长尾复胖入口</span>
+          </div>
+          <div class="m-footnote">⚠️ 裸搜「反弹」27% 是股市反弹，故用「复胖 + 减肥反弹了怎么办」替代</div>
+        </div>
+
+        <div class="m-group g-sugar" id="m-g3">
+          <div class="m-group-hdr"><span>③ 血糖与体检指标母词</span><span>2 词</span></div>
+          <div class="m-word-card">
+            <span class="m-word-name">控糖</span>
+            <span class="m-word-meta">污染 0%｜三平台增速+74.6%</span>
+          </div>
+          <div class="m-word-card">
+            <span class="m-word-name">血糖高</span>
+            <span class="m-word-meta">污染 0%｜体检亮红灯入口</span>
+          </div>
+          <div class="m-footnote">「控糖×血糖高」标签重合仅 0.08（一方偏饮食、一方偏体检异常），必须双留</div>
+        </div>
+
+        <div class="m-group g-serv" id="m-g4">
+          <div class="m-group-hdr"><span>④ 付费服务与外援母词</span><span>1 词</span></div>
+          <div class="m-word-card">
+            <span class="m-word-name">营养师</span>
+            <span class="m-word-meta"><span class="badge-warn">5%考证噪音</span> 后续单列剔除</span>
+          </div>
+          <div class="m-footnote">唯一直接指向「花钱找专业服务」的母词，裂变出减脂营/门诊/药物价格测评</div>
+        </div>
+      </div>
+
+      <!-- COL 2: 43 LEVEL-2 STEMS (8 PLAIN-SPOKEN GROUPS) -->
+      <div class="tree-col">
+        <div class="stem-box s-ind" id="st-1">
+          <div class="stem-top">
+            <span class="stem-title">2-1 控糖与胰岛素抵抗词干</span>
+            <span class="stem-count">5 个词干（2母词+3补盲）</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag root-t">控糖（母词）</span>
+            <span class="stem-tag root-t">血糖高（母词）</span>
+            <span class="stem-tag">胰岛素抵抗怎么</span>
+            <span class="stem-tag">糖前期怎么吃</span>
+            <span class="stem-tag">餐后血糖高</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-ind" id="st-2">
+          <div class="stem-top">
+            <span class="stem-title">2-2 脂肪肝、内脏脂肪与男性应酬词干</span>
+            <span class="stem-count">5 个补盲词干</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag">脂肪肝怎么</span>
+            <span class="stem-tag">内脏脂肪怎么减</span>
+            <span class="stem-tag">啤酒肚怎么减</span>
+            <span class="stem-tag">男性减脂</span>
+            <span class="stem-tag">应酬喝酒怎么减</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-ind" id="st-3">
+          <div class="stem-top">
+            <span class="stem-title">2-3 多囊卵巢、甲减与生理期词干</span>
+            <span class="stem-count">4 个补盲词干</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag">多囊减肥</span>
+            <span class="stem-tag">多囊怎么减肥</span>
+            <span class="stem-tag">桥本甲减怎么减肥</span>
+            <span class="stem-tag">经期怎么减肥</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-scene" id="st-4">
+          <div class="stem-top">
+            <span class="stem-title">2-4 产后哺乳与中老年/更年期词干（纯白话年龄词）</span>
+            <span class="stem-count">5 个补盲词干</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag">产后减肥</span>
+            <span class="stem-tag">哺乳期怎么减肥</span>
+            <span class="stem-tag">更年期怎么减肥</span>
+            <span class="stem-tag">五十岁以后怎么减肥</span>
+            <span class="stem-tag">中老年怎么减肥</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-scene" id="st-5">
+          <div class="stem-top">
+            <span class="stem-title">2-5 夜班久坐、家庭做饭与排便词干</span>
+            <span class="stem-count">6 个补盲词干</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag">夜班怎么减肥</span>
+            <span class="stem-tag">司机怎么减肥</span>
+            <span class="stem-tag">给家人做减脂餐</span>
+            <span class="stem-tag">一家人怎么吃减脂</span>
+            <span class="stem-tag">素食怎么减脂</span>
+            <span class="stem-tag">减肥便秘怎么办</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-fail" id="st-6">
+          <div class="stem-top">
+            <span class="stem-title">2-6 复胖反弹、卡平台期与维持期词干</span>
+            <span class="stem-count">10 个词干（3母词+7补盲）</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag root-t">瘦不下来（母词）</span>
+            <span class="stem-tag root-t">复胖（母词）</span>
+            <span class="stem-tag root-t">减肥反弹了怎么办（母词）</span>
+            <span class="stem-tag">复胖怎么</span>
+            <span class="stem-tag">减肥后反弹</span>
+            <span class="stem-tag">瘦了又胖</span>
+            <span class="stem-tag">维持体重不反弹</span>
+            <span class="stem-tag">瘦下来怎么保持</span>
+            <span class="stem-tag">减重平台期</span>
+            <span class="stem-tag">打呼噜怎么减肥</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-body" id="st-7">
+          <div class="stem-top">
+            <span class="stem-title">2-7 大小基数与基础减重减脂词干</span>
+            <span class="stem-count">4 个词干（2母词+2补盲）</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag root-t">减肥（母词）</span>
+            <span class="stem-tag root-t">减脂（母词）</span>
+            <span class="stem-tag">减重</span>
+            <span class="stem-tag">减肥减重</span>
+          </div>
+        </div>
+
+        <div class="stem-box s-drug" id="st-8">
+          <div class="stem-top">
+            <span class="stem-title">2-8 减肥针、轻断食、医院门诊与收费价格词干</span>
+            <span class="stem-count">4 个词干 + 强制补盲</span>
+          </div>
+          <div class="stem-tags">
+            <span class="stem-tag root-t">营养师（母词）</span>
+            <span class="stem-tag">司美格鲁肽怎么吃</span>
+            <span class="stem-tag">轻断食怎么吃</span>
+            <span class="stem-tag">减肥营多少钱</span>
+            <span class="stem-tag">营养师多少钱</span>
+            <span class="stem-tag">减肥多少钱</span>
+            <span class="stem-tag">三甲医院减重门诊</span>
+            <span class="stem-tag">减重手术/针灸/埋线</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COL 3: LEVEL-3 TARGET SEARCH TERMS (WITH EXACT FULL-TABLE POSTS & COMMENTS) -->
+      <div class="tree-col">
+        <div class="kw-box" id="kw-1">
+          <div class="kw-top">
+            <span class="kw-title">3-1 血糖高 / 胰岛素抵抗 / 糖前期搜索词</span>
+            <span class="kw-rule">实抓落库高频词（P1主力）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">瘦不下来是不是胰岛素抵抗 <b>98篇/3,272评</b></span>
+            <span class="kw-chip">血糖高怎么吃三餐 <b>80篇/2,279评</b></span>
+            <span class="kw-chip">胰岛素抵抗怎么改善 <b>69篇/2,370评</b></span>
+            <span class="kw-chip">动态血糖仪控糖减肥 <b>83篇/1,594评</b></span>
+            <span class="kw-chip">控糖饮食一日三餐食谱 <b>56篇/719评</b></span>
+            <span class="kw-chip">控糖饮食 <b>24篇/1,190评</b></span>
+            <span class="kw-chip">糖前期 怎么吃 <b>19篇/538评</b></span>
+            <span class="kw-chip">胰岛素抵抗 减重 <b>17篇/490评</b></span>
+            <span class="kw-chip v3">v3补盲：餐后血糖高怎么吃 · 胰岛素抵抗吃什么药</span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-2">
+          <div class="kw-top">
+            <span class="kw-title">3-2 脂肪肝 / 尿酸高 / 内脏脂肪与肚子大搜索词</span>
+            <span class="kw-rule">实抓落库高频词（体检异常）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">内脏脂肪高怎么减 <b>78篇/2,471评</b></span>
+            <span class="kw-chip">肚子大怎么减肥 <b>73篇/2,620评</b></span>
+            <span class="kw-chip">尿酸高怎么吃食谱 <b>71篇/1,154评</b></span>
+            <span class="kw-chip">脂肪肝怎么消除 <b>58篇/1,842评</b></span>
+            <span class="kw-chip">脂肪肝 减肥 <b>19篇/1,164评</b></span>
+            <span class="kw-chip">尿酸高 饮食 <b>19篇/854评</b></span>
+            <span class="kw-chip v3">v3补盲：脂肪肝怎么减肥 · 啤酒肚怎么减 · 男性减脂</span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-3">
+          <div class="kw-top">
+            <span class="kw-title">3-3 多囊卵巢（PCOS） / 甲减 / 经期搜索词</span>
+            <span class="kw-rule">实抓落库高频词（内分泌）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">多囊减肥不掉称 <b>98篇/1,973评</b></span>
+            <span class="kw-chip">多囊 减脂 <b>15篇/266评</b></span>
+            <span class="kw-chip">桥本抗炎饮食减肥 <b>17篇/49评</b></span>
+            <span class="kw-chip v3">v3补盲：多囊怎么减肥 · 多囊减肥食谱 · 甲减怎么减肥 · 经期怎么减肥</span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-4">
+          <div class="kw-top">
+            <span class="kw-title">3-4 产后宝妈 / 40岁+中年发福 / 更年期搜索词</span>
+            <span class="kw-rule">实抓落库高频词（产后/中年）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">产后减肥难的原因 <b>95篇/2,911评</b></span>
+            <span class="kw-chip">中年减肥食谱 <b>69篇/3,022评</b></span>
+            <span class="kw-chip">更年期发胖怎么减 <b>76篇/1,194评</b></span>
+            <span class="kw-chip">35岁代谢变慢怎么减肥 <b>12篇/232评</b></span>
+            <span class="kw-chip">产后减肥 瘦不下来 <b>19篇/218评</b></span>
+            <span class="kw-chip">中年发福 肚子大 <b>19篇/169评</b></span>
+            <span class="kw-chip v3">v3补盲：五十岁以后怎么减肥 · 40岁以后怎么减肥 · 围绝经期怎么减肥</span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-5">
+          <div class="kw-top">
+            <span class="kw-title">3-5 上班族外卖 / 一日三餐食谱 / 夜班搜索词</span>
+            <span class="kw-rule">实抓落库高频词（外食/三餐）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">外卖减脂餐推荐 <b>75篇/2,835评</b></span>
+            <span class="kw-chip">上班族减肥一日三餐怎么吃 <b>68篇/1,489评</b></span>
+            <span class="kw-chip">生活化减脂 <b>54篇/1,558评</b></span>
+            <span class="kw-chip">掉秤快的减脂餐 <b>48篇/1,336评</b></span>
+            <span class="kw-chip">168轻断食减肥食谱 <b>46篇/638评</b></span>
+            <span class="kw-chip">减脂餐 <b>16篇/385评</b></span>
+            <span class="kw-chip v3">v3补盲：夜班怎么减肥 · 应酬喝酒怎么减脂 · 全家减脂餐（注：实为便利店）</span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-6">
+          <div class="kw-top">
+            <span class="kw-title">3-6 反复反弹 / 卡平台不掉秤 / 暴食熬夜搜索词</span>
+            <span class="kw-rule">实抓落库高频词（受挫/反弹）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">暴食了怎么办怎么补救 <b>102篇/2,400评</b></span>
+            <span class="kw-chip">减肥反弹后怎么减 <b>97篇/2,186评</b></span>
+            <span class="kw-chip">减肥为什么不掉秤 <b>81篇/2,876评</b></span>
+            <span class="kw-chip">减肥怎么控制自己的食欲 <b>80篇/2,529评</b></span>
+            <span class="kw-chip">皮质醇高压力肥怎么减 <b>83篇/2,297评</b></span>
+            <span class="kw-chip">熬夜发胖怎么补救 <b>80篇/2,117评</b></span>
+            <span class="kw-chip">168轻断食骗局 <b>73篇/1,587评</b></span>
+            <span class="kw-chip">卡平台期怎么突破 <b>66篇/1,363评</b></span>
+            <span class="kw-chip">一直瘦不下来怎样调代谢 <b>60篇/1,684评</b></span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-7">
+          <div class="kw-top">
+            <span class="kw-title">3-7 大基数 / 小基数 / 气血脾虚水肿搜索词</span>
+            <span class="kw-rule">实抓落库高频词（体量/水肿）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">大基数怎么减肥 <b>79篇/1,515评</b></span>
+            <span class="kw-chip">小基数不掉秤怎么办 <b>56篇/1,330评</b></span>
+            <span class="kw-chip">气血不足怎么减肥 <b>82篇/1,378评</b></span>
+            <span class="kw-chip">脾虚湿气重怎么减肥 <b>78篇/1,418评</b></span>
+            <span class="kw-chip">虚胖浮肿怎么减 <b>73篇/1,353评</b></span>
+            <span class="kw-chip">痰湿体质怎么减肥 <b>61篇/510评</b></span>
+          </div>
+        </div>
+
+        <div class="kw-box" id="kw-8">
+          <div class="kw-top">
+            <span class="kw-title">3-8 司美/替尔泊肽 / 减脂营 / 营养师 / 门诊测评词</span>
+            <span class="kw-rule">实抓落库高频词（药械/竞品）</span>
+          </div>
+          <div class="kw-chips">
+            <span class="kw-chip">司美格鲁肽副作用 <b>107篇/3,135评</b></span>
+            <span class="kw-chip">替尔泊肽减肥效果 <b>79篇/3,078评</b></span>
+            <span class="kw-chip">减脂营线上 <b>111篇/1,244评</b></span>
+            <span class="kw-chip">营养师减肥靠谱吗 <b>99篇/2,103评</b></span>
+            <span class="kw-chip">减重训练营靠谱吗 <b>99篇/2,008评</b></span>
+            <span class="kw-chip">私人营养师 <b>87篇/967评</b></span>
+            <span class="kw-chip">线上减脂陪跑多少钱 <b>71篇/722评</b></span>
+            <span class="kw-chip">三甲医院减重门诊 <b>70篇/1,268评</b></span>
+            <span class="kw-chip">代餐减肥有用吗 <b>69篇/1,318评</b></span>
+            <span class="kw-chip">1v1营养师减肥收费 <b>53篇/281评</b></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COL 4: FINAL LOCKED 4 CROWD TYPES / 8 CROWDS + A2 DRUG + UNATTRIBUTED -->
+      <div class="tree-col">
+        <!-- A 指标型 -->
+        <div class="crowd-group cg-a" id="cg-a">
+          <div class="cg-hdr">
+            <span class="cg-title">A 指标型（体检亮红灯倒逼 · 付费主力）</span>
+            <span class="cg-badge">占 39.7%｜33,357 评</span>
+          </div>
+          <div class="sub-crowd-row star">
+            <div class="sc-left">
+              <span class="sc-name">① 胰岛素抵抗 / 高血糖 / 糖前期（首选切口 ★）</span>
+              <span class="sc-desc">唯一“规模+意愿+问询”双高；细分为体检报告型(11.5%)与餐后困/易饿症状型(10.0%)</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">21.5%（18,068评 / 699篇）</div>
+              <div class="sc-vol">意愿 69.1｜问询 45.0/万｜增速 +74.6%</div>
+            </div>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">② 脂肪肝 / 尿酸偏高（第二梯队）</span>
+              <span class="sc-desc">体检B超/尿酸箭头驱动，无痛感但怕恶化，果糖/应酬盲区大，合规风险低于疾病词</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">9.7%（8,128评 / 288篇）</div>
+              <div class="sc-vol">意愿 64.1（第3）｜赛道增速 +27.4%</div>
+            </div>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">③ 多囊卵巢 PCOS（高溢价小众）</span>
+              <span class="sc-desc">意愿全场最高、藏赞比1.288第一；但盘子小、问询偏低且疾病表述合规要求最严</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">8.5%（7,161评 / 348篇）</div>
+              <div class="sc-vol">意愿 76.2（第1）｜问询 21.3/万</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- C 场景型 -->
+        <div class="crowd-group cg-c" id="cg-c">
+          <div class="cg-hdr">
+            <span class="cg-title">C 场景型（生活条件受限 · 公域获客入口）</span>
+            <span class="cg-badge">占 32.0%｜26,862 评</span>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">④ 40岁+ / 中年代谢下降 / 更年期</span>
+              <span class="sc-desc">与产后合计637篇/17,088评（按59.4:40.6拆分）；痛在腰腹发胖与掉肌肉，声量大但付费弱</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">12.1%（约10,148评）</div>
+              <div class="sc-vol">意愿 46.1｜问询 7.3/万｜增速 -5.6%</div>
+            </div>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">⑤ 上班族 / 外食外卖党</span>
+              <span class="sc-desc">三餐靠外卖食堂、没时间做饭（73%卡在家庭同餐与外食），适合做点单工具引流</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">11.6%（9,774评 / 325篇）</div>
+              <div class="sc-vol">意愿 41.9（垫底）｜高频刚需场景</div>
+            </div>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">⑥ 产后宝妈（产后一年 / 哺乳期）</span>
+              <span class="sc-desc">卡在哺乳不敢少吃、带娃碎片化没空运动；做冷启动公域种子，不做高客单主力</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">8.3%（约6,940评）</div>
+              <div class="sc-vol">意愿 46.1｜问询 7.3/万</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- B 反复失败型 -->
+        <div class="crowd-group cg-b" id="cg-b">
+          <div class="cg-hdr">
+            <span class="cg-title">B 反复失败型（方法失效怕被坑 · 信任底座）</span>
+            <span class="cg-badge">占 22.3%｜18,725 评</span>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">⑦ 反复反弹 / 卡平台期 / 情绪暴食</span>
+              <span class="sc-desc">三大流失节点：前3天断食放弃(26.8%)、第15天卡秤崩盘、停针反弹(21.2%)；需嵌入全方案底座</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">18.6%（15,625评 / 646篇）</div>
+              <div class="sc-vol">意愿 54.8（第4）｜问询 9.1–9.2/万</div>
+            </div>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">⑧ 小基数卡秤 / 局部塑形</span>
+              <span class="sc-desc">自报BMI中39.2%标准、10.2%偏瘦（近半讨论者不超重），属审美消费而非刚需服务</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">3.7%（3,100评 / 130篇）</div>
+              <div class="sc-vol">意愿 43.6（倒数第2）</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- D 体量型 -->
+        <div class="crowd-group cg-d" id="cg-d">
+          <div class="cg-hdr">
+            <span class="cg-title">D 体量型（体重基数大怕伤膝）</span>
+            <span class="cg-badge">占 5.9%｜4,992 评 / 176 篇</span>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">大基数减重（第8群 · 报告第5章合入人口标签型37.9%）</span>
+              <span class="sc-desc">怕运动伤膝盖、皮松；短视频声量热度最高(65.3%)但付费问询最低，做内容覆盖不单开产品</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">5.9%（4,992评 / 176篇）</div>
+              <div class="sc-vol">意愿 45.1｜问询 5.8/万（最低）</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- A2 用药期 + 泛讨论未归属 + 噪音剔除 -->
+        <div class="crowd-group cg-a2" id="cg-a2">
+          <div class="cg-hdr">
+            <span class="cg-title">A2 用药期管理（新增子型）＋ 泛讨论/测评未归属池 ＆ 噪音隔离</span>
+            <span class="cg-badge">全量闭环：4,283 篇 / 93,410 评</span>
+          </div>
+          <div class="sub-crowd-row star">
+            <div class="sc-left">
+              <span class="sc-name">A2 用药期人群（打减肥针/吃药期怕副作用与停药反弹）</span>
+              <span class="sc-desc">评论直接提司美/替尔泊肽 573 条；药206元/月压穿纯掉秤逻辑，机会在「用药期防掉肌+停针防反弹」配套</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">占全量 6.7%（6,284评）</div>
+              <div class="sc-vol">赛道增速 +115.9%｜负评率 19.2%最高</div>
+            </div>
+          </div>
+          <div class="sub-crowd-row">
+            <div class="sc-left">
+              <span class="sc-name">未归属特定人群（泛减脂食谱 + 减脂营/营养师/代餐测评）</span>
+              <span class="sc-desc">测评类占内容24.5%(1,055篇)问价最高(91.6/万)；泛讨论计入93,410全量，不计入83,936人群占比分母</span>
+            </div>
+            <div class="sc-right">
+              <div class="sc-pct">9,474 评（全量10.1%）</div>
+              <div class="sc-vol">另 1,034 篇泛内容｜31篇(518评)卖课噪音已剔</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM 3 CARDS -->
+  <div class="bottom-grid">
+    <!-- Card 1: 5 Platforms Table -->
+    <div class="b-card">
+      <h3><span>① 五大平台实抓数据与商业分工核验表</span><span>内容主表 4,314 篇全量重算</span></h3>
+      <table class="mini-tb">
+        <thead>
+          <tr>
+            <th>平台</th>
+            <th class="num-r">全量帖</th>
+            <th class="num-r">净有效帖</th>
+            <th class="num-r">剔除噪音</th>
+            <th class="num-r">实抓评论数</th>
+            <th class="num-r">中位赞</th>
+            <th class="num-r">藏赞比</th>
+            <th class="num-r">问询/万</th>
+            <th>平台真实分工定位</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>B站</b></td>
+            <td class="num-r">1,386</td>
+            <td class="num-r">1,380</td>
+            <td class="num-r">6</td>
+            <td class="num-r">35,342</td>
+            <td class="num-r">27</td>
+            <td class="num-r">不可得</td>
+            <td class="num-r">17.8</td>
+            <td>长视频讲透机制建信任，不直接挂成交</td>
+          </tr>
+          <tr>
+            <td><b>小红书</b></td>
+            <td class="num-r">1,046</td>
+            <td class="num-r">1,044</td>
+            <td class="num-r">2</td>
+            <td class="num-r">18,468</td>
+            <td class="num-r">372</td>
+            <td class="num-r"><b>0.748</b></td>
+            <td class="num-r">24.1</td>
+            <td>藏赞比第一，做可保存的饮食清单与购买前对照</td>
+          </tr>
+          <tr>
+            <td><b>抖音</b></td>
+            <td class="num-r">823</td>
+            <td class="num-r">812</td>
+            <td class="num-r">11</td>
+            <td class="num-r">29,828</td>
+            <td class="num-r"><b>8,585</b></td>
+            <td class="num-r">0.562</td>
+            <td class="num-r"><b>42.2</b></td>
+            <td>触达与问价双第一（B站318倍），主力拉新与承接问价</td>
+          </tr>
+          <tr>
+            <td><b>知乎</b></td>
+            <td class="num-r">749</td>
+            <td class="num-r">737</td>
+            <td class="num-r">12</td>
+            <td class="num-r">8,176</td>
+            <td class="num-r">2</td>
+            <td class="num-r">不可得</td>
+            <td class="num-r">13.1</td>
+            <td>问询最低、负向讨论比最高，只做长文问答与FAQ素材</td>
+          </tr>
+          <tr>
+            <td><b>微博</b></td>
+            <td class="num-r">310</td>
+            <td class="num-r">310</td>
+            <td class="num-r">0</td>
+            <td class="num-r">1,596</td>
+            <td class="num-r">9</td>
+            <td class="num-r">不可得</td>
+            <td class="num-r">26.9</td>
+            <td>样本薄、大量0赞，仅做热搜词监测，不做投放判断</td>
+          </tr>
+          <tr>
+            <td><b>五平台合计</b></td>
+            <td class="num-r">4,314</td>
+            <td class="num-r">4,283</td>
+            <td class="num-r">31</td>
+            <td class="num-r">93,410</td>
+            <td class="num-r">—</td>
+            <td class="num-r">—</td>
+            <td class="num-r">—</td>
+            <td><b>主力只投抖音+小红书+B站，知乎微博仅作监测</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Card 2: Wordlist Discrepancies & Why No Marketing Jargon -->
+    <div class="b-card">
+      <h3><span>② 词表三套数字口径（88 / 130 / 173）与去包装化说明</span><span>如实并列 · 绝不掩盖</span></h3>
+      <ul class="note-list">
+        <li><b>为什么有 88 / 130 / 173 三个词表数字？</b><br/>
+          · <b>88 个靶向词（主表实落库 82 个唯一搜索词）</b>：第一轮定向抓取词表，产出了当前入库的 4,283 篇净有效内容与 93,410 条评论（见 PPT 附录 A）；<br/>
+          · <b>130 个搜索词</b>：主报告与《数据溯源说明》记载的扩展词表口径；<br/>
+          · <b>173 个抓取词</b>：《06_v3抓取词表.csv》探针定稿规模（P1 枢纽词 68 个 + P2 补充词 103 个 + P3 长尾词 2 个；含探针 147 词 + 强制补盲 22 词 + 大盘基线 4 词）。</li>
+        <li><b>为什么彻底去掉底表早期的“35+熟龄抗炎抗衰 / 受损代谢重启”等标签？</b><br/>
+          底表 Excel 早期曾用 C01–C08 预设选品名作工作表名，但核查 <b>1 级 8 母词与 2 级 43 词干，全部是「五十岁以后怎么减肥」「更年期怎么减肥」「胰岛素抵抗怎么」等纯用户白话，根本没有搜过“熟龄”或“抗衰”</b>。为杜绝“先编好课名再找数据（先射箭后画靶）”的误导，本图第 4 级严格采用主报告锁定的<b>「四大类八人群 + A2 用药期」</b>客观口径。</li>
+      </ul>
+    </div>
+
+    <!-- Card 3: 4 Denominators & Honest Boundaries -->
+    <div class="b-card">
+      <h3><span>③ 四个关键分母对照与方法论边界声明</span><span>审计级可复现说明</span></h3>
+      <ul class="note-list">
+        <li><b>93,410 条评论（全量去重分母）</b>：用于计算五平台评论分布与 8 大内容供给类评论占比。</li>
+        <li><b>83,936 条评论（八大人群归属分母）</b>：从 93,410 条中剔除 9,474 条（10.1%）未归属泛讨论/竞品测评评论，用于计算<b>四型八人群配比（39.7% : 32.0% : 22.3% : 5.9%）</b>。（注：报告第 5 章将大基数 5.9% 合入人口标签型得 37.9%，与交接文档/PPT 拆出 D 体量型 5.9% + C 场景型 32.0% 底层数据完全一致）。</li>
+        <li><b>103,968 条（评论重标跑批快照）</b>：去重合并前跑批时点，仅用于算每万条评论付费问询密度（P1求购+P2问价），不对外作总量。</li>
+        <li><b>三个必须承认的方法论边界</b>：① 人群占比按<b>「帖子抓取搜索词→人群包映射」</b>（`taxonomy.py`），非评论者逐条自报身份；② 付费意愿打分（69.1 等）四维权重未留档，属 B 级指标仅做组内排序；③ v3 探针阶段微博访客态为 0、小红书仅 1 母词拿到标签、抖音/知乎无标签接口。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+function drawConnectors() {
+  const svg = document.getElementById('tree-svg');
+  const container = document.getElementById('tree-body');
+  const cRect = container.getBoundingClientRect();
+  svg.setAttribute('width', cRect.width);
+  svg.setAttribute('height', cRect.height);
+  svg.innerHTML = '';
+
+  function connect(fromId, toId, color, width, dashed) {
+    const fEl = document.getElementById(fromId);
+    const tEl = document.getElementById(toId);
+    if (!fEl || !tEl) return;
+    const fR = fEl.getBoundingClientRect();
+    const tR = tEl.getBoundingClientRect();
+
+    const x1 = fR.right - cRect.left;
+    const y1 = fR.top + fR.height / 2 - cRect.top;
+    const x2 = tR.left - cRect.left;
+    const y2 = tR.top + tR.height / 2 - cRect.top;
+    const dx = (x2 - x1) * 0.48;
+
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', `M ${x1} ${y1} C ${x1 + dx} ${y1}, ${x2 - dx} ${y2}, ${x2} ${y2}`);
+    path.setAttribute('fill', 'none');
+    path.setAttribute('stroke', color || '#94A3B8');
+    path.setAttribute('stroke-width', width || '1.8');
+    path.setAttribute('stroke-opacity', '0.68');
+    if (dashed) path.setAttribute('stroke-dasharray', '4,3');
+    svg.appendChild(path);
+
+    const c1 = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c1.setAttribute('cx', x1); c1.setAttribute('cy', y1); c1.setAttribute('r', '2.6');
+    c1.setAttribute('fill', color || '#64748B');
+    svg.appendChild(c1);
+
+    const c2 = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c2.setAttribute('cx', x2); c2.setAttribute('cy', y2); c2.setAttribute('r', '2.6');
+    c2.setAttribute('fill', color || '#64748B');
+    svg.appendChild(c2);
+  }
+
+  // Root -> 4 Mother Word Groups
+  connect('node-root', 'm-g1', '#1E3A8A', 2.2);
+  connect('node-root', 'm-g2', '#DC2626', 2.2);
+  connect('node-root', 'm-g3', '#0F766E', 2.2);
+  connect('node-root', 'm-g4', '#B45309', 2.2);
+
+  // Mother Word Groups -> 8 Stem Groups
+  connect('m-g3', 'st-1', '#0F766E', 2.0);
+  connect('m-g1', 'st-2', '#1E3A8A', 1.6);
+  connect('m-g3', 'st-2', '#0F766E', 1.6, true);
+  connect('m-g2', 'st-3', '#DC2626', 1.6);
+  connect('m-g1', 'st-4', '#1E3A8A', 1.6);
+  connect('m-g2', 'st-4', '#DC2626', 1.6, true);
+  connect('m-g1', 'st-5', '#1E3A8A', 1.8);
+  connect('m-g2', 'st-6', '#DC2626', 2.2);
+  connect('m-g1', 'st-7', '#1E3A8A', 2.0);
+  connect('m-g4', 'st-8', '#B45309', 2.2);
+
+  // 8 Stem Groups -> 8 Target Keyword Groups
+  for (let i = 1; i <= 8; i++) {
+    connect('st-' + i, 'kw-' + i, '#0F766E', 2.0);
+  }
+
+  // 8 Target Keyword Groups -> 5 Final Crowd Groups
+  connect('kw-1', 'cg-a', '#1E3A8A', 2.4);
+  connect('kw-2', 'cg-a', '#1E3A8A', 2.0);
+  connect('kw-3', 'cg-a', '#1E3A8A', 2.0);
+  connect('kw-4', 'cg-c', '#0F766E', 2.2);
+  connect('kw-5', 'cg-c', '#0F766E', 2.2);
+  connect('kw-6', 'cg-b', '#B45309', 2.2);
+  connect('kw-7', 'cg-b', '#B45309', 1.6, true);
+  connect('kw-7', 'cg-d', '#9A3412', 2.2);
+  connect('kw-8', 'cg-a2', '#6D28D9', 2.2);
+}
+window.addEventListener('load', drawConnectors);
+window.addEventListener('resize', drawConnectors);
+</script>
+</body>
+</html>

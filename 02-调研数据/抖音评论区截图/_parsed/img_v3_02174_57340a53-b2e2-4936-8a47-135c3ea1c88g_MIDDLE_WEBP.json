@@ -1,0 +1,141 @@
+{
+ "base": "img_v3_02174_57340a53-b2e2-4936-8a47-135c3ea1c88g_MIDDLE_WEBP",
+ "source": "img_v3_02174_57340a53-b2e2-4936-8a47-135c3ea1c88g_MIDDLE_WEBP.webp",
+ "width": 697,
+ "height": 1500,
+ "is_grid": false,
+ "is_detail": false,
+ "detail": {
+  "likes": "",
+  "comments": "",
+  "favorites": "",
+  "shares": "",
+  "caption": ""
+ },
+ "comment_total": "1231",
+ "search_term": "番茄土豆娃娃菜",
+ "video_desc": "娃娃菜有吧 / 土豆有吧",
+ "author": "",
+ "comments": [
+  {
+   "seq": 1,
+   "y": 921.8,
+   "username": "",
+   "body": "",
+   "date": "07-10",
+   "region": "河南",
+   "likes": "180",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.95,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 2,
+   "y": 1067.1,
+   "username": "聆",
+   "body": "先水煮土豆，然后再放番茄下去吗",
+   "date": "08-07",
+   "region": "广东",
+   "likes": "4",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.962,
+   "raw_username": "聆",
+   "n_lines": 1,
+   "likes_src": "crop"
+  }
+ ],
+ "unparsed": [
+  {
+   "text": "X",
+   "y": 503.6,
+   "x": 638.0,
+   "cls": "dark",
+   "score": 0.6
+  },
+  {
+   "text": "交作业",
+   "y": 609.1,
+   "x": 110.3,
+   "cls": "dark",
+   "score": 1.0
+  },
+  {
+   "text": "（土豆切的特别小，煮了10分钟没",
+   "y": 610.1,
+   "x": 254.0,
+   "cls": "dark",
+   "score": 0.9762
+  },
+  {
+   "text": "有软，我又加水煮了15分钟。提示：直接开",
+   "y": 647.1,
+   "x": 110.3,
+   "cls": "dark",
+   "score": 0.9991
+  },
+  {
+   "text": "水煮土豆会比加番茄煮土豆软的快)",
+   "y": 685.4,
+   "x": 111.0,
+   "cls": "dark",
+   "score": 0.9816
+  },
+  {
+   "text": "凭叶青",
+   "y": 1125.0,
+   "x": 151.8,
+   "cls": "light",
+   "score": 0.999
+  },
+  {
+   "text": "马可以不加酱油吗",
+   "y": 1162.6,
+   "x": 308.5,
+   "cls": "dark",
+   "score": 0.9751
+  },
+  {
+   "text": "需要加酱油吗",
+   "y": 1163.7,
+   "x": 155.6,
+   "cls": "dark",
+   "score": 0.9982
+  },
+  {
+   "text": "忆汐.凭叶青",
+   "y": 1264.0,
+   "x": 152.1,
+   "cls": "light",
+   "score": 0.9767
+  },
+  {
+   "text": "不需要",
+   "y": 1305.8,
+   "x": 152.1,
+   "cls": "dark",
+   "score": 1.0
+  },
+  {
+   "text": "善语结善缘，恶语伤人心",
+   "y": 1381.5,
+   "x": 42.9,
+   "cls": "meta",
+   "score": 0.9835
+  },
+  {
+   "text": "a",
+   "y": 1385.7,
+   "x": 553.3,
+   "cls": "dark",
+   "score": 0.8906
+  }
+ ],
+ "n_rows": 27
+}

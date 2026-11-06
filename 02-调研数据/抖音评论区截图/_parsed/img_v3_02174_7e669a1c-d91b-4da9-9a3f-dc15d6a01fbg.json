@@ -1,0 +1,3302 @@
+{
+ "base": "img_v3_02174_7e669a1c-d91b-4da9-9a3f-dc15d6a01fbg",
+ "source": "img_v3_02174_7e669a1c-d91b-4da9-9a3f-dc15d6a01fbg.jpg",
+ "width": 1316,
+ "height": 42086,
+ "is_grid": false,
+ "is_detail": false,
+ "detail": {
+  "likes": "",
+  "comments": "",
+  "favorites": "",
+  "shares": "",
+  "caption": ""
+ },
+ "comment_total": "4569",
+ "search_term": null,
+ "video_desc": "",
+ "author": "",
+ "comments": [
+  {
+   "seq": 1,
+   "y": 2066.0,
+   "username": "财神爷的小棉袄",
+   "body": "好厉害",
+   "date": "2025-09-12",
+   "region": "陕西",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.917,
+   "raw_username": "财神爷的小棉袄",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 2,
+   "y": 2329.0,
+   "username": "用户4465905304222",
+   "body": "还的减，男体脂率理想值是15%",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.996,
+   "raw_username": "用户4465905304222",
+   "n_lines": 1
+  },
+  {
+   "seq": 3,
+   "y": 2590.0,
+   "username": "用户4465905304222",
+   "body": "减肥靠吃，运动只是辅助",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.997,
+   "raw_username": "用户4465905304222",
+   "n_lines": 1
+  },
+  {
+   "seq": 4,
+   "y": 2851.0,
+   "username": "用户4465905304222",
+   "body": "减肥靠吃，运动只是辅助",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.997,
+   "raw_username": "用户4465905304222",
+   "n_lines": 1
+  },
+  {
+   "seq": 5,
+   "y": 3113.0,
+   "username": "默?用户4465905304222",
+   "body": "减肥，靠运动才是主旋律，吃只是辅助",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.975,
+   "raw_username": "默?用户4465905304222",
+   "n_lines": 1
+  },
+  {
+   "seq": 6,
+   "y": 3444.0,
+   "username": "默用户4465905304222",
+   "body": "其实也不能太片面，运动跟饮食是相辅相成的，不可能说单单靠那一项就能减肥",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.998,
+   "raw_username": "默用户4465905304222",
+   "n_lines": 2
+  },
+  {
+   "seq": 7,
+   "y": 3848.0,
+   "username": "用户4465905304222?默",
+   "body": "热量消耗的最大出口是基础代谢，运动只消耗15%，对减重起辅助作用。要提高基础代谢就需要科学吃餐，增加肌肉量",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.954,
+   "raw_username": "用户4465905304222?默",
+   "n_lines": 3
+  },
+  {
+   "seq": 8,
+   "y": 4388.0,
+   "username": "默?用户4465905304222",
+   "body": "我觉得本质是一样的，减肥就是要制造热量缺口，那如果通过运动可以拉高消耗，又可以让我不节食，那我宁可选择运动来减肥，而不是所谓的什么这个节食法那个减肥法，而且运动产...展开",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.937,
+   "raw_username": "默?用户4465905304222",
+   "n_lines": 5
+  },
+  {
+   "seq": 9,
+   "y": 4720.0,
+   "username": "默?用户4465905304222",
+   "body": "现在市面上所谓的科学饮食都是骗骗女人罢了，真正想减肥的根本不可能信那些",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.976,
+   "raw_username": "默?用户4465905304222",
+   "n_lines": 2
+  },
+  {
+   "seq": 10,
+   "y": 5051.0,
+   "username": "用户4465905304222?默",
+   "body": "我们2万多例案例充分证明，好身材是吃出来的",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.97,
+   "raw_username": "用户4465905304222?默",
+   "n_lines": 2
+  },
+  {
+   "seq": 11,
+   "y": 5315.0,
+   "username": "财神爷的小棉袄",
+   "body": "现在多少",
+   "date": "2025-09-12",
+   "region": "陕西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.938,
+   "raw_username": "财神爷的小棉袄",
+   "n_lines": 1
+  },
+  {
+   "seq": 12,
+   "y": 5684.0,
+   "username": "蛋白质",
+   "body": "",
+   "date": "3.12",
+   "region": "公斤",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.982,
+   "raw_username": "蛋白质",
+   "n_lines": 0
+  },
+  {
+   "seq": 13,
+   "y": 6045.0,
+   "username": "",
+   "body": "",
+   "date": "3.12",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.999,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 14,
+   "y": 6093.0,
+   "username": "",
+   "body": "",
+   "date": "2025-09-12",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.995,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 15,
+   "y": 6356.0,
+   "username": "默·财神爷的小棉袄",
+   "body": "谢谢",
+   "date": "2025-09-12",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.947,
+   "raw_username": "默·财神爷的小棉袄",
+   "n_lines": 1
+  },
+  {
+   "seq": 16,
+   "y": 7344.0,
+   "username": "15%",
+   "body": "",
+   "date": "2025-04-11",
+   "region": "江苏",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.998,
+   "raw_username": "15%",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 17,
+   "y": 7606.0,
+   "username": "胜利",
+   "body": "您好，这是什么软件呀",
+   "date": "2025-04-11",
+   "region": "北京",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.996,
+   "raw_username": "胜利",
+   "n_lines": 1
+  },
+  {
+   "seq": 18,
+   "y": 8468.0,
+   "username": "135.9克",
+   "body": "",
+   "date": "2025-04-11",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.997,
+   "raw_username": "135.9克",
+   "n_lines": 0
+  },
+  {
+   "seq": 19,
+   "y": 8746.0,
+   "username": "办法总比问题多·胜利",
+   "body": "同问",
+   "date": "2025-04-11",
+   "region": "山东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.976,
+   "raw_username": "办法总比问题多·胜利",
+   "n_lines": 1
+  },
+  {
+   "seq": 20,
+   "y": 9009.0,
+   "username": "办法总比问题多·三三得你",
+   "body": "这是什么APP呀",
+   "date": "2025-04-11",
+   "region": "山东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.975,
+   "raw_username": "办法总比问题多·三三得你",
+   "n_lines": 1
+  },
+  {
+   "seq": 21,
+   "y": 9873.0,
+   "username": "1",
+   "body": "",
+   "date": "2025-04-11",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.736,
+   "raw_username": "1",
+   "n_lines": 0
+  },
+  {
+   "seq": 22,
+   "y": 10150.0,
+   "username": "办法总比问题多·三三得你",
+   "body": "那我换个手机得",
+   "date": "2025-04-11",
+   "region": "山东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.969,
+   "raw_username": "办法总比问题多·三三得你",
+   "n_lines": 1
+  },
+  {
+   "seq": 23,
+   "y": 10428.0,
+   "username": "三三得你·办法总比问题多",
+   "body": "",
+   "date": "2025-04-11",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.972,
+   "raw_username": "三三得你·办法总比问题多",
+   "n_lines": 0
+  },
+  {
+   "seq": 24,
+   "y": 10884.0,
+   "username": "橘子味橙子",
+   "body": "脂肪多我好冤",
+   "date": "2025-04-10",
+   "region": "上海",
+   "likes": "3",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.96,
+   "raw_username": "橘子味橙子",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 25,
+   "y": 11146.0,
+   "username": "谢谢美式不加冰·",
+   "body": "一样的身高、135斤",
+   "date": "2025-04-10",
+   "region": "湖南",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "橘子味橙子",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.967,
+   "raw_username": "谢谢美式不加冰·橘子味橙子",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 26,
+   "y": 11484.0,
+   "username": "橘子味橙子·骑着蚊子去火星",
+   "body": "我吃的还行呢，不会很油腻就家常便饭而且我饭量很废物吃的不多",
+   "date": "2025-04-10",
+   "region": "上海",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.968,
+   "raw_username": "橘子味橙子·骑着蚊子去火星",
+   "n_lines": 2
+  },
+  {
+   "seq": 27,
+   "y": 11926.0,
+   "username": "010820",
+   "body": "就是先饿，饿到瓶颈期吃蛋白质之后锻炼？对不对",
+   "date": "2025-11-04",
+   "region": "吉林",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.994,
+   "raw_username": "010820",
+   "n_lines": 2
+  },
+  {
+   "seq": 28,
+   "y": 12203.0,
+   "username": "010820Revive16",
+   "body": "受益",
+   "date": "2025-12-08",
+   "region": "吉林",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.994,
+   "raw_username": "010820Revive16",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 29,
+   "y": 12673.0,
+   "username": "Revive16",
+   "body": "不对，可以更舒服的减肥，如果体重卡在平台期就必须吃饱再去减，不要跟你的身体做对抗，你斗不过的，反而会把自己整的很不舒服",
+   "date": "2025-12-06",
+   "region": "湖南",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.993,
+   "raw_username": "Revive16",
+   "n_lines": 4
+  },
+  {
+   "seq": 30,
+   "y": 12934.0,
+   "username": "010820Revive16",
+   "body": "好！谢谢",
+   "date": "2025-12-06",
+   "region": "吉林",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.985,
+   "raw_username": "010820Revive16",
+   "n_lines": 1
+  },
+  {
+   "seq": 31,
+   "y": 13376.0,
+   "username": "小太阳，昀",
+   "body": "那我没事的时候坐着躺着多深呼吸多吐二氧化碳是不是也会瘦呢",
+   "date": "10-30",
+   "region": "广西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.994,
+   "raw_username": "小太阳，昀",
+   "n_lines": 2
+  },
+  {
+   "seq": 32,
+   "y": 13650.0,
+   "username": "荔枝",
+   "body": "喝水都会胖，服了",
+   "date": "2025-04-10",
+   "region": "四川",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.958,
+   "raw_username": "荔枝",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 33,
+   "y": 13928.0,
+   "username": "牵着蚂蚁去散步",
+   "body": "一样",
+   "date": "2025-04-10",
+   "region": "广西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.962,
+   "raw_username": "牵着蚂蚁去散步",
+   "n_lines": 1
+  },
+  {
+   "seq": 34,
+   "y": 14481.0,
+   "username": "①晟优親嘴",
+   "body": "水有问题",
+   "date": "2025-04-11",
+   "region": "甘肃",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.747,
+   "raw_username": "①晟优親嘴",
+   "n_lines": 1
+  },
+  {
+   "seq": 35,
+   "y": 14923.0,
+   "username": "别傻了，好吗",
+   "body": "我想增肥，没什么毛病但就是咋吃都是瘦瘦的，从小到大没胖过，太瘦了不好看",
+   "date": "2025-04-14",
+   "region": "广西",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.99,
+   "raw_username": "别傻了，好吗",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 36,
+   "y": 15254.0,
+   "username": "Bubble泡沫·",
+   "body": "不是，运动量大了反而能吃了，你可以试试",
+   "date": "2025-04-14",
+   "region": "湖北",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "别傻了，好吗",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.965,
+   "raw_username": "Bubble泡沫·别傻了，好吗",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 37,
+   "y": 15664.0,
+   "username": "Bubble泡沫",
+   "body": "我以前最瘦85斤，一直都是瘦的，后来跳舞几个月胖了，胃口大增，现在胖成球了，要减肥",
+   "date": "2025-04-14",
+   "region": "湖北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.992,
+   "raw_username": "Bubble泡沫",
+   "n_lines": 3
+  },
+  {
+   "seq": 38,
+   "y": 15925.0,
+   "username": "别傻了，好吗·Bubble泡沫",
+   "body": "跳舞运动不应该是减肥吗？",
+   "date": "2025-04-14",
+   "region": "广西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.961,
+   "raw_username": "别傻了，好吗·Bubble泡沫",
+   "n_lines": 1
+  },
+  {
+   "seq": 39,
+   "y": 16579.0,
+   "username": "一生丶南陌",
+   "body": "我个人认为，减肥难的根本原因是吃好吃的食物是绝大多数普通人获得幸福感和缓解压力最简单最快捷最低成本的事情。所以健康的减肥对于普通人来说是需要大毅力长时间高智商的事情，而同时具备这些..展开",
+   "date": "2025-04-10",
+   "region": "北京",
+   "likes": "133",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.964,
+   "raw_username": "一生丶南陌",
+   "n_lines": 5
+  },
+  {
+   "seq": 40,
+   "y": 16919.0,
+   "username": "夏宝嘟",
+   "body": "",
+   "date": "2025-04-10",
+   "region": "河北",
+   "likes": "9",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.993,
+   "raw_username": "夏宝嘟",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 41,
+   "y": 17390.0,
+   "username": "钢铁直男侠",
+   "body": "对说的对吃东西和看电视是最简单的获取幸福感的方法。我们普通老百姓没有钱去旅游没有钱买跑车去夜店。只能吃好吃的",
+   "date": "2025-04-13",
+   "region": "辽宁",
+   "likes": "4",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.994,
+   "raw_username": "钢铁直男侠",
+   "n_lines": 4
+  },
+  {
+   "seq": 42,
+   "y": 17652.0,
+   "username": "新生活化妆品谢洁",
+   "body": "你说的太对了",
+   "date": "2025-04-16",
+   "region": "湖南",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.989,
+   "raw_username": "新生活化妆品谢洁",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 43,
+   "y": 17991.0,
+   "username": "心和苑炝锅鱼（河津店）官方号",
+   "body": "是的，不让我吃好次的我觉得这么辛苦的活着好没意义",
+   "date": "2025-04-20",
+   "region": "山西",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.975,
+   "raw_username": "心和苑炝锅鱼（河津店）官方号",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 44,
+   "y": 18321.0,
+   "username": "用户5001450235526",
+   "body": "你个人说的太对了，还有一个压力大，过劳肥",
+   "date": "2025-07-25",
+   "region": "河南",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.998,
+   "raw_username": "用户5001450235526",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 45,
+   "y": 18667.0,
+   "username": "Ms.富贵",
+   "body": "除非大运动量否则很难瘦",
+   "date": "2025-04-10",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.986,
+   "raw_username": "Ms.富贵",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 46,
+   "y": 18945.0,
+   "username": "刘小九·李小新",
+   "body": "对",
+   "date": "2025-04-24",
+   "region": "天津",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.939,
+   "raw_username": "刘小九·李小新",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 47,
+   "y": 19207.0,
+   "username": "李小新·刘小九",
+   "body": "太难了",
+   "date": "2025-04-24",
+   "region": "河北",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.944,
+   "raw_username": "李小新·刘小九",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 48,
+   "y": 19469.0,
+   "username": "",
+   "body": "就是酱紫@L",
+   "date": "2025-04-15",
+   "region": "四川",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.936,
+   "raw_username": "",
+   "n_lines": 1
+  },
+  {
+   "seq": 49,
+   "y": 19809.0,
+   "username": "李小新",
+   "body": "炎炎@刘小九是不是是不是",
+   "date": "2025-04-24",
+   "region": "河北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.985,
+   "raw_username": "李小新",
+   "n_lines": 2
+  },
+  {
+   "seq": 50,
+   "y": 20280.0,
+   "username": "春晓",
+   "body": "我这种有基础病的，根儿上就代谢差，代谢一旦差，减肥就简直无法进行。大运动量，不吃饭。效果很差很差，就是不在继续胖了。",
+   "date": "2025-04-24",
+   "region": "北京",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.979,
+   "raw_username": "春晓",
+   "n_lines": 4
+  },
+  {
+   "seq": 51,
+   "y": 20534.0,
+   "username": "逗妹～",
+   "body": "你说的太对了，尤其爱喝酒的",
+   "date": "09-29",
+   "region": "江西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.885,
+   "raw_username": "逗妹～",
+   "n_lines": 1
+  },
+  {
+   "seq": 52,
+   "y": 20984.0,
+   "username": "lucky",
+   "body": "总结：运动多深呼吸，挨饿，多练肌肉，多摄入蛋白质，是不是？",
+   "date": "2025-04-10",
+   "region": "湖北",
+   "likes": "177",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.963,
+   "raw_username": "lucky",
+   "n_lines": 2
+  },
+  {
+   "seq": 53,
+   "y": 21258.0,
+   "username": "小晴儿的妈咪",
+   "body": "少吃多动，多吃蛋白质",
+   "date": "2025-04-10",
+   "region": "江苏",
+   "likes": "26",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.993,
+   "raw_username": "小晴儿的妈咪",
+   "n_lines": 1
+  },
+  {
+   "seq": 54,
+   "y": 21612.0,
+   "username": "温柔的掌控者～·小晴儿的妈咪",
+   "body": "",
+   "date": "2025-04-10",
+   "region": "北京",
+   "likes": "3",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.952,
+   "raw_username": "温柔的掌控者～·小晴儿的妈咪",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 55,
+   "y": 21876.0,
+   "username": "小璐保洁向阳妈·小晴儿的妈咪",
+   "body": "蛋白质，吃肉肉呗",
+   "date": "2025-04-15",
+   "region": "江苏",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.924,
+   "raw_username": "小璐保洁向阳妈·小晴儿的妈咪",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 56,
+   "y": 22205.0,
+   "username": "纹纹",
+   "body": "首先，我是挨饿，尽量不吃糖类太多的食物，米饭，夜晚我不会吃",
+   "date": "2025-04-11",
+   "region": "吉林",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.998,
+   "raw_username": "纹纹",
+   "n_lines": 2
+  },
+  {
+   "seq": 57,
+   "y": 22676.0,
+   "username": "80%",
+   "body": "不是，运动不是跑的快跑的累就减肥，是心率要上去，保持一个有节奏的呼吸，这样运动就是会瘦的。而不是极致运动，运动不会瘦，运动保持心率的呼吸会瘦",
+   "date": "2025-04-12",
+   "region": "北京",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.996,
+   "raw_username": "80%",
+   "n_lines": 4
+  },
+  {
+   "seq": 58,
+   "y": 22940.0,
+   "username": "雄鹰一样的男人·小晴儿的妈咪",
+   "body": "没错",
+   "date": "2025-04-16",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.954,
+   "raw_username": "雄鹰一样的男人·小晴儿的妈咪",
+   "n_lines": 1
+  },
+  {
+   "seq": 59,
+   "y": 23201.0,
+   "username": "colourfox温柔的掌控者～",
+   "body": "运动员行。普通人就是少吃。",
+   "date": "2025-07-10",
+   "region": "安徽",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.965,
+   "raw_username": "colourfox温柔的掌控者～",
+   "n_lines": 1
+  },
+  {
+   "seq": 60,
+   "y": 23954.0,
+   "username": "收起",
+   "body": "",
+   "date": "2025-08-03",
+   "region": "北京",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.998,
+   "raw_username": "收起",
+   "n_lines": 0
+  },
+  {
+   "seq": 61,
+   "y": 24216.0,
+   "username": "天恶佣兵团副团长阿呆",
+   "body": "差不多",
+   "date": "2025-10-10",
+   "region": "福建",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.977,
+   "raw_username": "天恶佣兵团副团长阿呆",
+   "n_lines": 1
+  },
+  {
+   "seq": 62,
+   "y": 24478.0,
+   "username": "天恶佣兵团副团长阿呆",
+   "body": "差不多",
+   "date": "2025-10-10",
+   "region": "福建",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.976,
+   "raw_username": "天恶佣兵团副团长阿呆",
+   "n_lines": 1
+  },
+  {
+   "seq": 63,
+   "y": 24740.0,
+   "username": "",
+   "body": "哈哈",
+   "date": "08-18",
+   "region": "河北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.999,
+   "raw_username": "",
+   "n_lines": 1
+  },
+  {
+   "seq": 64,
+   "y": 25253.0,
+   "username": "请注意你的言辞举止",
+   "body": "说句实话我跑步十三年了晚上不吃饭吃饭从来不吃主食饮料一口不喝甜的水果都不吃保持很好减了60斤",
+   "date": "2025-05-02",
+   "region": "黑龙江",
+   "likes": "24",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.978,
+   "raw_username": "请注意你的言辞举止",
+   "n_lines": 3
+  },
+  {
+   "seq": 65,
+   "y": 25653.0,
+   "username": "Dec_",
+   "body": "不知道你是男是女，如果你是女的，真的做到了“不吃碳水”，你只要是人类，那你肯定没月经了。男人的话我就不知道了",
+   "date": "2025-05-10",
+   "region": "北京",
+   "likes": "7",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.994,
+   "raw_username": "Dec_",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 66,
+   "y": 25984.0,
+   "username": "王什么伟",
+   "body": "活着还有意义吗？身材的意义是好看点，但是生活的意义是快乐呀！朋友",
+   "date": "2025-05-08",
+   "region": "内蒙古",
+   "likes": "3",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.996,
+   "raw_username": "王什么伟",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 67,
+   "y": 26317.0,
+   "username": "请注意你的言辞举止·王什么伟",
+   "body": "一个人一个活法吧我喜欢这样的自律这样的方式",
+   "date": "2025-05-09",
+   "region": "黑龙江",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.96,
+   "raw_username": "请注意你的言辞举止·王什么伟",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 68,
+   "y": 26967.0,
+   "username": "平淡",
+   "body": "我去年7月11日开始从210斤减肥今天体重129.7斤，科学饮食（200g慢碳+优质蛋白+ 30g内油脂+蔬菜5种以上）+2000毫升的水（白水+茶+黑咖）+有氧运动+力量训练+ 7小时睡眠",
+   "date": "2025-04-15",
+   "region": "四川",
+   "likes": "9",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.933,
+   "raw_username": "平淡",
+   "n_lines": 5,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 69,
+   "y": 27228.0,
+   "username": "花开满城",
+   "body": "请问，是天天力量加有氧？一周几次？",
+   "date": "2025-04-15",
+   "region": "山西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.967,
+   "raw_username": "花开满城",
+   "n_lines": 1
+  },
+  {
+   "seq": 70,
+   "y": 27490.0,
+   "username": "平淡·花开满城",
+   "body": "一周练五休二",
+   "date": "2025-04-16",
+   "region": "四川",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.946,
+   "raw_username": "平淡·花开满城",
+   "n_lines": 1
+  },
+  {
+   "seq": 71,
+   "y": 27749.0,
+   "username": "小鹿",
+   "body": "一天锻炼多长时间？",
+   "date": "06-28",
+   "region": "河南",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.974,
+   "raw_username": "小鹿",
+   "n_lines": 1
+  },
+  {
+   "seq": 72,
+   "y": 28298.0,
+   "username": "91.6%",
+   "body": "",
+   "date": "2025/05/29",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.952,
+   "raw_username": "91.6%",
+   "n_lines": 0
+  },
+  {
+   "seq": 73,
+   "y": 28299.0,
+   "username": "91.6%",
+   "body": "",
+   "date": "2024/11/01",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.842,
+   "raw_username": "91.6%",
+   "n_lines": 0
+  },
+  {
+   "seq": 74,
+   "y": 28795.0,
+   "username": "查看全部曲线",
+   "body": "",
+   "date": "2025-04-10",
+   "region": "江苏",
+   "likes": "27",
+   "reply_count": "17",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.968,
+   "raw_username": "查看全部曲线",
+   "n_lines": 0
+  },
+  {
+   "seq": 75,
+   "y": 30148.0,
+   "username": "烈日下的萤火虫",
+   "body": "我埋线前称了一下，发现已经瘦了几斤了，那个时候肯定是随便吃啊！埋线后两天瘦了1.8公斤，这两天我还是随便吃的，这两天发现抗饿了，之前饿了就没劲，埋线后能抗饿了，第三天开始不容易饿了，所以肯定是吃的少了，但是涨了0.3，为什么？第四天更不饿了，早饭正常吃，中午到三点才有点饿，后来吃了个香瓜饱了，五点饿了，把中午的煎饼吃了，又吃了个瓜，完事了，第五天一称，减了0.2，为什么？只吃了两顿饭啊！并不怎么饿啊！今天正常吃的，看看明天怎么样吧！我觉得减肥没有人说的对，不是这么简单的。我小时候也不运动，吃的还巨多，就是不胖，为什么？现在我们同事好多老头，吃的特多，也不胖，还不动，为什么？收起",
+   "date": "2025-06-09",
+   "region": "北京",
+   "likes": "7",
+   "reply_count": "6",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.983,
+   "raw_username": "烈日下的萤火虫",
+   "n_lines": 15,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 76,
+   "y": 30535.0,
+   "username": "退休练习生林姐",
+   "body": "我坐着快速呼吸，是不是也能减肥",
+   "date": "2025-04-11",
+   "region": "河南",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.988,
+   "raw_username": "退休练习生林姐",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 77,
+   "y": 30867.0,
+   "username": "许文凯",
+   "body": "不是快速，是要鼻吸口吐，吐净，可以学普拉提的方法",
+   "date": "2025-04-11",
+   "region": "福建",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.975,
+   "raw_username": "许文凯",
+   "n_lines": 2
+  },
+  {
+   "seq": 78,
+   "y": 31129.0,
+   "username": "经常吐曹小姐",
+   "body": "哈哈哈哈，理解能力满分19",
+   "date": "2025-04-11",
+   "region": "北京",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.963,
+   "raw_username": "经常吐曹小姐",
+   "n_lines": 1
+  },
+  {
+   "seq": 79,
+   "y": 31406.0,
+   "username": "真好吃",
+   "body": "会碱中毒",
+   "date": "2025-04-11",
+   "region": "浙江",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.963,
+   "raw_username": "真好吃",
+   "n_lines": 1
+  },
+  {
+   "seq": 80,
+   "y": 31777.0,
+   "username": "鄂州手机回收维修之家手机优选",
+   "body": "为啥都在教减肥？？",
+   "date": "2025-04-11",
+   "region": "湖北",
+   "likes": "4",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.991,
+   "raw_username": "鄂州手机回收维修之家手机优选",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 81,
+   "y": 32108.0,
+   "username": "用户4465905304222",
+   "body": "胖是万病之缘，减重是全民行动，从根源上解决慢性病",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "9",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.992,
+   "raw_username": "用户4465905304222",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 82,
+   "y": 32508.0,
+   "username": "用户44659053.。?鄂州手机回收维修之家手.",
+   "body": "很多慢病都和胖有关，最终发展成心脑血管病，给家庭和社会造成很大负担，所以才有了下大力度解决胖这个问题",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.941,
+   "raw_username": "用户44659053.。?鄂州手机回收维修之家手.",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 83,
+   "y": 32768.0,
+   "username": "小小韵",
+   "body": "国家也在号召大家减肥",
+   "date": "2025-05-20",
+   "region": "北京",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.994,
+   "raw_username": "小小韵",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 84,
+   "y": 33048.0,
+   "username": "用户9704735712725",
+   "body": "国家都提倡减肥了",
+   "date": "2025-04-11",
+   "region": "山东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.989,
+   "raw_username": "用户9704735712725",
+   "n_lines": 1
+  },
+  {
+   "seq": 85,
+   "y": 33323.0,
+   "username": "鄂州手机回收维修之家手.。?用户97047357..",
+   "body": "",
+   "date": "2025-04-11",
+   "region": "湖北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.933,
+   "raw_username": "鄂州手机回收维修之家手.。?用户97047357..",
+   "n_lines": 0
+  },
+  {
+   "seq": 86,
+   "y": 33602.0,
+   "username": "鄂州手机回收维修之家手机优选·8个钢儿",
+   "body": "",
+   "date": "2025-04-11",
+   "region": "湖北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.972,
+   "raw_username": "鄂州手机回收维修之家手机优选·8个钢儿",
+   "n_lines": 0
+  },
+  {
+   "seq": 87,
+   "y": 33864.0,
+   "username": "鄂州手机回收维修之家手.。?用户44659053..",
+   "body": "....那瘦就没病了？",
+   "date": "2025-04-30",
+   "region": "湖北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.948,
+   "raw_username": "鄂州手机回收维修之家手.。?用户44659053..",
+   "n_lines": 1
+  },
+  {
+   "seq": 88,
+   "y": 34126.0,
+   "username": "用户44659053..。?鄂州手机回收维修之家手.。",
+   "body": "是健康体重，不是要瘦。太瘦了也是病",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.931,
+   "raw_username": "用户44659053..。?鄂州手机回收维修之家手.。",
+   "n_lines": 1
+  },
+  {
+   "seq": 89,
+   "y": 34386.0,
+   "username": "用户44659053..。?鄂州手机回收维修之家手.",
+   "body": "是健康体重，不是要瘦。太瘦了也是病",
+   "date": "2025-04-30",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.933,
+   "raw_username": "用户44659053..。?鄂州手机回收维修之家手.",
+   "n_lines": 1
+  },
+  {
+   "seq": 90,
+   "y": 34868.0,
+   "username": "干就完了?用户4465905304222",
+   "body": "不觉得，我家有个女亲戚挺胖的，看她这么多年身体状况挺棒的，一年都难得感冒！反倒我们这些不胖不瘦的，经常感冒咳嗽挂水",
+   "date": "2025-05-18",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.96,
+   "raw_username": "干就完了?用户4465905304222",
+   "n_lines": 4
+  },
+  {
+   "seq": 91,
+   "y": 35338.0,
+   "username": "用户4465905304222?干就完了",
+   "body": "胖是万病之源，没出现不等于没病，只是没到临床期。胖是病，太瘦同样也是病，免疫力低下更是后患无穷。我们提倡的是健康体重，理想体重",
+   "date": "2025-05-18",
+   "region": "河北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.959,
+   "raw_username": "用户4465905304222?干就完了",
+   "n_lines": 4
+  },
+  {
+   "seq": 92,
+   "y": 35669.0,
+   "username": "干就完了?用户4465905304222",
+   "body": "不清楚，那亲戚几十年健康很好！冬天还喜欢穿凉拖鞋",
+   "date": "2025-05-18",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.956,
+   "raw_username": "干就完了?用户4465905304222",
+   "n_lines": 2
+  },
+  {
+   "seq": 93,
+   "y": 35932.0,
+   "username": "潘潘潘·",
+   "body": "瘦不一定健康",
+   "date": "2025-06-12",
+   "region": "河北",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "鄂州手机回收维修之家手机优选",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.971,
+   "raw_username": "潘潘潘·鄂州手机回收维修之家手机优选",
+   "n_lines": 1
+  },
+  {
+   "seq": 94,
+   "y": 36374.0,
+   "username": "向阳花",
+   "body": "16+8轻断食，就是不吃晚餐......被推崇的减肥方法，难道不能用了！",
+   "date": "2025-05-13",
+   "region": "湖北",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.967,
+   "raw_username": "向阳花",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 95,
+   "y": 36633.0,
+   "username": "流心蛋",
+   "body": "16+8就没说过不吃晚饭",
+   "date": "2025-05-15",
+   "region": "山东",
+   "likes": "3",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.994,
+   "raw_username": "流心蛋",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 96,
+   "y": 36896.0,
+   "username": "我爱我猫",
+   "body": "不吃晚饭嘎嘎瘦",
+   "date": "2025-05-18",
+   "region": "山东",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.997,
+   "raw_username": "我爱我猫",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 97,
+   "y": 37299.0,
+   "username": "高山流水枫",
+   "body": "首先16+8是让你晚餐早点吃不是让你不吃，其次16+8你也可以不吃早餐吃中午和晚餐",
+   "date": "2025-05-18",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.978,
+   "raw_username": "高山流水枫",
+   "n_lines": 3
+  },
+  {
+   "seq": 98,
+   "y": 37748.0,
+   "username": "悠然瑜伽",
+   "body": "你好老师，我饭量大，吃不胖我想增点脂肪，向您取经",
+   "date": "2025-09-17",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.971,
+   "raw_username": "悠然瑜伽",
+   "n_lines": 2
+  },
+  {
+   "seq": 99,
+   "y": 38189.0,
+   "username": "洋芋蛋子",
+   "body": "说反了吧皮下脂肪消失顺序是：腹部-臀部-躯千-四肢-面部",
+   "date": "2025-05-26",
+   "region": "湖北",
+   "likes": "",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.946,
+   "raw_username": "洋芋蛋子",
+   "n_lines": 2
+  },
+  {
+   "seq": 100,
+   "y": 38573.0,
+   "username": "安于",
+   "body": "我可不可以躺着大口喘气",
+   "date": "2025-04-11",
+   "region": "安徽",
+   "likes": "9",
+   "reply_count": "3",
+   "reply_to": "平淡",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.982,
+   "raw_username": "安于平淡",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 101,
+   "y": 39025.0,
+   "username": "晓晓",
+   "body": "内蒙人蛋白质一点都不缺，但是体重一点也下不来",
+   "date": "2025-05-10",
+   "region": "内蒙古",
+   "likes": "1",
+   "reply_count": "5",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.98,
+   "raw_username": "晓晓",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 102,
+   "y": 39608.0,
+   "username": "春暖花开时",
+   "body": "死命吃喝吧，纯牛奶当水喝，减肥效果好！",
+   "date": "2025-06-03",
+   "region": "陕西",
+   "likes": "",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.975,
+   "raw_username": "春暖花开时",
+   "n_lines": 1
+  },
+  {
+   "seq": 103,
+   "y": 40084.0,
+   "username": "Yu渔兒",
+   "body": "120斤的体重120的胃减不了",
+   "date": "2025-04-11",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.91,
+   "raw_username": "Yu渔兒",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 104,
+   "y": 40502.0,
+   "username": "O量",
+   "body": "有人说喝水都胖，你们相信吗？",
+   "date": "2025-04-11",
+   "region": "江苏",
+   "likes": "3",
+   "reply_count": "11",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.824,
+   "raw_username": "O量",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 105,
+   "y": 40945.0,
+   "username": "大魔王",
+   "body": "我瘦十斤就行，168，目前125斤，115我就很满意了",
+   "date": "2025-05-08",
+   "region": "天津",
+   "likes": "",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.983,
+   "raw_username": "大魔王",
+   "n_lines": 2
+  },
+  {
+   "seq": 106,
+   "y": 41331.0,
+   "username": "云间漫看",
+   "body": "我是一胖就胖肚子一瘦就瘦胸",
+   "date": "2025-04-15",
+   "region": "河南",
+   "likes": "4",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.989,
+   "raw_username": "云间漫看",
+   "n_lines": 1,
+   "likes_src": "crop"
+  }
+ ],
+ "unparsed": [
+  {
+   "text": "X",
+   "y": 951.0,
+   "x": 1167.0,
+   "cls": "dark",
+   "score": 0.9095
+  },
+  {
+   "text": "默",
+   "y": 1078.0,
+   "x": 205.0,
+   "cls": "light",
+   "score": 0.9995
+  },
+  {
+   "text": "三月初开始96kg，到现在90kg，没节食，只",
+   "y": 1149.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9993
+  },
+  {
+   "text": "是不碰高糖高油食物，日常正常吃，每周四到",
+   "y": 1220.0,
+   "x": 210.0,
+   "cls": "dark",
+   "score": 0.9987
+  },
+  {
+   "text": "五次的骑行，体脂也从最开始的33%到现在",
+   "y": 1291.0,
+   "x": 210.0,
+   "cls": "dark",
+   "score": 0.9961
+  },
+  {
+   "text": "30%",
+   "y": 1361.0,
+   "x": 206.0,
+   "cls": "dark",
+   "score": 0.844
+  },
+  {
+   "text": "2025年4月",
+   "y": 1443.0,
+   "x": 937.0,
+   "cls": "dark",
+   "score": 0.9998
+  },
+  {
+   "text": "322.56公里",
+   "y": 1468.0,
+   "x": 937.0,
+   "cls": "light",
+   "score": 0.9903
+  },
+  {
+   "text": "19.6小时17次总消耗12,190千卡",
+   "y": 1468.0,
+   "x": 1006.0,
+   "cls": "light",
+   "score": 0.9739
+  },
+  {
+   "text": "选择时间",
+   "y": 1487.0,
+   "x": 572.0,
+   "cls": "dark",
+   "score": 0.9991
+  },
+  {
+   "text": "选择时间",
+   "y": 1488.0,
+   "x": 219.0,
+   "cls": "dark",
+   "score": 0.9996
+  },
+  {
+   "text": "园",
+   "y": 1490.0,
+   "x": 813.0,
+   "cls": "dark",
+   "score": 0.6942
+  },
+  {
+   "text": "园",
+   "y": 1491.0,
+   "x": 459.0,
+   "cls": "dark",
+   "score": 0.8557
+  },
+  {
+   "text": "户外骑行",
+   "y": 1499.0,
+   "x": 990.0,
+   "cls": "light",
+   "score": 0.9894
+  },
+  {
+   "text": "4月25日07:51",
+   "y": 1499.0,
+   "x": 1155.0,
+   "cls": "light",
+   "score": 0.9847
+  },
+  {
+   "text": "20.32公里",
+   "y": 1518.0,
+   "x": 990.0,
+   "cls": "dark",
+   "score": 0.9983
+  },
+  {
+   "text": "01:17:02",
+   "y": 1525.0,
+   "x": 1074.0,
+   "cls": "meta",
+   "score": 0.976
+  },
+  {
+   "text": "15.83公里/小时",
+   "y": 1526.0,
+   "x": 1140.0,
+   "cls": "meta",
+   "score": 0.9829
+  },
+  {
+   "text": "周一",
+   "y": 1534.0,
+   "x": 235.0,
+   "cls": "meta",
+   "score": 0.9712
+  },
+  {
+   "text": "周二",
+   "y": 1534.0,
+   "x": 276.0,
+   "cls": "meta",
+   "score": 0.9996
+  },
+  {
+   "text": "周三",
+   "y": 1534.0,
+   "x": 319.0,
+   "cls": "meta",
+   "score": 0.9992
+  },
+  {
+   "text": "周四",
+   "y": 1534.0,
+   "x": 362.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "周五",
+   "y": 1534.0,
+   "x": 405.0,
+   "cls": "meta",
+   "score": 0.9991
+  },
+  {
+   "text": "周六",
+   "y": 1534.0,
+   "x": 451.0,
+   "cls": "meta",
+   "score": 0.9993
+  },
+  {
+   "text": "周日",
+   "y": 1534.0,
+   "x": 495.0,
+   "cls": "meta",
+   "score": 0.9968
+  },
+  {
+   "text": "周一",
+   "y": 1534.0,
+   "x": 590.0,
+   "cls": "meta",
+   "score": 0.9587
+  },
+  {
+   "text": "周二",
+   "y": 1534.0,
+   "x": 632.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "周三",
+   "y": 1534.0,
+   "x": 675.0,
+   "cls": "meta",
+   "score": 0.999
+  },
+  {
+   "text": "周四",
+   "y": 1534.0,
+   "x": 714.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "周五",
+   "y": 1534.0,
+   "x": 758.0,
+   "cls": "meta",
+   "score": 0.9996
+  },
+  {
+   "text": "周六",
+   "y": 1534.0,
+   "x": 806.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "周日",
+   "y": 1534.0,
+   "x": 851.0,
+   "cls": "meta",
+   "score": 0.997
+  },
+  {
+   "text": "户外骑行",
+   "y": 1565.0,
+   "x": 990.0,
+   "cls": "light",
+   "score": 0.9953
+  },
+  {
+   "text": "4月24日07:50",
+   "y": 1566.0,
+   "x": 1155.0,
+   "cls": "light",
+   "score": 0.9756
+  },
+  {
+   "text": "2025年3月",
+   "y": 1572.0,
+   "x": 338.0,
+   "cls": "dark",
+   "score": 0.9999
+  },
+  {
+   "text": "93.5",
+   "y": 1572.0,
+   "x": 594.0,
+   "cls": "meta",
+   "score": 0.9996
+  },
+  {
+   "text": "19.58公里",
+   "y": 1586.0,
+   "x": 991.0,
+   "cls": "dark",
+   "score": 0.9962
+  },
+  {
+   "text": "01:08:28",
+   "y": 1591.0,
+   "x": 1070.0,
+   "cls": "meta",
+   "score": 0.9217
+  },
+  {
+   "text": "17.16公里/小时",
+   "y": 1593.0,
+   "x": 1141.0,
+   "cls": "meta",
+   "score": 0.9795
+  },
+  {
+   "text": "2025年4月",
+   "y": 1601.0,
+   "x": 693.0,
+   "cls": "dark",
+   "score": 0.9998
+  },
+  {
+   "text": "4月23日07:26",
+   "y": 1630.0,
+   "x": 1155.0,
+   "cls": "light",
+   "score": 0.9746
+  },
+  {
+   "text": "户外骑行",
+   "y": 1631.0,
+   "x": 990.0,
+   "cls": "light",
+   "score": 0.9954
+  },
+  {
+   "text": "20.17公里",
+   "y": 1652.0,
+   "x": 991.0,
+   "cls": "dark",
+   "score": 0.9989
+  },
+  {
+   "text": "17.14公里/小时",
+   "y": 1656.0,
+   "x": 1140.0,
+   "cls": "meta",
+   "score": 0.9601
+  },
+  {
+   "text": "01:10:34",
+   "y": 1657.0,
+   "x": 1074.0,
+   "cls": "meta",
+   "score": 0.9579
+  },
+  {
+   "text": "2",
+   "y": 1667.0,
+   "x": 687.0,
+   "cls": "dark",
+   "score": 0.9771
+  },
+  {
+   "text": "8",
+   "y": 1671.0,
+   "x": 458.0,
+   "cls": "meta",
+   "score": 0.992
+  },
+  {
+   "text": "92.4",
+   "y": 1690.0,
+   "x": 720.0,
+   "cls": "meta",
+   "score": 0.9933
+  },
+  {
+   "text": "1076",
+   "y": 1690.0,
+   "x": 805.0,
+   "cls": "meta",
+   "score": 0.5831
+  },
+  {
+   "text": "92.1",
+   "y": 1690.0,
+   "x": 847.0,
+   "cls": "meta",
+   "score": 0.9977
+  },
+  {
+   "text": "616",
+   "y": 1691.0,
+   "x": 765.0,
+   "cls": "meta",
+   "score": 0.8282
+  },
+  {
+   "text": "94.8",
+   "y": 1696.0,
+   "x": 327.0,
+   "cls": "meta",
+   "score": 0.9872
+  },
+  {
+   "text": "5.",
+   "y": 1697.0,
+   "x": 287.0,
+   "cls": "meta",
+   "score": 0.7796
+  },
+  {
+   "text": "4月22日07:59",
+   "y": 1697.0,
+   "x": 1154.0,
+   "cls": "light",
+   "score": 0.9513
+  },
+  {
+   "text": "户外骑行",
+   "y": 1698.0,
+   "x": 990.0,
+   "cls": "light",
+   "score": 0.997
+  },
+  {
+   "text": "20.51公里",
+   "y": 1716.0,
+   "x": 989.0,
+   "cls": "dark",
+   "score": 0.9966
+  },
+  {
+   "text": "01:10:24",
+   "y": 1722.0,
+   "x": 1067.0,
+   "cls": "meta",
+   "score": 0.9303
+  },
+  {
+   "text": "17.48公里/小时",
+   "y": 1724.0,
+   "x": 1141.0,
+   "cls": "meta",
+   "score": 0.9864
+  },
+  {
+   "text": "15",
+   "y": 1726.0,
+   "x": 452.0,
+   "cls": "dark",
+   "score": 0.9993
+  },
+  {
+   "text": "13",
+   "y": 1727.0,
+   "x": 368.0,
+   "cls": "dark",
+   "score": 0.9985
+  },
+  {
+   "text": "14",
+   "y": 1727.0,
+   "x": 410.0,
+   "cls": "dark",
+   "score": 0.9987
+  },
+  {
+   "text": "10",
+   "y": 1728.0,
+   "x": 243.0,
+   "cls": "dark",
+   "score": 0.9992
+  },
+  {
+   "text": "11",
+   "y": 1728.0,
+   "x": 286.0,
+   "cls": "dark",
+   "score": 0.9983
+  },
+  {
+   "text": "12",
+   "y": 1728.0,
+   "x": 329.0,
+   "cls": "meta",
+   "score": 0.9987
+  },
+  {
+   "text": "16",
+   "y": 1728.0,
+   "x": 498.0,
+   "cls": "meta",
+   "score": 0.9988
+  },
+  {
+   "text": "11",
+   "y": 1731.0,
+   "x": 764.0,
+   "cls": "dark",
+   "score": 0.9982
+  },
+  {
+   "text": "12",
+   "y": 1731.0,
+   "x": 806.0,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "13",
+   "y": 1731.0,
+   "x": 850.0,
+   "cls": "dark",
+   "score": 0.9988
+  },
+  {
+   "text": "8",
+   "y": 1732.0,
+   "x": 642.0,
+   "cls": "dark",
+   "score": 0.9987
+  },
+  {
+   "text": "9",
+   "y": 1732.0,
+   "x": 685.0,
+   "cls": "dark",
+   "score": 0.9977
+  },
+  {
+   "text": "10",
+   "y": 1732.0,
+   "x": 723.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "94.8",
+   "y": 1752.0,
+   "x": 366.0,
+   "cls": "meta",
+   "score": 0.9916
+  },
+  {
+   "text": "↓0'56",
+   "y": 1752.0,
+   "x": 449.0,
+   "cls": "meta",
+   "score": 0.811
+  },
+  {
+   "text": "96.4",
+   "y": 1753.0,
+   "x": 238.0,
+   "cls": "meta",
+   "score": 0.9837
+  },
+  {
+   "text": "96.2",
+   "y": 1754.0,
+   "x": 283.0,
+   "cls": "meta",
+   "score": 0.9983
+  },
+  {
+   "text": "94.7",
+   "y": 1754.0,
+   "x": 410.0,
+   "cls": "meta",
+   "score": 0.9826
+  },
+  {
+   "text": "92.2",
+   "y": 1757.0,
+   "x": 594.0,
+   "cls": "meta",
+   "score": 0.9786
+  },
+  {
+   "text": "92.0",
+   "y": 1757.0,
+   "x": 638.0,
+   "cls": "meta",
+   "score": 0.9902
+  },
+  {
+   "text": "92.3",
+   "y": 1757.0,
+   "x": 678.0,
+   "cls": "meta",
+   "score": 0.9905
+  },
+  {
+   "text": "92.2",
+   "y": 1757.0,
+   "x": 764.0,
+   "cls": "meta",
+   "score": 0.9914
+  },
+  {
+   "text": "8'16",
+   "y": 1758.0,
+   "x": 807.0,
+   "cls": "meta",
+   "score": 0.6965
+  },
+  {
+   "text": "91.5",
+   "y": 1758.0,
+   "x": 850.0,
+   "cls": "meta",
+   "score": 0.9974
+  },
+  {
+   "text": "户外骑行",
+   "y": 1764.0,
+   "x": 990.0,
+   "cls": "light",
+   "score": 0.9891
+  },
+  {
+   "text": "4月21日07:49",
+   "y": 1764.0,
+   "x": 1154.0,
+   "cls": "light",
+   "score": 0.9817
+  },
+  {
+   "text": "2025-04-27。广东",
+   "y": 1804.0,
+   "x": 209.0,
+   "cls": "light",
+   "score": 0.948
+  },
+  {
+   "text": "缄默",
+   "y": 1913.0,
+   "x": 675.0,
+   "cls": "light",
+   "score": 0.7048
+  },
+  {
+   "text": "默·财神爷的小棉袄",
+   "y": 5424.0,
+   "x": 287.0,
+   "cls": "light",
+   "score": 0.9095
+  },
+  {
+   "text": "31.5",
+   "y": 5485.0,
+   "x": 343.0,
+   "cls": "dark",
+   "score": 0.9792
+  },
+  {
+   "text": "28.1%",
+   "y": 5485.0,
+   "x": 459.0,
+   "cls": "dark",
+   "score": 0.8761
+  },
+  {
+   "text": "33.4公斤",
+   "y": 5485.0,
+   "x": 576.0,
+   "cls": "dark",
+   "score": 0.9762
+  },
+  {
+   "text": "肥胖",
+   "y": 5508.0,
+   "x": 342.0,
+   "cls": "light",
+   "score": 0.9893
+  },
+  {
+   "text": "过高",
+   "y": 5508.0,
+   "x": 457.0,
+   "cls": "light",
+   "score": 0.9965
+  },
+  {
+   "text": "较多",
+   "y": 5508.0,
+   "x": 575.0,
+   "cls": "light",
+   "score": 0.9961
+  },
+  {
+   "text": "内脏脂肪等级",
+   "y": 5559.0,
+   "x": 344.0,
+   "cls": "light",
+   "score": 0.9741
+  },
+  {
+   "text": "身体类型",
+   "y": 5559.0,
+   "x": 459.0,
+   "cls": "meta",
+   "score": 0.9966
+  },
+  {
+   "text": "基础代谢率",
+   "y": 5559.0,
+   "x": 576.0,
+   "cls": "light",
+   "score": 0.8696
+  },
+  {
+   "text": "1,774",
+   "y": 5581.0,
+   "x": 573.0,
+   "cls": "dark",
+   "score": 0.9832
+  },
+  {
+   "text": "14.0级",
+   "y": 5582.0,
+   "x": 342.0,
+   "cls": "dark",
+   "score": 0.999
+  },
+  {
+   "text": "偏胖肌肉型",
+   "y": 5585.0,
+   "x": 460.0,
+   "cls": "dark",
+   "score": 0.9963
+  },
+  {
+   "text": "偏高",
+   "y": 5612.0,
+   "x": 344.0,
+   "cls": "light",
+   "score": 0.9891
+  },
+  {
+   "text": "偏低",
+   "y": 5612.0,
+   "x": 577.0,
+   "cls": "light",
+   "score": 0.9952
+  },
+  {
+   "text": "水分率",
+   "y": 5659.0,
+   "x": 342.0,
+   "cls": "light",
+   "score": 0.9948
+  },
+  {
+   "text": "骨盐量",
+   "y": 5662.0,
+   "x": 459.0,
+   "cls": "light",
+   "score": 0.9998
+  },
+  {
+   "text": "50.7%",
+   "y": 5685.0,
+   "x": 343.0,
+   "cls": "dark",
+   "score": 0.9959
+  },
+  {
+   "text": "17.6%",
+   "y": 5685.0,
+   "x": 574.0,
+   "cls": "dark",
+   "score": 0.9959
+  },
+  {
+   "text": "偏低",
+   "y": 5713.0,
+   "x": 575.0,
+   "cls": "light",
+   "score": 0.9888
+  },
+  {
+   "text": "标准",
+   "y": 5714.0,
+   "x": 343.0,
+   "cls": "light",
+   "score": 0.9999
+  },
+  {
+   "text": "较多",
+   "y": 5714.0,
+   "x": 458.0,
+   "cls": "light",
+   "score": 0.8585
+  },
+  {
+   "text": "去脂体重",
+   "y": 5765.0,
+   "x": 342.0,
+   "cls": "meta",
+   "score": 0.982
+  },
+  {
+   "text": "身体年龄",
+   "y": 5765.0,
+   "x": 458.0,
+   "cls": "meta",
+   "score": 0.9999
+  },
+  {
+   "text": "心率",
+   "y": 5765.0,
+   "x": 575.0,
+   "cls": "light",
+   "score": 0.9825
+  },
+  {
+   "text": "89bpm",
+   "y": 5787.0,
+   "x": 572.0,
+   "cls": "dark",
+   "score": 0.9825
+  },
+  {
+   "text": "61.6公斤",
+   "y": 5788.0,
+   "x": 342.0,
+   "cls": "dark",
+   "score": 0.9985
+  },
+  {
+   "text": "36岁",
+   "y": 5790.0,
+   "x": 457.0,
+   "cls": "dark",
+   "score": 0.9997
+  },
+  {
+   "text": "较多",
+   "y": 5818.0,
+   "x": 342.0,
+   "cls": "light",
+   "score": 0.991
+  },
+  {
+   "text": "偏高",
+   "y": 5820.0,
+   "x": 576.0,
+   "cls": "light",
+   "score": 0.9832
+  },
+  {
+   "text": "人体成分",
+   "y": 5899.0,
+   "x": 317.0,
+   "cls": "dark",
+   "score": 0.9996
+  },
+  {
+   "text": "水分",
+   "y": 5943.0,
+   "x": 444.0,
+   "cls": "meta",
+   "score": 0.9901
+  },
+  {
+   "text": "43.42",
+   "y": 5943.0,
+   "x": 595.0,
+   "cls": "meta",
+   "score": 0.9995
+  },
+  {
+   "text": "蛋白质",
+   "y": 5976.0,
+   "x": 443.0,
+   "cls": "meta",
+   "score": 0.9954
+  },
+  {
+   "text": "15.04",
+   "y": 5977.0,
+   "x": 596.0,
+   "cls": "meta",
+   "score": 0.9995
+  },
+  {
+   "text": "体重",
+   "y": 5988.0,
+   "x": 366.0,
+   "cls": "light",
+   "score": 0.9955
+  },
+  {
+   "text": "85.65",
+   "y": 6003.0,
+   "x": 364.0,
+   "cls": "light",
+   "score": 0.9977
+  },
+  {
+   "text": "照肪量",
+   "y": 6008.0,
+   "x": 441.0,
+   "cls": "meta",
+   "score": 0.7446
+  },
+  {
+   "text": "24.07",
+   "y": 6012.0,
+   "x": 595.0,
+   "cls": "meta",
+   "score": 0.9995
+  },
+  {
+   "text": "骨盐量",
+   "y": 6045.0,
+   "x": 459.0,
+   "cls": "meta",
+   "score": 0.9995
+  },
+  {
+   "text": "三三得你",
+   "y": 6573.0,
+   "x": 208.0,
+   "cls": "light",
+   "score": 0.9986
+  },
+  {
+   "text": "不敢瞎吃了",
+   "y": 6656.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9982
+  },
+  {
+   "text": "早餐",
+   "y": 6745.0,
+   "x": 383.0,
+   "cls": "light",
+   "score": 0.9974
+  },
+  {
+   "text": "36%",
+   "y": 6745.0,
+   "x": 538.0,
+   "cls": "light",
+   "score": 0.9983
+  },
+  {
+   "text": "午餐+下午加餐",
+   "y": 6773.0,
+   "x": 384.0,
+   "cls": "meta",
+   "score": 0.9938
+  },
+  {
+   "text": "41%",
+   "y": 6774.0,
+   "x": 536.0,
+   "cls": "light",
+   "score": 0.9984
+  },
+  {
+   "text": "晚餐",
+   "y": 6801.0,
+   "x": 383.0,
+   "cls": "meta",
+   "score": 0.9986
+  },
+  {
+   "text": "23%",
+   "y": 6802.0,
+   "x": 538.0,
+   "cls": "light",
+   "score": 0.998
+  },
+  {
+   "text": "早餐建议386~697千卡",
+   "y": 6858.0,
+   "x": 232.0,
+   "cls": "other",
+   "score": 0.9939
+  },
+  {
+   "text": "476千卡",
+   "y": 6859.0,
+   "x": 555.0,
+   "cls": "light",
+   "score": 0.9795
+  },
+  {
+   "text": "早餐+早加餐合适：很不错，继续保持合理摄入",
+   "y": 6903.0,
+   "x": 249.0,
+   "cls": "light",
+   "score": 0.924
+  },
+  {
+   "text": "529千卡",
+   "y": 6949.0,
+   "x": 555.0,
+   "cls": "light",
+   "score": 0.9905
+  },
+  {
+   "text": "午餐+下午加餐建议464~774千卡",
+   "y": 6951.0,
+   "x": 235.0,
+   "cls": "dark",
+   "score": 0.9654
+  },
+  {
+   "text": "午餐+午加餐合适：很不错，继续保持合理摄入。",
+   "y": 6992.0,
+   "x": 249.0,
+   "cls": "light",
+   "score": 0.9551
+  },
+  {
+   "text": "晚餐建议232~542千卡",
+   "y": 7042.0,
+   "x": 234.0,
+   "cls": "dark",
+   "score": 0.9847
+  },
+  {
+   "text": "306千卡",
+   "y": 7042.0,
+   "x": 557.0,
+   "cls": "light",
+   "score": 0.9864
+  },
+  {
+   "text": "晚餐+晚加餐合适：很不错，继续保持合理摄入。",
+   "y": 7082.0,
+   "x": 247.0,
+   "cls": "light",
+   "score": 0.9513
+  },
+  {
+   "text": "三大营养素占比分析",
+   "y": 7174.0,
+   "x": 234.0,
+   "cls": "dark",
+   "score": 0.9985
+  },
+  {
+   "text": "碳水化合物",
+   "y": 7238.0,
+   "x": 383.0,
+   "cls": "meta",
+   "score": 0.9982
+  },
+  {
+   "text": "52%",
+   "y": 7239.0,
+   "x": 538.0,
+   "cls": "light",
+   "score": 0.9997
+  },
+  {
+   "text": "热量",
+   "y": 7255.0,
+   "x": 300.0,
+   "cls": "meta",
+   "score": 0.9998
+  },
+  {
+   "text": "脂肪",
+   "y": 7265.0,
+   "x": 381.0,
+   "cls": "light",
+   "score": 0.9318
+  },
+  {
+   "text": "33%",
+   "y": 7267.0,
+   "x": 538.0,
+   "cls": "light",
+   "score": 0.9995
+  },
+  {
+   "text": "占比",
+   "y": 7272.0,
+   "x": 299.0,
+   "cls": "meta",
+   "score": 0.9418
+  },
+  {
+   "text": "蛋白质",
+   "y": 7294.0,
+   "x": 382.0,
+   "cls": "light",
+   "score": 0.9954
+  },
+  {
+   "text": "三三得你·胜利",
+   "y": 7717.0,
+   "x": 292.0,
+   "cls": "light",
+   "score": 0.9197
+  },
+  {
+   "text": "蛮好用",
+   "y": 7782.0,
+   "x": 285.0,
+   "cls": "dark",
+   "score": 0.9969
+  },
+  {
+   "text": "422千卡>",
+   "y": 7876.0,
+   "x": 598.0,
+   "cls": "meta",
+   "score": 0.9673
+  },
+  {
+   "text": "建议范围：390-702千卡",
+   "y": 7879.0,
+   "x": 319.0,
+   "cls": "light",
+   "score": 0.9935
+  },
+  {
+   "text": "苹果",
+   "y": 7936.0,
+   "x": 386.0,
+   "cls": "meta",
+   "score": 0.9993
+  },
+  {
+   "text": "30千卡>",
+   "y": 7946.0,
+   "x": 607.0,
+   "cls": "light",
+   "score": 0.8905
+  },
+  {
+   "text": "64.7克",
+   "y": 7957.0,
+   "x": 385.0,
+   "cls": "light",
+   "score": 0.9886
+  },
+  {
+   "text": "玉米（鲜）",
+   "y": 8019.0,
+   "x": 386.0,
+   "cls": "meta",
+   "score": 0.9026
+  },
+  {
+   "text": "78千卡",
+   "y": 8030.0,
+   "x": 608.0,
+   "cls": "light",
+   "score": 0.9224
+  },
+  {
+   "text": "150克",
+   "y": 8043.0,
+   "x": 386.0,
+   "cls": "light",
+   "score": 0.9987
+  },
+  {
+   "text": "光明莫斯利安原味酸奶",
+   "y": 8093.0,
+   "x": 388.0,
+   "cls": "meta",
+   "score": 0.9987
+  },
+  {
+   "text": "200g",
+   "y": 8113.0,
+   "x": 385.0,
+   "cls": "meta",
+   "score": 0.9981
+  },
+  {
+   "text": "178千卡",
+   "y": 8115.0,
+   "x": 601.0,
+   "cls": "light",
+   "score": 0.9923
+  },
+  {
+   "text": "1盒",
+   "y": 8138.0,
+   "x": 386.0,
+   "cls": "light",
+   "score": 0.9984
+  },
+  {
+   "text": "酱牛肉",
+   "y": 8185.0,
+   "x": 385.0,
+   "cls": "meta",
+   "score": 0.9996
+  },
+  {
+   "text": "136千卡",
+   "y": 8198.0,
+   "x": 601.0,
+   "cls": "light",
+   "score": 0.9763
+  },
+  {
+   "text": "55克",
+   "y": 8206.0,
+   "x": 384.0,
+   "cls": "light",
+   "score": 0.9998
+  },
+  {
+   "text": "午餐",
+   "y": 8290.0,
+   "x": 318.0,
+   "cls": "dark",
+   "score": 0.9993
+  },
+  {
+   "text": "303千卡>",
+   "y": 8322.0,
+   "x": 599.0,
+   "cls": "light",
+   "score": 0.94
+  },
+  {
+   "text": "建议范围：468-779千卡",
+   "y": 8324.0,
+   "x": 319.0,
+   "cls": "light",
+   "score": 0.9901
+  },
+  {
+   "text": "土豆（煮）",
+   "y": 8379.0,
+   "x": 386.0,
+   "cls": "meta",
+   "score": 0.9334
+  },
+  {
+   "text": "89千卡>",
+   "y": 8389.0,
+   "x": 607.0,
+   "cls": "light",
+   "score": 0.9332
+  },
+  {
+   "text": "三三得你·办法总比问题多",
+   "y": 9119.0,
+   "x": 292.0,
+   "cls": "light",
+   "score": 0.9609
+  },
+  {
+   "text": "华为手机自带的这个华为运动健康",
+   "y": 9187.0,
+   "x": 289.0,
+   "cls": "dark",
+   "score": 0.9985
+  },
+  {
+   "text": "生活服务",
+   "y": 9417.0,
+   "x": 574.0,
+   "cls": "other",
+   "score": 0.9993
+  },
+  {
+   "text": "华为运动健康",
+   "y": 9418.0,
+   "x": 358.0,
+   "cls": "meta",
+   "score": 0.9947
+  },
+  {
+   "text": "我的华为",
+   "y": 9418.0,
+   "x": 471.0,
+   "cls": "other",
+   "score": 0.9986
+  },
+  {
+   "text": "会员中心",
+   "y": 9538.0,
+   "x": 371.0,
+   "cls": "other",
+   "score": 0.999
+  },
+  {
+   "text": "电子邮件",
+   "y": 9538.0,
+   "x": 573.0,
+   "cls": "other",
+   "score": 0.9953
+  },
+  {
+   "text": "天际通",
+   "y": 9539.0,
+   "x": 479.0,
+   "cls": "dark",
+   "score": 0.9986
+  },
+  {
+   "text": "添加",
+   "y": 9660.0,
+   "x": 487.0,
+   "cls": "dark",
+   "score": 0.9979
+  },
+  {
+   "text": "玩机技巧",
+   "y": 9661.0,
+   "x": 370.0,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "我160/105斤前面体检胆固醇高",
+   "y": 10725.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9981
+  },
+  {
+   "text": "荔枝·牵着蚂蚁去散步",
+   "y": 14037.0,
+   "x": 287.0,
+   "cls": "light",
+   "score": 0.942
+  },
+  {
+   "text": "2025-04-10·四",
+   "y": 14203.0,
+   "x": 288.0,
+   "cls": "light",
+   "score": 0.9513
+  },
+  {
+   "text": "是啊，上一天班再饿着不吃口就好委屈",
+   "y": 16759.0,
+   "x": 288.0,
+   "cls": "dark",
+   "score": 0.983
+  },
+  {
+   "text": "我是焦虑胖",
+   "y": 18510.0,
+   "x": 289.0,
+   "cls": "dark",
+   "score": 0.991
+  },
+  {
+   "text": "@泰山原浆啤酒",
+   "y": 19647.0,
+   "x": 293.0,
+   "cls": "dark",
+   "score": 0.9985
+  },
+  {
+   "text": "不是说少吃少动，正常吃多动么",
+   "y": 21449.0,
+   "x": 291.0,
+   "cls": "dark",
+   "score": 0.9992
+  },
+  {
+   "text": "榆非晚",
+   "y": 23310.0,
+   "x": 286.0,
+   "cls": "light",
+   "score": 0.9982
+  },
+  {
+   "text": "我中午必须吃蛋白质的东西。中午两个鸡",
+   "y": 23379.0,
+   "x": 290.0,
+   "cls": "dark",
+   "score": 0.9983
+  },
+  {
+   "text": "蛋，，中午就炒盘豆角，吃一个馒头。下",
+   "y": 23448.0,
+   "x": 288.0,
+   "cls": "dark",
+   "score": 0.9978
+  },
+  {
+   "text": "午7点就开始头晕心慌。吃点零食就没",
+   "y": 23517.0,
+   "x": 290.0,
+   "cls": "dark",
+   "score": 0.9977
+  },
+  {
+   "text": "事。要是中午吃了蛋白质的东西我就没",
+   "y": 23588.0,
+   "x": 290.0,
+   "cls": "dark",
+   "score": 0.9966
+  },
+  {
+   "text": "事。这是为啥呢。原来瘦的时候也这样。",
+   "y": 23660.0,
+   "x": 292.0,
+   "cls": "dark",
+   "score": 0.9981
+  },
+  {
+   "text": "现在是不是胖决定的。减肥吧。减掉10",
+   "y": 23729.0,
+   "x": 290.0,
+   "cls": "dark",
+   "score": 0.9993
+  },
+  {
+   "text": "斤我就正常了。一减肥我就坚持不下去。",
+   "y": 23801.0,
+   "x": 293.0,
+   "cls": "dark",
+   "score": 0.9973
+  },
+  {
+   "text": "收起^",
+   "y": 24846.0,
+   "x": 307.0,
+   "cls": "meta",
+   "score": 0.7898
+  },
+  {
+   "text": "胖娜",
+   "y": 27969.0,
+   "x": 206.0,
+   "cls": "light",
+   "score": 0.9999
+  },
+  {
+   "text": "好好吃饭营养均衡，减肥的第6个月，马上要",
+   "y": 28042.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9964
+  },
+  {
+   "text": "到目标啦",
+   "y": 28107.0,
+   "x": 208.0,
+   "cls": "dark",
+   "score": 0.9991
+  },
+  {
+   "text": "初始202.80",
+   "y": 28280.0,
+   "x": 245.0,
+   "cls": "dark",
+   "score": 0.9916
+  },
+  {
+   "text": "目标120.00",
+   "y": 28280.0,
+   "x": 520.0,
+   "cls": "meta",
+   "score": 0.9935
+  },
+  {
+   "text": "减重第161天",
+   "y": 28288.0,
+   "x": 390.0,
+   "cls": "light",
+   "score": 0.9401
+  },
+  {
+   "text": "最新数据",
+   "y": 28374.0,
+   "x": 242.0,
+   "cls": "meta",
+   "score": 0.9995
+  },
+  {
+   "text": "2025/04/10 07:03",
+   "y": 28376.0,
+   "x": 473.0,
+   "cls": "light",
+   "score": 0.9966
+  },
+  {
+   "text": "126.900.90",
+   "y": 28414.0,
+   "x": 238.0,
+   "cls": "dark",
+   "score": 0.9968
+  },
+  {
+   "text": "24.2",
+   "y": 28417.0,
+   "x": 526.0,
+   "cls": "dark",
+   "score": 0.9948
+  },
+  {
+   "text": "体重（斤）",
+   "y": 28448.0,
+   "x": 239.0,
+   "cls": "light",
+   "score": 0.8866
+  },
+  {
+   "text": "体脂率",
+   "y": 28449.0,
+   "x": 388.0,
+   "cls": "light",
+   "score": 0.5777
+  },
+  {
+   "text": "BMI",
+   "y": 28449.0,
+   "x": 526.0,
+   "cls": "light",
+   "score": 0.9912
+  },
+  {
+   "text": "体重趋势",
+   "y": 28520.0,
+   "x": 240.0,
+   "cls": "meta",
+   "score": 0.9476
+  },
+  {
+   "text": "收起^",
+   "y": 37403.0,
+   "x": 306.0,
+   "cls": "meta",
+   "score": 0.7879
+  },
+  {
+   "text": "我一直在寻找一种减肥不用痛苦饿不用拼命练",
+   "y": 39317.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9933
+  },
+  {
+   "text": "而是不知不觉中减。最近找到一个方法冬瓜洋",
+   "y": 39384.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9972
+  },
+  {
+   "text": "吃少一点就发抖",
+   "y": 39927.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9903
+  },
+  {
+   "text": "Na.na",
+   "y": 41550.0,
+   "x": 203.0,
+   "cls": "light",
+   "score": 0.9996
+  },
+  {
+   "text": "听完我理解的就是先饿再运动练肌肉",
+   "y": 41628.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9971
+  },
+  {
+   "text": "个都做不到",
+   "y": 41701.0,
+   "x": 210.0,
+   "cls": "dark",
+   "score": 0.999
+  },
+  {
+   "text": "善语结善缘，恶语伤人心",
+   "y": 41862.0,
+   "x": 81.0,
+   "cls": "meta",
+   "score": 0.9831
+  }
+ ],
+ "n_rows": 749
+}

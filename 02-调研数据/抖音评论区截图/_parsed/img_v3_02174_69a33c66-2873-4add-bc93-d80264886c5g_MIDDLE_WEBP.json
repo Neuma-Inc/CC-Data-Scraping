@@ -1,0 +1,286 @@
+{
+ "base": "img_v3_02174_69a33c66-2873-4add-bc93-d80264886c5g_MIDDLE_WEBP",
+ "source": "img_v3_02174_69a33c66-2873-4add-bc93-d80264886c5g_MIDDLE_WEBP.webp",
+ "width": 348,
+ "height": 1500,
+ "is_grid": false,
+ "is_detail": false,
+ "detail": {
+  "likes": "",
+  "comments": "",
+  "favorites": "",
+  "shares": "",
+  "caption": ""
+ },
+ "comment_total": "838",
+ "search_term": "跳绳跟练",
+ "video_desc": "20分钟站立有氧HIIT训练 / WARM UP",
+ "author": "橘橘猫-爱吃醋",
+ "comments": [
+  {
+   "seq": 1,
+   "y": 396.8,
+   "username": "丫头",
+   "body": "体脂率有点高练的时候是先练有氧还是无氧",
+   "date": "08-03",
+   "region": "陕西",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.819,
+   "raw_username": "丫头",
+   "n_lines": 1
+  },
+  {
+   "seq": 2,
+   "y": 494.0,
+   "username": "没有很快乐",
+   "body": "从今天晚上开始，坚持",
+   "date": "05-31",
+   "region": "湖南",
+   "likes": "2",
+   "reply_count": "14",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.983,
+   "raw_username": "没有很快乐",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 3,
+   "y": 563.2,
+   "username": "橘橘猫-爱吃醋",
+   "body": "加油",
+   "date": "06-01",
+   "region": "四川",
+   "likes": "",
+   "reply_count": "14",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.917,
+   "raw_username": "橘橘猫-爱吃醋",
+   "n_lines": 1
+  },
+  {
+   "seq": 4,
+   "y": 796.0,
+   "username": "HUMAN-BEAN",
+   "body": "@豆包身高172体重10519岁女生练完消耗多少大卡",
+   "date": "09-28",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.993,
+   "raw_username": "HUMAN-BEAN",
+   "n_lines": 2
+  },
+  {
+   "seq": 5,
+   "y": 868.8,
+   "username": "十八",
+   "body": "小基数49，苹果手环，150卡。第一天",
+   "date": "07-18",
+   "region": "重庆",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.971,
+   "raw_username": "十八",
+   "n_lines": 1
+  },
+  {
+   "seq": 6,
+   "y": 945.8,
+   "username": "喵喵",
+   "body": "打卡第一天，暴汗，谢谢博主",
+   "date": "2025-07-16",
+   "region": "江苏",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.962,
+   "raw_username": "喵喵",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 7,
+   "y": 1055.2,
+   "username": "不搞抽象",
+   "body": "已练完汗水打湿内裤了",
+   "date": "2025-07-22",
+   "region": "四川",
+   "likes": "3",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.953,
+   "raw_username": "不搞抽象",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 8,
+   "y": 1164.0,
+   "username": "佛系点儿a（e",
+   "body": "不过的确暴汗",
+   "date": "2025-07-19",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.845,
+   "raw_username": "佛系点儿a（e",
+   "n_lines": 1
+  },
+  {
+   "seq": 9,
+   "y": 1263.8,
+   "username": "凌晨三点半的北伦敦",
+   "body": "阿森材",
+   "date": "2025-07-23",
+   "region": "新疆",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.556,
+   "raw_username": "凌晨三点半的北伦敦",
+   "n_lines": 1
+  },
+  {
+   "seq": 10,
+   "y": 1379.2,
+   "username": "4:30",
+   "body": "很好、时间心率动作难度复杂程度都很恰当适合早上起来晨练的有氧部分",
+   "date": "09-22",
+   "region": "上海",
+   "likes": "3",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.921,
+   "raw_username": "4:30",
+   "n_lines": 2,
+   "likes_src": "crop"
+  }
+ ],
+ "unparsed": [
+  {
+   "text": "X",
+   "y": 251.2,
+   "x": 313.2,
+   "cls": "dark",
+   "score": 0.6107
+  },
+  {
+   "text": "08-09：四",
+   "y": 299.5,
+   "x": 54.5,
+   "cls": "light",
+   "score": 0.8599
+  },
+  {
+   "text": "展开8条回复√",
+   "y": 327.2,
+   "x": 82.2,
+   "cls": "meta",
+   "score": 0.9272
+  },
+  {
+   "text": "作者",
+   "y": 524.8,
+   "x": 159.5,
+   "cls": "meta",
+   "score": 0.9978
+  },
+  {
+   "text": "大湾区",
+   "y": 621.2,
+   "x": 54.2,
+   "cls": "light",
+   "score": 0.9971
+  },
+  {
+   "text": "裸练，练习到11分钟了，来打卡一下，接着",
+   "y": 641.0,
+   "x": 55.5,
+   "cls": "dark",
+   "score": 0.994
+  },
+  {
+   "text": "练",
+   "y": 658.2,
+   "x": 54.0,
+   "cls": "dark",
+   "score": 0.9995
+  },
+  {
+   "text": "07-06四川1回复",
+   "y": 679.8,
+   "x": 54.5,
+   "cls": "meta",
+   "score": 0.9303
+  },
+  {
+   "text": "展开1条回复√",
+   "y": 709.0,
+   "x": 81.8,
+   "cls": "meta",
+   "score": 0.8993
+  },
+  {
+   "text": "那止20分钟",
+   "y": 1142.0,
+   "x": 55.2,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "地毯意义在哪？",
+   "y": 1242.0,
+   "x": 55.5,
+   "cls": "dark",
+   "score": 0.993
+  },
+  {
+   "text": "杨bubble",
+   "y": 1411.8,
+   "x": 54.2,
+   "cls": "light",
+   "score": 0.923
+  },
+  {
+   "text": "善语结善缘，恶语伤人心",
+   "y": 1440.2,
+   "x": 21.2,
+   "cls": "meta",
+   "score": 0.9863
+  },
+  {
+   "text": "a",
+   "y": 1444.0,
+   "x": 277.2,
+   "cls": "dark",
+   "score": 0.7519
+  }
+ ],
+ "n_rows": 65
+}

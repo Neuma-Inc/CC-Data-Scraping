@@ -1,0 +1,1260 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #e9edf3; }
+  .slide {
+    width: 960px; height: 540px; position: relative; overflow: hidden;
+    background: #ffffff; color: #1A365D;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+  }
+  .topbar { position: absolute; top: 0; left: 0; width: 100%; height: 6px; background: #1A365D; }
+  .kicker { position: absolute; top: 28px; left: 52px; font-size: 13.2px; letter-spacing: 3px; color: #94a3b8; }
+  .title { position: absolute; top: 48px; left: 52px; right: 52px; font-size: 25.2px; line-height: 1.28; font-weight: 700; white-space: nowrap; }
+  .title.sm { font-size: 22.4px; }
+  .title.sm2 { font-size: 23.8px; }
+  .rule { position: absolute; top: 124px; left: 52px; width: 54px; height: 4px; background: #667EEA; }
+  .footer { position: absolute; bottom: 12px; left: 52px; right: 52px; font-size: 10.6px; color: #94a3b8;
+            border-top: 1px solid #E2E8F0; padding-top: 5px; line-height: 1.45; white-space: nowrap; overflow: hidden; }
+  .hl { color: #f59e0b; font-weight: 700; }
+  .red { color: #ef4444; font-weight: 700; }
+  .green { color: #10b981; font-weight: 700; }
+  .muted { color: #64748b; }
+  .nw { white-space: nowrap; }
+  .kv2 td.nm { white-space: nowrap; }
+
+  .cover { background: #1A365D; color: #fff; }
+  .cover .kicker { color: #94a3b8; }
+  .cover h1 { position: absolute; top: 168px; left: 52px; right: 52px; font-size: 44px; line-height: 1.25; font-weight: 700; }
+  .cover .sub { position: absolute; top: 328px; left: 52px; font-size: 17px; color: #CBD5E1; }
+  .cover .meta { position: absolute; bottom: 36px; left: 52px; font-size: 13.2px; color: #94a3b8; }
+  .cover .stripe { position: absolute; bottom: 0; left: 0; width: 100%; height: 5px; background: #667EEA; }
+
+  .stats { position: absolute; left: 52px; right: 52px; display: flex; gap: 12px; }
+  .stat { flex: 1; border-top: 3px solid #667EEA; background: #F8FAFC; padding: 12px 12px 14px; }
+  .stat .num { font-size: 30px; font-weight: 700; line-height: 1.1; letter-spacing: -0.5px; }
+  .stat .lab { font-size: 13.2px; color: #334155; margin-top: 6px; line-height: 1.45; }
+  .stat .src { font-size: 10.2px; color: #94a3b8; margin-top: 5px; }
+
+  .four { position: absolute; left: 52px; right: 52px; display: flex; gap: 10px; }
+  .fcard { flex: 1; background: #F8FAFC; padding: 12px 12px 14px; border-top: 4px solid #667EEA; }
+  .fcard.o { border-top-color: #f59e0b; }
+  .fcard.g { border-top-color: #10b981; }
+  .fcard.r { border-top-color: #ef4444; }
+  .fcard .fn { font-size: 28px; font-weight: 700; line-height: 1.05; }
+  .fcard .ft { font-size: 14.4px; font-weight: 700; margin-top: 4px; }
+  .fcard .fd { font-size: 11.4px; color: #64748b; margin-top: 6px; line-height: 1.5; }
+
+  .ct { width: 100%; border-collapse: collapse; }
+  .ct th { font-size: 11.4px; letter-spacing: 1px; color: #64748b; font-weight: 600; text-align: left;
+           padding: 0 7px 6px; border-bottom: 2px solid #1A365D; }
+  .ct td { font-size: 12.0px; line-height: 1.28; color: #334155; padding: 4px 7px;
+           border-bottom: 1px solid #E2E8F0; vertical-align: top; }
+  .ct .nm { font-weight: 700; color: #1A365D; font-size: 12.4px; }
+  .ct .pct { font-weight: 700; color: #f59e0b; }
+  .ct.xs td { padding: 3.5px 7px; font-size: 11.4px; line-height: 1.24; }
+  .ct.air td { padding: 7px 8px; font-size: 12.4px; line-height: 1.3; }
+  .ct.air2 td { padding: 6px 8px; font-size: 12.8px; line-height: 1.3; }
+  .ct.air3 td { padding: 10px 8px; font-size: 13.0px; line-height: 1.35; }
+  .ct.air th, .ct.air2 th, .ct.air3 th { padding-bottom: 7px; font-size: 11.8px; }
+  .ct.air td.nm, .ct.air2 td.nm, .ct.air3 td.nm { font-size: 13.2px; }
+  .ct.kv td.nm { width: 88px; white-space: nowrap; }
+  .ct.mid td { padding: 4.5px 7px; font-size: 11.8px; line-height: 1.28; }
+
+  .split { position: absolute; left: 52px; right: 52px; display: flex; gap: 16px; }
+  .split .col { flex: 1; }
+  .sub-h { font-size: 11.8px; letter-spacing: 1px; color: #64748b; margin-bottom: 5px; font-weight: 700; }
+
+  .band { position: absolute; left: 52px; right: 52px; background: #1A365D; color: #fff; padding: 8px 14px; }
+  .band .t { font-size: 11.5px; letter-spacing: 1.2px; color: #94a3b8; }
+  .band .b { font-size: 13.4px; line-height: 1.45; margin-top: 2px; }
+  .band .b.sm { font-size: 12.5px; }
+  .band .b.xs { font-size: 11.3px; white-space: nowrap; }
+  .ct.p12 th, .ct.p12 td { font-size: 10.9px; padding: 4.5px 5px; white-space: nowrap; }
+  .ct.p12 td.nm { font-size: 11.4px; }
+
+  .box { background: #F8FAFC; border-left: 3px solid #667EEA; padding: 6px 10px; }
+  .box.g { border-left-color: #10b981; }
+  .box.o { border-left-color: #f59e0b; }
+  .box .h { font-size: 11.4px; font-weight: 700; letter-spacing: 0.6px; }
+  .box .c { font-size: 11.1px; color: #334155; margin-top: 2px; line-height: 1.38; }
+
+  .pt { width: 100%; border-collapse: collapse; }
+  .pt td { font-size: 10.9px; line-height: 1.28; color: #334155; padding: 3.5px 4px; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
+  .pt .pn { width: 52px; text-align: right; font-weight: 700; color: #b45309; font-size: 11.4px; padding-right: 7px; white-space: nowrap; }
+  .pt .q { color: #64748b; font-size: 10.0px; }
+
+  .title.xs { font-size: 20.6px; }
+  .ct.dense th { font-size: 10.4px; padding: 0 4px 3px; border-bottom: 2px solid #1A365D; }
+  .ct.dense td { font-size: 9.8px; line-height: 1.18; padding: 2.3px 4px; border-bottom: 1px solid #E2E8F0; vertical-align: top; color: #334155; }
+  .ct.dense td.nm { font-size: 10.2px; font-weight: 700; color: #1A365D; }
+  .ct.dense.xs-t th { font-size: 10.0px; padding: 0 4px 2px; }
+  .ct.dense.xs-t td { font-size: 9.3px; line-height: 1.15; padding: 1.8px 4px; }
+  .ct.dense.xs-t td.nm { font-size: 9.8px; }
+  .pt.dense td { font-size: 10.1px; line-height: 1.19; padding: 2.2px 4px; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
+  .pt.dense .pn { width: 54px; font-size: 10.4px; padding-right: 5px; }
+  .pt.dense .q { font-size: 9.3px; color: #64748b; }
+  .kpi-strip { display: flex; gap: 6px; margin-top: 4px; margin-bottom: 4px; }
+  .kpi-mini { flex: 1; background: #FFFBEB; border: 1px solid #FDE68A; border-left: 3px solid #f59e0b; padding: 3.5px 5px; }
+  .kpi-mini.b { background: #EFF6FF; border-color: #BFDBFE; border-left-color: #1A365D; }
+  .kpi-mini.g { background: #ECFDF5; border-color: #A7F3D0; border-left-color: #10b981; }
+  .kpi-mini .km-v { font-size: 11.2px; font-weight: 700; color: #1A365D; line-height: 1.15; }
+  .kpi-mini .km-l { font-size: 9.4px; color: #475569; margin-top: 1px; line-height: 1.18; }
+  .box.tight { padding: 4px 8px; }
+  .box.tight .h { font-size: 10.5px; }
+  .box.tight .c { font-size: 9.8px; line-height: 1.24; margin-top: 1.5px; }
+  .tree-grid { position: absolute; top: 130px; left: 52px; right: 52px; height: 320px; display: grid; grid-template-columns: 140px 214px 244px 234px; gap: 8px; }
+  .t-col { display: flex; flex-direction: column; gap: 2.5px; height: 100%; }
+  .t-hdr { background: #1A365D; color: #fff; font-size: 9.8px; font-weight: 700; padding: 2.5px 6px; display: flex; justify-content: space-between; white-space: nowrap; }
+  .t-hdr.c2 { background: #0f766e; }
+  .t-hdr.c3 { background: #b45309; }
+  .t-hdr.c4 { background: #7c2d12; }
+  .t-card { background: #F8FAFC; border: 1px solid #CBD5E1; border-left: 3px solid #1A365D; padding: 2.2px 5px; flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .t-card.c2 { border-left-color: #0f766e; }
+  .t-card.c3 { border-left-color: #d97706; }
+  .t-card.c4 { border-left-color: #7c2d12; }
+  .t-card.star { background: #FFFBEB; border-color: #FCD34D; border-left-color: #b45309; }
+  .t-card .th { font-size: 9.3px; font-weight: 700; color: #1A365D; display: flex; justify-content: space-between; white-space: nowrap; margin-bottom: 0.5px; }
+  .t-card .th span.cnt { color: #b45309; }
+  .t-card .tp { font-size: 8.2px; color: #334155; line-height: 1.16; }
+
+  /* === v40 拆页减字 + 放大字号样式 === */
+  .v40-grid3 { position: absolute; top: 138px; left: 52px; right: 52px; display: flex; gap: 16px; height: 300px; }
+  .v40-card { flex: 1; background: #F8FAFC; border: 1px solid #E2E8F0; border-top: 4px solid #1A365D; padding: 14px 16px; display: flex; flex-direction: column; justify-content: space-between; }
+  .v40-card.o { border-top-color: #f59e0b; background: #FFFBEB; border-color: #FDE68A; }
+  .v40-card.g { border-top-color: #10b981; background: #ECFDF5; border-color: #A7F3D0; }
+  .v40-card .tag { font-size: 13.5px; font-weight: 700; color: #64748b; letter-spacing: 0.5px; }
+  .v40-card.o .tag { color: #b45309; }
+  .v40-card.g .tag { color: #0f766e; }
+  .v40-card .big-row { display: flex; align-items: baseline; gap: 8px; margin: 4px 0 6px; white-space: nowrap; }
+  .v40-card .big-num { font-size: 25px; font-weight: 700; color: #1A365D; line-height: 1.05; white-space: nowrap; }
+  .v40-card.o .big-num { color: #b45309; }
+  .v40-card.g .big-num { color: #0f766e; }
+  .v40-card .big-sub { font-size: 13.5px; font-weight: 700; color: #334155; white-space: nowrap; }
+  .v40-card .item { font-size: 14.0px; line-height: 1.48; color: #1E293B; padding-top: 8px; border-top: 1px dashed #CBD5E1; }
+  .v40-card .item b { color: #1A365D; }
+
+  .v40-pk { position: absolute; top: 132px; left: 52px; right: 52px; display: flex; gap: 16px; }
+  .v40-panel { flex: 1; background: #F8FAFC; border: 1px solid #CBD5E1; border-top: 4px solid #1A365D; padding: 8px 12px 9px; }
+  .v40-panel.o { border-top-color: #f59e0b; background: #FFFDF7; border-color: #FDE68A; }
+  .v40-panel .ph { font-size: 14.2px; font-weight: 700; color: #1A365D; margin-bottom: 5px; display: flex; justify-content: space-between; align-items: center; }
+  .v40-panel.o .ph { color: #92400e; }
+  .v40-panel .ph span.sub { font-size: 12.2px; font-weight: 600; color: #64748b; }
+  .v40-kpis { display: flex; gap: 7px; margin-bottom: 6px; }
+  .v40-kpi { flex: 1; background: #EFF6FF; border: 1px solid #BFDBFE; padding: 4px 6px; text-align: center; }
+  .v40-panel.o .v40-kpi { background: #FEF3C7; border-color: #FCD34D; }
+  .v40-kpi .num { font-size: 24px; font-weight: 700; color: #1A365D; line-height: 1.05; }
+  .v40-panel.o .v40-kpi .num { color: #b45309; }
+  .v40-kpi .lab { font-size: 11.8px; color: #334155; margin-top: 2px; line-height: 1.2; font-weight: 600; white-space: nowrap; }
+  .v40-plist { display: flex; flex-direction: column; gap: 5px; margin-bottom: 6px; }
+  .v40-pitem { font-size: 13.6px; line-height: 1.45; color: #1E293B; background: #ffffff; border: 1px solid #E2E8F0; border-left: 3.5px solid #1A365D; padding: 4px 8px; }
+  .v40-panel.o .v40-pitem { border-left-color: #d97706; }
+  .v40-pos { background: #1A365D; color: #ffffff; font-size: 13.5px; line-height: 1.45; padding: 5px 9px; }
+  .v40-panel.o .v40-pos { background: #92400e; }
+
+  .v40-top3 { position: absolute; top: 132px; left: 52px; right: 52px; display: flex; gap: 14px; }
+  .v40-topcard { flex: 1; background: #F8FAFC; border: 1px solid #CBD5E1; border-left: 4px solid #1A365D; padding: 6px 12px; display: flex; align-items: center; gap: 10px; }
+  .v40-topcard.o { border-left-color: #f59e0b; background: #FFFBEB; border-color: #FDE68A; }
+  .v40-topcard.g { border-left-color: #10b981; background: #ECFDF5; border-color: #A7F3D0; }
+  .v40-topcard .tn { font-size: 24px; font-weight: 700; color: #1A365D; line-height: 1.05; white-space: nowrap; }
+  .v40-topcard.o .tn { color: #b45309; }
+  .v40-topcard.g .tn { color: #0f766e; }
+  .v40-topcard .tl { font-size: 12.8px; color: #334155; line-height: 1.28; font-weight: 600; white-space: nowrap; }
+
+  .v40-table { width: 100%; border-collapse: collapse; }
+  .v40-table th { font-size: 13.5px; font-weight: 700; color: #1A365D; text-align: left; padding: 0 8px 4px; border-bottom: 2px solid #1A365D; }
+  .v40-table td { font-size: 13.8px; line-height: 1.40; color: #1E293B; padding: 4px 8px; border-bottom: 1px solid #E2E8F0; vertical-align: middle; }
+  .v40-table td.rk { width: 128px; font-weight: 700; color: #b45309; font-size: 13.8px; white-space: nowrap; }
+  .v40-table td.qt { color: #475569; font-size: 13.4px; }
+
+  .v40-ch-table { width: 100%; border-collapse: collapse; }
+  .v40-ch-table th { font-size: 13.2px; font-weight: 700; color: #1A365D; text-align: left; padding: 0 8px 4px; border-bottom: 2px solid #1A365D; }
+  .v40-ch-table td { font-size: 13.0px; line-height: 1.30; color: #1E293B; padding: 4px 8px; border-bottom: 1px solid #E2E8F0; vertical-align: middle; }
+  .v40-ch-table td.nm { font-weight: 700; color: #1A365D; font-size: 13.4px; white-space: nowrap; }
+
+  .v40-gap3 { position: absolute; left: 52px; right: 52px; display: flex; gap: 12px; }
+  .v40-gapcard { flex: 1; background: #F8FAFC; border: 1px solid #CBD5E1; border-top: 3.5px solid #1A365D; padding: 6px 12px; }
+  .v40-gapcard.o { border-top-color: #f59e0b; background: #FFFBEB; border-color: #FDE68A; }
+  .v40-gapcard.g { border-top-color: #10b981; background: #ECFDF5; border-color: #A7F3D0; }
+  .v40-gapcard .gh { font-size: 13.5px; font-weight: 700; color: #1A365D; }
+  .v40-gapcard.o .gh { color: #92400e; }
+  .v40-gapcard.g .gh { color: #0f766e; }
+  .v40-gapcard .gc { font-size: 12.8px; line-height: 1.34; color: #334155; margin-top: 2px; }
+
+  .v40-guide3 { position: absolute; top: 134px; left: 52px; right: 52px; display: flex; gap: 14px; }
+  .v40-gcard { flex: 1; background: #F8FAFC; border: 1px solid #CBD5E1; border-top: 4px solid #1A365D; padding: 10px 13px; }
+  .v40-gcard.o { border-top-color: #f59e0b; background: #FFFBEB; border-color: #FDE68A; }
+  .v40-gcard.g { border-top-color: #10b981; background: #ECFDF5; border-color: #A7F3D0; }
+  .v40-gcard .gt { font-size: 14.0px; font-weight: 700; color: #1A365D; margin-bottom: 4px; }
+  .v40-gcard.o .gt { color: #92400e; }
+  .v40-gcard.g .gt { color: #0f766e; }
+  .v40-gcard .gb { font-size: 13.6px; line-height: 1.48; color: #1E293B; }
+
+  .v40-cause4 { position: absolute; top: 278px; left: 52px; right: 52px; display: flex; gap: 12px; }
+  .v40-ccard { flex: 1; background: #ffffff; border: 1px solid #CBD5E1; border-left: 4px solid #1A365D; padding: 10px 12px; }
+  .v40-ccard.o { border-left-color: #f59e0b; background: #FFFDF7; }
+  .v40-ccard.r { border-left-color: #ef4444; background: #FEF2F2; }
+  .v40-ccard.g { border-left-color: #10b981; background: #F0FDF4; }
+  .v40-ccard .cn { font-size: 25px; font-weight: 700; color: #1A365D; line-height: 1.08; }
+  .v40-ccard.o .cn { color: #b45309; }
+  .v40-ccard.r .cn { color: #dc2626; }
+  .v40-ccard.g .cn { color: #0f766e; }
+  .v40-ccard .ctit { font-size: 14.2px; font-weight: 700; color: #1E293B; margin-top: 3px; }
+  .v40-ccard .cdesc { font-size: 13.5px; line-height: 1.45; color: #475569; margin-top: 4px; }
+
+  .v40-contrast { position: absolute; top: 136px; left: 52px; right: 52px; display: flex; flex-direction: column; gap: 10px; }
+  .v40-crow { display: grid; grid-template-columns: 126px 236px 236px 234px; gap: 8px; align-items: stretch; min-height: 88px; }
+  .v40-ccell { background: #F8FAFC; border: 1px solid #CBD5E1; padding: 8px 11px; font-size: 13.6px; line-height: 1.45; color: #1E293B; display: flex; flex-direction: column; justify-content: center; }
+  .v40-ccell.tag { background: #1A365D; color: #ffffff; font-weight: 700; font-size: 13.8px; text-align: center; border-color: #1A365D; white-space: nowrap; }
+  .v40-ccell.tag.o { background: #b45309; border-color: #b45309; }
+  .v40-ccell.tag.g { background: #0f766e; border-color: #0f766e; }
+  .v40-ccell.err { background: #FEF2F2; border-color: #FECACA; border-left: 3.5px solid #ef4444; }
+  .v40-ccell.tru { background: #EFF6FF; border-color: #BFDBFE; border-left: 3.5px solid #1A365D; }
+  .v40-ccell.sell { background: #ECFDF5; border-color: #A7F3D0; border-left: 3.5px solid #10b981; }
+  .v40-ccell .ch { font-size: 12.2px; font-weight: 700; color: #64748b; margin-bottom: 3px; }
+  .v40-ccell .cb { font-size: 13.6px; line-height: 1.45; color: #1E293B; }
+  .v40-ccell.err .ch { color: #b91c1c; }
+  .v40-ccell.tru .ch { color: #1e40af; }
+  .v40-ccell.sell .ch { color: #047857; }
+
+  body { background: #cbd5e1; padding: 28px 0 60px; counter-reset: slide-no; }
+  .slide { margin: 26px auto; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18); border-radius: 4px; counter-increment: slide-no; }
+  .slide::after { content: "P" counter(slide-no) " / 31"; position: absolute; top: 18px; right: 24px; font-size: 12px; font-weight: 700; color: #64748b; background: #f1f5f9; padding: 2px 8px; border-radius: 10px; border: 1px solid #cbd5e1; }
+  .slide.cover::after { background: rgba(255,255,255,0.14); color: #cbd5e1; border-color: rgba(255,255,255,0.25); }
+</style>
+</head>
+<body>
+
+<!-- P1 封面 -->
+<section class="slide cover">
+  <div class="kicker">灵知生物 · 市场调研</div>
+  <h1>减重课程市场调研报告</h1>
+  <div class="sub">从 4,283 篇内容与 93,410 条评论里，看清哪条赛道能做、哪群人肯掏钱</div>
+  <div class="meta">2026-11-05　|　五平台 · 近半年 · 全量重算</div>
+  <div class="stripe"></div>
+</section>
+
+<!-- P2 01 总结论 · 市场判断 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">01 总结论 · 市场判断</div>
+  <div class="title sm">普通减肥课卖不动了，只有「体检亮红灯（首选控糖）」有人掏钱</div>
+  <div class="rule"></div>
+  <div class="v40-grid3">
+    <div class="v40-card o">
+      <div>
+        <div class="tag">① 看赛道与对手</div>
+        <div class="big-row"><span class="big-num">+74.6%</span><span class="big-sub">控糖唯一三项前三</span></div>
+      </div>
+      <div class="item">十赛道唯控糖<b>增速 +74.6%、转化意图 21.7%、评论 1.2 万条</b>三项全居前三；大众减肥意图仅 <b>3.6%</b>。</div>
+      <div class="item"><b>206 元/月减肥针</b>压穿纯掉秤，但<b>差评率 19.2%</b> 最高、怕停药反弹，留出饮食配套空白。</div>
+    </div>
+    <div class="v40-card">
+      <div>
+        <div class="tag">② 看谁肯付钱</div>
+        <div class="big-row"><span class="big-num">39.7%</span><span class="big-sub">体检异常意愿最高</span></div>
+      </div>
+      <div class="item"><b>体检指标异常占 39.7%</b>，包揽付费意愿前三；<b>胰岛素抵抗</b>是唯一<b>意愿 69.1 + 问价 45 条/万</b>双第一人群。</div>
+      <div class="item"><b>宝妈与上班族占 32.0%</b>，声量大但问价仅 <b>5.9–7.3 条/万</b>，极少掏钱买高价课。</div>
+    </div>
+    <div class="v40-card g">
+      <div>
+        <div class="tag">③ 看卡点与空白</div>
+        <div class="big-row"><span class="big-num">162元/次</span><span class="big-sub">医院只开药不管三餐</span></div>
+      </div>
+      <div class="item">公立医院问诊中位 <b>162 元/次</b>只开药不管饭；<b>298 元通用减肥课</b>一刀切让人挨饿。</div>
+      <div class="item">无人接住导致 <b>26.8% 在前 3 天退出</b>、<b>第 15 天卡秤</b>放弃、<b>半年后 21.2% 复胖</b>。</div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>一句话结论：</b>避开 298 元通用减肥红海，卡在「医院不管饭」与「万元私域太贵」之间，做 1,500–3,000 元/月指标改善陪跑。</div></div>
+  <div class="footer">依据：5 平台 4,283 篇内容 + 93,410 条评论 + 682 条人工编码 + 101 家卖课商家（198 个 SKU）实测数据</div>
+</section>
+
+<!-- P3 01 总结论 · 落地方向 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">01 总结论 · 落地方向</div>
+  <div class="title sm">主攻三类高意愿人群，做「1 套控糖底课 + 3 套专病食谱 + 打针伴侣」</div>
+  <div class="rule"></div>
+  <div class="v40-grid3">
+    <div class="v40-card">
+      <div>
+        <div class="tag">① 第一顺位 · 现金牛主力</div>
+        <div class="big-row"><span class="big-num">24 节</span><span class="big-sub">胰岛素抵抗双轨课</span></div>
+      </div>
+      <div class="item"><b>症状型（评论热度高 2 倍）：</b>用 <b>9.9–99 元</b>「3 天止心慌食谱」做前端拉新入口。</div>
+      <div class="item"><b>报告型（真开口问价高 7 倍）：</b>卖 <b>1,500–3,000 元/月</b>「化验单解读 + 90 天复查陪跑」。</div>
+    </div>
+    <div class="v40-card o">
+      <div>
+        <div class="tag">② 第二顺位 · 专病与伴侣扩展</div>
+        <div class="big-row"><span class="big-num">34 节</span><span class="big-sub">多囊 / 脂肪肝 / 打针伴侣</span></div>
+      </div>
+      <div class="item"><b>多囊（意愿 76.2 第一）：</b>做胖瘦分轨调经备孕课；<b>脂肪肝：</b>做戒果糖与肝脂尿酸同降配餐。</div>
+      <div class="item"><b>打针族（占全库 6.7%）：</b>做在用期补蛋白保肌 + 停针 12 周防反弹软着陆加课。</div>
+    </div>
+    <div class="v40-card g">
+      <div>
+        <div class="tag">③ 流量与防崩底座</div>
+        <div class="big-row"><span class="big-num">48 节</span><span class="big-sub">场景引流 + 三节点护航</span></div>
+      </div>
+      <div class="item"><b>公域免费引流：</b>用产后恢复、中老年保肌、上班族外卖四步点单做短视频获客抓手。</div>
+      <div class="item"><b>三节点防崩护航：</b>在<b>入营前 3 天、第 15 天卡秤期、第 6 个月</b>设有人接的防崩节点。</div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>边界声明：</b>只做营养师视角的「报告解读 + 家常/外卖三餐替换」，不诊断疾病、不指导用药剂量、不承诺几天掉几斤。</div></div>
+  <div class="footer">课程体系合计：三大方向 9 门正课 + 1 门减肥针伴侣加课 = 106 节｜详见第 24–25 页总结闭环与课程大纲蓝图</div>
+</section>
+
+<!-- P4 02 一页看懂全篇 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">02 一页看懂全篇</div>
+  <div class="title">全篇只讲三件事：为什么只做控糖、哪群人肯掏钱、课程大纲怎么闭环</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:136px;left:52px;right:52px">
+    <table class="ct xs air">
+      <tr><th style="width:140px">论证支柱</th><th style="width:168px">核心问题</th><th>核心数据结论</th><th style="width:88px">对应页码</th></tr>
+      <tr><td class="nm">支柱一：市场与对手</td>
+        <td>钱和注意力流向哪？<br/>对手是谁？</td>
+        <td>控糖唯一三项前三（<b>+74.6% / 21.7% / 1.2万条</b>）；减肥针 <b>206 元/月</b>压穿掉秤逻辑，但差评 <b>19.2%</b> 留出配套空白；抖音问价第一（<b>42.2/万</b>）、小红书收藏第一（<b>0.748</b>）</td>
+        <td class="nw">第 5–10 页</td></tr>
+      <tr><td class="nm">支柱二：人群与差异化</td>
+        <td>谁在真付钱？现有方案缺什么？怎么打差异化？</td>
+        <td>体检异常占 <b>39.7%</b> 意愿最高；拆解<b>胰岛素抵抗（报告型/症状型）、多囊、脂肪肝</b>三大主流人群痛点、5 大现有渠道缺陷与<b>「专病课+AI秒级看餐+高毛利补剂/主食替换」</b>差异化打法</td>
+        <td class="nw">第 11–23 页</td></tr>
+      <tr><td class="nm">支柱三：卡点与闭环</td>
+        <td>用户在哪掉队？<br/>课程怎么接住？</td>
+        <td>前 3 天退出（<b>26.8%</b>）、15 天卡秤、半年复胖（<b>21.2%</b>）三大流失点；收敛为<b>「三大痛点 → 三大市场空白 → 9门正课+1门打针加课（106节）」</b>闭环</td>
+        <td class="nw">第 24–27 页</td></tr>
+      <tr><td class="nm">附录：母词树与底座</td>
+        <td>数据怎么抓出来的？<br/>有偏误吗？</td>
+        <td><b>8 个一级母词 → 43 个二级词干 → 五平台联想靶向词 → 4,283 篇 / 93,410 评 + 500 条电商/供应链实测</b>完整底座；硬数据支撑占 <b>87%</b></td>
+        <td class="nw">第 28–31 页</td></tr>
+    </table>
+  </div>
+  <div style="position:absolute;left:52px;right:52px;top:382px;display:flex;gap:12px">
+    <div class="box" style="flex:1"><div class="h">支柱一 · 第 5–10 页</div><div class="c">十赛道对比、外部替代品（减肥针与训练营）、五平台分工与内容供给错配</div></div>
+    <div class="box o" style="flex:1"><div class="h" style="color:#92400e">支柱二 · 第 11–23 页</div><div class="c">三大主流人群拆解（报告型/症状型/多囊/脂肪肝）、现有方案缺陷、差异化打法、指南病因与反差</div></div>
+    <div class="box g" style="flex:1"><div class="h" style="color:#0f766e">支柱三与附录 · 第 24–31 页</div><div class="c">三大流失节点、评论口碑预期、痛点→缺失→方向推导、106节课程蓝图与母词裂变树状图</div></div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b">全篇只讲市场事实与数据推导出的方向：每一页回答一个子问题，所有数字均可溯源至原始表。</div></div>
+  <div class="footer">页码为本报告的汇报顺序（共 31 页）｜证据等级：A 级＝全量打标与电商实抓，B 级＝小样本自报，见附录 A（第 28–30 页）</div>
+</section>
+
+<!-- P4 03 支柱一 · 赛道方向 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">03 看赛道 · 哪个方向能做</div>
+  <div class="title">十个赛道里，只有「控糖」同时做到涨得快、问价多、人数够大</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:138px;left:52px;right:52px">
+    <table class="ct xs">
+      <tr><th style="width:196px">赛道（按三平台合计增速排序）</th><th style="width:76px">合计增速</th><th style="width:66px">转化意图</th><th style="width:66px">评论量</th><th>这个数据说明什么</th></tr>
+      <tr><td class="nm">减肥针（司美/替尔泊肽）</td><td class="green">+115.9%</td><td>8.2%</td><td>6,287</td><td>涨最快，但评论在讨论副作用；处方药课程碰不了</td></tr>
+      <tr style="background:#FFF7ED"><td class="nm">控糖 / 胰岛素抵抗 / 糖前期</td><td class="green"><b>+74.6%</b></td><td><b>21.7%</b></td><td><b>12,265</b></td><td><b>增速第 2、意图第 1、规模第 1——三项都在前三，只有它</b></td></tr>
+      <tr><td class="nm">轻断食 16+8 / 5+2</td><td class="green">+57.1%</td><td>6.2%</td><td>2,276</td><td>靠免费内容涨，没有付费承接</td></tr>
+      <tr><td class="nm">脂肪肝 / 尿酸 / 体检异常</td><td class="green">+27.4%</td><td>7.7%</td><td>8,487</td><td>意图中上、规模够，可做第二梯队</td></tr>
+      <tr><td class="nm">大众减重（减肥/减脂）</td><td class="green">+22.8%</td><td class="red">3.6%</td><td>25,297</td><td>盘子最大，但转化意图最低——看的人多，买的人少</td></tr>
+      <tr><td class="nm">多囊 PCOS</td><td class="green">+22.0%</td><td>13.4%</td><td>3,364</td><td>意图第 2，但盘子小、疾病表述合规风险最高</td></tr>
+      <tr><td class="nm">线上营 / 营养师 / 代餐</td><td class="green">+18.8%</td><td>6.6%</td><td>11,809</td><td>这是竞品，不是可选的赛道</td></tr>
+      <tr><td class="nm">皮质醇 / 熬夜压力肥</td><td class="green">+8.0%</td><td>4.4%</td><td>9,869</td><td>增长慢，痛点真实但离付费远</td></tr>
+      <tr><td class="nm">中医痰湿 / 气血 / 脾虚</td><td class="green">+5.9%</td><td class="red">2.3%</td><td>5,105</td><td>意图最低，且功效表述合规风险高</td></tr>
+      <tr><td class="nm">产后与中年发福 / 更年期</td><td class="red">−5.6%</td><td>3.8%</td><td>6,875</td><td>唯一负增长</td></tr>
+    </table>
+  </div>
+  <div style="position:absolute;left:52px;right:52px;top:416px" class="box o">
+    <div class="c"><b>为什么不是增速最快的减肥针：</b>它的流量属于"副作用讨论场"，商业问询只有 45/万，且处方药不能碰；控糖有 <b>2,298 条"求诊断/看报告"</b>，是四类意图里最接近成交的一种。<br/>
+    <b>分平台看控糖：</b>抖音 +28.6%｜B站 +162.2%｜小红书 +44.2%——三个平台都在涨，不是单平台现象。</div>
+  </div>
+  <div class="footer">增速：2,830 条抽样，各平台近3月/前3月求和后计算｜转化意图：4 万余条评论按赛道归类，求食谱+询价+求私域+求诊断四类合计</div>
+</section>
+
+<!-- P5 04 支柱一 · 外部替代品 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">04 看对手 · 减肥针的冲击</div>
+  <div class="title sm2">两百块一针的减肥药抢走了单纯想瘦的人，只能做「打针配套与防反弹」</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:136px;left:52px;right:52px">
+    <table class="ct xs">
+      <tr><th>替代方案</th><th style="width:170px">月成本</th><th style="width:70px">负评率</th><th style="width:230px">负评集中在哪</th></tr>
+      <tr><td class="nm">司美格鲁肽 0.25mg×4 次</td><td><b>206 元</b>（最低 81 元/针）</td><td class="red">19.2%</td><td>停药反弹、恶心呕吐、脱发</td></tr>
+      <tr><td class="nm">线上减脂营（21 天）</td><td>1,980 元</td><td>10.2%</td><td>出营反弹、退费难</td></tr>
+      <tr><td class="nm">封闭训练营（28 天）</td><td>10,000 元</td><td>10.2%</td><td>出营反弹、退费纠纷</td></tr>
+      <tr><td class="nm">1v1 营养师</td><td>299 元</td><td class="green">7.5%</td><td>方案不落地、二次收费</td></tr>
+      <tr><td class="nm">168 轻断食（自己在家做）</td><td>0 元</td><td>15.1%</td><td>饿不住、姨妈期掉链子、没人管</td></tr>
+    </table>
+  </div>
+  <div class="split" style="top:308px">
+    <div class="col"><div class="box g"><div class="h" style="color:#0f766e">数据直接支持的</div>
+      <div class="c">负评率与价格<b>不相关</b>：最贵的封闭营 10,000 元是 10.2%，最便宜的 168 轻断食 0 元是 15.1%，中间价位从 7.5% 到 19.2% 都有。</div></div></div>
+    <div class="col"><div class="box o"><div class="h" style="color:#92400e">我的推断（未验证）</div>
+      <div class="c">看起来与"有没有人管"更相关：1v1 有人盯 7.5% 最低，药只给不管人 19.2% 最高。但"人力密度"没量化，只有 5 个样本点。</div></div></div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="t">市场定位判断</div>
+    <div class="b">跟药比"掉秤"必输（便宜 90%）。市场机会在于做<b>药的配套</b>——用药期怎么吃、停药后怎么不反弹，不做<b>药的替代</b>。</div></div>
+  <div class="footer">数据源：负评率来自评论分类器（A 级）｜价格中位来自 52 条自报报价，单类 n≤11，仅作方向参考｜药价为四家媒体交叉，B 级</div>
+</section>
+
+<!-- P6 05 支柱一 · 平台全局 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">05 看平台 · 哪个平台有人买</div>
+  <div class="title">B站视频最多但没人问价，抖音问价的人最多（是B站的 2.4 倍）</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:140px;left:52px;right:52px">
+    <table class="ct xs air2">
+      <tr><th style="width:72px">平台</th><th style="width:84px">内容量</th><th style="width:74px">中位点赞</th><th style="width:68px">藏赞比</th><th style="width:104px">付费问询密度</th><th>说明</th></tr>
+      <tr><td class="nm">B站</td><td class="nw">1,386 篇</td><td class="red">27</td><td>不可得</td><td class="red">17.8 / 万</td><td>内容量最大、互动最低、问询最低；用户看长视频但不掏钱</td></tr>
+      <tr><td class="nm">小红书</td><td class="nw">1,046 篇</td><td>372</td><td class="green"><b>0.748</b></td><td>24.1 / 万</td><td>藏赞比最高，用户存下来做购买前对照</td></tr>
+      <tr><td class="nm">抖音</td><td class="nw">823 篇</td><td class="green"><b>8,585</b></td><td>0.562</td><td class="green"><b>42.2 / 万</b></td><td>触达与问询双第一，但内容生命周期最短</td></tr>
+      <tr><td class="nm">知乎</td><td class="nw">749 篇</td><td>2</td><td>不可得</td><td>13.1 / 万</td><td>样本小、问询最低，适合看长文论证</td></tr>
+      <tr><td class="nm">微博</td><td class="nw">310 篇</td><td>9</td><td>不可得</td><td>26.9 / 万</td><td>量小、点赞多为 0，只作话题监测</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:58px">
+    <div class="t">综合结论</div>
+    <div class="b">内容量与商业价值<b>不成正比</b>：B站内容最多、问询最少；抖音内容第三、问询第一。选平台不能看"哪里内容多"，要看"哪里有人问价"。</div>
+  </div>
+  <div class="footer">内容量与中位点赞：内容主表 4,314 篇全量重算｜藏赞比：B站/知乎/微博不公开收藏数｜问询密度：每万条评论的求购+问价（重标 103,968 条）</div>
+</section>
+
+<!-- P7 06 支柱一 · 主力平台 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">06 看平台 · 主力渠道分工</div>
+  <div class="title">抖音负责拉新问价，小红书负责收藏比对，B站只负责把原理讲透</div>
+  <div class="rule"></div>
+  <div class="split" style="top:150px">
+    <div class="col">
+      <div class="sub-h" style="color:#ef4444">抖音 · 拉新与直接问价</div>
+      <table class="ct xs air2 kv2">
+        <tr><td class="nm">内容量</td><td>823 篇</td></tr>
+        <tr><td class="nm">中位点赞</td><td><b>8,585</b>（小红书 23 倍、B站 318 倍）</td></tr>
+        <tr><td class="nm">藏赞比</td><td>0.562</td></tr>
+        <tr><td class="nm">问询密度</td><td><b>42.2 / 万</b>，五平台第一</td></tr>
+      </table>
+      <div class="box" style="margin-top:8px"><div class="c">用户刷到 → 立刻问"怎么买、多少钱"。<b>适合拉新和承接问价，不适合讲机制</b>——长内容会被划走。</div></div>
+    </div>
+    <div class="col">
+      <div class="sub-h" style="color:#b45309">小红书 · 收藏与决策参考</div>
+      <table class="ct xs air2 kv2">
+        <tr><td class="nm">内容量</td><td>1,046 篇</td></tr>
+        <tr><td class="nm">中位点赞</td><td>372</td></tr>
+        <tr><td class="nm">藏赞比</td><td><b>0.748</b>，全平台最高</td></tr>
+        <tr><td class="nm">问询密度</td><td>24.1 / 万</td></tr>
+      </table>
+      <div class="box" style="margin-top:8px"><div class="c">用户先<b>收藏</b>，再对比，再决定。<b>适合做清单/攻略</b>——结构要可保存，不是可刷完。</div></div>
+    </div>
+    <div class="col">
+      <div class="sub-h" style="color:#0f766e">B站 · 深度信任，不带货</div>
+      <table class="ct xs air2 kv2">
+        <tr><td class="nm">内容量</td><td><b>1,386 篇</b>，五平台第一</td></tr>
+        <tr><td class="nm">中位点赞</td><td>27，五平台最低</td></tr>
+        <tr><td class="nm">藏赞比</td><td>不可得</td></tr>
+        <tr><td class="nm">问询密度</td><td><b>17.8 / 万</b>，五平台最低</td></tr>
+      </table>
+      <div class="box" style="margin-top:8px"><div class="c">用户看 20 分钟讲机制，但<b>不问价</b>。<b>适合建信任，不适合挂转化</b>——把成交压在这里会空转。</div></div>
+    </div>
+  </div>
+  <div class="band" style="bottom:48px">
+    <div class="b">所以：<b>抖音拉新 → 小红书种草收藏 → B站补机制</b>。同一套内容必须重做三遍，不能复制粘贴。</div>
+  </div>
+  <div class="footer">数据源：内容主表全量重算（中位赞、藏赞比）｜评论重标（问询密度 = P1 求购 + P2 问价 / 该平台评论数 × 万）</div>
+</section>
+
+<!-- P8 07 支柱一 · 监测平台 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">07 看平台 · 哪些渠道不用投</div>
+  <div class="title">知乎和微博人少、问价低，只用来看热点和抄问题，不投钱</div>
+  <div class="rule"></div>
+  <div class="split" style="top:150px">
+    <div class="col">
+      <div class="sub-h">知乎 · 749 篇</div>
+      <table class="ct xs air2">
+        <tr><td class="nm">中位点赞</td><td>2</td></tr>
+        <tr><td class="nm">付费问询密度</td><td>13.1 / 万，五平台最低</td></tr>
+        <tr><td class="nm">内容特征</td><td>长文论证为主，"为什么"类问题多</td></tr>
+        <tr><td class="nm">负向讨论占比</td><td>0.44%，五平台最高（多是药物副作用）</td></tr>
+      </table>
+      <div class="box o" style="margin-top:10px"><div class="c"><b>用途</b>：看用户怎么论证、怎么互相说服，用于写长文和 FAQ；<b>不作为投放渠道</b>——样本小、问询最低，投入产出不划算。</div></div>
+    </div>
+    <div class="col">
+      <div class="sub-h">微博 · 310 篇</div>
+      <table class="ct xs air2">
+        <tr><td class="nm">中位点赞</td><td>9（大量为 0）</td></tr>
+        <tr><td class="nm">付费问询密度</td><td>26.9 / 万</td></tr>
+        <tr><td class="nm">内容特征</td><td>话题式讨论，缺少可执行细节</td></tr>
+        <tr><td class="nm">数据质量</td><td>点赞机制不同，不可与其他平台横比</td></tr>
+      </table>
+      <div class="box o" style="margin-top:10px"><div class="c"><b>用途</b>：只做话题热度监测（哪个词在涨），<b>不用于人群判断</b>——样本仅 310 篇，且互动数据失真风险高。</div></div>
+    </div>
+  </div>
+  <div class="band" style="bottom:48px">
+    <div class="t">为什么要单列这两页</div>
+    <div class="b">五个平台混在一张表里，容易被"总量"误导。分开看才清楚：<b>真正值得投的只有三个</b>，另外两个是佐证和监测。</div>
+  </div>
+  <div class="footer">数据源：内容主表｜问询密度来自评论重标｜知乎负向占比为其平台内 P5 评论比例，绝对量仅 20 条，不宜放大</div>
+</section>
+
+<!-- P9 08 支柱一 · 内容供给 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">08 看内容 · 拍什么有人问价</div>
+  <div class="title">测评视频没人点赞但问价最多，控糖视频点赞高但缺人接转化</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:146px;left:52px;right:52px">
+    <div class="sub-h">8 大内容类：供给、流量、问价（4,314 篇 / 93,410 条评论）</div>
+    <table class="ct xs mid">
+      <tr><th style="width:32px">#</th><th>内容类</th><th style="width:60px">篇数</th><th style="width:56px">占比</th><th style="width:70px">中位赞</th><th style="width:86px">抖音中位赞</th><th style="width:70px">问价/万</th></tr>
+      <tr><td>07</td><td>市面产品与服务测评</td><td>1,055</td><td><b>24.5%</b></td><td class="red">30</td><td class="red">688</td><td class="green"><b>91.6</b></td></tr>
+      <tr><td>08</td><td>中式三餐食谱与大众减脂</td><td>817</td><td>18.9%</td><td>103</td><td>16,296</td><td>17.2</td></tr>
+      <tr><td>06</td><td>平台期/节食反弹/维持</td><td>775</td><td>18.0%</td><td>68</td><td>17,295</td><td>20.6</td></tr>
+      <tr><td>02</td><td>控糖与胰岛素抵抗</td><td>467</td><td>10.8%</td><td><b>144</b></td><td>12,060</td><td>9.9</td></tr>
+      <tr><td>01</td><td>瘦肚子与内脏脂肪</td><td>459</td><td>10.6%</td><td><b>187</b></td><td>19,536</td><td>4.1</td></tr>
+      <tr><td>05</td><td>中老年/更年期/产后</td><td>356</td><td>8.3%</td><td>118</td><td>14,124</td><td>5.9</td></tr>
+      <tr><td>03</td><td>皮质醇与压力肥</td><td>233</td><td>5.4%</td><td>147</td><td><b>23,050</b></td><td>5.4</td></tr>
+      <tr><td>04</td><td>多囊/桥本/女性内分泌</td><td>121</td><td>2.8%</td><td class="red">33</td><td>900</td><td>6.0</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b">测评供给最多（24.5%）、中位赞最低（30）、问价最高（91.6/万）；控糖供给不到它一半，中位赞是它的 <b>4.8 倍</b>，问价只有 <b>1/9</b>。</div></div>
+  <div class="footer">中位赞分平台列（全平台最低测评 30、多囊 33；抖音最低 688）｜问价/万＝P1+P2÷该类评论×万｜占比分母 4,314 篇</div>
+</section>
+
+<!-- P10 09 支柱二 · 人群配比 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">09 看人群 · 哪类人最肯掏钱</div>
+  <div class="title sm2">体检指标异常的人最多（占 40%）也最肯付钱，宝妈和上班族人多但不掏钱</div>
+  <div class="rule"></div>
+  <div class="four" style="top:146px">
+    <div class="fcard"><div class="fn">39.7%</div><div class="ft">A 指标型</div>
+      <div class="fd">体检报告亮红灯<br/>胰岛素抵抗 21.5%<br/>脂肪肝/尿酸 9.7%<br/>多囊 8.5%<br/>付费意愿 <b>64.1–76.2</b><br/>怕：指标恶化</div></div>
+    <div class="fcard g"><div class="fn">32.0%</div><div class="ft">C 场景型</div>
+      <div class="fd">生活条件不允许<br/>产后/中年 20.4%<br/>上班族外卖 11.6%<br/>付费意愿 <b>41.9–46.1</b><br/>怕：麻烦、做不到</div></div>
+    <div class="fcard o"><div class="fn">22.3%</div><div class="ft">B 失败型</div>
+      <div class="fd">反复反弹、卡平台<br/>反弹/卡平台 18.6%<br/>小基数 3.7%<br/>付费意愿 <b>43.6–54.8</b><br/>怕：又被坑</div></div>
+    <div class="fcard r"><div class="fn">5.9%</div><div class="ft">D 体量型</div>
+      <div class="fd">体重影响行动<br/>大基数<br/>付费意愿 <b>45.1</b><br/>怕：受伤</div></div>
+  </div>
+  <div style="position:absolute;top:366px;left:52px;right:52px" class="box o">
+    <div class="h" style="color:#92400e">A2 用药期管理（新增子型）</div>
+    <div class="c">已在打针或吃药、卡在副作用与停药反弹的人。药物类内容下的评论 <b>6,284 条</b>（占 6.7%）；评论里直接提到司美/替尔泊肽的 <b>573 条</b>；682 条编码里药械 58 条，<b>57 条</b>与减重相关。</div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b">A 型既最大（39.7%）又最愿付（64.1–76.2）；C 型第二多（32.0%）只有 41.9–46.1 —— <b>规模大不等于愿意付钱</b>。</div></div>
+  <div class="footer">分母：八大人群可归属评论 83,936 条（全量 93,410）｜付费意愿为四维自建指标，B 级、不可复现，只能组内排序</div>
+</section>
+
+<!-- P11 10 支柱二 · 付费验证 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">10 看人群 · 为什么首选控糖</div>
+  <div class="title sm2">把「想不想买」和「问不问价」合起来看，只有胰岛素抵抗两项都高</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:138px;left:52px;right:52px">
+    <table class="ct xs air">
+      <tr><th style="width:180px">人群</th><th style="width:96px">付费意愿打分</th><th style="width:110px">付费问询密度</th><th>两套指标怎么看</th></tr>
+      <tr style="background:#FFF7ED"><td class="nm">胰岛素抵抗 / 糖代谢</td><td><b>69.1</b></td><td><b>45.0 / 万</b></td><td><b>两套都高</b>：打分第 2、问询第 1——唯一一个</td></tr>
+      <tr><td class="nm">多囊 PCOS</td><td><b>76.2</b>（最高）</td><td>21.3 / 万</td><td>打分高、问询低：意愿高但行动少，适合高溢价小众深耕</td></tr>
+      <tr><td class="nm">脂肪肝 / 尿酸</td><td>64.1</td><td>未单列</td><td>打分中上、问询无法验证：体检场景天然，做第二梯队</td></tr>
+      <tr><td class="nm">反弹 / 卡平台</td><td>54.8</td><td>9.1 / 万</td><td>两套都偏低：做流量入口与防崩模块，不做主力</td></tr>
+      <tr><td class="nm">情绪 / 暴食</td><td>—</td><td>9.2 / 万</td><td>痛点最密集但问询低：做横切底座，不单独收费</td></tr>
+      <tr><td class="nm">产后 / 中年</td><td>46.1</td><td>7.3 / 万</td><td>两套都低：声量大意愿低，做公域流量</td></tr>
+      <tr><td class="nm">大基数</td><td>45.1</td><td>5.8 / 万</td><td>两套都低：声量大、付钱少</td></tr>
+    </table>
+  </div>
+  <div class="split" style="top:422px">
+    <div class="col"><div class="box g"><div class="h" style="color:#0f766e">结论</div>
+      <div class="c">糖代谢异常是<b>唯一"打分与问询双高"</b>的人群，是市场第一切口；多囊打分最高但问询只有 21.3，说明"意愿高、行动少"，只适合高溢价。</div></div></div>
+    <div class="col"><div class="box o"><div class="h" style="color:#92400e">这套验证的局限</div>
+      <div class="c">打分权重未留档、<b>不可复现</b>；问询密度召回偏低（P2 准确率 50%）；两者都是行为痕迹，<b>不等于真实购买</b>。仍需 10–15 个访谈确认。</div></div></div>
+  </div>
+  <div class="footer">打分：四维自建指标（内容数、藏赞比、求索、指标词），B 级｜问询密度：每万条评论的求购+问价，来自 103,968 条重标</div>
+</section>
+
+<!-- P12 11 支柱二 · 细分人群全景 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">11 看人群 · 九类人群分三档</div>
+  <div class="title sm2">首选胰岛素抵抗，次选多囊、脂肪肝和打针族，其余人群只做免费引流</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:134px;left:52px;right:52px">
+    <table class="ct xs p12">
+      <tr><th>梯队</th><th>细分人群</th><th>典型特征与触发场景</th><th>占比</th><th>付费意愿</th><th>痛点样本</th><th>主平台与市场定位方向</th></tr>
+      <tr style="background:#FFF7ED"><td><b>一梯队</b></td><td class="nm">胰岛素抵抗·报告型</td><td>体检/糖耐查出红字、无明显症状</td><td>11.5%<span class="muted">†</span></td><td><b>69.1</b></td><td>178 条</td><td>抖音 43% · <b>首选切口：解读单子+三餐替换</b></td></tr>
+      <tr style="background:#FFF7ED"><td><b>一梯队</b></td><td class="nm">胰岛素抵抗·症状型</td><td>总是饿、心慌手抖、饭后困、黑棘皮</td><td>10.0%<span class="muted">†</span></td><td><b>69.1</b></td><td>156 条</td><td>抖音 43% · <b>首选切口：先止饿止困+调进餐顺序</b></td></tr>
+      <tr><td><b>二梯队</b></td><td class="nm">多囊 PCOS</td><td>共病胰岛素抵抗、月经乱、瘦多囊</td><td>8.5%</td><td><b>76.2</b></td><td>914 条</td><td>抖音 71% · <b>意愿最高但盘子小，高溢价深耕</b></td></tr>
+      <tr><td><b>二梯队</b></td><td class="nm">脂肪肝 / 尿酸</td><td>体检B超/ALT异常、无痛感、果糖盲区</td><td>9.7%</td><td>64.1</td><td>790 条</td><td>B站 42% · <b>体检场景天然，第二梯队扩展</b></td></tr>
+      <tr><td><b>二梯队</b></td><td class="nm">A2 用药期人群</td><td>打针期没胃口、掉肌肉、怕停针反弹</td><td>6.7%<span class="muted">‡</span></td><td class="muted">—</td><td>1,131 条</td><td>B站 49% · <b>高增速赛道衍生刚需：防掉肌防反弹</b></td></tr>
+      <tr><td><span class="muted">三梯队</span></td><td class="nm">产后一年</td><td>体重卡住、哺乳不敢少吃、带娃没时间</td><td><b>8.3%</b></td><td>46.1<span class="muted">*</span></td><td>563 条</td><td>抖音 52% · 声量大意愿低，做公域内容抓手</td></tr>
+      <tr><td><span class="muted">三梯队</span></td><td class="nm">中老年 / 更年期</td><td>潮热失眠、喝水都胖、先胖腰腹掉肌肉</td><td><b>12.1%</b></td><td>46.1<span class="muted">*</span></td><td>362 条</td><td>抖音 39% · 痛在代谢与保肌肉，做中老年入口</td></tr>
+      <tr><td><span class="muted">三梯队</span></td><td class="nm">上班族 / 外食</td><td>三餐靠外卖食堂、早餐赶时间、下午奶茶</td><td>11.6%</td><td>41.9</td><td>9,750 条</td><td>全平台 · 高频点单场景，适合做工具型引流</td></tr>
+      <tr><td><span class="muted">三梯队</span></td><td class="nm">反弹 & 情绪进食</td><td>1–3天崩/15天卡秤/节食暴食循环</td><td>22.3%</td><td>43.6–54.8</td><td>2,253+842</td><td>全平台 · 全人群共性卡点，嵌入所有方案底座</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b">指标型（39.7%）与用药期（6.7%）是真正为“解决问题”买单的价值池；场景型与失败型（合计 54.3%）是公域获客与防流失底座。</div></div>
+  <div class="footer">分母：八大人群可归属评论 83,936 条｜†IR 内按 178:156 折算｜产后/中年按 40.6:59.4 拆分｜*为合并值｜‡药物类评论 6,284/93,410</div>
+</section>
+
+<!-- P14 首选人群 1/2 · 胰岛素抵抗（体检报告型）为什么肯掏钱 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">首选人群 1/2 · 胰岛素抵抗「体检报告型」为什么肯掏钱</div>
+  <div class="title sm">拿化验单的人（报告型）：真开口问价高 7 倍，为「看懂单子与 3 个月消红字」买单</div>
+  <div class="rule"></div>
+  <div class="v40-top3">
+    <div class="v40-topcard"><div class="tn">57.3%</div><div class="tl">直接晒化验单求解读<br/>102/178条 · 全库2,040条</div></div>
+    <div class="v40-topcard o"><div class="tn">7.0 倍</div><div class="tl">真问价率是症状型 7 倍<br/>楼中楼平均追评 8.95 条</div></div>
+    <div class="v40-topcard g"><div class="tn">100%</div><div class="tl">报告帖中位藏赞比<br/>高置信付费库占 50%</div></div>
+  </div>
+  <div style="position:absolute;top:196px;left:52px;right:52px">
+    <table class="v40-table">
+      <tr><th style="width:206px">痛点条数与数据来源</th><th style="width:252px">为什么肯掏钱（大白话痛点）</th><th>精选用户原声（1句）</th></tr>
+      <tr style="background:#FFF7ED"><td class="rk">76 条 / 42.7% <span style="font-size:11.8px;color:#64748b;font-weight:400">（178条精标）</span></td><td><b>① 看不懂糖耐与胰岛素单子</b></td><td class="qt">“体检空腹血糖 8.6、胰岛素高，整个人懵的，不知三顿饭怎么吃。”</td></tr>
+      <tr><td class="rk">46 条 / 25.8% <span style="font-size:11.8px;color:#64748b;font-weight:400">（178条精标）</span></td><td><b>② 医生和网上三餐说法打架</b></td><td class="qt">“医生说可吃白米饭，网上全叫断碳水，到底该听谁的？”</td></tr>
+      <tr><td class="rk">33 条 / 18.5% <span style="font-size:11.8px;color:#64748b;font-weight:400">（178条精标）</span></td><td><b>③ 极度恐惧变成终身糖尿病</b></td><td class="qt">“查出胰岛素抵抗和餐二高，才二十多岁，好怕变成糖尿病。”</td></tr>
+      <tr><td class="rk">29 条 / 182每万 <span style="font-size:11.8px;color:#64748b;font-weight:400">（S03问价库）</span></td><td><b>④ 买动态血糖仪却看不懂曲线</b></td><td class="qt">“买了动态血糖仪，但对没医学知识的人来说曲线根本看不懂。”</td></tr>
+      <tr><td class="rk">20 条 / 11.2% <span style="font-size:11.8px;color:#64748b;font-weight:400">（178条精标）</span></td><td><b>⑤ 盯着“3 个月复查倒计时”</b></td><td class="qt">“医生让先控饮食三个月复查糖耐，怎么吃才能把红字降下来？”</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>商业定位（后端高客单主力 · 1,500–3,000 元/月）：</b>手握 3 个月复查倒计时，卖「化验单/血糖仪曲线解读 + 90 天复查餐单」。</div></div>
+  <div class="footer">数据源：03_评论总表胰岛素抵抗第一人称库（n=1,093 中体检报告型 178 条）× 评论付费意图重标.csv（全库报告词 2,040 条，S03 直接问价 50 条）</div>
+</section>
+
+<!-- P15 首选人群 2/2 · 胰岛素抵抗（症状体感型）为什么肯掏钱 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">首选人群 2/2 · 胰岛素抵抗「症状体感型」为什么肯掏钱</div>
+  <div class="title sm">身体难受的人（症状型）：求食谱高 71%、评论量高 2 倍，为「3 天止心慌」买单</div>
+  <div class="rule"></div>
+  <div class="v40-top3">
+    <div class="v40-topcard o"><div class="tn">89.7%</div><div class="tl">每天被饿得心慌折磨<br/>140/156条 · 全库1,029条</div></div>
+    <div class="v40-topcard"><div class="tn">+71%</div><div class="tl">求食谱率比报告型高 71%<br/>综合求方案意图达 32.7%</div></div>
+    <div class="v40-topcard g"><div class="tn">2.1 倍</div><div class="tl">单帖均评是报告帖 2.1 倍<br/>均评 481 条 vs 225 条</div></div>
+  </div>
+  <div style="position:absolute;top:196px;left:52px;right:52px">
+    <table class="v40-table">
+      <tr><th style="width:206px">痛点条数与数据来源</th><th style="width:252px">为什么肯掏钱（大白话痛点）</th><th>精选用户原声（1句）</th></tr>
+      <tr style="background:#FFF7ED"><td class="rk">101 条 / 64.7% <span style="font-size:11.8px;color:#64748b;font-weight:400">（156条精标）</span></td><td><b>① 刚吃完又饿，一拳头撑不住</b></td><td class="qt">“都说吃一拳头主食，怎么保证不饿？饿了怎么维持运动？”</td></tr>
+      <tr><td class="rk">69 条 / 44.2% <span style="font-size:11.8px;color:#64748b;font-weight:400">（156条精标）</span></td><td><b>② 下午 4 点心慌手抖出冷汗</b></td><td class="qt">“母亲每天喊饿心慌，住三次院没用！按食谱吃三天心慌就减轻了。”</td></tr>
+      <tr><td class="rk">17 条 / 10.9% <span style="font-size:11.8px;color:#64748b;font-weight:400">（重标拔草库）</span></td><td><b>③ 断碳诱发低血糖（踩坑率 5 倍）</b></td><td class="qt">“一个半月少吃碳水，很快就手抖心慌，一查就是胰岛素抵抗。”</td></tr>
+      <tr><td class="rk">15 条 / 9.6% <span style="font-size:11.8px;color:#64748b;font-weight:400">（156条精标）</span></td><td><b>④ 脖子黑、腋下黑求带练消退</b></td><td class="qt">“照着群里营养师食谱吃第九天，闺女脖子黑棘皮肉眼可见改善！”</td></tr>
+      <tr><td class="rk">27 条 / 17.3% <span style="font-size:11.8px;color:#64748b;font-weight:400">（156条精标）</span></td><td><b>⑤ 饭后昏睡、夜间失控暴食甜食</b></td><td class="qt">“每次吃完饭就超级犯困，靠自己坚持不下去，一到晚上就暴食。”</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>商业定位（前端爆款拉新入口 · 9.9–99 元）：</b>用“饭后犯困/下午心慌自测”视频截流，卖「3天止心慌加餐食谱」，再升单正价陪跑。</div></div>
+  <div class="footer">数据源：03_评论总表胰岛素抵抗第一人称库（n=1,093 中症状体感型 156 条）× 评论付费意图重标.csv（全库症状词 1,029 条，与报告型重叠仅 28 条=18%）</div>
+</section>
+
+<!-- P15 次选人群 1/2 · 多囊为什么肯掏钱 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">次选人群 1/2 · 多囊为什么肯掏钱</div>
+  <div class="title sm">多囊付费意愿全场第一（76.2）：怕吃避孕药发胖、急备孕、瘦多囊不知怎么减</div>
+  <div class="rule"></div>
+  <div class="v40-top3">
+    <div class="v40-topcard o"><div class="tn">76.2</div><div class="tl">付费意愿得分<br/>全场排名第 1</div></div>
+    <div class="v40-topcard"><div class="tn">41.5%</div><div class="tl">求方案意图占比<br/>379 / 914 条评论</div></div>
+    <div class="v40-topcard g"><div class="tn">71%</div><div class="tl">抖音声量占比<br/>搜「多囊减肥」问价 32/万</div></div>
+  </div>
+  <div style="position:absolute;top:188px;left:52px;right:52px">
+    <table class="v40-table">
+      <tr><th style="width:128px">痛点条数与占比</th><th style="width:310px">为什么肯掏钱（大白话痛点）</th><th>精选用户原声（1句）</th></tr>
+      <tr style="background:#FFF7ED"><td class="rk">309 条 / 33.8%</td><td><b>① 合并胰岛素抵抗越减越肥</b></td><td class="qt">“多囊加胰岛素抵抗，越胖激素越乱，不吃又贫血，到底怎么吃？”</td></tr>
+      <tr><td class="rk">271 条 / 29.6%</td><td><b>② 长期闭经求自然来姨妈</b></td><td class="qt">“极端减肥后停经三个月以上，只求不用催经药能自己来姨妈。”</td></tr>
+      <tr><td class="rk">155 条 / 17.0%</td><td><b>③ 备孕窗口紧迫家庭愿掏钱</b></td><td class="qt">“吃药调经一年没怀上，既要减重又要养卵泡，准备调饮食再试。”</td></tr>
+      <tr><td class="rk">128 条 / 14.0%</td><td><b>④ 90–100 斤瘦多囊被一刀切叫减肥</b></td><td class="qt">“身高163才100斤查出多囊，医生还让我减肥，再减都没人形了！”</td></tr>
+      <tr><td class="rk">114 条 / 12.5%</td><td><b>⑤ 抗拒吃达英-35 等避孕药怕胖伤身</b></td><td class="qt">“吃达英-35催经胖了40多斤，一停药就闭经，不想再靠激素药了。”</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>产品方向：</b>多囊课绝不能叫“减肥课”——胖多囊做控糖减脂，瘦多囊（占14%）做“吃够慢碳+增肌消内脂”，配非激素调经餐。</div></div>
+  <div class="footer">数据源：评论总表多囊专项库（分母 n=914 条，其中主动求方案转化子集 379 条）｜痛点可多选打标</div>
+</section>
+
+<!-- P16 次选人群 2/2 · 脂肪肝为什么肯掏钱 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">次选人群 2/2 · 脂肪肝为什么肯掏钱</div>
+  <div class="title sm">脂肪肝付费意愿第三（64.1）：怕变肝硬化、痛风尿酸忌口打架、吃水果越减越重</div>
+  <div class="rule"></div>
+  <div class="v40-top3">
+    <div class="v40-topcard"><div class="tn">64.1</div><div class="tl">付费意愿得分<br/>全场排名第 3</div></div>
+    <div class="v40-topcard g"><div class="tn">38.6%</div><div class="tl">求方案意图占比<br/>305 / 790 条评论</div></div>
+    <div class="v40-topcard o"><div class="tn">43.5%</div><div class="tl">体检恐慌占比<br/>急求 90 天复查消红字</div></div>
+  </div>
+  <div style="position:absolute;top:188px;left:52px;right:52px">
+    <table class="v40-table">
+      <tr><th style="width:128px">痛点条数与占比</th><th style="width:310px">为什么肯掏钱（大白话痛点）</th><th>精选用户原声（1句）</th></tr>
+      <tr style="background:#FFF7ED"><td class="rk">344 条 / 43.5%</td><td><b>① 查出中重度或转氨酶高怕肝硬化</b></td><td class="qt">“体检重度脂肪肝加血糖高，怕死，就想知道怎么在3个月内消掉。”</td></tr>
+      <tr><td class="rk">222 条 / 28.1%</td><td><b>② 合并痛风高尿酸高血脂，忌口打架</b></td><td class="qt">“减肝脂要吃肉蛋豆制品，可我有痛风怕嘌呤、血脂高又怕蛋黄！”</td></tr>
+      <tr><td class="rk">139 条 / 17.6%</td><td><b>③ 误戒肉吃素狂吃西瓜把轻度吃成重度</b></td><td class="qt">“戒肉改每天吃半个西瓜当晚饭，3月轻度脂肪肝，7月变重度！”</td></tr>
+      <tr><td class="rk">125 条 / 15.8%</td><td><b>④ 瘦子脂肪肝与青少年饮料脂肪肝</b></td><td class="qt">“本人不胖没肚子怎么重度脂肪肝？”“儿子13岁爱喝饮料查出中度。”</td></tr>
+      <tr><td class="rk">108 条 / 13.7%</td><td><b>⑤ 急求护肝片或减肥针快速消红字</b></td><td class="qt">“吃水飞蓟护肝片有用吗？打替尔泊肽能不能三个月把脂肪肝逆转？”</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>产品方向：</b>抓住体检后“90天复查消红字”窗口，核心卖点是「戒果糖排雷 + 脂肪肝合并痛风高尿酸的四病安全配餐表」。</div></div>
+  <div class="footer">数据源：评论总表脂肪肝与肝功异常专项库（分母 n=790 条，其中主动求方案转化子集 305 条）｜痛点可多选打标</div>
+</section>
+
+<!-- P18 三大主流人群 · 现有解决方案与致命缺陷 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">三大主流人群 · 现有解决方案与致命缺陷（1/2）</div>
+  <div class="title sm">医院只开药不管饭、3.6元纯视频课没人买、单吃补剂不改主食反而增重</div>
+  <div class="rule"></div>
+  <div class="v40-top3">
+    <div class="v40-topcard o"><div class="tn">¥3.6 仅1单</div><div class="tl">纯录播课0成交<br/>¥167看餐卖700+单</div></div>
+    <div class="v40-topcard"><div class="tn">3,000+ 单</div><div class="tl">¥698+瘦子菌疯抢<br/>买“不打卡治饿醒”</div></div>
+    <div class="v40-topcard g"><div class="tn">10万+ 单</div><div class="tl">低GI面条杂粮爆卖<br/>戒不掉米面只做替换</div></div>
+  </div>
+  <div style="position:absolute;top:188px;left:52px;right:52px">
+    <table class="v40-ch-table">
+      <tr><th style="width:152px">现有解决渠道</th><th style="width:156px">三大主流人群占比</th><th style="width:268px">现在怎么解决（101商家+淘宝实测）</th><th>致命缺陷（为什么全失败了）</th></tr>
+      <tr style="background:#FFF7ED"><td class="nm">① 医院门诊+买设备</td><td><b>多囊25% / 脂肪肝28%</b><br/><span style="font-size:11.5px;color:#64748b">报告型CGM问价182/万</span></td>
+        <td>问诊中位 <b>162 元/次</b>，开二甲/达英-35/查B超；自购动态血糖仪</td>
+        <td><b>只开药不管饭：</b>0 随访，<b>31.4%</b> 不知三餐吃啥；血糖仪曲线看不懂</td></tr>
+      <tr><td class="nm">② 免费科普+纯录播</td><td><b>多囊20% / 脂肪肝35%</b><br/><span style="font-size:11.5px;color:#64748b">症状型踩坑率高 5 倍</span></td>
+        <td>0 元抄 168 断食/吃素炫水果；淘宝 <b>¥3.6–¥15 纯视频课仅 1–2 人付款</b></td>
+        <td><b>纯内容0成交且越减越重：</b>死食谱坚持不了；断碳闭经、吃水果变重度</td></tr>
+      <tr><td class="nm">③ 高价补剂+减肥针</td><td><b>药械问询占 18%–21%</b><br/><span style="font-size:11.5px;color:#64748b">淘宝AKK菌3,000+付款</span></td>
+        <td>买 <b>¥698–¥1,800 AKK瘦子菌</b>、肌醇/护肝片，或打 <b>206 元/月</b>减肥针</td>
+        <td><b>不改主食必反弹：</b>单吃维B不改碳水差评“体重反增”；打针停药反弹 <b>33.6%</b></td></tr>
+      <tr><td class="nm">④ 传统营/私域/埋线</td><td><b>线上看餐 700+ 付款</b><br/><span style="font-size:11.5px;color:#64748b">中医15针埋线390元</span></td>
+        <td>淘宝 <b>¥167 1v1看餐 700+ 付款</b>；封闭营 3,000+ 元；套路私域 <b>448→4,608 元</b></td>
+        <td><b>真人慢且贵、出营必崩：</b>封闭营回家更胖；真人客服24h才回，私域连环逼单</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>结论：</b>单卖录播课没人买（¥3.6仅1单），单卖补剂不改主食会反弹，真人1v1又慢又贵——必须走三合一差异化。</div></div>
+  <div class="footer">数据源：五平台9.3万评论 × 101家商家(198 SKU) × 淘宝/天猫/B站/知乎/Reddit 500条实时抓取样本（含真实付款人数与已购评价）</div>
+</section>
+
+<!-- P19 三大主流人群 · 我们的差异化怎么打 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">三大主流人群 · 我们的差异化怎么打（2/2）</div>
+  <div class="title sm">差异化打法：针对三类人群做「分型专课 + AI 秒级拍餐纠偏 + 高毛利补剂/主食替换」</div>
+  <div class="rule"></div>
+  <div class="v40-top3">
+    <div class="v40-topcard"><div class="tn">壁垒 1</div><div class="tl">按化验单与体感分轨<br/>报告/症状、胖/瘦多囊专案</div></div>
+    <div class="v40-topcard o"><div class="tn">壁垒 2</div><div class="tl">AI 拍餐秒回替死食谱<br/>食堂/外卖秒纠偏，不打卡</div></div>
+    <div class="v40-topcard g"><div class="tn">壁垒 3</div><div class="tl">课+AI+高毛利补剂闭环<br/>底价¥1–¥16 → 溢价15–100倍</div></div>
+  </div>
+  <div style="position:absolute;top:188px;left:52px;right:52px">
+    <table class="v40-ch-table">
+      <tr><th style="width:152px">三大主流人群</th><th style="width:210px">市面方案为什么失灵</th><th style="width:264px">我们的差异化打法（课 + AI看餐）</th><th>配套高毛利补剂/主食（1688底价→终端价）</th></tr>
+      <tr style="background:#FFF7ED"><td class="nm">① 胰岛素抵抗<br/><span style="font-size:11.5px;color:#b45309">报告(178)+症状(156)</span></td>
+        <td>医院不教看血糖仪曲线；吃一拳头主食下午心慌、半夜饿醒失眠</td>
+        <td><b>报告型：</b>14天CGM排雷 + 90天复查陪跑<br/><b>症状型：</b>3天止心慌加餐 + <b>AI秒拍食堂纠偏</b></td>
+        <td><b>AKK/B420瘦子菌 + 低GI主食：</b><br/>1688底价 <b>¥1–¥6.5 → 终端 ¥230–¥600</b>（溢价30–100倍）</td></tr>
+      <tr><td class="nm">② 多囊 PCOS<br/><span style="font-size:11.5px;color:#1A365D">914条 · 意愿76.2第一</span></td>
+        <td>医生只开达英-35（怕胖40斤）；通用课让90斤瘦多囊挨饿致闭经</td>
+        <td><b>胖瘦分轨（不叫减肥课）：</b>胖多囊控糖减脂；<b>瘦多囊（14%）吃够慢碳+抗阻增肌</b>调经</td>
+        <td><b>肌醇 + 甘氨酸镁维B6（降皮质醇助眠）：</b><br/>1688底价 <b>¥6.8–¥16 → 终端 ¥120–¥280</b>（对标Relacore）</td></tr>
+      <tr><td class="nm">③ 脂肪肝与痛风<br/><span style="font-size:11.5px;color:#0f766e">790条 · 意愿64.1第三</span></td>
+        <td>体检单只写清淡饮食；误戒肉炫西瓜吃成重度；合并痛风忌口打架</td>
+        <td><b>戒果糖排雷 + 四病白名单：</b>AI拍照秒判「降肝脂且不升尿酸」的安全蛋白替换</td>
+        <td><b>白芸豆碳水阻断 + 水飞蓟护肝配套：</b><br/>1688底价 <b>¥2.2–¥6.8 → 终端 ¥99–¥299</b>（溢价15–30倍）</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>差异化总结：</b>用「专病分型课」建信任 → 用「AI秒级看餐」做高频留存 → 用「高毛利代谢补剂与低GI主食」放大客单与复购。</div></div>
+  <div class="footer">数据源：淘宝/天猫真实付款数据 × 1688源头OEM工厂60家报价单（河北益存/贝森姆/安徽葵花等）× Amazon/Reddit海外爆品实测</div>
+</section>
+
+<!-- P18 病因溯源 1/2 · 为什么会得这三种病 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">病因溯源 1/2 · 为什么会得这三种病</div>
+  <div class="title xs">中华医学会指南证实三病同源「胰岛素抵抗」，评论区近四分之一是盲目节食饿出来的</div>
+  <div class="rule"></div>
+  <div class="v40-guide3">
+    <div class="v40-gcard o">
+      <div class="gt">《胰岛素抵抗专家共识 (2022)》</div>
+      <div class="gb">中国成人患病率达 <b>29.2%</b>，明确指出胰岛素抵抗是<b>多囊、脂肪肝、糖尿病的“共同土壤”</b>。</div>
+    </div>
+    <div class="v40-gcard">
+      <div class="gt">《多囊卵巢诊疗指南 (2018)》</div>
+      <div class="gb"><b>50%–70% 多囊合并胰岛素抵抗</b>；体重正常的<b>瘦多囊同样高发</b>，严禁极端节食加重闭经。</div>
+    </div>
+    <div class="v40-gcard g">
+      <div class="gt">《脂肪性肝病防治指南 (2024)》</div>
+      <div class="gb">确诊须合并代谢与血糖异常；明确要求<b>限制果糖、含糖饮料与果汁</b>，瘦型脂肪肝同样需干预。</div>
+    </div>
+  </div>
+  <div style="position:absolute;top:254px;left:52px;font-size:13.2px;font-weight:700;color:#64748b;letter-spacing:1px">评论区用户自述四大后天诱因（为什么身体指标会亮红灯）：</div>
+  <div class="v40-cause4">
+    <div class="v40-ccard o">
+      <div class="cn">50%–60%</div>
+      <div class="ctit">① 吃出来的</div>
+      <div class="cdesc">顿顿米面主食配甜饮，或拿高果糖水果当晚饭，直接把血糖和肝脂吃爆。</div>
+    </div>
+    <div class="v40-ccard r">
+      <div class="cn">26%–30%</div>
+      <div class="ctit">② 饿出来的（反常识）</div>
+      <div class="cdesc"><b>近 1/4 是盲目节食断碳把代谢饿坏！</b>掉光肌肉后一恢复吃饭立刻确诊。</div>
+    </div>
+    <div class="v40-ccard">
+      <div class="cn">21%–33%</div>
+      <div class="ctit">③ 熬出来的</div>
+      <div class="cdesc">长期熬夜加班高压导致皮质醇偏高，引发腰腹肥胖与内分泌失调闭经。</div>
+    </div>
+    <div class="v40-ccard g">
+      <div class="cn">20%–35%</div>
+      <div class="ctit">④ 坐出来的</div>
+      <div class="cdesc">久坐少肌的“瘦胖子”，看着体重百斤出头，内脏脂肪和胰岛素却全超标。</div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>核心推论：</b>因为三病同源「胰岛素抵抗」，只需研发「1套控糖修代谢底课 + 3套专病食谱」即可同时打穿三大高付费人群。</div></div>
+  <div class="footer">数据源：中华医学会三大临床指南/共识 × 评论总表自述诱因子集（胰岛素抵抗850条、多囊462条、脂肪肝392条，多选统计）</div>
+</section>
+
+<!-- P19 病因溯源 2/2 · 最值钱的课程痛点 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">病因溯源 2/2 · 最值钱的课程痛点</div>
+  <div class="title sm">用户认知与医学真相有三大反差：戒肉吃水果伤肝、瘦多囊求医无门、越饿越重</div>
+  <div class="rule"></div>
+  <div class="v40-contrast">
+    <div class="v40-crow">
+      <div class="v40-ccell tag g">脂肪肝反差<br/>吃水果变重度</div>
+      <div class="v40-ccell err"><div class="ch">用户错误做法（17.6%）</div><div class="cb">戒肉吃素、每天炫半个西瓜，把轻度吃成重度脂肪肝。</div></div>
+      <div class="v40-ccell tru"><div class="ch">医学真相</div><div class="cb"><b>果糖在肝脏直接转成脂肪</b>，戒肉缺蛋白反而运不出肝脂。</div></div>
+      <div class="v40-ccell sell"><div class="ch">我们的课程卖点</div><div class="cb">主打<b>《戒果糖排雷与优质蛋白运脂餐》</b>。</div></div>
+    </div>
+    <div class="v40-crow">
+      <div class="v40-ccell tag">多囊反差<br/>瘦多囊求医无门</div>
+      <div class="v40-ccell err"><div class="ch">用户错误痛点（诱因 42.0%）</div><div class="cb">卡在“我才90斤瘦多囊怎么减”，盲目饿肚子导致彻底闭经。</div></div>
+      <div class="v40-ccell tru"><div class="ch">医学真相</div><div class="cb">本质是<b>少肌 + 隐性内脂 + 胰岛素抵抗</b>，严禁挨饿减重。</div></div>
+      <div class="v40-ccell sell"><div class="ch">我们的课程卖点</div><div class="cb">主打<b>《瘦多囊吃够慢碳+抗阻增肌调经专案》</b>。</div></div>
+    </div>
+    <div class="v40-crow">
+      <div class="v40-ccell tag o">控糖反差<br/>越饿越得抵抗</div>
+      <div class="v40-ccell err"><div class="ch">用户错误做法（27.8%）</div><div class="cb">靠断碳水硬饿肚子，结果下午心慌暴食、反弹三四十斤。</div></div>
+      <div class="v40-ccell tru"><div class="ch">医学真相</div><div class="cb">极端饥饿会<b>摧毁基础代谢、加重胰岛素抵抗</b>。</div></div>
+      <div class="v40-ccell sell"><div class="ch">我们的课程卖点</div><div class="cb">主打<b>《先吃饱再降指标：211顺序与防心慌加餐》</b>。</div></div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>商业价值：</b>用户自己在家摸索必踩这三个大坑——用「反常识避坑」做短视频钩子，是转化率最高的付费切口。</div></div>
+  <div class="footer">数据源：临床指南推荐意见与评论区自述踩坑原声交叉对比（脂肪肝 n=790、多囊 n=914、胰岛素抵抗 n=2,055）</div>
+</section>
+
+<!-- P15 14 支柱二 · 特殊增量池深扒（用药期） -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">16 新增人群 · 打减肥针的人痛在哪</div>
+  <div class="title sm2">打减肥针的人占了 6.7%，最怕「停针反弹三十斤、吃不下肉掉肌肉」</div>
+  <div class="rule"></div>
+  <div class="split" style="top:134px;gap:18px">
+    <div class="col">
+      <div class="sub-h">药物相关痛点分布（分母 1,131 条痛点评论）</div>
+      <table class="pt">
+        <tr><td class="pn">94 条</td><td><b>停针后食欲报复性回来</b><br/><span class="q">“停药两个月，反弹三十斤”</span></td></tr>
+        <tr><td class="pn">71 条</td><td><b>怕蛋白吃不够，硬塞到反胃</b><br/><span class="q">“逼自己吃肉喝蛋白粉，吃到想吐”</span></td></tr>
+        <tr><td class="pn">57 条</td><td><b>脸垮、皮松、掉肌肉</b><br/><span class="q">“纯靠打针瘦下来，形体很丑”</span></td></tr>
+        <tr><td class="pn">49 条</td><td><b>打针期吃不下、没胃口</b><br/><span class="q">“吃点就饱，吃饭走个形式”</span></td></tr>
+        <tr><td class="pn">31 条</td><td><b>便秘、拉肚子反复折腾</b><br/><span class="q">“反复跟便秘斗争”</span></td></tr>
+        <tr><td class="pn">18 条</td><td><b>营养不足导致掉头发</b><br/><span class="q">“不是打针，是营养不足”</span></td></tr>
+      </table>
+    </div>
+    <div class="col">
+      <div class="sub-h">用药期人群的市场特征与空白方向</div>
+      <div class="box o" style="margin-bottom:8px"><div class="h" style="color:#92400e">① 赛道增速最快，衍生需求已成规模</div>
+        <div class="c">减肥针赛道增速 <b>+115.9%</b> 全场第一；药物类内容下评论 <b>6,284 条（占全库 6.7%）</b>，直接点名司美/替尔泊肽 <b>573 条</b>；682 条人工编码里药械占 <b>58 条</b>（57 条与减重相关）。</div></div>
+      <div class="box" style="margin-bottom:8px"><div class="h">② 为什么药物本身解决不了这些问题</div>
+        <div class="c">司美格鲁肽负评率高达 <b>19.2%</b>（五类方案最高）。医院开药只管处方，不管日常“吃不下时怎么凑够蛋白”与“停药后食欲回弹怎么接”。</div></div>
+      <div class="box g"><div class="h" style="color:#0f766e">③ 市场切入方向与合规边界</div>
+        <div class="c">严禁触碰剂量、停药时点与副作用治疗（一律遵医嘱）；纯营养空白在<b>「小胃口下分5顿补够蛋白与力量保肌」</b>及<b>「停针后四周三餐过渡防反弹」</b>。</div></div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b sm"><b>数据结论：</b>减肥针不是终结者，反而制造了 <b>6.7%</b> 的高急迫衍生需求——“打针期怎么防掉肌脸垮、停针后怎么防反弹”是全新的增量切口。</div></div>
+  <div class="footer">数据源：药物相关评论痛点提及数（分母 1,131 条）｜药物类内容下评论 6,284 条（占 93,410 的 6.7%），直接提司美/替尔泊肽 573 条</div>
+</section>
+
+<!-- P16 15 支柱二 · 三梯队数据深扒（场景与失败型） -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">17 引流人群 · 宝妈中年上班族痛在哪</div>
+  <div class="title sm2">宝妈、中年、上班族占了一半评论但很少问价，只适合做免费内容引流</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:134px;left:52px;right:52px">
+    <table class="ct xs" style="line-height:1.25">
+      <tr><th style="width:142px">人群与规模</th><th style="width:398px">高频痛点条数与典型用户原声</th><th>需求本质与市场定位方向</th></tr>
+      <tr><td class="nm">产后一年<br/><span class="muted" style="font-size:10.5px">占比 8.3%｜意愿 46.1*<br/>痛点分母 563 条</span></td>
+        <td><b>237条</b> 生完体重卡住（“生之前150，孩子一岁还是142”）｜<b>96条</b> 不知多久能运动｜<b>63条</b> 哺乳期怕影响奶不敢少吃｜<b>42条</b> 带娃挤不出20分钟｜<b>31条</b> 夜奶睡不够想吃甜｜<b>20条</b> 肚子松/腹直肌分离（“先修复还是先减”）</td>
+        <td>核心不是饿肚子，是<b>恢复期顺序别做错</b>（先盆底/腹直肌修复、再运动、最后谈体重）；问询仅 <b>7.3/万</b>，适合做抖音公域选题。</td></tr>
+      <tr><td class="nm">中老年 / 更年期<br/><span class="muted" style="font-size:10.5px">占比 12.1%｜意愿 46.1*<br/>痛点分母 362 条</span></td>
+        <td><b>145条</b> 潮热失眠月经乱（“和体重有没有关系”）｜<b>57条</b> 四肢不胖先胖腰｜<b>45条</b> 同样的吃法开始胖（“喝水都胖”）｜<b>45条</b> 肌肉流失（“体重没变人松了”）｜<b>44条</b> 凌晨固定醒｜<b>17条</b> 膝盖不舒服怕伤膝盖</td>
+        <td>核心是<b>保肌肉与应对更年期代谢下降</b>，而非单纯少吃；问询同样仅 <b>7.3/万</b>，适合做中老年内容入口。</td></tr>
+      <tr><td class="nm">上班族 / 外食<br/><span class="muted" style="font-size:10.5px">占比 11.6%｜意愿 41.9<br/>外食场景 9,750 条</span></td>
+        <td><b>1,089条</b> 早餐赶时间（“不吃早餐会不会更胖”）｜<b>589条</b> 下午离不开奶茶｜<b>481条</b> 天天靠外卖不会点｜<b>161条</b> 食堂油盐重｜<b>51条</b> 加班到九点晚饭吃不吃｜<b>51条</b> 聚餐应酬躲不掉怎么止损</td>
+        <td>意愿全场最低（<b>41.9</b>），不适合卖高客单；但<b>“外卖四步点单、戒奶茶、聚餐止损”</b>是全网受众最广的工具型引流抓手。</td></tr>
+      <tr><td class="nm">反弹卡秤 & 情绪进食<br/><span class="muted" style="font-size:10.5px">失败型 22.3% + 横切<br/>分母 2,253 + 842 条</span></td>
+        <td><b>反弹(2,253条)：</b><b>327条</b> 第1–3天饿得心慌崩盘｜<b>304条</b> 停下来就反弹｜<b>300条</b> 卡秤四个月看不到头｜<b>251条</b> 节食必反弹｜<b>115条</b> 停药停针反弹。<br/><b>情绪(842条)：</b>一吃停不下来（<b>74条</b>夜里想吃、<b>58条</b>问算不算病、<b>40条</b>姨妈前失控、<b>30条</b>暴食后自责）</td>
+        <td>情绪占失败原因 <b>37.4%</b>，<b>不属于单一群体而属于所有人</b>；问询仅 <b>9.1–9.2/万</b>，不能单卖，必须作为防崩底座嵌入全周期。</td></tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b xs"><b>数据结论：</b>这五类人群声量极大（占过半评论），但直接付费问询仅 <b>5.8–9.2/万</b>（不到糖代谢的 1/5）——用它们做公域爆款引流和防崩底座，别当高客单主力。</div></div>
+  <div class="footer">数据源：产后(563)、中年(362)、外食场景(9,750)、失败语境(2,253)、情绪失败(842)评论痛点打标｜产后/中年占比由 20.4% 按 40.6:59.4 拆分</div>
+</section>
+
+<!-- P17 16 支柱三 · 流失节点与盲区 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">18 看卡点 · 用户在什么时间放弃</div>
+  <div class="title sm2">减肥的人都在三个时间点放弃：前 3 天饿崩、第 15 天卡秤、半年后复胖</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:140px;left:52px;right:52px">
+    <table class="ct xs air2">
+      <tr><th style="width:56px">节点</th><th style="width:92px">时间</th><th style="width:300px">怎么失败的</th><th>说明</th></tr>
+      <tr><td class="pct">①</td><td><b>第 1–3 天</b></td>
+        <td><b>26.8% 在这里退出</b>；首因情绪性暴食/姨妈期 39.1%、低血糖心慌 22.1%</td>
+        <td>不是没决心，是生理与情绪先崩；这一天的退出几乎不可挽回</td></tr>
+      <tr><td class="pct">②</td><td><b>中位 15 天</b></td>
+        <td>卡秤，努力与结果脱钩；1–3 个月仍卡占 <b>24.3%</b></td>
+        <td>体重不动 → 怀疑方法 → 放弃；需要非体重的反馈信号</td></tr>
+      <tr><td class="pct">③</td><td><b>6 个月以上</b></td>
+        <td>复胖 <b>21.2%</b>；首因停药/停节食后报复性反弹 33.5%</td>
+        <td>不是减不下来，是停下来之后没人管</td></tr>
+    </table>
+  </div>
+  <div class="split" style="top:330px">
+    <div class="col">
+      <div class="sub-h">横切痛点：情绪性进食（三类人群共有）</div>
+      <table class="ct xs">
+        <tr><td class="nm">情绪/暴食类痛点</td><td><b>478 条</b>，是所有痛点主题里最多的</td></tr>
+        <tr><td class="nm">典型原话</td><td>"一旦开吃就收不住""半夜一饿就控制不住"</td></tr>
+      </table>
+    </div>
+    <div class="col">
+      <div class="sub-h">认知盲区：不在网红食品，在中式主食</div>
+      <table class="ct xs">
+        <tr><td class="nm">盲区 Top5</td><td>鸡蛋 67.4｜米饭 53.4｜杂粮 52.1｜奶茶 41.6｜水果 39.7</td></tr>
+        <tr><td class="nm">含义</td><td>用户不是不知道"少吃"，是不知道家常饭怎么换</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b sm">所以核心卖点不是「更强的效果承诺」，是<b>「更低的失败风险」</b>——承诺越强，第一次失败后的信任崩塌越彻底（62 条"智商税"指控即在此）。</div></div>
+  <div class="footer">节点：1,252 条写明时间的评论｜卡秤：489 条提及卡秤的评论中位｜情绪痛点：评论打标｜盲区指数：50 种食物加权</div>
+</section>
+
+<!-- P18 17 支柱三 · 口碑与预期 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">19 看口碑 · 用户想要什么、讨厌什么</div>
+  <div class="title sm2">用户最想要「帮我看懂体检单（2,298条）」，最讨厌「中途推销二次收费」</div>
+  <div class="rule"></div>
+  <div class="split" style="top:146px">
+    <div class="col">
+      <div class="sub-h" style="color:#0f766e">最在意 · Top 4</div>
+      <table class="ct xs air3">
+        <tr><th style="width:44px">条数</th><th>在说什么</th></tr>
+        <tr><td><b>2,298</b></td><td><b>求诊断、求看报告</b>——"我该怎么办，除了运动还有什么办法"（18 岁，胰岛素抵抗）</td></tr>
+        <tr><td><b>478</b></td><td><b>情绪性进食</b>——"一旦开吃就收不住""半夜一饿就控制不住"</td></tr>
+        <tr><td><b>324</b></td><td><b>问价、问怎么买</b>——集中在减脂营、陪跑、训练营类词下</td></tr>
+        <tr><td><b>220</b></td><td><b>求食谱、求带</b>——小红书密度最高（0.84%）</td></tr>
+      </table>
+    </div>
+    <div class="col">
+      <div class="sub-h" style="color:#b91c1c">最反感 · Top 4</div>
+      <table class="ct xs air3">
+        <tr><th style="width:44px">条数</th><th>在说什么</th></tr>
+        <tr><td><b>62</b></td><td><b>"智商税"</b>——认为课/营是收割，点名"两条路来收你"</td></tr>
+        <tr><td><b>17</b></td><td><b>明确要求退费</b>——集中在训练营</td></tr>
+        <tr><td><b>210</b></td><td><b>药物副作用</b>——恶心呕吐、脱发、月经紊乱、停药反弹</td></tr>
+        <tr><td><b>—</b></td><td><b>统一食谱一刀切</b>——要求按作息分层、提前一天给菜单</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="band" style="bottom:52px">
+    <div class="t">一句话总结</div>
+    <div class="b">用户要的不是"你教我怎么瘦"，是<b>"你告诉我这张单子该怎么吃、卡住的时候有人接"</b>；最反感的不是贵，是<b>套路和二次收费</b>。</div>
+  </div>
+  <div class="footer">条数来自评论打标与人工编码（682 条）｜"求诊断"2,298 条来自底稿第六节转化意图｜副作用 210 条为 P5 已购负向</div>
+</section>
+
+<!-- P24 总结闭环 1/2 · 为什么做这个方向 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">总结闭环 1/2 · 为什么做这个方向</div>
+  <div class="title sm">总结推导：三大用户痛点对应三大市场空白，锁定三个课程方向</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:132px;left:52px;right:52px">
+    <table class="v40-ch-table">
+      <tr><th style="width:142px">目标人群池</th><th style="width:236px">用户核心痛点 1-2-3</th><th style="width:228px">市场现有空白 1-2-3</th><th>锁定的课程方向 1-2-3</th></tr>
+      <tr style="background:#FFF7ED">
+        <td class="nm">第 1 组<br/>体检异常主力池<br/><span class="pct">占人群 39.7%</span></td>
+        <td><b>痛点 1：单子看不懂、忌口打架</b><br/>看不懂糖耐单子、下午心慌手抖；多囊闭经怕药胖；脂肪肝合并痛风忌口打架。</td>
+        <td><b>缺失 1：医院不管饭、通用课挨饿</b><br/>医院 <b>162 元/次</b>只开药不管饭；<b>298 元通用课</b>一刀切挨饿，对瘦多囊与多病失灵。</td>
+        <td><b>方向 1：1,500–3,000元/月专病陪跑</b><br/>前端 9.9–99 元止心慌拉新；后端做<b>医学分型 90 天复查陪跑</b>（报告解读+三餐定制）。</td>
+      </tr>
+      <tr>
+        <td class="nm">第 2 组<br/>减肥针伴侣池<br/><span class="pct">占全库 6.7%</span></td>
+        <td><b>痛点 2：打针掉肌脱发、停针反弹</b><br/>打针恶心没胃口、掉肌脱发；<b>半年停药反弹占 33.6%</b>（有人停针两月反弹30斤）。</td>
+        <td><b>缺失 2：药差评最高、缺营养配套</b><br/>减肥针 <b>206 元/月</b>但<b>差评率 19.2%</b> 最高；药房只卖针，缺保肌与停针软着陆营养课。</td>
+        <td><b>方向 2：减肥针伴侣加课</b><br/>合规不碰药量，专做<b>「在用期分 5 顿高蛋白保肌 + 停针 12 周防反扑软着陆」</b>。</td>
+      </tr>
+      <tr style="background:#F8FAFC">
+        <td class="nm">第 3 组<br/>三节点与场景池<br/><span class="pct">占人群 54.3%</span></td>
+        <td><b>痛点 3：三个固定节点集中崩盘</b><br/><b>前 3 天退营 26.8%</b>、<b>15 天卡秤</b>、<b>半年复胖 21.2%</b>；近 1/4 是盲目节食饿坏代谢。</td>
+        <td><b>缺失 3：传统营逼打卡、私域逼单</b><br/>传统营首周断碳逼打卡致低血糖；不良私域 <b>448→4,608 元</b>连环逼单被骂智商税。</td>
+        <td><b>方向 3：三节点防崩 + 公域引流</b><br/><b>前 3 天不断碳防手抖 + 第 15 天破卡秤</b>护航；用<b>宝妈/中年/外卖点单</b>做公域引流。</td>
+      </tr>
+    </table>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>商业逻辑闭环：</b>用第 3 组场景课做免费流量 → 用第 1/2 组解决“医院不管、通用课不会”的刚需痛点收高客单。</div></div>
+  <div class="footer">数据源：五平台 93,410 条评论 + 682 条人工编码 + 101 家卖课商家（198 个 SKU）全量交叉推导</div>
+</section>
+
+<!-- P25 总结闭环 2/2 · 课程大纲怎么设计 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">总结闭环 2/2 · 课程大纲怎么设计</div>
+  <div class="title sm">课程大纲蓝图：围绕三大方向设计「9 门正课 + 1 门打针加课（共 106 节）」</div>
+  <div class="rule"></div>
+  <div class="v40-grid3">
+    <div class="v40-card">
+      <div>
+        <div class="tag">模块一 · 现金牛核心课</div>
+        <div class="big-row"><span class="big-num">4 门 48 节</span><span class="big-sub">三大指标异常正课</span></div>
+      </div>
+      <div class="item"><b>① 胰岛素抵抗报告轨（12节）+ ② 症状轨（12节）：</b>覆盖化验单与动态血糖仪曲线解读、下午 4 点防心慌加餐、211 进餐顺序与 90 天复查餐表。</div>
+      <div class="item"><b>③ 多囊胖瘦分轨课（12节）+ ④ 脂肪肝四病配餐课（12节）：</b>覆盖瘦多囊慢碳增肌调经、戒果糖排雷与「肝脂+痛风尿酸+血脂」安全白名单。</div>
+    </div>
+    <div class="v40-card o">
+      <div>
+        <div class="tag">模块二 · 高增差异化蓝海</div>
+        <div class="big-row"><span class="big-num">1 门 10 节</span><span class="big-sub">减肥针伴侣加课</span></div>
+      </div>
+      <div class="item"><b>① 在用期高蛋白保肌防脱发（5节）：</b>针对打针没胃口、吃肉反胃，拆解「分 5 顿小体积高蛋白」凑够配额法与防脱发通便食谱。</div>
+      <div class="item"><b>② 停针前后 12 周防反扑软着陆（5节）：</b>针对停药食欲报复性反弹，用高饱腹慢碳缓冲餐 + 居家抗阻保住基础代谢。</div>
+    </div>
+    <div class="v40-card g">
+      <div>
+        <div class="tag">模块三 · 留存底座与公域获客</div>
+        <div class="big-row"><span class="big-num">5 门 48 节</span><span class="big-sub">三节点防崩与场景正课</span></div>
+      </div>
+      <div class="item"><b>① 前3天防饿崩与第15天破卡秤（9节）+ ② 情绪暴食补救（10节）：</b>不断碳启动餐、姨妈期合法加餐、真假平台期判断与夜间暴食止损清单。</div>
+      <div class="item"><b>③ 产后恢复（9节）+ ④ 中老年更年期保肌（10节）+ ⑤ 上班族外卖点单（10节）：</b>做全平台免费引流与日常外食落地工具。</div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b"><b>交付原则：</b>所有课程共用「控糖慢碳 + 保肌抗阻 + 稳作息」底层逻辑，明码标价一口价交付，绝不捆绑高价代餐粉。</div></div>
+  <div class="footer">完整 106 节逐节课表见交付文档｜合规红线：仅提供营养配餐与生活方式指导，处方药剂量与临床诊断一律遵医嘱</div>
+</section>
+
+<!-- P22 附录 A · 数据怎么来的（母词裂变树状图） -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">附录 A · 数据怎么来的（母词裂变树状图）</div>
+  <div class="title sm">从 8 个一级母词裂变 43 个二级词干，筛出靶向词抓回 4,283 篇内容与 9.3 万条评论</div>
+  <div class="rule"></div>
+  <div class="tree-grid">
+    <!-- Col 1: 8 Mother Words -->
+    <div class="t-col">
+      <div class="t-hdr"><span>1级 · 8个母词</span><span>4大入口</span></div>
+      <div class="t-card">
+        <div class="th"><span>① 大盘泛减重</span><span class="cnt">2 词</span></div>
+        <div class="tp"><b>减肥 · 减脂</b><br/>污染0%，做大盘基线对照与食谱运动入口（转化意图仅3.6%）</div>
+      </div>
+      <div class="t-card">
+        <div class="th"><span>② 受挫与复胖</span><span class="cnt">3 词</span></div>
+        <div class="tp"><b>瘦不下来 · 复胖 · 减肥反弹了怎么办</b><br/>替掉27%股市污染的裸词「反弹」</div>
+      </div>
+      <div class="t-card star">
+        <div class="th"><span>③ 血糖与指标 ★</span><span class="cnt">2 词</span></div>
+        <div class="tp"><b>控糖 · 血糖高</b><br/>词间重合度仅0.08，三平台增速+74.6%，意图21.7%第一</div>
+      </div>
+      <div class="t-card">
+        <div class="th"><span>④ 付费找外援</span><span class="cnt">1 词</span></div>
+        <div class="tp"><b>营养师</b><br/>唯一指向付费服务的母词（5%考证噪音后续单列剔除）</div>
+      </div>
+    </div>
+
+    <!-- Col 2: 43 Stems -->
+    <div class="t-col">
+      <div class="t-hdr c2"><span>2级 · 43个二级裂变词干</span><span>8母词+35补盲</span></div>
+      <div class="t-card c2 star">
+        <div class="th"><span>2-1 控糖与胰岛素抵抗</span><span class="cnt">5 词干</span></div>
+        <div class="tp">控糖 · 血糖高 · <b>胰岛素抵抗怎么 · 糖前期怎么吃 · 餐后血糖高</b></div>
+      </div>
+      <div class="t-card c2">
+        <div class="th"><span>2-2 脂肪肝/内脏脂肪/男性应酬</span><span class="cnt">5 词干</span></div>
+        <div class="tp"><b>脂肪肝怎么 · 内脏脂肪怎么减 · 啤酒肚怎么减 · 男性减脂 · 应酬喝酒</b></div>
+      </div>
+      <div class="t-card c2">
+        <div class="th"><span>2-3 多囊卵巢/甲减/生理期</span><span class="cnt">4 词干</span></div>
+        <div class="tp"><b>多囊减肥 · 多囊怎么减肥 · 桥本甲减怎么减肥 · 经期怎么减肥</b></div>
+      </div>
+      <div class="t-card c2">
+        <div class="th"><span>2-4 产后与中老年/更年期（纯白话）</span><span class="cnt">5 词干</span></div>
+        <div class="tp"><b>产后减肥 · 哺乳期怎么减肥 · 更年期怎么减肥 · 五十岁以后 · 中老年</b></div>
+      </div>
+      <div class="t-card c2">
+        <div class="th"><span>2-5 夜班/家庭餐/素食/便秘</span><span class="cnt">6 词干</span></div>
+        <div class="tp"><b>夜班/司机怎么减肥 · 给家人做减脂餐 · 一家人怎么吃 · 素食 · 便秘</b></div>
+      </div>
+      <div class="t-card c2">
+        <div class="th"><span>2-6 复胖/平台期/维持期/打呼噜</span><span class="cnt">10 词干</span></div>
+        <div class="tp">瘦不下来 · 复胖 · <b>复胖怎么 · 维持体重不反弹 · 瘦下来怎么保持 · 平台期</b></div>
+      </div>
+      <div class="t-card c2">
+        <div class="th"><span>2-7 基础减重 & 2-8 药/门诊/价格</span><span class="cnt">8 词干+补盲</span></div>
+        <div class="tp">减肥/减脂/减重 · <b>司美格鲁肽怎么吃 · 减肥营/营养师多少钱 · 减重门诊</b></div>
+      </div>
+    </div>
+
+    <!-- Col 3: Target Keywords -->
+    <div class="t-col">
+      <div class="t-hdr c3"><span>3级 · 下拉联想筛出靶向词</span><span>1,329→1,225词</span></div>
+      <div class="t-card c3 star">
+        <div class="th"><span>血糖/胰岛素抵抗词组</span><span class="cnt">P1主力</span></div>
+        <div class="tp">瘦不下来是不是胰岛素抵抗(<b>98篇/3,272评</b>) · 胰岛素抵抗怎么改善(<b>69篇/2,370评</b>) · 血糖高怎么吃三餐(<b>80篇/2,279评</b>) · 动态血糖仪(<b>83篇/1,594评</b>)</div>
+      </div>
+      <div class="t-card c3">
+        <div class="th"><span>脂肪肝/尿酸/肚子大词组</span><span class="cnt">体检异常</span></div>
+        <div class="tp">肚子大怎么减肥(<b>73篇/2,620评</b>) · 内脏脂肪高怎么减(<b>78篇/2,471评</b>) · 脂肪肝怎么消除(<b>58篇/1,842评</b>) · 尿酸高(<b>90篇/2,008评</b>)</div>
+      </div>
+      <div class="t-card c3">
+        <div class="th"><span>多囊/甲减 & 产后/中年更年期词组</span><span class="cnt">女性/年龄</span></div>
+        <div class="tp">多囊减肥不掉称(<b>98篇/1,973评</b>) · 中年减肥食谱(<b>69篇/3,022评</b>) · 产后减肥难的原因(<b>95篇/2,911评</b>) · 更年期(<b>76篇/1,194评</b>)</div>
+      </div>
+      <div class="t-card c3">
+        <div class="th"><span>上班族外卖 & 日常减脂餐词组</span><span class="cnt">外食场景</span></div>
+        <div class="tp">外卖减脂餐推荐(<b>75篇/2,835评</b>) · 上班族一日三餐(<b>68篇/1,489评</b>) · 生活化减脂(<b>54篇/1,558评</b>) · 掉秤快减脂餐(<b>48篇/1,336评</b>)</div>
+      </div>
+      <div class="t-card c3">
+        <div class="th"><span>反弹/不掉秤/暴食/熬夜 & 大小基数</span><span class="cnt">受挫/体量</span></div>
+        <div class="tp">减肥为什么不掉秤(<b>81篇/2,876评</b>) · 暴食补救(<b>102篇/2,400评</b>) · 反弹怎么减(<b>97篇/2,186评</b>) · 大基数(<b>79篇/1,515评</b>)</div>
+      </div>
+      <div class="t-card c3">
+        <div class="th"><span>减肥针(GLP-1) & 减脂营/营养师测评</span><span class="cnt">药械/竞品</span></div>
+        <div class="tp">司美副作用(<b>107篇/3,135评</b>) · 替尔泊肽(<b>79篇/3,078评</b>) · 营养师靠谱吗(<b>99篇/2,103评</b>) · 减重营(<b>99篇/2,008评</b>)</div>
+      </div>
+    </div>
+
+    <!-- Col 4: 4 Crowd Types / 8 Crowds -->
+    <div class="t-col">
+      <div class="t-hdr c4"><span>4级 · 四大类八人群客观汇总</span><span>分母 83,936 评</span></div>
+      <div class="t-card c4 star">
+        <div class="th"><span>A 指标型（付费主力 ★）</span><span class="cnt">39.7%｜33,357评</span></div>
+        <div class="tp">
+          ① <b>胰岛素抵抗/血糖高 21.5%</b>（18,068评｜意愿69.1｜问询45/万，唯一双高首选切口）<br/>
+          ② <b>脂肪肝/尿酸 9.7%</b>（8,128评｜意愿64.1，第二梯队）<br/>
+          ③ <b>多囊 PCOS 8.5%</b>（7,161评｜意愿76.2最高，高溢价小众）
+        </div>
+      </div>
+      <div class="t-card c4">
+        <div class="th"><span>C 场景型（公域获客入口）</span><span class="cnt">32.0%｜26,862评</span></div>
+        <div class="tp">
+          ④ <b>中老年/更年期 12.1%</b>（意愿46.1｜问询7.3/万）<br/>
+          ⑤ <b>上班族外食外卖 11.6%</b>（9,774评｜意愿41.9，工具引流）<br/>
+          ⑥ <b>产后宝妈 8.3%</b>（产后中年合17,088评按40.6:59.4拆）
+        </div>
+      </div>
+      <div class="t-card c4">
+        <div class="th"><span>B 反复失败型（防崩底座）</span><span class="cnt">22.3%｜18,725评</span></div>
+        <div class="tp">
+          ⑦ <b>反复反弹/卡平台/暴食 18.6%</b>（15,625评｜意愿54.8）<br/>
+          ⑧ <b>小基数卡秤塑形 3.7%</b>（3,100评｜意愿43.6，近半BMI正常）
+        </div>
+      </div>
+      <div class="t-card c4">
+        <div class="th"><span>D 体量型 + A2 用药期 + 未归属</span><span class="cnt">闭环 93,410评</span></div>
+        <div class="tp">
+          · <b>D 大基数 5.9%</b>（4,992评｜意愿45.1｜问询5.8/万最低）<br/>
+          · <b>A2 用药期 6.7%</b>（6,284评，提司美/替尔573条，做停针防弹配套）<br/>
+          · <b>未归属泛讨论/测评 9,474评(10.1%)</b>｜另剔31篇卖课噪音
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b xs"><b>去黑话客观声明：</b>1级8母词与2级43词干均为「五十岁以后怎么减肥」「胰岛素抵抗怎么」等纯用户白话，绝不预设包装课名；按搜索词客观映射四大类八人群。</div></div>
+  <div class="footer">五平台实抓：B站1,380篇(35,342评)·小红书1,044篇(18,468评)·抖音812篇(29,828评)·知乎737篇(8,176评)·微博310篇(1,596评)｜入库88词(实落82)/扩展130/v3定稿173词</div>
+</section>
+
+<!-- P20 附录 A · 研究基础 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">附录 A · 数据规模</div>
+  <div class="title">结论不是拍脑袋：来自 5 个平台、4,283 篇内容、9.3 万条真实评论</div>
+  <div class="rule"></div>
+  <div class="stats" style="top:158px">
+    <div class="stat"><div class="num">5</div><div class="lab">平台<br/>小红书·抖音·B站·知乎·微博</div><div class="src">微信公众号/视频号已剔除</div></div>
+    <div class="stat"><div class="num">4,283</div><div class="lab">净有效内容<br/>近半年 5,314 条去重后</div><div class="src">另 31 篇导流已剔除</div></div>
+    <div class="stat"><div class="num">93,410</div><div class="lab">真实评论<br/>全部抓取，非抽样</div><div class="src">重标快照 103,968 条</div></div>
+  </div>
+  <div class="stats" style="top:302px">
+    <div class="stat"><div class="num">682</div><div class="lab">条人工编码信号<br/>400 帖及其评论逐条打标</div><div class="src">其中用户原声 176 条</div></div>
+    <div class="stat"><div class="num">10</div><div class="lab">个赛道<br/>大众减重到司美、多囊、脂肪肝</div><div class="src">按 8 大业务分类归并</div></div>
+    <div class="stat"><div class="num">11</div><div class="lab">份一手访谈<br/>另有 2 份政策原件、3 组药价报道</div><div class="src">访谈仅 1 人有减重付费史</div></div>
+  </div>
+  <div class="band" style="bottom:44px">
+    <div class="b">一句话：这不是拍脑袋，是 <b>4,283 篇内容 + 93,410 条评论 + 682 条人工编码</b> 逐条看出来的。</div>
+  </div>
+  <div class="footer">时间窗 2026-05-03 至 2026-11-03｜口径：净有效内容 4,283 篇、评论 93,410 条（重标跑批时点 103,968 条）</div>
+</section>
+
+<!-- P21 附录 A · 数据来源与可信度 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">附录 A · 数据怎么抓的</div>
+  <div class="title sm2">不看平台算法推荐，只抓用户主动搜的 88 个词，87% 的结论有硬数据支撑</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:136px;left:52px;right:52px;font-size: 14.0px;color:#1A365D">
+    不靠平台推荐流，按关键词定向搜——推荐流给的是平台想让你看的，关键词给的是用户真的在搜的。
+  </div>
+  <div style="position:absolute;top:164px;left:52px;right:52px">
+    <table class="ct xs air">
+      <tr><th style="width:134px">来源</th><th style="width:80px">规模</th><th>怎么来的</th><th style="width:128px">在报告里干什么</th></tr>
+      <tr><td class="nm">五平台内容与评论</td><td><b>4,283 篇</b><br/><b>93,410 条</b></td>
+        <td><b>按 88 个靶向长尾词定向搜</b>：每个词定目标篇数 → 抓正文与全部评论 → 按内容 ID 去重 → 剔除 31 篇卖课导流</td>
+        <td>主证据：增速、占比、钩子</td></tr>
+      <tr><td class="nm">人工编码</td><td><b>682 条</b></td>
+        <td>400 帖及其评论逐条打标：谁在说、触发事件、卡在哪、原话、置信度</td>
+        <td>补卡点与场景；<b>不算占比</b></td></tr>
+      <tr><td class="nm">一手访谈</td><td><b>11 份</b></td>
+        <td>项目内既有访谈，其中仅 1 人有完整减重付费经历</td><td>校正方向、价格锚点</td></tr>
+      <tr><td class="nm">公开数据</td><td><b>2 + 3 组</b></td>
+        <td>卫健委两份政策原件；药价由四家媒体三源以上交叉</td><td>政策背景、药价锚点</td></tr>
+    </table>
+  </div>
+  <div style="position:absolute;top:382px;left:52px;right:52px;display:flex;gap:12px">
+    <div style="flex:1" class="box"><div class="h" style="color:#1A365D;font-size: 12.0px">词表怎么来的</div>
+      <div class="c" style="font-size: 12.6px;line-height:1.5">① 8 母词＋43 词干，补男性、夜班、维持期、价格、手术、中医等盲区　② 五平台跑联想 → 1,329 条　③ 排雷删财经/游戏/考证 → 1,225 条　④ <b>打分＝跨平台数×3＋被几个词干带出</b>，定 P1/P2/P3</div></div>
+    <div style="flex:1" class="box g"><div class="h" style="color:#0f766e;font-size: 12.0px">证据等级</div>
+      <div class="c" style="font-size: 12.6px;line-height:1.5">A 级 <b>47%</b>（可直接引用）｜B 级 <b>40%</b>（方向性）｜C 级 <b>13%</b>（仅背景）｜D 级 0<br/>
+      <span class="muted">限制：样本是主动表达人群；竞品转化率无数据；男性样本缺失。</span></div></div>
+  </div>
+  <div class="footer">完整溯源见《数据溯源说明.md》｜钩子与平台指标可用 _build\recompute.py 复现</div>
+</section>
+
+<!-- P22 附录 B · 方法论 -->
+<section class="slide">
+  <div class="topbar"></div>
+  <div class="kicker">附录 B · 标题怎么起</div>
+  <div class="title sm2">写标题不能套同一个模板：讲控糖用「亲身经历」，讲卡秤用「专家科普」</div>
+  <div class="rule"></div>
+  <div style="position:absolute;top:142px;left:52px;right:52px">
+    <div class="sub-h">同一个钩子，在同类内比较（有该钩子 vs 无该钩子的中位赞之比）</div>
+    <table class="ct xs">
+      <tr><th>内容类</th><th style="width:96px">第一人称</th><th style="width:96px">专家背书</th><th style="width:96px">具体数字</th><th style="width:96px">清单合集</th></tr>
+      <tr><td class="nm">测评</td><td>1.18x</td><td>0.74x</td><td>0.82x</td><td><b>2.14x</b></td></tr>
+      <tr><td class="nm">食谱</td><td><b>2.81x</b></td><td class="red">0.15x</td><td><b>1.81x</b></td><td>1.63x</td></tr>
+      <tr><td class="nm">平台期</td><td class="red">0.69x</td><td><b>1.59x</b></td><td><b>1.72x</b></td><td>1.48x</td></tr>
+      <tr><td class="nm">控糖</td><td><b>2.75x</b></td><td><b>1.37x</b></td><td>1.47x</td><td>1.54x</td></tr>
+      <tr><td class="nm">瘦肚子</td><td><b>3.94x</b></td><td class="red">0.49x</td><td><b>1.78x</b></td><td class="red">0.19x</td></tr>
+    </table>
+  </div>
+  <div style="position:absolute;top:338px;left:52px;right:52px;display:flex;gap:14px">
+    <div class="box o" style="flex:1"><div class="h" style="color:#92400e">会反转的两个</div><div class="c"><b>第一人称</b>：控糖 2.75x、瘦肚子 3.94x，但在平台期是 <b>0.69x</b>。<b>专家背书</b>：平台期 1.59x、控糖 1.37x，但食谱只有 <b>0.15x</b>。</div></div>
+    <div class="box" style="flex:1"><div class="h">所以全局倍数不能用</div><div class="c">此前“第一人称 1.54x、专家 0.55x”是把所有内容类混在一起算的均值，被选题结构搅乱，<b>不能当作标题的通用规律</b>。</div></div>
+  </div>
+  <div class="band" style="bottom:44px"><div class="b">正确用法：<b>只在同一内容类里比较钩子</b>。跨类比较会把选题差异算进标题里。</div></div>
+  <div class="footer">方法：标题正则匹配四个钩子，同类内“有钩子 vs 无钩子”的中位赞之比；每类样本 ≥10 篇才计入｜与全局口径（点赞前 10% vs 其余）算法不同，不能混用</div>
+</section>
+
+</body>
+</html>

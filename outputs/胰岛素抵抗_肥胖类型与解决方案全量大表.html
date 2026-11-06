@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>「胰岛素抵抗」底层原因 × 肥胖分型与解决方案全量大表（同事审阅版）</title>
+  <style>
+    :root {
+      --navy: #1A365D;
+      --navy-light: #2B4C7E;
+      --slate-900: #0F172A;
+      --slate-700: #334155;
+      --slate-500: #64748B;
+      --border: #CBD5E1;
+      --bg-page: #F1F5F9;
+      --bg-card: #FFFFFF;
+      --cat1-bg: #EFF6FF; --cat1-bd: #2563EB; --cat1-tx: #1D4ED8;
+      --cat2-bg: #FFFBEB; --cat2-bd: #D97706; --cat2-tx: #B45309;
+      --cat3-bg: #FDF2F8; --cat3-bd: #DB2777; --cat3-tx: #BE185D;
+      --cat4-bg: #F5F3FF; --cat4-bd: #7C3AED; --cat4-tx: #6D28D9;
+      --cat5-bg: #ECFDF5; --cat5-bd: #059669; --cat5-tx: #047857;
+      --cat6-bg: #FEF2F2; --cat6-bd: #DC2626; --cat6-tx: #B91C1C;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg-page);
+      color: var(--slate-900);
+      font-family: "Microsoft YaHei", "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
+      padding: 28px 24px 60px;
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 1560px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: 10px;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .header {
+      background: linear-gradient(135deg, #1A365D 0%, #0F172A 100%);
+      color: #FFFFFF;
+      padding: 26px 32px 22px;
+      border-bottom: 4px solid #667EEA;
+    }
+    .header .kicker {
+      font-size: 12.5px;
+      letter-spacing: 2px;
+      color: #93C5FD;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .header h1 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+    .header .desc {
+      font-size: 13.5px;
+      color: #CBD5E1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+    }
+    .toolbar {
+      background: #F8FAFC;
+      padding: 12px 32px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12.5px;
+    }
+    .pill {
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+    .pill.c1 { background: var(--cat1-bg); color: var(--cat1-tx); border-color: #BFDBFE; }
+    .pill.c2 { background: var(--cat2-bg); color: var(--cat2-tx); border-color: #FDE68A; }
+    .pill.c3 { background: var(--cat3-bg); color: var(--cat3-tx); border-color: #FBCFE8; }
+    .pill.c4 { background: var(--cat4-bg); color: var(--cat4-tx); border-color: #DDD6FE; }
+    .pill.c5 { background: var(--cat5-bg); color: var(--cat5-tx); border-color: #A7F3D0; }
+    .pill.c6 { background: var(--cat6-bg); color: var(--cat6-tx); border-color: #FECACA; }
+    .note-tip {
+      font-size: 12.5px;
+      color: var(--slate-500);
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+    table.master {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    table.master thead th {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #1A365D;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      padding: 13px 14px;
+      border-right: 1px solid #334E7B;
+      letter-spacing: 0.5px;
+    }
+    table.master thead th:last-child { border-right: none; }
+
+    tr.cat-row td {
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-top: 2px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      letter-spacing: 0.5px;
+    }
+    tr.cat-row.c1 td { background: var(--cat1-bg); color: var(--cat1-tx); border-left: 6px solid var(--cat1-bd); }
+    tr.cat-row.c2 td { background: var(--cat2-bg); color: var(--cat2-tx); border-left: 6px solid var(--cat2-bd); }
+    tr.cat-row.c3 td { background: var(--cat3-bg); color: var(--cat3-tx); border-left: 6px solid var(--cat3-bd); }
+    tr.cat-row.c4 td { background: var(--cat4-bg); color: var(--cat4-tx); border-left: 6px solid var(--cat4-bd); }
+    tr.cat-row.c5 td { background: var(--cat5-bg); color: var(--cat5-tx); border-left: 6px solid var(--cat5-bd); }
+    tr.cat-row.c6 td { background: var(--cat6-bg); color: var(--cat6-tx); border-left: 6px solid var(--cat6-bd); }
+
+    table.master tbody tr.item-row td {
+      padding: 12px 14px;
+      border-bottom: 1px solid #E2E8F0;
+      border-right: 1px solid #E2E8F0;
+      vertical-align: top;
+      font-size: 13.2px;
+      color: var(--slate-700);
+    }
+    table.master tbody tr.item-row:hover td {
+      background: #F8FAFC;
+    }
+    table.master tbody tr.item-row td:last-child { border-right: none; }
+
+    .type-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 4px;
+      line-height: 1.35;
+    }
+    .type-sub {
+      font-size: 12px;
+      color: var(--slate-500);
+      margin-bottom: 6px;
+      display: block;
+    }
+    .data-badge {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: #FEF3C7;
+      color: #92400E;
+      border: 1px solid #FDE68A;
+      margin-top: 2px;
+    }
+    .data-badge.blue {
+      background: #EFF6FF;
+      color: #1E40AF;
+      border-color: #BFDBFE;
+    }
+    .data-badge.green {
+      background: #ECFDF5;
+      color: #065F46;
+      border-color: #A7F3D0;
+    }
+    .data-badge.gray {
+      background: #F1F5F9;
+      color: #475569;
+      border-color: #CBD5E1;
+    }
+
+    ul.bl {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.bl li {
+      position: relative;
+      padding-left: 12px;
+      margin-bottom: 4px;
+      line-height: 1.45;
+    }
+    ul.bl li:last-child { margin-bottom: 0; }
+    ul.bl li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #64748B;
+      font-weight: 700;
+    }
+    .hl-red { color: #B91C1C; font-weight: 700; }
+    .hl-navy { color: #1A365D; font-weight: 700; }
+    .hl-green { color: #047857; font-weight: 700; }
+    .hl-amber { color: #B45309; font-weight: 700; }
+
+    .cycle-tag {
+      display: inline-block;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #1A365D;
+      background: #E2E8F0;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 6px;
+    }
+
+    .footer {
+      padding: 16px 32px;
+      background: #F8FAFC;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--slate-500);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    @media print {
+      body { padding: 0; background: #fff; }
+      .wrap { box-shadow: none; border: none; max-width: 100%; }
+      table.master thead th { position: static; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="kicker">灵知生物 · 减重与代谢课程底层医学与商业映射总表（内部同事审阅版）</div>
+      <h1>「胰岛素抵抗（IR）」底层原因 × 肥胖分型与解决方案全量大表（6 大类 22 型）</h1>
+      <div class="desc">
+        <span>依据：中华医学会《胰岛素抵抗相关临床问题专家共识(2022)》《多囊卵巢综合征中国诊疗指南(2018)》《代谢相关脂肪性肝病防治指南(2024)》 × 五平台 93,410 条评论实证</span>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="legend">
+        <span class="pill c1">一、身体成分与能量失衡（3型）</span>
+        <span class="pill c2">二、饮食结构与微生态失衡（6型）</span>
+        <span class="pill c3">三、内分泌共病与生命周期（4型）</span>
+        <span class="pill c4">四、神经应激与熬夜睡眠（3型）</span>
+        <span class="pill c5">五、器官代谢与慢性炎症（3型）</span>
+        <span class="pill c6">六、医源性、遗传与环境（3型）</span>
+      </div>
+      <div class="note-tip">💡 审阅说明：表头固定为「肥胖类型｜指标｜健康风险｜解决方案原则/框架｜周期/节奏」，后续可按行补充具体课程SKU与运营指标</div>
+    </div>
+
+    <div class="table-container">
+      <table class="master">
+        <thead>
+          <tr>
+            <th style="width: 17%">肥胖类型</th>
+            <th style="width: 21%">指标（体检 / 体测 / 体感信号）</th>
+            <th style="width: 19%">健康风险</th>
+            <th style="width: 26%">解决方案原则 / 框架</th>
+            <th style="width: 17%">周期 / 节奏</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ==================== 第一大类 ==================== -->
+          <tr class="cat-row c1">
+            <td colspan="5">一、身体成分与能量失衡类（脂肪仓库满溢 vs. 骨骼肌血糖锅炉不足）</td>
+          </tr>
+
+          <!-- 1 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">1. 中心性 / 内脏脂肪型肥胖</div>
+              <span class="type-sub">腹型肥胖、苹果型身材、啤酒肚</span>
+              <span class="data-badge blue">大盘基数最大 · 指南首要获得性病因</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>腰围：</b>男性 ≥ 90 cm，女性 ≥ 85 cm</li>
+                <li><b>腰臀比：</b>男 &gt; 0.90，女 &gt; 0.85；内脏脂肪面积 ≥ 100 cm²</li>
+                <li><b>化验单：</b>HOMA-IR ≥ 2.5，空腹胰岛素 &gt; 15 μU/mL，或空腹 C 肽升高</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>内脏脂肪释放过量游离脂肪酸（FFA）与炎症因子，引发全身<b>脂毒性</b></li>
+                <li>极易进展为 2 型糖尿病、高血压、动脉粥样硬化及心脑血管事件</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">温和热量赤字：</span>每日减少 300–500 kcal，拒绝极低热量断食</li>
+                <li><span class="hl-navy">211 控糖餐盘：</span>每餐 2 拳蔬菜 + 1 掌心优质蛋白 + 1 拳慢碳水，压平餐后胰岛素峰值</li>
+                <li><span class="hl-navy">有氧+抗阻联合：</span>每周 ≥ 150 分钟中等有氧 + 2–3 次抗阻优先动员内脏脂肪</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天标准逆转周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>戒液态糖，退水肿</li>
+                <li><b>第 3–8 周：</b>腰围每周降 0.5–1 cm（目标减重 5%–10%）</li>
+                <li><b>第 9–12 周：</b>复查空腹胰岛素与糖耐</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 2 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">2. 肌少性隐性肥胖</div>
+              <span class="type-sub">“瘦胖子（TOFI）” / 瘦型胰岛素抵抗 / 瘦多囊 / 瘦脂肪肝</span>
+              <span class="data-badge">占自述诱因 14.9%–26.9% · 瘦多囊困惑占 42%</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>体测反差：</b>BMI 正常甚至偏瘦（18.5–22），但<b>体脂率超标</b>（女 &gt; 28%，男 &gt; 20%）</li>
+                <li><b>肌肉不足：</b>四肢纤细松软、肚子有赘肉，骨骼肌质量指数（SMI）偏低</li>
+                <li><b>化验单：</b>空腹血糖多正常，但<b>餐后 2h 血糖/胰岛素飙升</b></li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>骨骼肌占人体胰岛素刺激下葡萄糖摄取的 <b>70%–80%</b>；肌肉太少导致餐后血糖无处消耗</li>
+                <li>因外观看似不胖极易漏诊，被一刀切建议“少吃减肥”反而加重病情</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">严禁节食减重：</span>不设热量赤字，目标不是降体重而是<b>“涨肌肉、降体脂率”</b></li>
+                <li><span class="hl-navy">高蛋白+吃够慢碳：</span>每日蛋白质 1.2–1.5 g/kg 体重，分摊到三餐</li>
+                <li><span class="hl-navy">抗阻增肌建锅炉：</span>每周 3 次居家哑铃/弹力带大肌群抗阻（臀腿背），扩建血糖仓库</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">12–16 周增肌塑形期</span>
+              <ul class="bl">
+                <li><b>第 1–4 周：</b>吃够蛋白+力量入门（体重不降甚至微涨 1–2 斤属正常）</li>
+                <li><b>第 5–12 周：</b>腰围缩小、体脂率下降 3%–5%，餐后困倦消失</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 3 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">3. 节食反弹 / 代谢受损型肥胖</div>
+              <span class="type-sub">“饿出来的抵抗”：液断、生酮、拔罐、代餐暴瘦后复胖</span>
+              <span class="data-badge">占自述诱因 25.8%–30.0%（近 1/4 患者为此型！）</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>减重史：</b>有 ≥ 2 次极端节食/断碳/吃减肥药暴瘦又反弹史</li>
+                <li><b>代谢指标：</b>实测基础代谢率（BMR）低于同龄标准 15% 以上</li>
+                <li><b>体感：</b>每天吃极少（&lt; 800 kcal）仍不掉秤，恢复正常吃主食立刻飞速复胖、怕冷、脱发、闭经</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>反复暴瘦掉的是肌肉和水分，反弹回来 100% 是内脏脂肪（溜溜球效应）</li>
+                <li>长期饥饿引发游离脂肪酸涌入肝脏（营养不良型脂肪肝）及生理性胰岛素抵抗、暴食症</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">先修代谢、后谈掉秤：</span>采用“反向饮食法（Reverse Dieting）”，前 2–4 周不承诺掉秤</li>
+                <li><span class="hl-navy">阶梯恢复慢碳水：</span>从每餐半拳粗粮开始逐步加回主食，唤醒甲状腺 T3 与瘦素水平</li>
+                <li><span class="hl-navy">三节点心理护航：</span>重点守住入营前 3 天（防饿崩）与第 15 天（破卡秤焦虑）</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">12 周代谢重建周期</span>
+              <ul class="bl">
+                <li><b>第 1–3 天：</b>不断碳启动餐，止住心慌手抖</li>
+                <li><b>第 1–4 周：</b>代谢修复稳重期（只看腰围与精力，不看体重）</li>
+                <li><b>第 5–12 周：</b>代谢回升后进入温和减脂期</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ==================== 第二大类 ==================== -->
+          <tr class="cat-row c2">
+            <td colspan="5">二、饮食结构与肠道微生态失衡类（吃进去的燃料错了 + 肠漏慢性炎症）</td>
+          </tr>
+
+          <!-- 4 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">4. 高精制碳水冲击型</div>
+              <span class="type-sub">米面粉粥依赖 / 反应性低血糖型（对应 1B 症状体感型）</span>
+              <span class="data-badge">占自述诱因 49.1%–60.0% · 症状型 89.7% 喊饿心慌</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验单：</b>空腹血糖可正常，但 OGTT 餐后 1h/2h 胰岛素飙升至空腹的 5–10 倍以上，餐后 3–4h 血糖骤降</li>
+                <li><b>典型体感：</b>刚吃完 1 小时又饿（64.7%）、<b>下午 3–4 点心慌手抖出冷汗（44.2%）</b>、饭后极度犯困昏睡（12条）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>高 GI 精白米面令血糖剧烈过山车，胰岛 β 细胞长期超负荷分泌导致衰竭</li>
+                <li>餐后反应性低血糖引发大脑恐慌，逼迫患者在傍晚和夜间失控暴食甜食</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-amber">严禁直接砍断主食：</span>一砍主食必引发严重低血糖手抖而退营</li>
+                <li><span class="hl-navy">调整进餐顺序：</span>严格执行<b>「先喝汤/吃菜 → 再吃肉蛋 → 最后吃慢碳主食」</b></li>
+                <li><span class="hl-navy">主食同类无痛替换 + 定点加餐：</span>用低 GI 面条/杂粮饭替换白米白面；下午 3:30 定点补充坚果/水煮蛋托底血糖</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">3 天急救 + 28 天习惯固化</span>
+              <ul class="bl">
+                <li><b>第 1–3 天：</b>止住下午 4 点心慌手抖与饭后昏睡（最快感知价值点）</li>
+                <li><b>第 4–14 天：</b>可配动态血糖仪（CGM）排查个人升糖刺客</li>
+                <li><b>第 15–28 天：</b>固化三餐主食替换模板</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 5 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">5. 高果糖 / 肝源性脂质新生型</div>
+              <span class="type-sub">水果代晚餐 / 狂炫西瓜荔枝 / 奶茶果汁型</span>
+              <span class="data-badge">脂肪肝饮食诱因中占 88.7%（133/150条）！</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>检查单：</b>肝脏 B 超提示轻/中/重度脂肪肝；甘油三酯（TG）偏高、血尿酸（UA）偏高</li>
+                <li><b>认知误区：</b>自述“从不吃肥肉和油炸，为了减肥戒肉吃素、拿水果当晚饭”，结果轻度变重度</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>果糖不依赖胰岛素，<b>近 100% 在肝脏经脂质新生（DNL）直接转化为甘油三酯</b>堆积在肝细胞</li>
+                <li>果糖代谢消耗大量 ATP 生成尿酸，直接诱发<b>重度脂肪肝 + 高尿酸痛风 + 肝脏胰岛素抵抗</b></li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">果糖排雷第一条：</span>彻底停掉水果代晚餐、鲜榨果汁、果茶奶茶、高糖热带水果（西瓜/荔枝/榴莲/冬枣）</li>
+                <li><span class="hl-navy">水果限品种与时机：</span>改在两餐之间或正餐后吃 ≤ 1 小拳低糖莓果（蓝莓/草莓/圣女果）</li>
+                <li><span class="hl-navy">补足运脂蛋白：</span>每天吃够优质蛋白（鱼虾鸡胸肉蛋豆），提供载脂蛋白把脂肪从肝脏运出来</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天肝脏消红字周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>戒断液态果糖与水果晚饭</li>
+                <li><b>第 4 周：</b>复查甘油三酯与血尿酸明显回落</li>
+                <li><b>第 12 周：</b>B 超复查脂肪肝降级或消失</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 6 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">6. 促炎油脂与超加工外卖型</div>
+              <span class="type-sub">上班族三餐外卖 / 高 Omega-6 植物油 / 反式脂肪型</span>
+              <span class="data-badge blue">外食场景评论高达 9,750 条 · 外卖不会点 481 条</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验单：</b>超敏 C 反应蛋白（hs-CRP）偏高、小而密低密度脂蛋白（sdLDL）偏高</li>
+                <li><b>体征与生活：</b>脖子/腋下/腹股沟出现<b>黑棘皮（15条）</b>；每天靠盖浇饭、麻辣烫、粉面、油炸快餐解决三餐</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>劣质外卖油（富含 Omega-6 亚油酸与反式脂肪）在细胞内形成神经酰胺，直接锁死胰岛素受体</li>
+                <li>高油高碳水组合（糖油混合物）触发最强烈的餐后炎症与脂肪合成</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">外卖四步点单法：</span>① 主食减半或换粗粮 ② 必加纯肉蛋蛋白 ③ 菜汤分离/过水去淋汁 ④ 避开勾芡糖醋</li>
+                <li><span class="hl-navy">AI 拍餐秒级纠偏：</span>不给无法执行的做饭食谱，用户拍食堂餐盘/外卖截图，AI 秒级给出当下怎么吃</li>
+                <li><span class="hl-navy">油脂置换与大餐救急：</span>补高纯度 Omega-3 鱼油抗炎；躲不掉的聚餐应酬前配白芸豆膳食纤维片</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">21 天外食改造 + 长期维持</span>
+              <ul class="bl">
+                <li><b>第 1 周：</b>建立个人常点 5 家安全外卖白名单</li>
+                <li><b>第 2–3 周：</b>AI 拍餐养成条件反射点单习惯</li>
+                <li><b>第 4–8 周：</b>脖子黑棘皮变淡，餐后油腻腹胀消退</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 7 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">7. 进食节律紊乱 / 夜食症型</div>
+              <span class="type-sub">早餐赶时间不吃 + 晚餐九点后大吃 + 睡前宵夜暴食</span>
+              <span class="data-badge blue">早餐痛点 1,089 条 · 夜里想吃 74 条 · 加班晚饭 51 条</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验单：</b>空腹血糖偏高（前一天夜间高胰岛素与肝糖输出未退），晨起血糖居高不下</li>
+                <li><b>体感：</b>早上起床口苦、腹胀、毫无胃口；下午靠奶茶续命（589条）；晚上 21 点到半夜疯狂想吃高热量宵夜</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>人体胰岛素敏感性呈昼夜节律：<b>早晨最高、夜晚褪黑素分泌后降至最低</b>；同样一碗饭在半夜吃升糖与转脂率翻倍</li>
+                <li>睡前 3 小时进食导致整晚胰岛素不下班，彻底阻断夜间生长激素燃脂与深度睡眠</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">碳水前移（倒金字塔排餐）：</span>把全天 70% 的主食配额放在早餐和午餐，晚餐少慢碳、多蔬菜与白肉</li>
+                <li><span class="hl-navy">加班分餐制（针对 21 点下班族）：</span>17:30–18:00 在工位先吃主食+蛋白（便利店抓手），21:00 到家只补热菜汤或蛋白饮</li>
+                <li><span class="hl-navy">睡前 3 小时禁食线：</span>让胃在入睡前排空，利用夜间低胰岛素窗口自然燃脂</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">14 天生物钟对齐周期</span>
+              <ul class="bl">
+                <li><b>第 1–3 天：</b>吃好高蛋白早餐，切断晚间报复性饥饿</li>
+                <li><b>第 4–14 天：</b>固化加班分餐制，晨起腹胀消失、空腹血糖回落</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 8 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">8. 微量营养素 / 代谢辅因子缺乏型</div>
+              <span class="type-sub">缺镁、缺维生素 D、缺 B 族、缺肌醇/铬导致“代谢点不着火”</span>
+              <span class="data-badge green">淘宝维B族 3,000+付款 · 多囊肌醇问询占转化集 11.3%</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验单：</b>血清 25-(OH)VitD &lt; 20 ng/mL（严重缺乏）、血清铁蛋白低、同型半胱氨酸（Hcy）偏高</li>
+                <li><b>体感：</b>常年不见太阳、吃外卖少绿叶菜；极易疲劳乏力、小腿抽筋、眼皮跳、姨妈前疯狂馋巧克力与甜食</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>镁（Mg）与肌醇（Inositol）</b>是细胞内胰岛素受体信号传导必需的第二信使；缺镁/缺维 D 会直接导致胰岛素锁钥失灵</li>
+                <li>缺乏维生素 B1/B2/B6 导致线粒体三羧酸循环卡死，吃进去的碳水无法燃烧产热，只能转存为脂肪</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">避坑原则：</span>光吃促代谢补剂不改精制碳水饮食，会出现“体重不降反增”差评，必须<b>「饮食替换 + 补剂」同步</b></li>
+                <li><span class="hl-green">靶向补剂矩阵（高毛利闭环）：</span>
+                  <br/>① 胰岛素增敏：<b>肌醇（Myo-inositol）+ 维生素 D3</b>
+                  <br/>② 能量代谢与神经放松：<b>甘氨酸镁 + 活性复合维生素 B 族</b></li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">4–12 周营养素回补周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>夜间睡眠加深、下午馋甜食与疲劳感明显减轻</li>
+                <li><b>第 8–12 周：</b>血清维生素 D 达标（&gt; 30 ng/mL），胰岛素敏感性提升</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 9 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">9. 肠道菌群失调与肠漏型</div>
+              <span class="type-sub">有益代谢菌（AKK / B420）匮乏 + 餐后严重腹胀便秘</span>
+              <span class="data-badge green">淘宝 ¥698–¥1,800 AKK瘦子菌 3,000+ 人付款验证</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>体感：</b>吃完饭肚子立刻鼓得像怀孕（严重腹胀 Bloating）、长期顽固便秘或腹泻交替、排气恶臭、口臭</li>
+                <li><b>背景：</b>长期高糖高脂低膳食纤维饮食，或曾频繁使用抗生素、长期熬夜</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>肠道黏膜屏障变薄（肠漏），有害菌产生的<b>脂多糖（LPS 内毒素）</b>穿透肠壁进入血液，引发全身慢性内毒素血症，直接诱导肝脏与脂肪组织胰岛素抵抗</li>
+                <li>肠道缺乏产短链脂肪酸（丁酸/丙酸）菌株，导致肠道自身分泌的天然 GLP-1（饱腹感激素）不足，总觉得吃不饱</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">喂养有益菌（膳食纤维）：</span>每日保证 25–30g 膳食纤维（绿叶菜、菌菇、藻类、奇亚籽/菊粉益生元）</li>
+                <li><span class="hl-green">靶向补充代谢菌株：</span>补充临床验证的<b>AKK 菌（嗜黏蛋白阿克曼氏菌，修复肠黏膜屏障）+ B420 菌 + 桑叶多肽</b></li>
+                <li><span class="hl-navy">排查食物慢敏：</span>短期减少易产气发酵的高 FODMAP 食物与乳糖/精制面食</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">4–8 周肠道微生态重建</span>
+              <ul class="bl">
+                <li><b>第 1–3 天：</b>肠道菌群更替排便排气期</li>
+                <li><b>第 1–2 周：</b>饭后腹胀消失、半夜饿醒缓解（淘宝已购高频好评点）</li>
+                <li><b>第 4–8 周：</b>天然饱腹感恢复，腰围与体重稳步下降</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ==================== 第三大类 ==================== -->
+          <tr class="cat-row c3">
+            <td colspan="5">三、内分泌共病与女性生命周期激素剧变类（性激素 / 甲状腺素与胰岛素双向恶性循环）</td>
+          </tr>
+
+          <!-- 10 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">10. 多囊卵巢综合征型（PCOS）</div>
+              <span class="type-sub">胖多囊（约占 86%）vs. 瘦多囊（占 14%，BMI正常肚子大）</span>
+              <span class="data-badge">付费意愿 76.2 全场第 1 · 共病 IR 占 33.8% · 闭经 29.6%</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>核心症状：</b>月经稀发（周期 &gt; 35 天）或闭经（&gt; 3 个月不来，271条）、不排卵备孕难（155条）</li>
+                <li><b>化验与体征：</b>性激素六项示睾酮（T）升高或 LH/FSH &gt; 2；B 超示卵巢多囊样改变；伴随多毛、下颌反复爆痘、头顶雄脱（63条）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>50%–70% 多囊合并胰岛素抵抗：</b>高胰岛素直接刺激卵巢卵泡膜细胞合成过多雄激素，抑制卵泡成熟排卵</li>
+                <li>盲目断碳节食会导致下丘脑性闭经叠加多囊，喝中药伤胃或吃达英-35 发胖 20–40 斤（114条抗拒激素药）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">严禁统称“减肥课”，必须胖瘦分轨：</span>
+                  <br/>① <b>胖多囊：</b>抗炎低 GI 控糖减重，先减体重 5%–10% 即可显著恢复自发排卵与月经
+                  <br/>② <b>瘦多囊（128条）：</b>绝不节食掉秤！靠「吃够慢碳主食 + 抗阻增肌」消内脏脂肪、改善胰岛素敏感性</li>
+                <li><span class="hl-navy">非激素调经抗炎餐 + 备孕营养：</span>高 Omega-3/深色蔬果抗炎，配合<b>肌醇（40:1 D-手性肌醇）+ 辅酶 Q10 + 维 D</b></li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">3 个生理周期（90 天）调经备孕</span>
+              <ul class="bl">
+                <li><b>第 1–4 周：</b>稳住餐后胰岛素，爆痘与狂掉发率先减少</li>
+                <li><b>第 5–8 周：</b>基础体温（BBT）出现双相排卵信号</li>
+                <li><b>第 9–12 周：</b>不靠黄体酮/避孕药实现自然来姨妈，复查性激素与胰岛素</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 11 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">11. 甲状腺功能减退 / 桥本共病型</div>
+              <span class="type-sub">甲减低代谢水肿 / 桥本慢性淋巴细胞性甲状腺炎</span>
+              <span class="data-badge blue">多囊与胰岛素抵抗高频共病子标签（单列知识点）</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验单：</b>TSH（促甲状腺激素）升高，FT3 / FT4 偏低；桥本患者 TPOAb / TgAb 抗体显著升高</li>
+                <li><b>体感：</b>真正的“喝凉水都胖”、早晨起来眼皮脸手浮肿、极度怕冷、手脚冰凉、顽固便秘、记忆力减退、情绪低落</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>甲状腺激素是全身细胞代谢的“油门”；甲减时骨骼肌 GLUT4 葡萄糖转运蛋白减少，外周组织对胰岛素敏感性大降</li>
+                <li><b>致命误区：</b>甲减患者若盲目采用“生酮/断碳水”，会直接阻断外周 T4 向活性 T3 的转化，导致代谢彻底停摆！</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">医疗边界：</span>优甲乐（左甲状腺素）剂量调整一律转内分泌科遵医嘱</li>
+                <li><span class="hl-navy">保 T3 慢碳饮食：</span>严禁断碳与极低热量！每餐必须保留温和慢碳水（杂粮薯类）以维持 T4→T3 转化</li>
+                <li><span class="hl-navy">护甲微量元素与抗炎：</span>补足硒（富硒食材/硒片）、锌、铁、维 D；桥本高抗体期温和排查麸质（面筋）与奶制品敏感</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">12 周温和抗炎消肿周期</span>
+              <ul class="bl">
+                <li><b>第 1–3 周：</b>改善晨起黏液性水肿与便秘，手脚回暖</li>
+                <li><b>第 4–12 周：</b>配合内分泌科甲功复查，在精力充沛前提下每月温和减重 2–3 斤</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 12 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">12. 孕产期与产后体重滞留型</div>
+              <span class="type-sub">妊娠期糖尿病（GDM）产后留存 / 哺乳期不敢少吃 / 肚子松弛</span>
+              <span class="data-badge blue">占人群 8.3%（约 6,940 评）· 产后痛点分母 563 条</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>指标与体征：</b>孕期 OGTT 异常，或产后 6–12 个月体重仍比孕前重 &gt; 5 kg（237条卡体重）；<b>腹直肌分离 &gt; 2 指</b>、漏尿（20条）</li>
+                <li><b>生活困境：</b>哺乳期怕回奶不敢少吃（63条）、每天带娃挤不出 20 分钟（42条）、夜奶碎片化睡眠导致白天狂想吃甜食（31条）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>孕期胎盘激素引发生理性胰岛素抵抗；若产后未消退，<b>GDM 妈妈未来 5–10 年发展为 2 型糖尿病的风险高达 50%</b></li>
+                <li>未修复盆底肌与腹直肌前盲目做跑跳、卷腹，会导致内脏下垂、漏尿加重、小肚子越练越凸</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">恢复顺序铁律（先修复 → 再运动 → 最后谈体重）：</span>
+                  <br/>① <b>哺乳期不减热量减油糖：</b>停掉催奶浓白猪蹄汤（全是乳化饱和脂肪），改为清汤去皮禽肉鱼虾+足量温水，奶量不减反增
+                  <br/>② <b>腹直肌与盆底优先：</b>先做腹式呼吸与盆底修复，禁做传统仰卧起坐
+                  <br/>③ <b>碎片睡眠抗糖：</b>夜奶次日早晨高蛋白托底，带娃间隙 10 分钟碎片微运动</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">产后黄金 6 个月分阶恢复</span>
+              <ul class="bl">
+                <li><b>产后 6–12 周：</b>复查产后 75g OGTT 糖耐，完成盆底与腹直肌闭合</li>
+                <li><b>产后 3–6 个月：</b>在不影响母乳前提下，每月平稳减重 2–4 斤，收紧腰围</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 13 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">13. 围绝经期 / 更年期雌激素下降型</div>
+              <span class="type-sub">40–55 岁“喝水都胖、四肢不胖专胖腰腹、人松了”</span>
+              <span class="data-badge blue">占人群 12.1%（约 10,148 评）· 中年痛点分母 362 条</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>激素与年龄：</b>女性 40 岁以后，FSH 升高、雌二醇（E2）波动下降；月经周期改变</li>
+                <li><b>典型痛点：</b>潮热盗汗、失眠月经乱（145条）、凌晨固定醒（44条）、同样的饭量开始发胖（45条）、<b>四肢细却先胖腰（57条）</b>、肌肉流失人松弛（45条）、膝盖疼不敢跑跳（17条）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>雌激素是天然的“胰岛素增敏剂”和“皮下脂肪守护神”；雌激素一降，脂肪立刻向腹腔内脏转移，触发更年期胰岛素抵抗</li>
+                <li>每年肌肉量加速流失 1%–2%，伴随骨量流失（骨质疏松）、低密度脂蛋白胆固醇（LDL-C）与血压攀升</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">核心不是少吃挨饿，是“保肌肉、稳睡眠、护关节”：</span>
+                  <br/>① <b>高蛋白+植物雌激素：</b>每餐足量鱼虾蛋奶 + 每日大豆制品（天然大豆异黄酮双向调节）+ 高钙维 D
+                  <br/>② <b>无冲击护膝抗阻：</b>淘汰伤膝盖的跑步跳操，改用坐姿弹力带、靠墙静蹲、居家普拉提保住腿部与核心肌肉
+                  <br/>③ <b>改善凌晨早醒：</b>晚餐适量慢碳 + <b>甘氨酸镁/维 B6</b> 稳定夜间神经与皮质醇</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天更年期稳态塑形周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>缓解凌晨早醒、潮热与日间疲惫</li>
+                <li><b>第 3–12 周：</b>以<b>“腰围缩小 3–6 cm + 肌肉量不掉”</b>为核心指标，而非盲目追求低体重</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ==================== 第四大类 ==================== -->
+          <tr class="cat-row c4">
+            <td colspan="5">四、神经应激、熬夜与睡眠障碍类（HPA 轴激活、皮质醇直接对抗胰岛素）</td>
+          </tr>
+
+          <!-- 14 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">14. 慢性高压与高皮质醇型</div>
+              <span class="type-sub">“压力肥 / 过劳肥” / 情绪性暴食 / 姨妈前失控暴食</span>
+              <span class="data-badge">占自述诱因 25.1%–33.4% · 情绪暴食痛点达 842 条</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>体态特征：</b>向心性肥胖（肚子大、脸圆、后颈富贵包），血或唾液皮质醇节律平坦或偏高（需先排除病理性库欣综合征）</li>
+                <li><b>行为痛点：</b>工作备考高压焦虑；<b>“一吃就停不下来”（842条）</b>、姨妈前一周像“猪妖上身”狂炫甜食碳水（40条）、暴食后极度自责甚至想催吐（30条）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>慢性压力持续激活下丘脑-垂体-肾上腺轴（HPA轴），<b>皮质醇直接抑制骨骼肌摄取葡萄糖、分解肌肉转成血糖，并将脂肪定向搬运至腹部内脏</b></li>
+                <li><b>运动误区：</b>高皮质醇人群若再去练高强度 HIIT/暴汗私教，会导致皮质醇进一步飙升，出现“越练越肿、练完头晕闭经（XHS-P20）”</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">降皮质醇三步法（先松绑情绪，再调饮食运动）：</span>
+                  <br/>① <b>识别生理饿 vs 情绪饿：</b>姨妈前 7 天主动增加 100–150 kcal 复合慢碳与黑巧/莓果合法替代，不硬扛
+                  <br/>② <b>暴食后 24h 止损SOP：</b>严禁次日惩罚性绝食（绝食必触发下一轮暴食），次日三餐恢复正常清淡蛋白蔬菜
+                  <br/>③ <b>低皮质醇运动：</b>停掉高强度暴汗，改为户外快走、八段锦、拉伸与深呼吸</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">28 天皮质醇平复与防崩周期</span>
+              <ul class="bl">
+                <li><b>第 1–3 天：</b>靠合法甜食替代安然度过入营首周/生理期前夕（攻克 26.8% 首周退营率）</li>
+                <li><b>第 2–4 周：</b>暴食发作频次减半，面部与腹部皮质醇水肿消退</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 15 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">15. 睡眠剥夺与昼夜节律颠倒型</div>
+              <span class="type-sub">长期熬夜党 / 倒夜班医护司机 / 半夜饿醒严重失眠</span>
+              <span class="data-badge">抖音万赞科普“熬夜让抵抗加 25-30%” · 淘宝半夜饿醒高频好评</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>作息指标：</b>每日实际睡眠 &lt; 6 小时，或长期凌晨 1–2 点后入睡、值夜班生物钟颠倒</li>
+                <li><b>典型体感：</b>入睡困难，或<b>半夜 2–3 点因胃空/夜间低血糖突然饿醒再也睡不着</b>；白天脑雾沉重，全天疯狂渴望高糖高脂食物</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>临床钳夹试验证实：连续数日睡眠不足，健康人<b>外周胰岛素敏感性直接下降 25%–30%</b></li>
+                <li>缺觉导致抑制食欲的<b>瘦素（Leptin）下降 18%</b>，刺激饥饿的<b>胃饥饿素（Ghrelin）飙升 28%</b>，每天不由自主多吃 300–500 kcal</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">攻克“半夜饿醒”方案：</span>晚餐不能只吃草！必须有「缓释蛋白（肉鱼豆腐）+ 适量好油 + 半拳慢碳」，配合肠道代谢益生菌稳定夜间血糖曲线</li>
+                <li><span class="hl-navy">夜班人群专属时间轴：</span>打破常规早中晚三餐概念，按<b>「起床第一餐（主碳水）→ 夜班中段工作餐（高蛋白温热菜）→ 下班睡前 2h 轻食（牛奶/鸡蛋）」</b>排餐</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">14 天睡眠-血糖双稳周期</span>
+              <ul class="bl">
+                <li><b>第 1–7 天：</b>解决半夜饿醒，实现一觉睡到天亮（连续睡眠 ≥ 6.5 小时）</li>
+                <li><b>第 8–14 天：</b>日间饥饿素回落，不再靠高糖零食提神</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 16 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">16. 睡眠呼吸暂停低通气型（OSA）</div>
+              <span class="type-sub">大基数 / 脖子粗短 / 夜间重度打呼噜憋气缺氧型</span>
+              <span class="data-badge gray">二级补盲词干「打呼噜怎么减肥」定向覆盖人群</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>体征与睡眠：</b>颈围粗（男 ≥ 40 cm，女 ≥ 35 cm），BMI 多 ≥ 28；夜间鼾声如雷且中途呼吸停顿憋醒</li>
+                <li><b>日间表现：</b>睡够 8 小时起床依然口干舌燥、太阳穴胀痛，白天开会/开车随时秒睡；空腹血糖与晨起血压极难控制</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>夜间反复间歇性低氧（IH）引发整晚交感神经风暴，儿茶酚胺与皮质醇激增，直接导致<b>极顽固的清晨高血糖与胰岛素抵抗</b></li>
+                <li>长期未干预可诱发夜间心律失常、肺动脉高压、脑卒中甚至睡眠猝死</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">医疗转诊与协同：</span>疑似中重度憋气者，第一时间建议呼吸睡眠科做多导睡眠监测（PSG）并评估佩戴家用呼吸机（CPAP）——戴机当晚即可改善缺氧升糖</li>
+                <li><span class="hl-navy">减颈围消咽部脂肪：</span>控糖抗炎饮食 + 低冲击有氧（游泳/快走/椭圆机，保护大基数膝盖），晚餐严禁饮酒（酒精会使咽部肌肉松弛加重憋气）</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天减重消鼾协同周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>晚餐戒酒+侧卧睡姿+退水肿，晨起头痛口干减轻</li>
+                <li><b>第 3–12 周：</b>体重每下降 10%，呼吸暂停指数（AHI）可下降 26%–30%，晨起空腹血糖同步回落</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ==================== 第五大类 ==================== -->
+          <tr class="cat-row c5">
+            <td colspan="5">五、器官代谢综合征与慢性炎症共病类（多指标亮红灯、餐桌忌口互相打架）</td>
+          </tr>
+
+          <!-- 17 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">17. 代谢相关脂肪性肝病型（MAFLD）</div>
+              <span class="type-sub">轻/中/重度脂肪肝 + 转氨酶（ALT/AST/GGT）升高</span>
+              <span class="data-badge">占人群 9.7% · 付费意愿 64.1 第 3 · 体检恐慌占 43.5%</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>检查单：</b>肝脏彩超提示肝回声增粗/衰减（轻中重度脂肪肝），或 FibroScan 受控衰减参数 CAP ≥ 248 dB/m；肝功能 ALT/AST/GGT 正常或升高</li>
+                <li><b>痛点：</b>体检发现但平时不疼不痒（118条），一旦查出中重度或转氨酶高则极度恐慌怕肝硬化或入职体检不过（344条）</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>70%–80%+ 伴随胰岛素抵抗：</b>肝细胞被脂肪塞满后，胰岛素无法抑制肝糖原输出，导致空腹血糖失控（脂肪肝是糖尿病的直接跳板）</li>
+                <li>若持续发炎（转氨酶高）不干预，会按「单纯性脂肪肝 → 脂肪性肝炎（NASH）→ 肝纤维化 → 肝硬化」进展</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">明确量化逆转阶梯（2024指南）：</span>体重减轻 <b>3%–5%</b> 即可改善肝脂肪变；减轻 <b>7%–10%</b> 可逆转肝细胞炎症与转氨酶升高</li>
+                <li><span class="hl-red">严禁暴瘦伤肝：</span>每周减重严禁超过 1.5 kg（过快饿瘦会导致外周脂肪大量分解涌入肝脏，诱发急性脂肪性肝炎）</li>
+                <li><span class="hl-navy">双戒双足：</span>戒果糖、戒酒精；吃足优质蛋白与绿叶十字花科蔬菜，可辅助水飞蓟宾/维生素 E（遵医嘱）</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天肝脏 B 超消红字周期</span>
+              <ul class="bl">
+                <li><b>第 30 天：</b>复查肝功能，转氨酶（ALT/AST）率先回落至正常区间</li>
+                <li><b>第 90 天：</b>体重平稳下降 5%–8%，复查肝脏 B 超或弹性成像实现重度→轻度/消失</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 18 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">18. 脂肪肝 + 高尿酸/痛风 + 高血脂共病型</div>
+              <span class="type-sub">“四高并存”导致的餐桌严重忌口冲突型</span>
+              <span class="data-badge">占脂肪肝痛点 28.1%（222/790条）· 转化集占 32.8%</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验单四连红：</b>① 脂肪肝 ② 血尿酸男 &gt; 420 / 女 &gt; 360 μmol/L（或痛风关节红肿痛史） ③ 甘油三酯/胆固醇高 ④ 空腹血糖/胰岛素高</li>
+                <li><b>最大痛点：</b>“控糖减肝脂让我多吃肉蛋海鲜豆制品，可我有痛风不能吃高嘌呤、血脂高又怕吃蛋黄，每天对着餐桌不知道能吃啥！”</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>患者因怕痛风发作而不敢吃肉蛋，被迫改吃白面条、白米粥、水果充饥，结果导致<b>血糖、甘油三酯和脂肪肝全面恶化，尿酸也因高果糖和高胰岛素抑制排泄而居高不下</b></li>
+                <li>高尿酸沉积导致痛风石、尿酸性肾结石及肾功能损伤</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-green">核心武器：《四病交叉安全白名单配餐表》</span>
+                  <br/>① <b>锁定“高蛋白+极低嘌呤+低饱和脂肪”黄金蛋白源：</b>鸡蛋白、脱脂/低脂牛奶、去水老豆腐/豆干（植物嘌呤不升血尿酸）、去皮鸡胸肉/适量淡水白肉鱼（焯水弃汤）
+                  <br/>② <b>抓真正的共同元凶：</b>果糖、啤酒、浓肉汤、动物内脏、贝类是同时引爆尿酸与脂肪肝的罪魁祸首，一律切断
+                  <br/>③ <b>大量饮水促排：</b>每日白水/淡茶水 ≥ 2,500 mL（约 5 瓶矿泉水）</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天四指标联控周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>停果糖/浓汤/酒，日饮水达标，消除痛风急性诱因</li>
+                <li><b>第 4–6 周：</b>复查血尿酸与甘油三酯双降</li>
+                <li><b>第 12 周：</b>肝脂、尿酸、血脂、血糖四项复查同步改善</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 19 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">19. 慢性低度炎症灶驱动型</div>
+              <span class="type-sub">脾虚湿重 / 慢性皮肤粘膜炎症 / 食物慢敏不掉秤</span>
+              <span class="data-badge blue">对应搜索词「脾虚湿气重怎么减肥」1,418 条评论</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>化验与体征：</b>超敏 C 反应蛋白（hs-CRP）持续在 1–3 mg/L、白细胞或铁蛋白轻度偏高；舌苔厚腻有齿痕、大便黏马桶、身体困重浮肿</li>
+                <li><b>伴随症：</b>常年慢性牙周炎/牙龈出血、慢性鼻炎咽炎、反复湿疹荨麻疹、关节酸痛</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>慢性炎症释放的细胞因子（TNF-α、IL-6）直接激活细胞内 JNK/IKKβ 通路，使胰岛素受体底物发生丝氨酸磷酸化而失活</li>
+                <li>全身处于“隐性发炎+水钠潴留”状态，导致常规少吃运动完全卡在平台期不掉秤</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">抗炎饮食去水肿底座：</span>
+                  <br/>① <b>高多酚与天然抗炎食材：</b>深色绿叶菜、紫甘蓝、蓝莓、绿茶、姜黄、大蒜、深海鱼（Omega-3）
+                  <br/>② <b>剔除促炎过敏源：</b>戒除精制糖、油炸食品、加工肉制品；针对反复湿疹/腹胀者做 14 天牛奶/小麦麸质轮替排查
+                  <br/>③ <b>清除感染灶：</b>建议洗牙治疗慢性牙周炎（临床证实治好牙周炎即可显著降低 HbA1c 与胰岛素抵抗）</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">4–8 周抗炎排湿破平台周期</span>
+              <ul class="bl">
+                <li><b>第 1–2 周：</b>排出组织间隙炎症水钠潴留，体重率先降 2–4 斤，身体沉重感消失</li>
+                <li><b>第 3–8 周：</b>大便成形、皮肤湿疹爆痘好转，突破顽固平台期</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ==================== 第六大类 ==================== -->
+          <tr class="cat-row c6">
+            <td colspan="5">六、医源性（药源性）、先天遗传与环境内分泌干扰物类（外部化学干预与先天底盘）</td>
+          </tr>
+
+          <!-- 20 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">20. 药源性发胖 &amp; 减肥针停药反弹型</div>
+              <span class="type-sub">吃避孕药/激素/抗抑郁药发胖 + 打司美/替尔泊肽掉肌与停针复胖</span>
+              <span class="data-badge">用药期评论占全库 6.7%（6,284条）· 药源致胖占多囊归因 29.2%</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>A 类（处方药致胖）：</b>因病服用达英-35/优思明（多囊调经）、泼尼松/甲泼尼龙（糖皮质激素）、奥氮平/帕罗西汀（抗抑郁/精神类药）后食欲大开，短期暴涨 15–40 斤</li>
+                <li><b>B 类（GLP-1 减肥针伴随）：</b>正在打司美格鲁肽/替尔泊肽（573条直提），出现恶心反胃吃不下肉（71条）、脸垮皮松掉肌肉（57条）、便秘脱发（49条），或<b>停针后食欲报复性反扑（94条，半年停药反弹占 33.6%）</b></li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>糖皮质激素与部分精神类药物直接诱导肝脏与外周重度胰岛素抵抗；患者若因怕胖私自停药会导致原发病反弹恶化</li>
+                <li>GLP-1 减肥针差评率高达 <b>19.2%</b>（全场最高）：打针期若营养不良，减掉的体重里高達 <b>25%–40% 是宝贵的骨骼肌</b>；一旦停针，失去肌肉锅炉的身体面对恢复的食欲，复胖速度比打针前更快！</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">第一铁律：严禁指导改药或私自停药（处方剂量一律遵医嘱）</span></li>
+                <li><span class="hl-navy">针对激素/避孕药期：</span>采用高钾低钠（消药物性水钠潴留）+ 高膳食纤维高蛋白（对抗药物催发的假性饥饿）+ 维生素 D 钙保护骨量</li>
+                <li><span class="hl-green">针对 GLP-1 减肥针伴侣（10节专课）：</span>
+                  <br/>① <b>在用期保肌防脸垮：</b>胃口极小时采用「一天 5 顿小体积高密度蛋白（蛋白饮/蒸蛋/鱼肉泥/豆腐）」凑够 60–80g 蛋白 + 每周 2 次居家抗阻
+                  <br/>② <b>停针前后 12 周软着陆：</b>停针前 4 周至停针后 8 周阶梯引入高黏度可溶性纤维（魔芋/燕麦麸/奇亚籽）+ 慢碳，自然刺激肠道内源性 GLP-1，接住回弹食欲</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">在用期护航 + 停针 12 周软着陆</span>
+              <ul class="bl">
+                <li><b>打针在用期（第 1–8 周）：</b>保住骨骼肌率不掉、缓解恶心便秘与休止期脱发</li>
+                <li><b>停针过渡期（前4周+后8周）：</b>平稳过渡食欲反扑，将半年复胖率压至最低</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 21 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">21. 家族多基因易感与宫内编程型</div>
+              <span class="type-sub">父母糖尿病/多囊家族史 + 东亚“节俭基因” + 低出生体重儿</span>
+              <span class="data-badge gray">占评论区自述归因 5.8%–13.9%（多囊最高 104 条）</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>家族史：</b>父母、兄弟姐妹或祖辈有明确的 2 型糖尿病、妊娠期糖尿病、多囊卵巢或早发冠心病史</li>
+                <li><b>早发特征：</b>本人出生体重过低（&lt; 2.5 kg 宫内营养不良）或巨大儿（&gt; 4.0 kg）；从儿童/青春期初潮起即发胖或二十出头即查出高胰岛素血症</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>先天胰岛 β 细胞代偿储备比普通人薄弱 30%–50%，且皮下脂肪储存上限低，稍微发胖即转为内脏脂肪</li>
+                <li>在同样的高碳水久坐环境下，比无家族史人群早 10–15 年跨过糖尿病确诊红线</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-navy">诚实预期管理：</span>明确告知“基因底盘无法改变，但后天生活方式握有 70% 的开关权”，绝不承诺“包根治永不复发”</li>
+                <li><span class="hl-navy">餐后 15 分钟微运动铁律：</span>养成每顿正餐后立刻散步/站立活动 15 分钟的终身习惯（肌肉收缩可通过 AMPK 通路<b>不依赖胰岛素直接把血液里的葡萄糖吸进去</b>，替先天薄弱的胰腺减负！）</li>
+                <li><span class="hl-navy">改造家庭餐桌默认设置：</span>全家电饭煲默认掺 1/3 杂粮糙米，解决“一人控糖全家做两锅饭（2,146条痛点）”的阻力</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">90 天养成 + 终身家庭默认设置</span>
+              <ul class="bl">
+                <li><b>前 90 天：</b>将“全家同餐粗细搭配 + 餐后百步走”固化为无需意志力的家庭习惯</li>
+                <li><b>长期随访：</b>每 6 个月定期监测一次糖化血红蛋白（HbA1c）与空腹胰岛素</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- 22 -->
+          <tr class="item-row">
+            <td>
+              <div class="type-title">22. 罕见单基因突变与环境内分泌干扰物型</div>
+              <span class="type-sub">胰岛素受体突变综合征 / 长期热塑料外卖塑化剂与重金属暴露</span>
+              <span class="data-badge gray">临床罕见病转诊边界 + 现代外卖人群日常减毒项</span>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><b>罕见单基因型：</b>儿童或青少年期出现极重度天鹅绒样黑棘皮、空腹胰岛素极度飙升（&gt; 50–100 μU/mL），或全身皮下脂肪消失但重度脂肪肝（先天性脂肪营养不良）</li>
+                <li><b>环境毒素型：</b>长期每天用劣质塑料袋/发泡餐盒装滚烫麻辣烫汤面、高频接触双酚 A（BPA）/邻苯二甲酸盐（塑化剂）、长期吸烟饮酒</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li>单基因受体突变属于器质性罕见遗传病，普通饮食运动无法逆转，延误就医会迅速导致多器官衰竭</li>
+                <li>环境内分泌干扰物（EDCs，又称“环境致胖素 Obesogens”）进入人体后会激活 PPAR-γ 受体强行催熟脂肪细胞，并毒害胰岛素信号</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="bl">
+                <li><span class="hl-red">入营红线筛查与转诊：</span>入营问卷与看单子环节，一旦发现空腹胰岛素极端飙升（&gt; 50 μU/mL）、青少年重度黑棘皮或疑似单基因脂肪营养不良，<b>立即退费并转诊三甲医院内分泌专科</b></li>
+                <li><span class="hl-navy">日常饮食减塑减毒规范：</span>
+                  <br/>① 滚烫外卖汤面到家立刻换陶瓷/玻璃碗，绝不用塑料盒进微波炉加热
+                  <br/>② 每天吃够西兰花、芥蓝、卷心菜等十字花科蔬菜（富含萝卜硫素，激活肝脏 II 相解毒酶加速排出环境毒素）</li>
+              </ul>
+            </td>
+            <td>
+              <span class="cycle-tag">Day 1 筛查转诊 + 日常长期排雷</span>
+              <ul class="bl">
+                <li><b>入营第 1 天：</b>完成高危医疗红线筛查与转诊分流</li>
+                <li><b>日常全程：</b>贯穿减塑、戒烟限酒与十字花科蔬菜护肝排毒习惯</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      <div>📁 文件位置：<code>D:\A-灵知生物\小程序-市场调研\outputs\胰岛素抵抗_肥胖类型与解决方案全量大表_同事审阅版.html</code></div>
+      <div>📊 下一步支持：可直接在此表基础上增补「评论条数/占比」「对应课程章节」「配套AI功能与补剂SKU」列，或导出为 Excel (.xlsx)</div>
+    </div>
+  </div>
+</body>
+</html>

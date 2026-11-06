@@ -1,0 +1,3234 @@
+{
+ "base": "img_v3_02174_94e54747-93ac-41d2-b03b-6711ae2c77fg",
+ "source": "img_v3_02174_94e54747-93ac-41d2-b03b-6711ae2c77fg.jpg",
+ "width": 1316,
+ "height": 42690,
+ "is_grid": false,
+ "is_detail": false,
+ "detail": {
+  "likes": "",
+  "comments": "",
+  "favorites": "",
+  "shares": "",
+  "caption": ""
+ },
+ "comment_total": "8685",
+ "search_term": "平台期快过了的征兆",
+ "video_desc": "",
+ "author": "",
+ "comments": [
+  {
+   "seq": 1,
+   "y": 1409.0,
+   "username": "如木月双木",
+   "body": "卡几个月了，吃得多或者液断都是这个体重，但是腰围一直再小。刚瘦十斤那会没人说瘦。现在天天有人说我瘦好多",
+   "date": "01-22",
+   "region": "河南",
+   "likes": "21",
+   "reply_count": "6",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.718,
+   "raw_username": "如木月双木",
+   "n_lines": 3
+  },
+  {
+   "seq": 2,
+   "y": 2116.0,
+   "username": "",
+   "body": "",
+   "date": "12-21",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.989,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 3,
+   "y": 2252.0,
+   "username": "",
+   "body": "",
+   "date": "2025-12-21",
+   "region": "河南",
+   "likes": "1",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.98,
+   "raw_username": "",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 4,
+   "y": 2771.0,
+   "username": "灰常矛蹲",
+   "body": "每天饿的要死，然后第二天体重根本不动，甚至还胖了一两斤左右，这段时间大概要维持多久啊？",
+   "date": "2025-09-11",
+   "region": "湖北",
+   "likes": "7",
+   "reply_count": "14",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.979,
+   "raw_username": "灰常矛蹲",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 5,
+   "y": 3825.0,
+   "username": "勿忘心安",
+   "body": "",
+   "date": "2025-06-16",
+   "region": "江西",
+   "likes": "4",
+   "reply_count": "12",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.988,
+   "raw_username": "勿忘心安",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 6,
+   "y": 4342.0,
+   "username": "刘刘球",
+   "body": "想问一下三个月不掉称.有时候还重个两三斤控制饮食加锻炼.就是不掉称",
+   "date": "2025-09-01",
+   "region": "山西",
+   "likes": "1",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.968,
+   "raw_username": "刘刘球",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 7,
+   "y": 4876.0,
+   "username": "沈丘鑫诚纸业神像供桌纸扎",
+   "body": "刚减脂五天少吃清淡饮食了，然后也有运动和喝水就是不掉称，这算卡平台吗",
+   "date": "2025-08-09",
+   "region": "河南",
+   "likes": "8",
+   "reply_count": "14",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.983,
+   "raw_username": "沈丘鑫诚纸业神像供桌纸扎",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 8,
+   "y": 5264.0,
+   "username": "111",
+   "body": "平台期吃了好多东西都拉不出来",
+   "date": "2025-07-23",
+   "region": "吉林",
+   "likes": "9",
+   "reply_count": "6",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.986,
+   "raw_username": "111",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 9,
+   "y": 5703.0,
+   "username": "赞美愚者",
+   "body": "204减到175，卡住了，但是没敢多吃，还是坚持一天两餐，一天一共1500大卡。",
+   "date": "10-24",
+   "region": "江苏",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.945,
+   "raw_username": "赞美愚者",
+   "n_lines": 2
+  },
+  {
+   "seq": 10,
+   "y": 6054.0,
+   "username": "娇颜",
+   "body": "我也是掉了13斤，然后卡了有20天了，都不掉",
+   "date": "10-15",
+   "region": "河南",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "娇颜",
+   "n_lines": 2
+  },
+  {
+   "seq": 11,
+   "y": 6327.0,
+   "username": "晚晚",
+   "body": "两个月20斤就不动了",
+   "date": "09-08",
+   "region": "山西",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "晚晚",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 12,
+   "y": 7064.0,
+   "username": "Wnn+",
+   "body": "",
+   "date": "2025-07-30",
+   "region": "广西",
+   "likes": "1",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.928,
+   "raw_username": "Wnn+",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 13,
+   "y": 7450.0,
+   "username": "南方也会下雪",
+   "body": "卡了差不多一个星期",
+   "date": "10-25",
+   "region": "广西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "南方也会下雪",
+   "n_lines": 1
+  },
+  {
+   "seq": 14,
+   "y": 7719.0,
+   "username": "向日葵",
+   "body": "卡一个月了，一直不掉称，真的好烦",
+   "date": "10-27",
+   "region": "广西",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.968,
+   "raw_username": "向日葵",
+   "n_lines": 1
+  },
+  {
+   "seq": 15,
+   "y": 8011.0,
+   "username": "小小土豆~",
+   "body": "20斤后实在不动了。",
+   "date": "09-26",
+   "region": "北京",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.943,
+   "raw_username": "小小土豆~",
+   "n_lines": 1
+  },
+  {
+   "seq": 16,
+   "y": 8283.0,
+   "username": "小余余",
+   "body": "一个星期了，卡平台，一点没掉",
+   "date": "09-17",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.994,
+   "raw_username": "小余余",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 17,
+   "y": 8556.0,
+   "username": "干玥",
+   "body": "一个月体重体脂也不掉好想放弃",
+   "date": "10-27",
+   "region": "云南",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.842,
+   "raw_username": "干玥",
+   "n_lines": 1
+  },
+  {
+   "seq": 18,
+   "y": 8908.0,
+   "username": "平安喜乐~",
+   "body": "从240多掉到224，卡平台期了，一连3天早晨起来称体重都是224-225。",
+   "date": "09-04",
+   "region": "浙江",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.961,
+   "raw_username": "平安喜乐~",
+   "n_lines": 2
+  },
+  {
+   "seq": 19,
+   "y": 9410.0,
+   "username": "狐狸小姐",
+   "body": "已经吃了一个星期的欺骗餐，每顿18个水饺，体重长了2斤，我现在要开始饿了，我不信突破不了，70斤的赛道我来了",
+   "date": "09-19",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.996,
+   "raw_username": "狐狸小姐",
+   "n_lines": 3
+  },
+  {
+   "seq": 20,
+   "y": 9920.0,
+   "username": "青禾",
+   "body": "我每天吃东西很少啊，早上就一个鸡蛋。然后一杯黑咖啡，中午就一点碳水，蛋白质，青菜。晚上也是少少的卡107四天了，怎么办？",
+   "date": "08-25",
+   "region": "广西",
+   "likes": "9",
+   "reply_count": "7",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.992,
+   "raw_username": "青禾",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 21,
+   "y": 10578.0,
+   "username": "匿名的热心市民",
+   "body": "我是小基数，身高164，体重130斤，现在减到120斤卡平台一个月了。目前只想去到现在基本还是每天维持1100大卡的食量，就是掉不下来。我改怎么办？",
+   "date": "09-04",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.933,
+   "raw_username": "匿名的热心市民",
+   "n_lines": 5,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 22,
+   "y": 11232.0,
+   "username": "小橘",
+   "body": "所以平台期需要更少吃多运动嘛？还是说就那样就好。我一般早上不吃，中午一顿大概是面条或者馒头大半个。晚上随机，大概是两鸡蛋左右吧。每天一次郑多燕。从大概144到136。然后就不动了。..展开",
+   "date": "01-25",
+   "region": "河北",
+   "likes": "1",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.968,
+   "raw_username": "小橘",
+   "n_lines": 5,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 23,
+   "y": 11716.0,
+   "username": "无敌扎手小毛毛",
+   "body": "",
+   "date": "2025/05/10",
+   "region": "",
+   "likes": "100.20",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.979,
+   "raw_username": "无敌扎手小毛毛",
+   "n_lines": 0
+  },
+  {
+   "seq": 24,
+   "y": 11716.0,
+   "username": "无敌扎手小毛毛",
+   "body": "",
+   "date": "2025/10/02",
+   "region": "",
+   "likes": "100.20",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.978,
+   "raw_username": "无敌扎手小毛毛",
+   "n_lines": 0
+  },
+  {
+   "seq": 25,
+   "y": 11946.0,
+   "username": "",
+   "body": "",
+   "date": "6/4",
+   "region": "",
+   "likes": "101.20",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.691,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 26,
+   "y": 12064.0,
+   "username": "101.20",
+   "body": "所有数据",
+   "date": "2025-06-11",
+   "region": "内蒙古",
+   "likes": "1",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.959,
+   "raw_username": "101.20",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 27,
+   "y": 13050.0,
+   "username": "Zxy",
+   "body": "好几天不动了7 2.25早64.2晚65.4 2.26早64.15晚64.35 2.27早63.8晚63.75 2.28早63.2晚63.8晚63.35 3.3早62.95晚62.3 3.5早62.0 3.6早61.95 3.7早61.7 3.8早61.5 3.9早61.75 3.10早61.6 3.11早61.5 3.12早61.6",
+   "date": "03-12",
+   "region": "重庆",
+   "likes": "3",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.883,
+   "raw_username": "Zxy",
+   "n_lines": 17,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 28,
+   "y": 13729.0,
+   "username": "代表月亮兔兔你",
+   "body": "我都怀疑称坏了之前不运动不吃晚饭就立马掉秤了现在运动少吃掉的都没以前多天都没变化现在又卡在59.9kg好几天没变都不知道咋减了",
+   "date": "08-30",
+   "region": "上海",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.956,
+   "raw_username": "代表月亮兔兔你",
+   "n_lines": 5,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 29,
+   "y": 14080.0,
+   "username": "好好吃饭",
+   "body": "本来掉了八斤多又涨回来两斤多然后就开始一直卡着不动好几天了",
+   "date": "09-15",
+   "region": "吉林",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.99,
+   "raw_username": "好好吃饭",
+   "n_lines": 2
+  },
+  {
+   "seq": 30,
+   "y": 14353.0,
+   "username": "柳如烟z",
+   "body": "我已经17斤了，现在已经不动体重啊",
+   "date": "10-01",
+   "region": "四川",
+   "likes": "",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.88,
+   "raw_username": "柳如烟z",
+   "n_lines": 1
+  },
+  {
+   "seq": 31,
+   "y": 14726.0,
+   "username": "洒脱",
+   "body": "卡了10天了",
+   "date": "2025-07-23",
+   "region": "湖南",
+   "likes": "3",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.983,
+   "raw_username": "洒脱",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 32,
+   "y": 15182.0,
+   "username": "小小婕",
+   "body": "减了8天了就掉了一斤反反复复的为啥这么难",
+   "date": "2025-07-31",
+   "region": "辽宁",
+   "likes": "1",
+   "reply_count": "11",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.979,
+   "raw_username": "小小婕",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 33,
+   "y": 15553.0,
+   "username": "a623888",
+   "body": "半个月，一斤不掉",
+   "date": "09-13",
+   "region": "浙江",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.995,
+   "raw_username": "a623888",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 34,
+   "y": 15840.0,
+   "username": "慕柳",
+   "body": "家人们掉了6斤就卡平台了吗？",
+   "date": "10-11",
+   "region": "河南",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.99,
+   "raw_username": "慕柳",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 35,
+   "y": 16114.0,
+   "username": "",
+   "body": "减了七八斤最近一周体重不掉了不知道咋办",
+   "date": "09-03",
+   "region": "湖北",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 36,
+   "y": 16402.0,
+   "username": "小徐减肥中",
+   "body": "才掉了七斤卡了几天了下不来",
+   "date": "09-29",
+   "region": "河南",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "小徐减肥中",
+   "n_lines": 1
+  },
+  {
+   "seq": 37,
+   "y": 16675.0,
+   "username": "佳。",
+   "body": "卡在794天了上下浮动",
+   "date": "10-14",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.994,
+   "raw_username": "佳。",
+   "n_lines": 1
+  },
+  {
+   "seq": 38,
+   "y": 17026.0,
+   "username": "七七",
+   "body": "",
+   "date": "09-27",
+   "region": "贵州",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "七七",
+   "n_lines": 0
+  },
+  {
+   "seq": 39,
+   "y": 17312.0,
+   "username": "",
+   "body": "饿是不饿，纯馋，克制不了",
+   "date": "10-12",
+   "region": "甘肃",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.994,
+   "raw_username": "",
+   "n_lines": 1
+  },
+  {
+   "seq": 40,
+   "y": 17601.0,
+   "username": "商参",
+   "body": "三天了一点没掉也没长",
+   "date": "09-22",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "商参",
+   "n_lines": 1
+  },
+  {
+   "seq": 41,
+   "y": 17952.0,
+   "username": "淮徐",
+   "body": "早上爬137层，晚上提膝下压，不掉称还比昨天早上重了0.1",
+   "date": "10-26",
+   "region": "福建",
+   "likes": "4",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.975,
+   "raw_username": "淮徐",
+   "n_lines": 2
+  },
+  {
+   "seq": 42,
+   "y": 18473.0,
+   "username": "玛卡巴卡",
+   "body": "我真的平台期心态是真炸每天运动消耗五百大卡以上连着五天没变化你敢信就形体看着瘦了体重不变是真有点焦虑",
+   "date": "2025-11-04",
+   "region": "海南",
+   "likes": "3",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.985,
+   "raw_username": "玛卡巴卡",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 43,
+   "y": 18845.0,
+   "username": "微暖",
+   "body": "减了十斤，卡平台十几天了",
+   "date": "08-21",
+   "region": "江苏",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "微暖",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 44,
+   "y": 19363.0,
+   "username": "小小胖墩",
+   "body": "妈呀！我掉了13斤，然后已经卡了3个月了，我一直坚持之前的吃和运动，有什么办法让它掉，我还想让它掉20斤",
+   "date": "2025-07-23",
+   "region": "广西",
+   "likes": "3",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.98,
+   "raw_username": "小小胖墩",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 45,
+   "y": 19806.0,
+   "username": "$一朵",
+   "body": "我减十斤后，卡一年平台了，每天依然做有氧，就是不掉称",
+   "date": "09-08",
+   "region": "湖北",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.776,
+   "raw_username": "$一朵",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 46,
+   "y": 20231.0,
+   "username": "",
+   "body": "",
+   "date": "10.22",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 47,
+   "y": 20363.0,
+   "username": "06:50",
+   "body": "",
+   "date": "10.21",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.961,
+   "raw_username": "06:50",
+   "n_lines": 0
+  },
+  {
+   "seq": 48,
+   "y": 20496.0,
+   "username": "07:00",
+   "body": "",
+   "date": "10.19",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.983,
+   "raw_username": "07:00",
+   "n_lines": 0
+  },
+  {
+   "seq": 49,
+   "y": 20628.0,
+   "username": "06:49",
+   "body": "",
+   "date": "10.18",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.982,
+   "raw_username": "06:49",
+   "n_lines": 0
+  },
+  {
+   "seq": 50,
+   "y": 20776.0,
+   "username": "09:23",
+   "body": "",
+   "date": "10-22",
+   "region": "湖南",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.981,
+   "raw_username": "09:23",
+   "n_lines": 0
+  },
+  {
+   "seq": 51,
+   "y": 21221.0,
+   "username": "十六",
+   "body": "我现在卡了快两三天了怎么办啊我现在160 57kg不知道怎么办",
+   "date": "09-02",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "十六",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 52,
+   "y": 21594.0,
+   "username": "一滴泪",
+   "body": "已经卡了一周了咋办",
+   "date": "2025-07-25",
+   "region": "湖南",
+   "likes": "5",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.975,
+   "raw_username": "一滴泪",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 53,
+   "y": 22048.0,
+   "username": "用户0905",
+   "body": "178掉165，已经卡了一周多了试试液断",
+   "date": "2025-12-28",
+   "region": "安徽",
+   "likes": "2",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "用户0905",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 54,
+   "y": 23091.0,
+   "username": "编高",
+   "body": "",
+   "date": "10-04",
+   "region": "浙江",
+   "likes": "",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.814,
+   "raw_username": "编高",
+   "n_lines": 0
+  },
+  {
+   "seq": 55,
+   "y": 23531.0,
+   "username": "多喝水",
+   "body": "我怎么才减了6斤，卡平台卡了五天，体重一点也没变化",
+   "date": "02-15",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.995,
+   "raw_username": "多喝水",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 56,
+   "y": 23918.0,
+   "username": "仟亿",
+   "body": "93了卡平台了",
+   "date": "04-07",
+   "region": "云南",
+   "likes": "2",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.957,
+   "raw_username": "仟亿",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 57,
+   "y": 24291.0,
+   "username": "嘴巴不要馋",
+   "body": "两三斤就卡了怎么办",
+   "date": "2025-09-12",
+   "region": "四川",
+   "likes": "4",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.947,
+   "raw_username": "嘴巴不要馋",
+   "n_lines": 1
+  },
+  {
+   "seq": 58,
+   "y": 24677.0,
+   "username": "过期食品回收下脚料孙",
+   "body": "110卡平台2天了",
+   "date": "10-03",
+   "region": "山东",
+   "likes": "",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.991,
+   "raw_username": "过期食品回收下脚料孙",
+   "n_lines": 1
+  },
+  {
+   "seq": 59,
+   "y": 25096.0,
+   "username": "锦鲤护体2",
+   "body": "掉了五斤左右卡平台期了",
+   "date": "2025-11-25",
+   "region": "河南",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.967,
+   "raw_username": "锦鲤护体2",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 60,
+   "y": 25483.0,
+   "username": "@美g",
+   "body": "我也是卡平台期了",
+   "date": "01-13",
+   "region": "山东",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.992,
+   "raw_username": "@美g",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 61,
+   "y": 26539.0,
+   "username": "了！",
+   "body": "",
+   "date": "01-17",
+   "region": "河北",
+   "likes": "2",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.926,
+   "raw_username": "了！",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 62,
+   "y": 26991.0,
+   "username": "小绵羊",
+   "body": "刚开始吃减脂餐一天掉一斤一星期后就不再掉了好焦虑",
+   "date": "09-18",
+   "region": "贵州",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.995,
+   "raw_username": "小绵羊",
+   "n_lines": 2
+  },
+  {
+   "seq": 63,
+   "y": 27266.0,
+   "username": "边角料。",
+   "body": "121斤卡了10天，吃的很少都不掉了",
+   "date": "2025-05-17",
+   "region": "浙江",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.959,
+   "raw_username": "边角料。",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 64,
+   "y": 27650.0,
+   "username": "是我冒了",
+   "body": "卡平台一个月了才掉4斤",
+   "date": "09-27",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "是我冒了",
+   "n_lines": 1
+  },
+  {
+   "seq": 65,
+   "y": 27769.0,
+   "username": "",
+   "body": "",
+   "date": "今天",
+   "region": "不贪吃",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.999,
+   "raw_username": "",
+   "n_lines": 0
+  },
+  {
+   "seq": 66,
+   "y": 28205.0,
+   "username": "",
+   "body": "我从142掉到130斤，乖乖来，直接卡了快半个月，我各种焦虑踩坑，一天只吃中午一顿，其他时间全靠饿，而且更绝的是，我加大运动，疲劳就找到了我，起床力气都没了，晚上两三点了都睡不着，脸...展开",
+   "date": "01-27",
+   "region": "浙江",
+   "likes": "3",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.962,
+   "raw_username": "",
+   "n_lines": 5,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 67,
+   "y": 28658.0,
+   "username": "程子",
+   "body": "143到138.瘦了5斤就开始卡，138.139.140.来回卡",
+   "date": "10-19",
+   "region": "陕西",
+   "likes": "",
+   "reply_count": "7",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.984,
+   "raw_username": "程子",
+   "n_lines": 2
+  },
+  {
+   "seq": 68,
+   "y": 29109.0,
+   "username": "植季纸品工厂店",
+   "body": "我就减了四斤就不动了，每天都有运动，一个星期体重都没变化了",
+   "date": "09-16",
+   "region": "河北",
+   "likes": "2",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.99,
+   "raw_username": "植季纸品工厂店",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 69,
+   "y": 29550.0,
+   "username": "特大聪明",
+   "body": "每天跑步四十分钟，体重一直卡在180五个月了怎么办",
+   "date": "05-05",
+   "region": "浙江",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.999,
+   "raw_username": "特大聪明",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 70,
+   "y": 29990.0,
+   "username": "周6",
+   "body": "我才减掉三斤就卡了五天还是不动",
+   "date": "2025-07-02",
+   "region": "河南",
+   "likes": "9",
+   "reply_count": "12",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.731,
+   "raw_username": "周6",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 71,
+   "y": 30642.0,
+   "username": "用户5419867295814",
+   "body": "多吃蛋白质补充b族维生素补充镁元素保持情绪稳定适当减少...展开",
+   "date": "10-07",
+   "region": "广东",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.944,
+   "raw_username": "用户5419867295814",
+   "n_lines": 5
+  },
+  {
+   "seq": 72,
+   "y": 31664.0,
+   "username": "09:38",
+   "body": "",
+   "date": "09-03",
+   "region": "山西",
+   "likes": "2",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.966,
+   "raw_username": "09:38",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 73,
+   "y": 32708.0,
+   "username": "",
+   "body": "",
+   "date": "09-07",
+   "region": "韩国",
+   "likes": "3",
+   "reply_count": "6",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 74,
+   "y": 33094.0,
+   "username": "安好",
+   "body": "我减了11斤卡平台4天了",
+   "date": "07-27",
+   "region": "四川",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.988,
+   "raw_username": "安好",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 75,
+   "y": 33483.0,
+   "username": "呀",
+   "body": "两天了不掉称",
+   "date": "2025-12-17",
+   "region": "河南",
+   "likes": "20",
+   "reply_count": "11",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.974,
+   "raw_username": "呀",
+   "n_lines": 1
+  },
+  {
+   "seq": 76,
+   "y": 33993.0,
+   "username": "头上没草",
+   "body": "我从156掉到140然后一直卡在这里，一个月了，我每天都会跳一个小时的操，但是体重还是没下去",
+   "date": "09-14",
+   "region": "广东",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.995,
+   "raw_username": "头上没草",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 77,
+   "y": 34926.0,
+   "username": "",
+   "body": "",
+   "date": "08-13",
+   "region": "湖北",
+   "likes": "3",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.999,
+   "raw_username": "",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 78,
+   "y": 35482.0,
+   "username": "97.90",
+   "body": "",
+   "date": "9/28",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.991,
+   "raw_username": "97.90",
+   "n_lines": 0
+  },
+  {
+   "seq": 79,
+   "y": 35482.0,
+   "username": "97.90",
+   "body": "",
+   "date": "9/29",
+   "region": "",
+   "likes": "",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.995,
+   "raw_username": "97.90",
+   "n_lines": 0
+  },
+  {
+   "seq": 80,
+   "y": 35969.0,
+   "username": "19.80",
+   "body": "",
+   "date": "2025-10-02",
+   "region": "重庆",
+   "likes": "2",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": true,
+   "conf": 0.994,
+   "raw_username": "19.80",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 81,
+   "y": 36340.0,
+   "username": "笑行者",
+   "body": "我就是减了10天卡平台了",
+   "date": "09-24",
+   "region": "北京",
+   "likes": "1",
+   "reply_count": "4",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.994,
+   "raw_username": "笑行者",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 82,
+   "y": 36791.0,
+   "username": "",
+   "body": "",
+   "date": "08-12",
+   "region": "广西",
+   "likes": "2",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 83,
+   "y": 37080.0,
+   "username": "康晴kqwy",
+   "body": "没有瘦十斤瘦五六斤",
+   "date": "2025-07-11",
+   "region": "河南",
+   "likes": "2",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.911,
+   "raw_username": "康晴kqwy",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 84,
+   "y": 37451.0,
+   "username": "偏爱",
+   "body": "每天也没怎么吃，卡4天体重不变怎么办啊？",
+   "date": "05-21",
+   "region": "安徽",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.996,
+   "raw_username": "偏爱",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 85,
+   "y": 37943.0,
+   "username": "李别管",
+   "body": "真的吗，好灰心，好像放弃，140瘦了10斤然后就不掉称了，每天还跳操，",
+   "date": "2025-06-11",
+   "region": "湖北",
+   "likes": "9",
+   "reply_count": "8",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.971,
+   "raw_username": "李别管",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 86,
+   "y": 38329.0,
+   "username": "草莓味毒药",
+   "body": "我卡了三天了",
+   "date": "08-19",
+   "region": "安徽",
+   "likes": "1",
+   "reply_count": "5",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.998,
+   "raw_username": "草莓味毒药",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 87,
+   "y": 38981.0,
+   "username": "想睡觉",
+   "body": "我本来力量训练和饮食控制，多摄入蛋白已经持续3个月了，体重不减反增，虽然我知道这是肌肉再增加脂肪在减少，但还是很难过，但就过了几天突然不卡平台身体开始每天早上起来减0.几kg，一量体...展开",
+   "date": "2025-12-14",
+   "region": "浙江",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.965,
+   "raw_username": "想睡觉",
+   "n_lines": 5,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 88,
+   "y": 39433.0,
+   "username": "豆沙",
+   "body": "2天掉了6斤，然后后面3天真的是一两不掉我再坚持坚持",
+   "date": "02-13",
+   "region": "四川",
+   "likes": "1",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.977,
+   "raw_username": "豆沙",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 89,
+   "y": 39818.0,
+   "username": "记忆犹新",
+   "body": "掉了二十斤卡平台了，",
+   "date": "08-18",
+   "region": "山东",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.992,
+   "raw_username": "记忆犹新",
+   "n_lines": 1,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 90,
+   "y": 40272.0,
+   "username": "再见",
+   "body": "平台期是多少时间啊，我第六天、8斤没了，是不是要马上卡平台了",
+   "date": "2025-11-24",
+   "region": "浙江",
+   "likes": "1",
+   "reply_count": "1",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.991,
+   "raw_username": "再见",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 91,
+   "y": 40722.0,
+   "username": "小小",
+   "body": "我减肥一个多月了，之前掉了10斤现在一点要调整饮食吗",
+   "date": "2025-12-28",
+   "region": "安徽",
+   "likes": "1",
+   "reply_count": "3",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.969,
+   "raw_username": "小小",
+   "n_lines": 2,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 92,
+   "y": 41230.0,
+   "username": "今生缘窗帘家纺",
+   "body": "瘦了11斤卡一星期了，吃什么都怕胖，看什么都恶心。明天中秋节好好吃一顿，过几天再减肥",
+   "date": "09-24",
+   "region": "江苏",
+   "likes": "1",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.986,
+   "raw_username": "今生缘窗帘家纺",
+   "n_lines": 3,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 93,
+   "y": 42255.0,
+   "username": "",
+   "body": "",
+   "date": "04-02",
+   "region": "山西",
+   "likes": "1",
+   "reply_count": "2",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.968,
+   "raw_username": "",
+   "n_lines": 0,
+   "likes_src": "crop"
+  }
+ ],
+ "unparsed": [
+  {
+   "text": "7",
+   "y": 950.0,
+   "x": 1067.0,
+   "cls": "dark",
+   "score": 0.8768
+  },
+  {
+   "text": "混世大魔王女士",
+   "y": 1630.0,
+   "x": 210.0,
+   "cls": "light",
+   "score": 0.9962
+  },
+  {
+   "text": "看我这卡的",
+   "y": 1707.0,
+   "x": 208.0,
+   "cls": "dark",
+   "score": 0.9798
+  },
+  {
+   "text": "曲线",
+   "y": 1791.0,
+   "x": 203.0,
+   "cls": "dark",
+   "score": 0.9981
+  },
+  {
+   "text": "早体重",
+   "y": 1796.0,
+   "x": 679.0,
+   "cls": "meta",
+   "score": 0.999
+  },
+  {
+   "text": "143.8143.2 143.2 143.2",
+   "y": 1900.0,
+   "x": 494.0,
+   "cls": "meta",
+   "score": 0.9544
+  },
+  {
+   "text": "143.8143.2",
+   "y": 1903.0,
+   "x": 358.0,
+   "cls": "meta",
+   "score": 0.9588
+  },
+  {
+   "text": "20",
+   "y": 2120.0,
+   "x": 637.0,
+   "cls": "meta",
+   "score": 0.6049
+  },
+  {
+   "text": "5",
+   "y": 2122.0,
+   "x": 301.0,
+   "cls": "meta",
+   "score": 0.5587
+  },
+  {
+   "text": "130掉10斤120卡了一两个月，118又卡，116",
+   "y": 3060.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9979
+  },
+  {
+   "text": "也卡，现在114又卡了一个星期",
+   "y": 3132.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9985
+  },
+  {
+   "text": "好难",
+   "y": 3132.0,
+   "x": 999.0,
+   "cls": "dark",
+   "score": 0.9406
+  },
+  {
+   "text": "113827",
+   "y": 3434.0,
+   "x": 314.0,
+   "cls": "dark",
+   "score": 0.9864
+  },
+  {
+   "text": "是怎么回事啊？",
+   "y": 4188.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9819
+  },
+  {
+   "text": "我真的没有撒谎，没有偷吃",
+   "y": 4641.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9967
+  },
+  {
+   "text": "两个周瘦了7斤，现在卡105一个周不动了",
+   "y": 6530.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9977
+  },
+  {
+   "text": "116，一直下不来。",
+   "y": 10355.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9983
+  },
+  {
+   "text": "一个月了，我要崩溃了",
+   "y": 11528.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9989
+  },
+  {
+   "text": "平台期，大吃一顿",
+   "y": 11534.0,
+   "x": 812.0,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "没用，一天不吃也没用",
+   "y": 11609.0,
+   "x": 210.0,
+   "cls": "dark",
+   "score": 0.9994
+  },
+  {
+   "text": "初始106.40",
+   "y": 11699.0,
+   "x": 232.0,
+   "cls": "dark",
+   "score": 0.9296
+  },
+  {
+   "text": "自标92.00",
+   "y": 11699.0,
+   "x": 462.0,
+   "cls": "dark",
+   "score": 0.9245
+  },
+  {
+   "text": "减重第33天",
+   "y": 11706.0,
+   "x": 351.0,
+   "cls": "meta",
+   "score": 0.9766
+  },
+  {
+   "text": "502820295030011",
+   "y": 11706.0,
+   "x": 578.0,
+   "cls": "light",
+   "score": 0.6517
+  },
+  {
+   "text": "101.20",
+   "y": 11748.0,
+   "x": 711.0,
+   "cls": "light",
+   "score": 0.999
+  },
+  {
+   "text": "最新数据",
+   "y": 11774.0,
+   "x": 232.0,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "2025/06/11 06:18",
+   "y": 11774.0,
+   "x": 424.0,
+   "cls": "light",
+   "score": 0.9723
+  },
+  {
+   "text": "100.20",
+   "y": 11783.0,
+   "x": 677.0,
+   "cls": "light",
+   "score": 0.9916
+  },
+  {
+   "text": "99.800.60",
+   "y": 11799.0,
+   "x": 228.0,
+   "cls": "dark",
+   "score": 0.9978
+  },
+  {
+   "text": "18.3",
+   "y": 11801.0,
+   "x": 467.0,
+   "cls": "dark",
+   "score": 0.9973
+  },
+  {
+   "text": "19.9%",
+   "y": 11802.0,
+   "x": 359.0,
+   "cls": "dark",
+   "score": 0.9992
+  },
+  {
+   "text": "体重（斤）",
+   "y": 11824.0,
+   "x": 231.0,
+   "cls": "light",
+   "score": 0.853
+  },
+  {
+   "text": "体监丰",
+   "y": 11825.0,
+   "x": 360.0,
+   "cls": "light",
+   "score": 0.6598
+  },
+  {
+   "text": "99.80",
+   "y": 11827.0,
+   "x": 666.0,
+   "cls": "light",
+   "score": 0.9952
+  },
+  {
+   "text": "100.40",
+   "y": 11868.0,
+   "x": 686.0,
+   "cls": "light",
+   "score": 0.9829
+  },
+  {
+   "text": "体重超势",
+   "y": 11876.0,
+   "x": 234.0,
+   "cls": "dark",
+   "score": 0.9002
+  },
+  {
+   "text": "查看全部曲线",
+   "y": 11882.0,
+   "x": 453.0,
+   "cls": "meta",
+   "score": 0.8927
+  },
+  {
+   "text": "100.70",
+   "y": 11987.0,
+   "x": 694.0,
+   "cls": "light",
+   "score": 0.9972
+  },
+  {
+   "text": "晚63.95",
+   "y": 12567.0,
+   "x": 358.0,
+   "cls": "dark",
+   "score": 0.999
+  },
+  {
+   "text": "2.29早62.85",
+   "y": 12600.0,
+   "x": 235.0,
+   "cls": "dark",
+   "score": 0.9959
+  },
+  {
+   "text": "3.2早63.45",
+   "y": 12633.0,
+   "x": 235.0,
+   "cls": "dark",
+   "score": 0.9975
+  },
+  {
+   "text": "晚62.6",
+   "y": 12662.0,
+   "x": 353.0,
+   "cls": "dark",
+   "score": 0.9999
+  },
+  {
+   "text": "3.4早62.3",
+   "y": 12696.0,
+   "x": 233.0,
+   "cls": "dark",
+   "score": 0.995
+  },
+  {
+   "text": "62.5公斤到现在59.9",
+   "y": 13351.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9973
+  },
+  {
+   "text": "卡在60kg的时候连续四五",
+   "y": 13498.0,
+   "x": 663.0,
+   "cls": "dark",
+   "score": 0.9961
+  },
+  {
+   "text": "我已经卡了三四天了每天都是141.6，141.2",
+   "y": 16869.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9969
+  },
+  {
+   "text": "皋兰铭艺发型工作室官方号",
+   "y": 17147.0,
+   "x": 211.0,
+   "cls": "light",
+   "score": 0.9957
+  },
+  {
+   "text": "作",
+   "y": 17175.0,
+   "x": 121.0,
+   "cls": "meta",
+   "score": 0.9906
+  },
+  {
+   "text": "铭艺",
+   "y": 17196.0,
+   "x": 77.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "屿安",
+   "y": 20020.0,
+   "x": 201.0,
+   "cls": "light",
+   "score": 0.9999
+  },
+  {
+   "text": "已经4天体重不掉称了",
+   "y": 20098.0,
+   "x": 213.0,
+   "cls": "dark",
+   "score": 0.9955
+  },
+  {
+   "text": "下滑查看日历，左滑删除数据",
+   "y": 20188.0,
+   "x": 329.0,
+   "cls": "meta",
+   "score": 0.9084
+  },
+  {
+   "text": "体重50.8kg",
+   "y": 20295.0,
+   "x": 336.0,
+   "cls": "dark",
+   "score": 0.9135
+  },
+  {
+   "text": "防量12.0kg",
+   "y": 20296.0,
+   "x": 461.0,
+   "cls": "dark",
+   "score": 0.9142
+  },
+  {
+   "text": "体重50.8kg",
+   "y": 20426.0,
+   "x": 336.0,
+   "cls": "dark",
+   "score": 0.9133
+  },
+  {
+   "text": "脂肪量12.0kg",
+   "y": 20428.0,
+   "x": 458.0,
+   "cls": "dark",
+   "score": 0.8556
+  },
+  {
+   "text": "体重50.8kg",
+   "y": 20561.0,
+   "x": 336.0,
+   "cls": "dark",
+   "score": 0.9431
+  },
+  {
+   "text": "监肪量12.0kg",
+   "y": 20563.0,
+   "x": 460.0,
+   "cls": "dark",
+   "score": 0.8115
+  },
+  {
+   "text": "体重50.8kg",
+   "y": 20693.0,
+   "x": 335.0,
+   "cls": "dark",
+   "score": 0.9595
+  },
+  {
+   "text": "脂肪量12.0kg",
+   "y": 20693.0,
+   "x": 460.0,
+   "cls": "dark",
+   "score": 0.9568
+  },
+  {
+   "text": "在想要不要",
+   "y": 21891.0,
+   "x": 990.0,
+   "cls": "dark",
+   "score": 0.9998
+  },
+  {
+   "text": "私奔",
+   "y": 22266.0,
+   "x": 203.0,
+   "cls": "light",
+   "score": 0.9994
+  },
+  {
+   "text": "好几天没动了，每天一样控制饮食，每晚饿着",
+   "y": 22338.0,
+   "x": 210.0,
+   "cls": "dark",
+   "score": 0.9949
+  },
+  {
+   "text": "睡",
+   "y": 22405.0,
+   "x": 208.0,
+   "cls": "dark",
+   "score": 1.0
+  },
+  {
+   "text": "对比1天前增加0.15公斤",
+   "y": 22511.0,
+   "x": 240.0,
+   "cls": "other",
+   "score": 0.9812
+  },
+  {
+   "text": "47.2%",
+   "y": 22557.0,
+   "x": 394.0,
+   "cls": "light",
+   "score": 0.9945
+  },
+  {
+   "text": "初始84.00",
+   "y": 22588.0,
+   "x": 252.0,
+   "cls": "meta",
+   "score": 0.9951
+  },
+  {
+   "text": "标75.00",
+   "y": 22588.0,
+   "x": 520.0,
+   "cls": "meta",
+   "score": 0.9898
+  },
+  {
+   "text": "减重第18天",
+   "y": 22597.0,
+   "x": 387.0,
+   "cls": "light",
+   "score": 0.9767
+  },
+  {
+   "text": "体重趋势",
+   "y": 22683.0,
+   "x": 240.0,
+   "cls": "meta",
+   "score": 0.876
+  },
+  {
+   "text": "更多",
+   "y": 22686.0,
+   "x": 561.0,
+   "cls": "light",
+   "score": 0.9958
+  },
+  {
+   "text": "80.60",
+   "y": 22758.0,
+   "x": 298.0,
+   "cls": "light",
+   "score": 0.999
+  },
+  {
+   "text": "预测体重变化情况>",
+   "y": 22937.0,
+   "x": 359.0,
+   "cls": "meta",
+   "score": 0.9661
+  },
+  {
+   "text": "体脂数据",
+   "y": 22990.0,
+   "x": 282.0,
+   "cls": "meta",
+   "score": 0.9861
+  },
+  {
+   "text": "肌肉数据",
+   "y": 22993.0,
+   "x": 500.0,
+   "cls": "light",
+   "score": 0.9538
+  },
+  {
+   "text": "指标值",
+   "y": 23042.0,
+   "x": 558.0,
+   "cls": "meta",
+   "score": 0.9983
+  },
+  {
+   "text": "标准",
+   "y": 23044.0,
+   "x": 428.0,
+   "cls": "light",
+   "score": 0.999
+  },
+  {
+   "text": "卡住了，",
+   "y": 25779.0,
+   "x": 206.0,
+   "cls": "dark",
+   "score": 0.986
+  },
+  {
+   "text": "好几天没好好吃碳水了。明天我",
+   "y": 25784.0,
+   "x": 498.0,
+   "cls": "dark",
+   "score": 0.9898
+  },
+  {
+   "text": "要炫一碗大米饭。",
+   "y": 25855.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9541
+  },
+  {
+   "text": "暖宝宝",
+   "y": 30762.0,
+   "x": 207.0,
+   "cls": "light",
+   "score": 0.9991
+  },
+  {
+   "text": "上个月底的时候，体重忽上忽下10来天，最",
+   "y": 30830.0,
+   "x": 213.0,
+   "cls": "dark",
+   "score": 0.998
+  },
+  {
+   "text": "后几天来大姨妈了，昨天开始，一天掉一斤",
+   "y": 30902.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9943
+  },
+  {
+   "text": "没想到大体重刚开始也会这样",
+   "y": 30977.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9904
+  },
+  {
+   "text": "5",
+   "y": 31084.0,
+   "x": 356.0,
+   "cls": "meta",
+   "score": 0.9733
+  },
+  {
+   "text": "6",
+   "y": 31084.0,
+   "x": 418.0,
+   "cls": "meta",
+   "score": 0.996
+  },
+  {
+   "text": "9",
+   "y": 31084.0,
+   "x": 603.0,
+   "cls": "meta",
+   "score": 0.9944
+  },
+  {
+   "text": "4",
+   "y": 31085.0,
+   "x": 294.0,
+   "cls": "meta",
+   "score": 0.9962
+  },
+  {
+   "text": "7",
+   "y": 31085.0,
+   "x": 479.0,
+   "cls": "meta",
+   "score": 0.9973
+  },
+  {
+   "text": "8",
+   "y": 31085.0,
+   "x": 543.0,
+   "cls": "meta",
+   "score": 0.9936
+  },
+  {
+   "text": "-0.2",
+   "y": 31101.0,
+   "x": 346.0,
+   "cls": "meta",
+   "score": 0.7804
+  },
+  {
+   "text": "-0.6",
+   "y": 31101.0,
+   "x": 409.0,
+   "cls": "meta",
+   "score": 0.8629
+  },
+  {
+   "text": "-0.7",
+   "y": 31101.0,
+   "x": 471.0,
+   "cls": "meta",
+   "score": 0.8221
+  },
+  {
+   "text": "-11",
+   "y": 31102.0,
+   "x": 283.0,
+   "cls": "meta",
+   "score": 0.6819
+  },
+  {
+   "text": "-0市",
+   "y": 31102.0,
+   "x": 587.0,
+   "cls": "meta",
+   "score": 0.5479
+  },
+  {
+   "text": "-0.2",
+   "y": 31103.0,
+   "x": 224.0,
+   "cls": "meta",
+   "score": 0.7677
+  },
+  {
+   "text": "-11",
+   "y": 31103.0,
+   "x": 533.0,
+   "cls": "meta",
+   "score": 0.813
+  },
+  {
+   "text": "175.0",
+   "y": 31119.0,
+   "x": 223.0,
+   "cls": "light",
+   "score": 0.9278
+  },
+  {
+   "text": "173.9",
+   "y": 31120.0,
+   "x": 285.0,
+   "cls": "light",
+   "score": 0.9611
+  },
+  {
+   "text": "173.7",
+   "y": 31120.0,
+   "x": 348.0,
+   "cls": "light",
+   "score": 0.9071
+  },
+  {
+   "text": "173.1",
+   "y": 31120.0,
+   "x": 411.0,
+   "cls": "light",
+   "score": 0.984
+  },
+  {
+   "text": "172.4",
+   "y": 31120.0,
+   "x": 471.0,
+   "cls": "light",
+   "score": 0.8783
+  },
+  {
+   "text": "1713",
+   "y": 31120.0,
+   "x": 534.0,
+   "cls": "light",
+   "score": 0.8713
+  },
+  {
+   "text": "172.1",
+   "y": 31120.0,
+   "x": 595.0,
+   "cls": "light",
+   "score": 0.9686
+  },
+  {
+   "text": "10",
+   "y": 31148.0,
+   "x": 228.0,
+   "cls": "meta",
+   "score": 0.9978
+  },
+  {
+   "text": "11",
+   "y": 31148.0,
+   "x": 291.0,
+   "cls": "meta",
+   "score": 0.9321
+  },
+  {
+   "text": "12",
+   "y": 31148.0,
+   "x": 353.0,
+   "cls": "meta",
+   "score": 0.9991
+  },
+  {
+   "text": "13",
+   "y": 31148.0,
+   "x": 414.0,
+   "cls": "meta",
+   "score": 0.9993
+  },
+  {
+   "text": "14",
+   "y": 31148.0,
+   "x": 475.0,
+   "cls": "meta",
+   "score": 0.9995
+  },
+  {
+   "text": "15",
+   "y": 31148.0,
+   "x": 538.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "16",
+   "y": 31148.0,
+   "x": 600.0,
+   "cls": "meta",
+   "score": 0.9991
+  },
+  {
+   "text": "·24",
+   "y": 31166.0,
+   "x": 220.0,
+   "cls": "meta",
+   "score": 0.7936
+  },
+  {
+   "text": "00",
+   "y": 31166.0,
+   "x": 284.0,
+   "cls": "light",
+   "score": 0.9238
+  },
+  {
+   "text": "-0.4",
+   "y": 31166.0,
+   "x": 588.0,
+   "cls": "meta",
+   "score": 0.8272
+  },
+  {
+   "text": "+16",
+   "y": 31167.0,
+   "x": 346.0,
+   "cls": "meta",
+   "score": 0.7705
+  },
+  {
+   "text": "-1.3",
+   "y": 31167.0,
+   "x": 409.0,
+   "cls": "meta",
+   "score": 0.7827
+  },
+  {
+   "text": "-14",
+   "y": 31167.0,
+   "x": 471.0,
+   "cls": "meta",
+   "score": 0.8022
+  },
+  {
+   "text": "174.5",
+   "y": 31184.0,
+   "x": 285.0,
+   "cls": "light",
+   "score": 0.9587
+  },
+  {
+   "text": "170.2",
+   "y": 31184.0,
+   "x": 472.0,
+   "cls": "light",
+   "score": 0.9634
+  },
+  {
+   "text": "168.8",
+   "y": 31184.0,
+   "x": 594.0,
+   "cls": "light",
+   "score": 0.9201
+  },
+  {
+   "text": "172.9",
+   "y": 31185.0,
+   "x": 348.0,
+   "cls": "light",
+   "score": 0.9529
+  },
+  {
+   "text": "169.2",
+   "y": 31185.0,
+   "x": 534.0,
+   "cls": "meta",
+   "score": 0.8948
+  },
+  {
+   "text": "174,5",
+   "y": 31186.0,
+   "x": 225.0,
+   "cls": "meta",
+   "score": 0.9372
+  },
+  {
+   "text": "22",
+   "y": 31210.0,
+   "x": 537.0,
+   "cls": "meta",
+   "score": 0.9959
+  },
+  {
+   "text": "23",
+   "y": 31210.0,
+   "x": 598.0,
+   "cls": "meta",
+   "score": 0.998
+  },
+  {
+   "text": "18",
+   "y": 31211.0,
+   "x": 291.0,
+   "cls": "meta",
+   "score": 0.9973
+  },
+  {
+   "text": "20",
+   "y": 31211.0,
+   "x": 413.0,
+   "cls": "meta",
+   "score": 0.9982
+  },
+  {
+   "text": "21",
+   "y": 31211.0,
+   "x": 476.0,
+   "cls": "meta",
+   "score": 0.9983
+  },
+  {
+   "text": "17",
+   "y": 31212.0,
+   "x": 229.0,
+   "cls": "meta",
+   "score": 0.9988
+  },
+  {
+   "text": "19",
+   "y": 31212.0,
+   "x": 353.0,
+   "cls": "meta",
+   "score": 0.9991
+  },
+  {
+   "text": "-03",
+   "y": 31230.0,
+   "x": 221.0,
+   "cls": "meta",
+   "score": 0.9055
+  },
+  {
+   "text": "-0.1",
+   "y": 31230.0,
+   "x": 344.0,
+   "cls": "light",
+   "score": 0.8283
+  },
+  {
+   "text": "-01",
+   "y": 31230.0,
+   "x": 408.0,
+   "cls": "meta",
+   "score": 0.9317
+  },
+  {
+   "text": "-01",
+   "y": 31230.0,
+   "x": 469.0,
+   "cls": "light",
+   "score": 0.9643
+  },
+  {
+   "text": "-10",
+   "y": 31230.0,
+   "x": 589.0,
+   "cls": "light",
+   "score": 0.8756
+  },
+  {
+   "text": "-12",
+   "y": 31231.0,
+   "x": 285.0,
+   "cls": "meta",
+   "score": 0.9662
+  },
+  {
+   "text": "-12",
+   "y": 31231.0,
+   "x": 534.0,
+   "cls": "meta",
+   "score": 0.9762
+  },
+  {
+   "text": "768.5",
+   "y": 31248.0,
+   "x": 224.0,
+   "cls": "light",
+   "score": 0.7741
+  },
+  {
+   "text": "167.3",
+   "y": 31248.0,
+   "x": 411.0,
+   "cls": "light",
+   "score": 0.9625
+  },
+  {
+   "text": "187.2",
+   "y": 31248.0,
+   "x": 597.0,
+   "cls": "light",
+   "score": 0.7935
+  },
+  {
+   "text": "967.3",
+   "y": 31250.0,
+   "x": 288.0,
+   "cls": "light",
+   "score": 0.8371
+  },
+  {
+   "text": "767.4",
+   "y": 31250.0,
+   "x": 350.0,
+   "cls": "meta",
+   "score": 0.9239
+  },
+  {
+   "text": "767.4",
+   "y": 31250.0,
+   "x": 474.0,
+   "cls": "meta",
+   "score": 0.8006
+  },
+  {
+   "text": "166.2",
+   "y": 31250.0,
+   "x": 536.0,
+   "cls": "light",
+   "score": 0.9465
+  },
+  {
+   "text": "26",
+   "y": 31274.0,
+   "x": 350.0,
+   "cls": "meta",
+   "score": 0.9983
+  },
+  {
+   "text": "27",
+   "y": 31274.0,
+   "x": 412.0,
+   "cls": "meta",
+   "score": 0.9977
+  },
+  {
+   "text": "28",
+   "y": 31274.0,
+   "x": 474.0,
+   "cls": "meta",
+   "score": 0.9972
+  },
+  {
+   "text": "29",
+   "y": 31274.0,
+   "x": 537.0,
+   "cls": "meta",
+   "score": 0.9994
+  },
+  {
+   "text": "30",
+   "y": 31274.0,
+   "x": 598.0,
+   "cls": "meta",
+   "score": 0.9984
+  },
+  {
+   "text": "24",
+   "y": 31276.0,
+   "x": 226.0,
+   "cls": "meta",
+   "score": 0.9985
+  },
+  {
+   "text": "25",
+   "y": 31276.0,
+   "x": 289.0,
+   "cls": "meta",
+   "score": 0.998
+  },
+  {
+   "text": "-04",
+   "y": 31294.0,
+   "x": 220.0,
+   "cls": "meta",
+   "score": 0.7386
+  },
+  {
+   "text": "-10",
+   "y": 31294.0,
+   "x": 468.0,
+   "cls": "meta",
+   "score": 0.7951
+  },
+  {
+   "text": "-14",
+   "y": 31294.0,
+   "x": 588.0,
+   "cls": "meta",
+   "score": 0.7731
+  },
+  {
+   "text": "-18",
+   "y": 31295.0,
+   "x": 285.0,
+   "cls": "meta",
+   "score": 0.8293
+  },
+  {
+   "text": "-02",
+   "y": 31295.0,
+   "x": 404.0,
+   "cls": "light",
+   "score": 0.8774
+  },
+  {
+   "text": "-08",
+   "y": 31295.0,
+   "x": 528.0,
+   "cls": "meta",
+   "score": 0.9202
+  },
+  {
+   "text": "0.1",
+   "y": 31296.0,
+   "x": 344.0,
+   "cls": "light",
+   "score": 0.9834
+  },
+  {
+   "text": "167.6",
+   "y": 31313.0,
+   "x": 225.0,
+   "cls": "light",
+   "score": 0.9199
+  },
+  {
+   "text": "165.8",
+   "y": 31313.0,
+   "x": 285.0,
+   "cls": "light",
+   "score": 0.9553
+  },
+  {
+   "text": "65.9",
+   "y": 31313.0,
+   "x": 348.0,
+   "cls": "light",
+   "score": 0.7719
+  },
+  {
+   "text": "66.1:",
+   "y": 31313.0,
+   "x": 411.0,
+   "cls": "light",
+   "score": 0.796
+  },
+  {
+   "text": "165.1",
+   "y": 31313.0,
+   "x": 472.0,
+   "cls": "light",
+   "score": 0.9329
+  },
+  {
+   "text": "165.9",
+   "y": 31313.0,
+   "x": 534.0,
+   "cls": "light",
+   "score": 0.9308
+  },
+  {
+   "text": "164.5",
+   "y": 31313.0,
+   "x": 594.0,
+   "cls": "meta",
+   "score": 0.9234
+  },
+  {
+   "text": "31",
+   "y": 31340.0,
+   "x": 228.0,
+   "cls": "meta",
+   "score": 0.9985
+  },
+  {
+   "text": "-0.1",
+   "y": 31359.0,
+   "x": 219.0,
+   "cls": "meta",
+   "score": 0.8153
+  },
+  {
+   "text": "164.4",
+   "y": 31377.0,
+   "x": 225.0,
+   "cls": "meta",
+   "score": 0.7464
+  },
+  {
+   "text": "21",
+   "y": 31415.0,
+   "x": 465.0,
+   "cls": "dark",
+   "score": 0.9986
+  },
+  {
+   "text": "-11.8",
+   "y": 31415.0,
+   "x": 564.0,
+   "cls": "dark",
+   "score": 0.9949
+  },
+  {
+   "text": "31",
+   "y": 31416.0,
+   "x": 248.0,
+   "cls": "dark",
+   "score": 0.9979
+  },
+  {
+   "text": "9",
+   "y": 31417.0,
+   "x": 361.0,
+   "cls": "dark",
+   "score": 0.9979
+  },
+  {
+   "text": "打卡天数",
+   "y": 31439.0,
+   "x": 238.0,
+   "cls": "light",
+   "score": 0.8584
+  },
+  {
+   "text": "地量天敌",
+   "y": 31439.0,
+   "x": 347.0,
+   "cls": "light",
+   "score": 0.556
+  },
+  {
+   "text": "减重天款",
+   "y": 31439.0,
+   "x": 455.0,
+   "cls": "light",
+   "score": 0.6459
+  },
+  {
+   "text": "本月变化",
+   "y": 31439.0,
+   "x": 564.0,
+   "cls": "light",
+   "score": 0.9159
+  },
+  {
+   "text": "体重",
+   "y": 31490.0,
+   "x": 298.0,
+   "cls": "light",
+   "score": 0.9411
+  },
+  {
+   "text": "体重变化",
+   "y": 31492.0,
+   "x": 446.0,
+   "cls": "light",
+   "score": 0.8858
+  },
+  {
+   "text": "175.0斤",
+   "y": 31522.0,
+   "x": 299.0,
+   "cls": "dark",
+   "score": 0.9988
+  },
+  {
+   "text": "0.2斤",
+   "y": 31522.0,
+   "x": 450.0,
+   "cls": "dark",
+   "score": 0.9944
+  },
+  {
+   "text": "掉了12斤之后卡了",
+   "y": 31955.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "3天一直停在这个阶段了",
+   "y": 32023.0,
+   "x": 208.0,
+   "cls": "dark",
+   "score": 0.9994
+  },
+  {
+   "text": "46.3026",
+   "y": 32326.0,
+   "x": 323.0,
+   "cls": "dark",
+   "score": 0.9965
+  },
+  {
+   "text": "怎么办白",
+   "y": 33003.0,
+   "x": 842.0,
+   "cls": "dark",
+   "score": 0.8354
+  },
+  {
+   "text": "从112减到108就卡了",
+   "y": 33395.0,
+   "x": 213.0,
+   "cls": "dark",
+   "score": 0.9973
+  },
+  {
+   "text": "1314",
+   "y": 34121.0,
+   "x": 472.0,
+   "cls": "light",
+   "score": 0.9979
+  },
+  {
+   "text": "灵犀0",
+   "y": 34125.0,
+   "x": 314.0,
+   "cls": "light",
+   "score": 0.7995
+  },
+  {
+   "text": "M",
+   "y": 34134.0,
+   "x": 213.0,
+   "cls": "light",
+   "score": 0.5143
+  },
+  {
+   "text": "我是真卡平台了",
+   "y": 34237.0,
+   "x": 517.0,
+   "cls": "dark",
+   "score": 0.999
+  },
+  {
+   "text": "26年7月9号：1288斤。26年8月1号：124.2斤。",
+   "y": 34356.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8988
+  },
+  {
+   "text": "26年7月10号：1274开。26年8月2号：120.2开，",
+   "y": 34386.0,
+   "x": 228.0,
+   "cls": "meta",
+   "score": 0.8521
+  },
+  {
+   "text": "26年7月11号：128.8斤。26年8月3号：125.9斤。",
+   "y": 34414.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8904
+  },
+  {
+   "text": "26年7月12号：1274开.26年8月4号：125.2开。",
+   "y": 34443.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8625
+  },
+  {
+   "text": "26年7月13号：1268斤。26年8月5号：125.2斤。",
+   "y": 34472.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8897
+  },
+  {
+   "text": "26年7月10号：125.9斤.26年8月6号：124.2开。",
+   "y": 34501.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8246
+  },
+  {
+   "text": "26年7月15号：1274斤。26年8月7号：124.27。",
+   "y": 34530.0,
+   "x": 228.0,
+   "cls": "meta",
+   "score": 0.8421
+  },
+  {
+   "text": "26年7月15号：125.9斤.26年8月8号：124.37。",
+   "y": 34559.0,
+   "x": 229.0,
+   "cls": "meta",
+   "score": 0.8323
+  },
+  {
+   "text": "26年7月17号：125.9斤，26年8月9号：1242开，",
+   "y": 34586.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8417
+  },
+  {
+   "text": "26年7月18号：125.9斤.26年8月10号：124.2开。",
+   "y": 34615.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8628
+  },
+  {
+   "text": "26年7月19号：125.9开，26年8月11号：120.2开，",
+   "y": 34644.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.8433
+  },
+  {
+   "text": "26年7月20号：125.2斤.26年8月12号：124.2斤。",
+   "y": 34675.0,
+   "x": 229.0,
+   "cls": "meta",
+   "score": 0.8579
+  },
+  {
+   "text": "26年7月21号：125.2开.26年8月13号：123.2开，",
+   "y": 34704.0,
+   "x": 229.0,
+   "cls": "meta",
+   "score": 0.8576
+  },
+  {
+   "text": "26年7月22号：125.9斤。26年8月14号：",
+   "y": 34733.0,
+   "x": 229.0,
+   "cls": "meta",
+   "score": 0.8969
+  },
+  {
+   "text": "：9",
+   "y": 34761.0,
+   "x": 228.0,
+   "cls": "meta",
+   "score": 0.6155
+  },
+  {
+   "text": "1：<9",
+   "y": 34790.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.6016
+  },
+  {
+   "text": "：自9",
+   "y": 34817.0,
+   "x": 227.0,
+   "cls": "meta",
+   "score": 0.5333
+  },
+  {
+   "text": "：<女9",
+   "y": 34845.0,
+   "x": 226.0,
+   "cls": "meta",
+   "score": 0.6558
+  },
+  {
+   "text": "江江江江",
+   "y": 35147.0,
+   "x": 208.0,
+   "cls": "light",
+   "score": 0.9991
+  },
+  {
+   "text": "这体重，有这种卡平台的吗？连续一周，体重",
+   "y": 35216.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9986
+  },
+  {
+   "text": "一模一样。心态要崩了",
+   "y": 35283.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9994
+  },
+  {
+   "text": "97.8097.8097.8097.80",
+   "y": 35411.0,
+   "x": 298.0,
+   "cls": "light",
+   "score": 0.9871
+  },
+  {
+   "text": "0086",
+   "y": 35413.0,
+   "x": 253.0,
+   "cls": "light",
+   "score": 0.9895
+  },
+  {
+   "text": "BMI",
+   "y": 35556.0,
+   "x": 243.0,
+   "cls": "dark",
+   "score": 0.9846
+  },
+  {
+   "text": "19.90",
+   "y": 35649.0,
+   "x": 252.0,
+   "cls": "light",
+   "score": 0.9921
+  },
+  {
+   "text": "19.90",
+   "y": 35650.0,
+   "x": 516.0,
+   "cls": "light",
+   "score": 0.9973
+  },
+  {
+   "text": "19.80",
+   "y": 35653.0,
+   "x": 304.0,
+   "cls": "light",
+   "score": 0.997
+  },
+  {
+   "text": "19.80",
+   "y": 35653.0,
+   "x": 356.0,
+   "cls": "light",
+   "score": 0.9981
+  },
+  {
+   "text": "19.80",
+   "y": 35654.0,
+   "x": 409.0,
+   "cls": "light",
+   "score": 0.9941
+  },
+  {
+   "text": "体脂率",
+   "y": 35801.0,
+   "x": 244.0,
+   "cls": "other",
+   "score": 0.9987
+  },
+  {
+   "text": "MISHANG弥尚美学横州大竹丽苑店",
+   "y": 36563.0,
+   "x": 210.0,
+   "cls": "light",
+   "score": 0.9946
+  },
+  {
+   "text": "我信你，所以它一直卡我就一直正常减，我当",
+   "y": 36631.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9984
+  },
+  {
+   "text": "它在厚积薄发",
+   "y": 36702.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.994
+  },
+  {
+   "text": "加油",
+   "y": 36708.0,
+   "x": 533.0,
+   "cls": "meta",
+   "score": 0.9993
+  },
+  {
+   "text": "就不咋动了",
+   "y": 36991.0,
+   "x": 675.0,
+   "cls": "dark",
+   "score": 0.9992
+  },
+  {
+   "text": "不掉了咋办",
+   "y": 40633.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9994
+  },
+  {
+   "text": "人类只是我的兼职",
+   "y": 41354.0,
+   "x": 213.0,
+   "cls": "light",
+   "score": 0.9984
+  },
+  {
+   "text": "大家有没有什么好的办法呜呜呜一周了一直",
+   "y": 41424.0,
+   "x": 213.0,
+   "cls": "dark",
+   "score": 0.9364
+  },
+  {
+   "text": "卡在这里也不动，但是每天已经吃的很少很少",
+   "y": 41491.0,
+   "x": 212.0,
+   "cls": "dark",
+   "score": 0.9981
+  },
+  {
+   "text": "了，最近一直因为吃得少而低血糖",
+   "y": 41562.0,
+   "x": 211.0,
+   "cls": "dark",
+   "score": 0.9987
+  },
+  {
+   "text": "3.35晚63.35",
+   "y": 41660.0,
+   "x": 235.0,
+   "cls": "meta",
+   "score": 0.9967
+  },
+  {
+   "text": "3.26早63.2",
+   "y": 41690.0,
+   "x": 236.0,
+   "cls": "meta",
+   "score": 0.9974
+  },
+  {
+   "text": "3.26晚63.05",
+   "y": 41747.0,
+   "x": 235.0,
+   "cls": "meta",
+   "score": 0.9993
+  },
+  {
+   "text": "3.28早62.25",
+   "y": 41775.0,
+   "x": 234.0,
+   "cls": "meta",
+   "score": 0.9856
+  },
+  {
+   "text": "3.30晚62.45",
+   "y": 41802.0,
+   "x": 234.0,
+   "cls": "meta",
+   "score": 0.9982
+  },
+  {
+   "text": "4.2下 62.75",
+   "y": 41832.0,
+   "x": 234.0,
+   "cls": "meta",
+   "score": 0.9804
+  },
+  {
+   "text": "I1H",
+   "y": 41919.0,
+   "x": 242.0,
+   "cls": "dark",
+   "score": 0.6218
+  },
+  {
+   "text": "善语结善缘，恶语伤人心",
+   "y": 42464.0,
+   "x": 80.0,
+   "cls": "meta",
+   "score": 0.9864
+  },
+  {
+   "text": "d",
+   "y": 42481.0,
+   "x": 1052.0,
+   "cls": "dark",
+   "score": 0.8055
+  }
+ ],
+ "n_rows": 707
+}

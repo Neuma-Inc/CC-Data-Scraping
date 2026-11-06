@@ -1,0 +1,35 @@
+{
+ "减脂课.html": {
+  "chunks": 2,
+  "poi_cards": [],
+  "aweme_count": 9,
+  "templates": [
+   [
+    "morphling_msite*related_search/index",
+    2
+   ]
+  ]
+ },
+ "减脂课程.html": {
+  "chunks": 2,
+  "poi_cards": [],
+  "aweme_count": 5,
+  "templates": [
+   [
+    "morphling_msite*related_search/index",
+    2
+   ]
+  ]
+ },
+ "线上减脂营.html": {
+  "chunks": 2,
+  "poi_cards": [],
+  "aweme_count": 6,
+  "templates": [
+   [
+    "morphling_msite*related_search/index",
+    2
+   ]
+  ]
+ }
+}

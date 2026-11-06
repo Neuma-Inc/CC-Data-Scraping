@@ -1,0 +1,13 @@
+﻿维度,值,评论数
+source,legacy_csv,93026
+source,new_jsonl,14896
+platform,小红书,20685
+platform,B站,30110
+platform,抖音,37229
+platform,知乎,3720
+platform,微博,1282
+platform,bili,8995
+platform,weibo,498
+platform,xhs,4448
+platform,zhihu,955
+total,unique_comments,107922

@@ -1,0 +1,1610 @@
+{
+ "banner_dark": {
+  "uri": "33a57000197f34889bc27",
+  "url_list": [
+   "https://p3-sign.douyinpic.com/obj/33a57000197f34889bc27?lk3s=03ea9982&x-expires=1793815200&x-signature=FkByIIfWhITb4WKRqkSGIVDGBGk%3D&from=65706370",
+   "https://p26-sign.douyinpic.com/obj/33a57000197f34889bc27?lk3s=03ea9982&x-expires=1793815200&x-signature=vqTkMvE9LMjwe54Ech04%2BrFAu2w%3D&from=65706370",
+   "https://p5-ex-gddgtc-sign.douyinpic.com/obj/33a57000197f34889bc27?lk3s=03ea9982&x-expires=1793815200&x-signature=Tr2hIaXvNlvgu8mTsXYhbzaGK9E%3D&from=65706370"
+  ]
+ },
+ "banner_light": {
+  "uri": "33a580000cefdf44e9f76",
+  "url_list": [
+   "https://p5-ex-gddgtc-sign.douyinpic.com/obj/33a580000cefdf44e9f76?lk3s=03ea9982&x-expires=1793815200&x-signature=U8TcQFEoRcN5IXAbywDo1oLXO4w%3D&from=65706370",
+   "https://p26-sign.douyinpic.com/obj/33a580000cefdf44e9f76?lk3s=03ea9982&x-expires=1793815200&x-signature=plGhkNyHbZ3szdo0cNKeu5xm6J0%3D&from=65706370",
+   "https://p3-sign.douyinpic.com/obj/33a580000cefdf44e9f76?lk3s=03ea9982&x-expires=1793815200&x-signature=GTm8v9n8CA3iIcQhcX%2B%2BT7uDiNM%3D&from=65706370"
+  ]
+ },
+ "data": {
+  "active_time": "2026-11-04 20:17:12",
+  "banner_display": {},
+  "display_style": 0,
+  "share_info": {
+   "share_link_desc": "我在看抖音热榜，发现最火的内容，赶快来看！戳这里>>",
+   "share_title": "我在看抖音热榜，发现最火的内容，赶快来看！",
+   "share_url": "https://www.iesdouyin.com/share/billboard/?id=0"
+  },
+  "trending_desc": "实时上升热点",
+  "trending_list": [
+   {
+    "article_detail_count": 0,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793692759,
+    "group_id": "6813615263037003020",
+    "hot_value": 0,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "sentence_id": "2727370",
+    "sentence_tag": 1001,
+    "video_count": 10,
+    "word": "你说那时我们太幼稚",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/o8HAuBABJFiBiI8FPWxLNOwQaoEPXM0EitiZu",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8HAuBABJFiBiI8FPWxLNOwQaoEPXM0EitiZu~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=pXdiZ9BzwiCLtwx%2Bd%2F%2Fh8THMEcE%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8HAuBABJFiBiI8FPWxLNOwQaoEPXM0EitiZu~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=IgMOZ7Q4HnhXLULqi5m0wqf7w4s%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8HAuBABJFiBiI8FPWxLNOwQaoEPXM0EitiZu~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=BYIKejBVYjpvZ8%2BDrIB8cvD0brY%3D&from=3218412987"
+     ]
+    },
+    "word_sub_board": [
+     3
+    ],
+    "word_type": 3
+   },
+   {
+    "article_detail_count": 0,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793780038,
+    "group_id": "7703068544690984242",
+    "hot_value": 0,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "sentence_id": "2729186",
+    "sentence_tag": 4003,
+    "video_count": 2,
+    "word": "陕西商南重大刑案嫌疑人携刀潜逃",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oU84uvnj7rwAiqrthIQCaAAPTwbII9jBi6Vkr",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/oU84uvnj7rwAiqrthIQCaAAPTwbII9jBi6Vkr~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=7vn6n2mE1%2BOwaQjxyaraxjnP82Q%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oU84uvnj7rwAiqrthIQCaAAPTwbII9jBi6Vkr~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=MexFW07dP%2FFpZh1MwIIYXD88QBY%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oU84uvnj7rwAiqrthIQCaAAPTwbII9jBi6Vkr~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=nNn7khUYiH%2Fxtd2qwCFmeyYeWSo%3D&from=3218412987"
+     ]
+    },
+    "word_type": 3
+   },
+   {
+    "article_detail_count": 0,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793769107,
+    "group_id": "7702935976344048922",
+    "hot_value": 0,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "sentence_id": "2728616",
+    "sentence_tag": 3002,
+    "video_count": 8,
+    "word": "特朗普祝贺民主党获胜",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/owXBzqt8IEPrNv9K8IaiAqBQSDi2wGugHCvA9",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/owXBzqt8IEPrNv9K8IaiAqBQSDi2wGugHCvA9~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=kG5IsG5qWWXO5ZbgEDXUOQUoOBg%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/owXBzqt8IEPrNv9K8IaiAqBQSDi2wGugHCvA9~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=S0rgo1iRc04nZsDbsgd922sgUbI%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/owXBzqt8IEPrNv9K8IaiAqBQSDi2wGugHCvA9~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=3UlNuXZAw%2FFKeTTUsbYwdqBUEDc%3D&from=3218412987"
+     ]
+    },
+    "word_type": 3
+   },
+   {
+    "article_detail_count": 0,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793761116,
+    "group_id": "7703501006659654952",
+    "hot_value": 0,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "sentence_id": "2728411",
+    "sentence_tag": 5000,
+    "video_count": 4,
+    "word": "丁俊晖6:5击败马奎尔晋级八强",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oQ14NRq3qBlIQAie9AmIhOoC3dA1gTfP7JBBiz",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oQ14NRq3qBlIQAie9AmIhOoC3dA1gTfP7JBBiz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=dBLK96wL73bQsQnYsv%2BlHERbwkU%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oQ14NRq3qBlIQAie9AmIhOoC3dA1gTfP7JBBiz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=bS4fHU2bjoag1fgv9n1yKqo%2FJpw%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/oQ14NRq3qBlIQAie9AmIhOoC3dA1gTfP7JBBiz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=ZupaFfodO9376EqSo8O6umiQtrY%3D&from=3218412987"
+     ]
+    },
+    "word_type": 3
+   },
+   {
+    "article_detail_count": 0,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793756982,
+    "group_id": "7702974153665910067",
+    "hot_value": 0,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "sentence_id": "2728280",
+    "sentence_tag": 2003,
+    "video_count": 1,
+    "word": "许飞一开口就是晋江文学",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oQeyMnyE48IC5EjqApEI9jsF9fjcq0AnED9Bwd",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/oQeyMnyE48IC5EjqApEI9jsF9fjcq0AnED9Bwd~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=hjuIw7NB4MrE4medFII7%2FDaHJ4M%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oQeyMnyE48IC5EjqApEI9jsF9fjcq0AnED9Bwd~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=t3QqGkTMLi9oDTSZ1%2B5hA1%2BfhBw%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/oQeyMnyE48IC5EjqApEI9jsF9fjcq0AnED9Bwd~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=KPtZqGXbJ6Ln5gxbQ%2BBiS7ZKzlw%3D&from=3218412987"
+     ]
+    },
+    "word_type": 3
+   }
+  ],
+  "word_list": [
+   {
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "hot_value": 0,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": true,
+    "label": 0,
+    "sentence_id": "2729093",
+    "topic_info": {},
+    "view_count": 0,
+    "word": "携手构建网络空间命运共同体",
+    "word_type": 14
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793714440,
+    "group_id": "7521820134852744457",
+    "hot_value": 11629032,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 1,
+    "position": 1,
+    "sentence_id": "2728034",
+    "sentence_tag": 9000,
+    "video_count": 3,
+    "view_count": 64569088,
+    "word": "原来深秋是咕嘟的",
+    "word_cover": {
+     "uri": "tos-cn-i-0813c000-ce/okDACjo0IEPSBv9L3MaiAoBnS4ibhAupLAwAB",
+     "url_list": [
+      "https://p3-sign.douyinpic.com/tos-cn-i-0813c000-ce/okDACjo0IEPSBv9L3MaiAoBnS4ibhAupLAwAB~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=xaF62ZGteaYhELYva7oG9TTflVY%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c000-ce/okDACjo0IEPSBv9L3MaiAoBnS4ibhAupLAwAB~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Gn%2Bf%2FHn8v8anjTFoeVrLq0SWtjs%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-0813c000-ce/okDACjo0IEPSBv9L3MaiAoBnS4ibhAupLAwAB~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=8vTIDdn%2Fii0BcvbQB4Jo2%2BSKDSw%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793709147,
+    "group_id": "7200386208576017719",
+    "hot_value": 11490469,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 1,
+    "position": 2,
+    "sentence_id": "2727927",
+    "sentence_tag": 20002,
+    "video_count": 3,
+    "view_count": 64548236,
+    "word": "这泰山是非爬不可吗",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/o4RYlKu7AuAiPwWYbPYa3pHcBaI8INIQ1MNiT",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/o4RYlKu7AuAiPwWYbPYa3pHcBaI8INIQ1MNiT~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Zb%2FsqBsLh42YKBujP7iDxPtUR6s%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/o4RYlKu7AuAiPwWYbPYa3pHcBaI8INIQ1MNiT~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=w0Zn2ZCkuCIUFzTWry67H7pfN5c%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/o4RYlKu7AuAiPwWYbPYa3pHcBaI8INIQ1MNiT~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=PPtoVmqABEWJy9Pcehj0pA36Vqs%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793792921,
+    "group_id": "7702988101832905994",
+    "hot_value": 11252265,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 1,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/1.png",
+    "max_rank": 3,
+    "position": 3,
+    "sentence_id": "2729584",
+    "sentence_tag": 3001,
+    "video_count": 2,
+    "view_count": 66274471,
+    "word": "多部门部署加强消费基础设施建设",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/osABqi2fyd5YB2cjePXBWBA9gCipAP7I418TIJ",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/osABqi2fyd5YB2cjePXBWBA9gCipAP7I418TIJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=xiEv4DlwfM9FEjna9JEhXXnUdq0%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/osABqi2fyd5YB2cjePXBWBA9gCipAP7I418TIJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=wlTMkcqr0933oZ1okGYsJgm6%2BkU%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/osABqi2fyd5YB2cjePXBWBA9gCipAP7I418TIJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=p1JTUINLza9Jy22lXaNRxfMVIC8%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793774455,
+    "group_id": "7703073176247801115",
+    "hot_value": 11077132,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 2,
+    "position": 4,
+    "sentence_id": "2728852",
+    "sentence_tag": 7000,
+    "video_count": 11,
+    "view_count": 60896672,
+    "word": "A股收盘：科创50大涨近10%",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/os86DfhuAEGDQzzNcEqgFBjqI49sA824fALQ0N",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/os86DfhuAEGDQzzNcEqgFBjqI49sA824fALQ0N~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=W1ibksm7ODwNVPw5tug1osW1Tz0%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/os86DfhuAEGDQzzNcEqgFBjqI49sA824fALQ0N~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=HdIKufOPVMC0n0D4cf6hWoAKbDA%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/os86DfhuAEGDQzzNcEqgFBjqI49sA824fALQ0N~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Fv7hBgHEoDu137cqU6mZNZAyTEc%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793765401,
+    "group_id": "7567179223090418979",
+    "hot_value": 10488095,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 1,
+    "position": 5,
+    "sentence_id": "2728534",
+    "sentence_tag": 16000,
+    "video_count": 1,
+    "view_count": 55737393,
+    "word": "男生秋冬简约穿搭攻略",
+    "word_cover": {
+     "uri": "tos-cn-i-0813c001/ow1AD5o9uC0EEAieyAEIW7hAAdA0gmPDofnBio",
+     "url_list": [
+      "https://p3-sign.douyinpic.com/tos-cn-i-0813c001/ow1AD5o9uC0EEAieyAEIW7hAAdA0gmPDofnBio~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=T%2BxXBrMzaPjni%2FgKS%2FVO5QfAITU%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-i-0813c001/ow1AD5o9uC0EEAieyAEIW7hAAdA0gmPDofnBio~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=cks0jJTjjB%2FSXEaV4hoTBObhsiw%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-0813c001/ow1AD5o9uC0EEAieyAEIW7hAAdA0gmPDofnBio~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=25TirQ0NTf8Q4X7idMoWY4h8riM%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793777743,
+    "group_id": "7703554764169581858",
+    "hot_value": 10400256,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 6,
+    "position": 6,
+    "sentence_id": "2729025",
+    "sentence_tag": 3002,
+    "video_count": 7,
+    "view_count": 58681303,
+    "word": "外交部：就中俄美元首会晤保持沟通",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/owbeQ9iqAf02ABAfrqA9SSXPDNCW038fEjSRMi",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/owbeQ9iqAf02ABAfrqA9SSXPDNCW038fEjSRMi~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=c%2F36bQa0jGozx8YI1PHsSBW1F3I%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/owbeQ9iqAf02ABAfrqA9SSXPDNCW038fEjSRMi~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=73i5d2pWvOVqIEorxHRBbDoQIu4%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/owbeQ9iqAf02ABAfrqA9SSXPDNCW038fEjSRMi~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=j8ezLLp03FE3d5kUWkJjeROUc%2Bo%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793771854,
+    "group_id": "7703319358135833898",
+    "hot_value": 9299595,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "max_rank": 1,
+    "position": 7,
+    "sentence_id": "2728707",
+    "sentence_tag": 22001,
+    "video_count": 3,
+    "view_count": 50733775,
+    "word": "北京周末有明显雨雪天气",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/ownd6q29CIHpAuuEEqrw7jDxFofCABO8fQ2q2X",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015c000-ce/ownd6q29CIHpAuuEEqrw7jDxFofCABO8fQ2q2X~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=flv8C1Oi39GCQkMU2vF%2FRyagk3A%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/ownd6q29CIHpAuuEEqrw7jDxFofCABO8fQ2q2X~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=hxBM1ol7uzaYG%2FrRzvgdVKafqEg%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/ownd6q29CIHpAuuEEqrw7jDxFofCABO8fQ2q2X~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=6iVNNEXQE0B74Xhsd24TMWdU7E4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793709682,
+    "group_id": "7702826172734215458",
+    "hot_value": 9184538,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 1,
+    "position": 8,
+    "sentence_id": "2727941",
+    "sentence_tag": 5000,
+    "video_count": 5,
+    "view_count": 53029008,
+    "word": "盛李豪射击世锦赛夺金实现全满贯",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/osG0GeFPBIWEgM0PNFVALCspQc76AfA0fBluxE",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/osG0GeFPBIWEgM0PNFVALCspQc76AfA0fBluxE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Zyhi%2BP%2B7vwIHxC8iWhZRZEqwFTM%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/osG0GeFPBIWEgM0PNFVALCspQc76AfA0fBluxE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=sPb3%2FYMet2iz77bgi21zLF6MNTA%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/osG0GeFPBIWEgM0PNFVALCspQc76AfA0fBluxE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=%2FDJL1CLfei95W1tHFCfeiDjZfmg%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793759033,
+    "group_id": "7563602732058285366",
+    "hot_value": 9175665,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 2,
+    "position": 9,
+    "sentence_id": "2728350",
+    "sentence_tag": 3001,
+    "video_count": 9,
+    "view_count": 48361653,
+    "word": "2026中国广播电视精品创作大会",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oU82IqF6zCECWdfKBCDAQey779VAvCvBtrEVfV",
+     "url_list": [
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oU82IqF6zCECWdfKBCDAQey779VAvCvBtrEVfV~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=EQA8dULwwE4wzA4mXzxx1RkcAwQ%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oU82IqF6zCECWdfKBCDAQey779VAvCvBtrEVfV~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=4Q%2Br6B52thYjx5%2BchxPfuvJIDc0%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/oU82IqF6zCECWdfKBCDAQey779VAvCvBtrEVfV~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=196JnUxL2anBJIOZAnOkiOPMyx4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793783241,
+    "group_id": "7703460630096188731",
+    "hot_value": 9166199,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 8,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/8.png",
+    "max_rank": 10,
+    "position": 10,
+    "room_count": 1,
+    "sentence_id": "2729278",
+    "sentence_tag": 2002,
+    "video_count": 3,
+    "view_count": 55653745,
+    "word": "剧好看2027新剧推介会直播",
+    "word_cover": {
+     "uri": "tos-cn-i-0813c000-ce/oEWpUrw6fAEQIxDpAD9qqFCNXEEnFAAHfVAIv8",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-i-0813c000-ce/oEWpUrw6fAEQIxDpAD9qqFCNXEEnFAAHfVAIv8~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=XmMhu61snZl1CJf3%2F%2BJ6yJ5NftI%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oEWpUrw6fAEQIxDpAD9qqFCNXEEnFAAHfVAIv8~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=bXwSNWzoUyOLMZ2NK6Dtm6%2F67jI%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-0813c000-ce/oEWpUrw6fAEQIxDpAD9qqFCNXEEnFAAHfVAIv8~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=mnz1FdcSsBqFxdHB6ajYCfoozm8%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793710840,
+    "group_id": "6573949956212823299",
+    "hot_value": 9136104,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 4,
+    "position": 11,
+    "sentence_id": "2727970",
+    "sentence_tag": 20001,
+    "video_count": 1,
+    "view_count": 45664888,
+    "word": "画地为牢是什么意思",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/o8fAqNANdBAiGZcICIJY98AwRMWg31pxBAepiH",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/o8fAqNANdBAiGZcICIJY98AwRMWg31pxBAepiH~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=VQmcPdqROtrDjJ0yaVL%2FF2j6bTw%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/o8fAqNANdBAiGZcICIJY98AwRMWg31pxBAepiH~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=VgIEnYhIEBshd1GAtGuS8q%2BiD7E%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/o8fAqNANdBAiGZcICIJY98AwRMWg31pxBAepiH~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=4%2FilyA332k1diC52tRLhhq6OTIk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793747121,
+    "group_id": "7703000198779311400",
+    "hot_value": 9123228,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 1,
+    "position": 12,
+    "sentence_id": "2728135",
+    "sentence_tag": 5000,
+    "video_count": 8,
+    "view_count": 50614873,
+    "word": "曼联3:2逆转罗马",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oUIqQDBf7ZA1AzGVfLbze7vRygpBTIMAGMMACT",
+     "url_list": [
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oUIqQDBf7ZA1AzGVfLbze7vRygpBTIMAGMMACT~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Eo8zXgNdLnLarEyOubcguA0oYS8%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oUIqQDBf7ZA1AzGVfLbze7vRygpBTIMAGMMACT~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=mBTCbVX0RN4YOX92aBSMZSBwNZI%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oUIqQDBf7ZA1AzGVfLbze7vRygpBTIMAGMMACT~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=QoMb8FFl4f%2F5Lv62h%2BXXI%2Bjby7I%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793788587,
+    "group_id": "7703567868642858274",
+    "hot_value": 9109263,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 16,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/16.png",
+    "max_rank": 13,
+    "position": 13,
+    "sentence_id": "2729500",
+    "sentence_tag": 4003,
+    "video_count": 6,
+    "view_count": 48145406,
+    "word": "气象部门回应iPhone天气异常数据",
+    "word_cover": {
+     "uri": "tos-cn-i-dy/ea51dc17183b4d888b5b5c4cbd4f47b7",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-dy/ea51dc17183b4d888b5b5c4cbd4f47b7~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=4ZKDgOTwi09QPOXkzWWd4UolYgU%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-dy/ea51dc17183b4d888b5b5c4cbd4f47b7~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=4z4asGLbuhfpZDfT8XzCcAwJRRc%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-i-dy/ea51dc17183b4d888b5b5c4cbd4f47b7~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=upXm%2BmeZIkKLgMdkiDkrl9HaR74%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793771126,
+    "group_id": "7703456838650221873",
+    "hot_value": 9101617,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 7,
+    "position": 14,
+    "sentence_id": "2728673",
+    "sentence_tag": 12000,
+    "video_count": 3,
+    "view_count": 49125605,
+    "word": "深度复盘IG战胜TES",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oILdCETIB8BeVBvsgiPoA6AFpi3jg1AAX02eGq",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oILdCETIB8BeVBvsgiPoA6AFpi3jg1AAX02eGq~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=B5t5KBqSm997yQYr%2F3EZ%2B4lfE2A%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oILdCETIB8BeVBvsgiPoA6AFpi3jg1AAX02eGq~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=JvOKQFjzlS0jG8Ub8Mj7duC73FU%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oILdCETIB8BeVBvsgiPoA6AFpi3jg1AAX02eGq~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=uQ43KyeEdUqCxdD8kgKGWOuWKwQ%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793708923,
+    "group_id": "7703495442274211098",
+    "hot_value": 9054436,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 1,
+    "position": 15,
+    "sentence_id": "2727919",
+    "sentence_tag": 7000,
+    "video_count": 1,
+    "view_count": 47346831,
+    "word": "金价回落消费者趁机购金",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oEpdqEQ2JEDSwGAsIQvAB0BTqnFQ96yEfLUpfY",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEpdqEQ2JEDSwGAsIQvAB0BTqnFQ96yEfLUpfY~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Grg1G3DhaGOnAhrFduKZ21o21tA%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEpdqEQ2JEDSwGAsIQvAB0BTqnFQ96yEfLUpfY~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=3prj5YiF%2FjXh8wtHdIeqvJKsMgw%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEpdqEQ2JEDSwGAsIQvAB0BTqnFQ96yEfLUpfY~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=N3zOzObc3nr0yn3hlN6BvWSme1U%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793716641,
+    "group_id": "7702816983113766154",
+    "hot_value": 8958993,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 2,
+    "position": 16,
+    "sentence_id": "2728065",
+    "sentence_tag": 5000,
+    "video_count": 3,
+    "view_count": 42759471,
+    "word": "库珀赛后“表白”赵继伟",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oIV0f428QafcCOOBQUbpiBAFJ7FF8EfAOA1DBE",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oIV0f428QafcCOOBQUbpiBAFJ7FF8EfAOA1DBE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=6ZnbFIXGdeVHqK5KkslTKZpVwuE%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oIV0f428QafcCOOBQUbpiBAFJ7FF8EfAOA1DBE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=vXizNMBTu%2F0GHKoucm14XUMUbLA%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oIV0f428QafcCOOBQUbpiBAFJ7FF8EfAOA1DBE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=UAIQARHqnRBhRsTbzcDzs8FEM48%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793687575,
+    "group_id": "7702866283587441956",
+    "hot_value": 8586621,
+    "hotlist_param": "{\"version\":1}",
+    "label": 9,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/9.png",
+    "max_rank": 12,
+    "position": 17,
+    "post_aweme_info": "{\"music_id\":\"7703103771597212456\",\"most_used_music_id_map\":{\"1128\":\"7702012135580175146\",\"2329\":\"7702012135580175146\",\"8663\":\"7702012135580175146\"},\"most_used_sticker_id\":\"131671124\"}",
+    "sentence_id": "2727117",
+    "sentence_tag": 1003,
+    "video_count": 6,
+    "view_count": 43938761,
+    "word": "小蓝叔对口型演绎大赏",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oUqSnjohCBJEEAi90EjIj5yAy6ARwdfL4eTBiO",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/oUqSnjohCBJEEAi90EjIj5yAy6ARwdfL4eTBiO~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=2xrqVi2yCZBbWZPiA%2FQ66%2BNLUC8%3D&from=3218412987",
+      "https://p5-sign.douyinpic.com/tos-cn-p-0015c000-ce/oUqSnjohCBJEEAi90EjIj5yAy6ARwdfL4eTBiO~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=LXzA56prWdouCF7MYzNj%2FfNZBxc%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oUqSnjohCBJEEAi90EjIj5yAy6ARwdfL4eTBiO~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=kxHMXfxsqWMMPFBNtxY7vxVcnhI%3D&from=3218412987"
+     ]
+    },
+    "word_sub_board": [
+     3
+    ],
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793752074,
+    "group_id": "7703770994268853545",
+    "hot_value": 8494868,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 1,
+    "position": 18,
+    "sentence_id": "2728195",
+    "sentence_tag": 21000,
+    "video_count": 1,
+    "view_count": 43915714,
+    "word": "中印尼利刃2026联训在广州结训",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oEnkDFDc9AArmQZA2UEQniBAeLNgK6RQ6qfcdn",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oEnkDFDc9AArmQZA2UEQniBAeLNgK6RQ6qfcdn~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=9ejmj2v0tM1keD%2B71WakNJS8Jb0%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oEnkDFDc9AArmQZA2UEQniBAeLNgK6RQ6qfcdn~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=931qsh6cN%2F0cOAmyovruevuBH8Y%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oEnkDFDc9AArmQZA2UEQniBAeLNgK6RQ6qfcdn~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=RchaYy4w8fpjWrr3W8CeZ%2BL4JME%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793672901,
+    "group_id": "7702111416630842674",
+    "hot_value": 8477260,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "max_rank": 4,
+    "position": 19,
+    "sentence_id": "2726603",
+    "sentence_tag": 12000,
+    "video_count": 2,
+    "view_count": 40427225,
+    "word": "来一场热血弹珠PK大赛",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oYfSkAQ2GCFA1EIq75FfABghYZJsKNIw9cDtAz",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oYfSkAQ2GCFA1EIq75FfABghYZJsKNIw9cDtAz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=cKTFmLKqnupTbWip7DQFXDE6oQg%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oYfSkAQ2GCFA1EIq75FfABghYZJsKNIw9cDtAz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=H7rkc0QHObRtGer6Q5Cts6UffLE%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oYfSkAQ2GCFA1EIq75FfABghYZJsKNIw9cDtAz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=c5%2Ffk4qzAt6xWbAdc%2B%2B6%2FUu2Iew%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793749576,
+    "group_id": "7703864665814242594",
+    "hot_value": 8258214,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 15,
+    "position": 20,
+    "sentence_id": "2728176",
+    "sentence_tag": 19000,
+    "video_count": 1,
+    "view_count": 41552973,
+    "word": "妈妈的话是家里的圣旨",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/okpMxcr2DQfhyp9UASFKCy9cPBfTqLAIERgpA6",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/okpMxcr2DQfhyp9UASFKCy9cPBfTqLAIERgpA6~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=RsaAP7ZpfcWHLVewznPwYDqoJ9M%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/okpMxcr2DQfhyp9UASFKCy9cPBfTqLAIERgpA6~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=3Vq0%2BSklUtcNFEhI3B%2BWdfqNLO8%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/okpMxcr2DQfhyp9UASFKCy9cPBfTqLAIERgpA6~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=w2plkSl%2Bfzy%2FFlHJa8uEkW%2Bz1Zg%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793770023,
+    "group_id": "7694590021597615387",
+    "hot_value": 7986281,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 16,
+    "position": 21,
+    "sentence_id": "2728641",
+    "sentence_tag": 12000,
+    "video_count": 5,
+    "view_count": 37588174,
+    "word": "金铲铲大橘大利新模式上线",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oQmU5Bg6fAQVaYnuHD9qnQBoMEANFAHS0hRQf7",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oQmU5Bg6fAQVaYnuHD9qnQBoMEANFAHS0hRQf7~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=iUjH%2B6xSVB1attVHts4eQ9epfyg%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/oQmU5Bg6fAQVaYnuHD9qnQBoMEANFAHS0hRQf7~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=XcO8K7rgHt%2BswVmUKfUjqPxfWz8%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oQmU5Bg6fAQVaYnuHD9qnQBoMEANFAHS0hRQf7~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=ZAvO3rEDQSQmcWQ%2BVLsM974nRGk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793791453,
+    "group_id": "7702816382932817202",
+    "hot_value": 7932600,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 1,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/1.png",
+    "max_rank": 22,
+    "position": 22,
+    "sentence_id": "2729562",
+    "sentence_tag": 12000,
+    "video_count": 1,
+    "view_count": 36377856,
+    "word": "369发抖音感谢粉丝支持",
+    "word_cover": {
+     "uri": "tos-cn-i-0813c001/oMEwZD6SIANDoMAAeACELzhAPED9gAFzqrC0bf",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c001/oMEwZD6SIANDoMAAeACELzhAPED9gAFzqrC0bf~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=V84s%2FMX5GBg5uRi%2BYTYVxxtR9u8%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-i-0813c001/oMEwZD6SIANDoMAAeACELzhAPED9gAFzqrC0bf~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=n2Kv3cLKiZlvO%2FxCbEWi9xSV5HQ%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-i-0813c001/oMEwZD6SIANDoMAAeACELzhAPED9gAFzqrC0bf~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=oZFeyHtHZ5G%2BYsebNUOChZl83J4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793768962,
+    "group_id": "7702924565987841306",
+    "hot_value": 7860806,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 22,
+    "position": 23,
+    "sentence_id": "2728612",
+    "sentence_tag": 16000,
+    "video_count": 2,
+    "view_count": 37458747,
+    "word": "刘亦菲凤凰神女仿妆申请出战",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oYeWeBDSEi7OXc0HD8b2oIMfV9VYiMZi0BQgAJ",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYeWeBDSEi7OXc0HD8b2oIMfV9VYiMZi0BQgAJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=aTuULI6LaGYHxDIO%2BjlJhs1pvC0%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYeWeBDSEi7OXc0HD8b2oIMfV9VYiMZi0BQgAJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=mOeYuwcHZJutu6m0Gdl2ZA2wG8s%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYeWeBDSEi7OXc0HD8b2oIMfV9VYiMZi0BQgAJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=QweZGde7wz9A21yYP3GuzJg1D40%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793768099,
+    "group_id": "7703491430127588644",
+    "hot_value": 7805458,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 7,
+    "position": 24,
+    "sentence_id": "2728589",
+    "sentence_tag": 12000,
+    "video_count": 2,
+    "view_count": 32791559,
+    "word": "TES告别S16舞台",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oUgAAfrVUgf9DLDQBJ7EAzBNaA6FQwWZqWTlqP",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oUgAAfrVUgf9DLDQBJ7EAzBNaA6FQwWZqWTlqP~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=JABaj5ZyS35hZHwZe8DxoNfrcj8%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oUgAAfrVUgf9DLDQBJ7EAzBNaA6FQwWZqWTlqP~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=6jb0Sf4hQ7%2BKNUmVE%2BJpaFFAcBU%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oUgAAfrVUgf9DLDQBJ7EAzBNaA6FQwWZqWTlqP~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=byvtKIKsAJvbEHo2hWVQ84aPvw0%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793701181,
+    "group_id": "7586117497083041034",
+    "hot_value": 7792282,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 1,
+    "position": 25,
+    "sentence_id": "2727710",
+    "sentence_tag": 12000,
+    "video_count": 15,
+    "view_count": 31309208,
+    "word": "IG战胜TES晋级四强",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oA25aXMS7BBLegAvcTQgoICAYI4Aocfr0V84f3",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oA25aXMS7BBLegAvcTQgoICAYI4Aocfr0V84f3~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=tlZTe4GCrNKxNwTEnUbjsLkz0ow%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oA25aXMS7BBLegAvcTQgoICAYI4Aocfr0V84f3~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=GdHNxVwX82ZucRJAKHPa2NJya7I%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/oA25aXMS7BBLegAvcTQgoICAYI4Aocfr0V84f3~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=FnJFkU9b5CE5djBTUpVbYBipukw%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793779832,
+    "group_id": "7704159074027689274",
+    "hot_value": 7778314,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 20,
+    "position": 26,
+    "sentence_id": "2729172",
+    "sentence_tag": 12000,
+    "video_count": 3,
+    "view_count": 32076669,
+    "word": "媒体评iG战胜TES",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oQEhqqXAEBsgXg9C5RIALFEAnyDIf6Bp2frDgC",
+     "url_list": [
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oQEhqqXAEBsgXg9C5RIALFEAnyDIf6Bp2frDgC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=hk2jvTVKznh5QBrlz4BQREgGSns%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oQEhqqXAEBsgXg9C5RIALFEAnyDIf6Bp2frDgC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=9Z7saqO9NxDU7uZfvy9CT8FdtRc%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oQEhqqXAEBsgXg9C5RIALFEAnyDIf6Bp2frDgC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Eb0SsrC3VvtIS%2BzG4%2BZp9xOBp%2FU%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793770678,
+    "group_id": "7444292135728190729",
+    "hot_value": 7770009,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 20,
+    "position": 27,
+    "sentence_id": "2728657",
+    "sentence_tag": 12000,
+    "video_count": 1,
+    "view_count": 31844668,
+    "word": "TheShy感谢粉丝支持",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/ooeV84hfXV4GQAIecQRLdBGGCbzs1g7VIxGAEB",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/ooeV84hfXV4GQAIecQRLdBGGCbzs1g7VIxGAEB~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=l3rHW%2BRr39jKKb8t7G%2FElJ1JJwM%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/ooeV84hfXV4GQAIecQRLdBGGCbzs1g7VIxGAEB~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=NqSsIyi5FdgZBGVAZCNFktSWqZU%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/ooeV84hfXV4GQAIecQRLdBGGCbzs1g7VIxGAEB~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=wf%2FDDuOZkuuYlw3VzABDDZrfTZk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793751223,
+    "group_id": "7703566517333759269",
+    "hot_value": 7767344,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "max_rank": 25,
+    "position": 28,
+    "sentence_id": "2728188",
+    "sentence_tag": 2003,
+    "video_count": 1,
+    "view_count": 28853473,
+    "word": "后会友期导演回应节目剪辑混乱",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/ok9cqapIPpGuiAQi3AB82xMhSDZrqjdmPhHoI",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/ok9cqapIPpGuiAQi3AB82xMhSDZrqjdmPhHoI~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=LmdOYgZLa%2FVmmbLgs1YK41TEBAw%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/ok9cqapIPpGuiAQi3AB82xMhSDZrqjdmPhHoI~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=UzBVd4IMy5db%2FeUCOAZJGpfwpHo%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/ok9cqapIPpGuiAQi3AB82xMhSDZrqjdmPhHoI~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=EVyJQ%2BHa35aTBgwLunM9WiYLub8%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793773909,
+    "group_id": "7703596567600878911",
+    "hot_value": 7766487,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 22,
+    "position": 29,
+    "sentence_id": "2728815",
+    "sentence_tag": 6000,
+    "video_count": 3,
+    "view_count": 29160623,
+    "word": "苹果国行AI与努比亚智能体对比",
+    "word_cover": {
+     "uri": "tos-cn-i-0813/osfaCveGIQcM24rDcy6oOoOchIfA8IvALAAfgA",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-i-0813/osfaCveGIQcM24rDcy6oOoOchIfA8IvALAAfgA~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=8%2F%2FzMZe8VN2qc54RwiU5h8C7NwY%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813/osfaCveGIQcM24rDcy6oOoOchIfA8IvALAAfgA~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=g8HRhOr0cI4pLDTTL5u%2FVkhGTD8%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-i-0813/osfaCveGIQcM24rDcy6oOoOchIfA8IvALAAfgA~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=FMFxDhhIMPdWFqazNuQoZbEWXK8%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793716979,
+    "group_id": "7703543444933874998",
+    "hot_value": 7751987,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 22,
+    "position": 30,
+    "sentence_id": "2728071",
+    "sentence_tag": 2003,
+    "video_count": 3,
+    "view_count": 23635023,
+    "word": "深度解析后会友期背后看点",
+    "word_cover": {
+     "uri": "tos-cn-i-jm8ajry58r/373591c7dec342238c1d3cdcb2879105",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-i-jm8ajry58r/373591c7dec342238c1d3cdcb2879105~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=qKnVy%2FhxEmvhhzTXdCVZpIKtELU%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-i-jm8ajry58r/373591c7dec342238c1d3cdcb2879105~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=FU89uYq1QaBF2E02B73I%2FjJ0ViI%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-i-jm8ajry58r/373591c7dec342238c1d3cdcb2879105~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=E8ywcDvNP3378V7RcsnQ7Nu%2BLXQ%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793764081,
+    "group_id": "7703089816750331178",
+    "hot_value": 7750311,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 25,
+    "position": 31,
+    "sentence_id": "2728488",
+    "sentence_tag": 12000,
+    "video_count": 3,
+    "view_count": 24478796,
+    "word": "原神7.2新地图快速上手攻略",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/o0uoIai21ZCtXDtpAOBAIzd2eV1guBrAYNiGfZ",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/o0uoIai21ZCtXDtpAOBAIzd2eV1guBrAYNiGfZ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=IN1gmC3FDdXUdagypHdIvSb6T2k%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/o0uoIai21ZCtXDtpAOBAIzd2eV1guBrAYNiGfZ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=OBCROVxbJGr8yej3lYv6AWlRbw8%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/o0uoIai21ZCtXDtpAOBAIzd2eV1guBrAYNiGfZ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=5VprhDks88dDYA8AtU3nDXGhFq4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793778107,
+    "group_id": "7702690985822115099",
+    "hot_value": 7747089,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 23,
+    "position": 32,
+    "sentence_id": "2729051",
+    "sentence_tag": 20003,
+    "video_count": 5,
+    "view_count": 21975406,
+    "word": "各行各业在红果都有专属短剧",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/okHAATrcEiQhWDsQ8VQiXA1IPBa0IC4BPmHuz",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/okHAATrcEiQhWDsQ8VQiXA1IPBa0IC4BPmHuz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=SMwLgw10ylq1TbldSv0Sx2PTVaA%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/okHAATrcEiQhWDsQ8VQiXA1IPBa0IC4BPmHuz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=ZzUUZYhRJMwQT215hYS3rnPsado%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/okHAATrcEiQhWDsQ8VQiXA1IPBa0IC4BPmHuz~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=uzALGbXy3XrBeGB80J5OduhiK84%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793779544,
+    "group_id": "7703112059177702699",
+    "hot_value": 7744484,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 25,
+    "position": 33,
+    "sentence_id": "2729152",
+    "sentence_tag": 12000,
+    "video_count": 1,
+    "view_count": 21862116,
+    "word": "小WEI说自己来感觉了",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oEdwUVQbGgfmMVNFATLMOf7TVDeNVzJgIMgFB1",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEdwUVQbGgfmMVNFATLMOf7TVDeNVzJgIMgFB1~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=5it1pk58%2FVPPz2L%2FfIWOl%2Fdub7M%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEdwUVQbGgfmMVNFATLMOf7TVDeNVzJgIMgFB1~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=nf6TQFHiOo2INowzYbFU2%2B7lMZs%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEdwUVQbGgfmMVNFATLMOf7TVDeNVzJgIMgFB1~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=XbqxGHuk0tq600QeAagWF0oai%2Bk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793772876,
+    "group_id": "7703042912364811547",
+    "hot_value": 7735692,
+    "hotlist_param": "{\"version\":1}",
+    "label": 5,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/5.png",
+    "max_rank": 21,
+    "position": 34,
+    "sentence_id": "2728766",
+    "sentence_tag": 2002,
+    "video_count": 3,
+    "view_count": 21298593,
+    "word": "张颂文新剧园区极限逃生",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/o8ZQbcIIIJgVD40eeXL8p0TDLZnkpBAJGCr7Be",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8ZQbcIIIJgVD40eeXL8p0TDLZnkpBAJGCr7Be~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Px36cDRj1LriDyMGHbK90Yvz4Uw%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8ZQbcIIIJgVD40eeXL8p0TDLZnkpBAJGCr7Be~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=xaE9e6SiP0OhwgxEKJtIT6VeBFQ%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8ZQbcIIIJgVD40eeXL8p0TDLZnkpBAJGCr7Be~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Wr8JjLH8j6yweBW3I5KQ44oShbE%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793709454,
+    "group_id": "7703792171515106600",
+    "hot_value": 7735255,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 24,
+    "position": 35,
+    "sentence_id": "2727935",
+    "sentence_tag": 2012,
+    "video_count": 1,
+    "view_count": 18662646,
+    "word": "陈泽发布1103纪录片为你而来",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/own7GIArQqVA30BbQCRpUELUe0EZ0BeZifAq7R",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/own7GIArQqVA30BbQCRpUELUe0EZ0BeZifAq7R~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=1%2B3sNFZDILv%2B0v7h1ZGoMYK25wQ%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/own7GIArQqVA30BbQCRpUELUe0EZ0BeZifAq7R~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=S6XQ8FxED6pQHhcM7uyD0NO0d34%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/own7GIArQqVA30BbQCRpUELUe0EZ0BeZifAq7R~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=M6JTw8zb9kPqLHtW5TqSLXs4GUk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793703103,
+    "group_id": "7702638036903073043",
+    "hot_value": 7729627,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 22,
+    "position": 36,
+    "sentence_id": "2727742",
+    "sentence_tag": 2008,
+    "video_count": 3,
+    "view_count": 17962262,
+    "word": "厉娜真的很会穿搭啊",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/okR0IWspAfZ2AgTfrHgfPML0DWCSIQehEtIMGJ",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/okR0IWspAfZ2AgTfrHgfPML0DWCSIQehEtIMGJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=FEzzn0QbAgc82L1PCLJroaK7qNs%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/okR0IWspAfZ2AgTfrHgfPML0DWCSIQehEtIMGJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=fRT6uLbDgYqMk7oSd8bjZm4nH9E%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/okR0IWspAfZ2AgTfrHgfPML0DWCSIQehEtIMGJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=nh8m6yiwgSJDI%2FdUYXGghfbPlbc%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793771617,
+    "group_id": "7683113647182550306",
+    "hot_value": 7728679,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 22,
+    "position": 37,
+    "sentence_id": "2728695",
+    "sentence_tag": 16000,
+    "video_count": 3,
+    "view_count": 16207954,
+    "word": "秋日街头感穿搭参考",
+    "word_cover": {
+     "uri": "tos-cn-i-0813/okfvnN5AAACiAPgz0nBDC1IPcEAhHMe35inADi",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-i-0813/okfvnN5AAACiAPgz0nBDC1IPcEAhHMe35inADi~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=L52inDw3OVT5tN4WLTl%2FOPdpO8k%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-i-0813/okfvnN5AAACiAPgz0nBDC1IPcEAhHMe35inADi~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=yut0FPMnCzUo7x0TpdwoIEAJvZI%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-0813/okfvnN5AAACiAPgz0nBDC1IPcEAhHMe35inADi~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Q6BoVAd4Ot0akWaercGAeFbtnb4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793753114,
+    "group_id": "7626586223570392361",
+    "hot_value": 7728185,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 9,
+    "position": 38,
+    "sentence_id": "2728207",
+    "sentence_tag": 4003,
+    "video_count": 10,
+    "view_count": 12465157,
+    "word": "苹果手机天气数据显示异常",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oUFGOVRV1A4gBleHEmmPH7eCEiUfQZZTBw4AQD",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oUFGOVRV1A4gBleHEmmPH7eCEiUfQZZTBw4AQD~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=bN%2FWKVBssQR5yUC8nbCkZ8wXIIM%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/oUFGOVRV1A4gBleHEmmPH7eCEiUfQZZTBw4AQD~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=vGyvdupyVEEQt6TnOkQrIf3JLdE%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oUFGOVRV1A4gBleHEmmPH7eCEiUfQZZTBw4AQD~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Zr9mPNyIF2dOAH8pH%2FEKxC2mnb4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793706167,
+    "group_id": "7703275539062723875",
+    "hot_value": 7728129,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "max_rank": 14,
+    "position": 39,
+    "sentence_id": "2727828",
+    "sentence_tag": 16000,
+    "video_count": 3,
+    "view_count": 12026051,
+    "word": "我也拥有了亚麻发色厉娜",
+    "word_cover": {
+     "uri": "tos-cn-i-0813/owsN1AI9hAB9gbAOE2DACdupMNiJedBiUAjLfA",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-i-0813/owsN1AI9hAB9gbAOE2DACdupMNiJedBiUAjLfA~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=TDhpAr8OKGPayjYTYw76aLcfrpk%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-i-0813/owsN1AI9hAB9gbAOE2DACdupMNiJedBiUAjLfA~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=3QoFDsc3rj8baslzSETB%2FRHkPhk%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-0813/owsN1AI9hAB9gbAOE2DACdupMNiJedBiUAjLfA~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=bq1yG%2FQYmmn38wS5VaD6Noky7Q8%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793685567,
+    "group_id": "7700205164544873769",
+    "hot_value": 7722327,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 9,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/9.png",
+    "max_rank": 30,
+    "position": 40,
+    "post_aweme_info": "{\"music_id\":\"7702797218306132799\",\"most_used_music_id_map\":{\"8663\":\"7702797218306132799\",\"1128\":\"7702797218306132799\",\"2329\":\"7702797218306132799\"}}",
+    "sentence_id": "2727001",
+    "sentence_tag": 1001,
+    "video_count": 10,
+    "view_count": 12514569,
+    "word": "霸王龙舞步转场挑战",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/ok5VCXwNIFfLTuOA5AfQyMuJ73KEGBL2Bekg1E",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/ok5VCXwNIFfLTuOA5AfQyMuJ73KEGBL2Bekg1E~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=G1vH%2BCH209GaH0proYrRNCh%2FoCk%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/ok5VCXwNIFfLTuOA5AfQyMuJ73KEGBL2Bekg1E~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=1mBOroQe8J%2B9gOCKat1VS2u4Er8%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/ok5VCXwNIFfLTuOA5AfQyMuJ73KEGBL2Bekg1E~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=CDtczUtbEwJnZddV59q6t8w2reE%3D&from=3218412987"
+     ]
+    },
+    "word_sub_board": [
+     3
+    ],
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793672818,
+    "group_id": "7539646425887561012",
+    "hot_value": 7720456,
+    "hotlist_param": "{\"version\":1}",
+    "label": 0,
+    "max_rank": 1,
+    "position": 41,
+    "sentence_id": "2726601",
+    "sentence_tag": 9000,
+    "video_count": 3,
+    "view_count": 10215179,
+    "word": "觉醒吧我的厨艺天赋",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/osECw1eAfZ4GEGgCFEd7OredBHBLgzIVAQOQTn",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/osECw1eAfZ4GEGgCFEd7OredBHBLgzIVAQOQTn~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=hCgdBMZkA%2BAvXYT47Y0i6kn%2Bt6Y%3D&from=3218412987",
+      "https://p5-sign.douyinpic.com/tos-cn-p-0015/osECw1eAfZ4GEGgCFEd7OredBHBLgzIVAQOQTn~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=1djHbgBnPoIc4DU5kyGTuZERVjg%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/osECw1eAfZ4GEGgCFEd7OredBHBLgzIVAQOQTn~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=oAqkx7Y112419KsfR0Xf0BLCq9Q%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793707198,
+    "group_id": "7702917886985491766",
+    "hot_value": 7719076,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 5,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/5.png",
+    "max_rank": 21,
+    "position": 42,
+    "sentence_id": "2727847",
+    "sentence_tag": 13000,
+    "video_count": 3,
+    "view_count": 10337406,
+    "word": "想到7个虞寻歌同框的是天才吧",
+    "word_cover": {
+     "uri": "tos-cn-i-0813c000-ce/oIBqCypoAAPiLApnHqPwnEAAuIapEBi8axDyM",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIBqCypoAAPiLApnHqPwnEAAuIapEBi8axDyM~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=59iLAGLfsUyNgCEbL2Pgd08oMhM%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIBqCypoAAPiLApnHqPwnEAAuIapEBi8axDyM~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=3nzUdsr630H5Hb62cvDZ9YpGd1U%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIBqCypoAAPiLApnHqPwnEAAuIapEBi8axDyM~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=wPeTBjWa%2FBMEUWOr21b6K8t26BY%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793705705,
+    "group_id": "7702748420544435507",
+    "hot_value": 7718769,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 37,
+    "position": 43,
+    "sentence_id": "2727809",
+    "sentence_tag": 9000,
+    "video_count": 3,
+    "view_count": 6585889,
+    "word": "跟着周传雄在南昌吃顿不辣的",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oEXIAteoEFAdR6DgQ90DN54gahXjwmqTqAXfBQ",
+     "url_list": [
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oEXIAteoEFAdR6DgQ90DN54gahXjwmqTqAXfBQ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=GBawyW%2BZoyCfx2ZLBt8%2BO2XlsH4%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oEXIAteoEFAdR6DgQ90DN54gahXjwmqTqAXfBQ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=ocabIyQdhXSBiRwnXZBYCrnDEc8%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oEXIAteoEFAdR6DgQ90DN54gahXjwmqTqAXfBQ~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=eCP8bhCgGNxMY%2B4rlhJPsYdyVX4%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793694682,
+    "group_id": "7702819354996856127",
+    "hot_value": 7714189,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 1,
+    "position": 44,
+    "sentence_id": "2727455",
+    "sentence_tag": 20002,
+    "video_count": 3,
+    "view_count": 6994008,
+    "word": "英国男子花费28年完成环球徒步",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/oAQqoVNBUCWfjA7Qg5QADLIBKsGje0Ciie0XXE",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/oAQqoVNBUCWfjA7Qg5QADLIBKsGje0Ciie0XXE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=lTy6kD9AHFQOc6y2qrf0NCKDntc%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/oAQqoVNBUCWfjA7Qg5QADLIBKsGje0Ciie0XXE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=lChOAYHAvTYz1wBHlhveoDPeQSA%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/oAQqoVNBUCWfjA7Qg5QADLIBKsGje0Ciie0XXE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=hfJjxwxqHtcQjmdGTu7zueEeLlk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793690834,
+    "group_id": "7703793249475056939",
+    "hot_value": 7708123,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 5,
+    "position": 45,
+    "sentence_id": "2727299",
+    "sentence_tag": 12000,
+    "video_count": 4,
+    "view_count": 4671487,
+    "word": "S16淘汰赛热点赛事观察",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/o4ipfxgdPAI9izL5DBe1CzBtWiACiAyBGKBIu0",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/o4ipfxgdPAI9izL5DBe1CzBtWiACiAyBGKBIu0~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=QngGLq8AEIJVb7WVmKDZ6TIce2w%3D&from=3218412987",
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/o4ipfxgdPAI9izL5DBe1CzBtWiACiAyBGKBIu0~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=%2BrTwRSEViIXSQ9j%2BTumtznwrI6I%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/o4ipfxgdPAI9izL5DBe1CzBtWiACiAyBGKBIu0~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=%2FXi%2FfSlct8TPHVJK8aZhAdu%2BEyE%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793689120,
+    "group_id": "6737157797924082952",
+    "hot_value": 7705626,
+    "hotlist_param": "{\"version\":1}",
+    "label": 9,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/9.png",
+    "max_rank": 22,
+    "position": 46,
+    "post_aweme_info": "{\"music_id\":\"7703629548704762624\",\"most_used_music_id_map\":{\"1128\":\"7703475737760221994\",\"2329\":\"7703475737760221994\",\"8663\":\"7703475737760221994\"}}",
+    "sentence_id": "2727215",
+    "sentence_tag": 1001,
+    "video_count": 10,
+    "view_count": 3714323,
+    "word": "你这头发在哪烫的",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oMW9A4oE9e5fH2f8PwBDNQj6IA3qU5DCrmnEFC",
+     "url_list": [
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/oMW9A4oE9e5fH2f8PwBDNQj6IA3qU5DCrmnEFC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=pKNq8Yi%2B7HX4%2Bz%2F8nVswAFVy3PE%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oMW9A4oE9e5fH2f8PwBDNQj6IA3qU5DCrmnEFC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=bWXyFw1xJ7%2FjYPqd7cCXUaHt%2BEY%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oMW9A4oE9e5fH2f8PwBDNQj6IA3qU5DCrmnEFC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=CtTD4oHLiv9iWYOZaqXonrZXAwE%3D&from=3218412987"
+     ]
+    },
+    "word_sub_board": [
+     3
+    ],
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793685013,
+    "group_id": "7701261878416577855",
+    "hot_value": 7697484,
+    "hotlist_param": "{\"version\":1}",
+    "label": 9,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/9.png",
+    "max_rank": 36,
+    "position": 47,
+    "post_aweme_info": "{\"most_used_sticker_id\":\"95272747\",\"music_id\":\"7702391841366248233\",\"most_used_music_id_map\":{\"1128\":\"7702846851610970922\",\"2329\":\"7702846851610970922\",\"8663\":\"7702846851610970922\"}}",
+    "sentence_id": "2726966",
+    "sentence_tag": 1003,
+    "video_count": 10,
+    "view_count": 3001460,
+    "word": "11月你躲不掉的喜事",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/o8enGioE2I9hBI1EXBFqACjDgCNDBASofw5Aqu",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/o8enGioE2I9hBI1EXBFqACjDgCNDBASofw5Aqu~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=BIpX4TfTxyOk5rI3gZutEk1dNxw%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/o8enGioE2I9hBI1EXBFqACjDgCNDBASofw5Aqu~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=0zZGSSZT6rjXaCbPQHzJTggPPcQ%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/o8enGioE2I9hBI1EXBFqACjDgCNDBASofw5Aqu~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=X8lxOOIQzsr36EGI45uim3ZD1rs%3D&from=3218412987"
+     ]
+    },
+    "word_sub_board": [
+     3
+    ],
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793756859,
+    "group_id": "7703318848955520299",
+    "hot_value": 7694098,
+    "hotlist_param": "{\"version\":1}",
+    "label": 3,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/3.png",
+    "max_rank": 38,
+    "position": 48,
+    "sentence_id": "2728273",
+    "sentence_tag": 9000,
+    "video_count": 2,
+    "view_count": 907396,
+    "word": "60块逛吃川菜博物馆",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/ooQEYFGAABjdyCIoZuiPgaIieA7hFPkfAMB1VE",
+     "url_list": [
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015/ooQEYFGAABjdyCIoZuiPgaIieA7hFPkfAMB1VE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=v2yvHTum%2FsRyq47wd8QCYsvzVDQ%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/ooQEYFGAABjdyCIoZuiPgaIieA7hFPkfAMB1VE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=R7oSoKgWWF7OJfow1mNwjw1HKQo%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/ooQEYFGAABjdyCIoZuiPgaIieA7hFPkfAMB1VE~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=JOmjoNzvGtVBn5t69TFiUsEHRxk%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793689346,
+    "group_id": "6802521707555853582",
+    "hot_value": 7693523,
+    "hotlist_param": "{\"version\":1}",
+    "label": 17,
+    "label_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vjl_avo_upfbvk/ljhwZthlaukjlkulzlp/hotspot_detail_page/17.png",
+    "max_rank": 1,
+    "position": 49,
+    "sentence_id": "2727230",
+    "sentence_tag": 20002,
+    "video_count": 1,
+    "view_count": 2082430,
+    "word": "一句你好胜过千言万语",
+    "word_cover": {
+     "uri": "tos-cn-p-0015/owDIeAGQYfOEfLt3Xy6RfGoHAgrhJnhgL14fIC",
+     "url_list": [
+      "https://p9-sign.douyinpic.com/tos-cn-p-0015/owDIeAGQYfOEfLt3Xy6RfGoHAgrhJnhgL14fIC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=Y9Fin54jl11sJu3IV2%2F74kHIchI%3D&from=3218412987",
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015/owDIeAGQYfOEfLt3Xy6RfGoHAgrhJnhgL14fIC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=oXv2dkzMD0vYdP%2B%2BCkGCvWR3xpc%3D&from=3218412987",
+      "https://p3-sign.douyinpic.com/tos-cn-p-0015/owDIeAGQYfOEfLt3Xy6RfGoHAgrhJnhgL14fIC~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=MaOULiY4lGrgUJY%2FXYrWsNwH44A%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   },
+   {
+    "article_detail_count": 0,
+    "can_extend_detail": false,
+    "discuss_video_count": 1,
+    "display_style": 0,
+    "event_time": 1793672414,
+    "group_id": "7188326325684524288",
+    "hot_value": 7692625,
+    "hotlist_param": "{\"version\":1}",
+    "is_n1": false,
+    "label": 0,
+    "max_rank": 18,
+    "position": 50,
+    "sentence_id": "2726583",
+    "sentence_tag": 10000,
+    "video_count": 3,
+    "view_count": 1412646,
+    "word": "来延吉当朝鲜族公主了",
+    "word_cover": {
+     "uri": "tos-cn-p-0015c000-ce/oYDE3cq0F79PEHYAFHAXYIQDQwen6ZMB00fKqr",
+     "url_list": [
+      "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYDE3cq0F79PEHYAFHAXYIQDQwen6ZMB00fKqr~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=hzBH48eMAoSb%2BQ1Gn6vwqfNXmAY%3D&from=3218412987",
+      "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYDE3cq0F79PEHYAFHAXYIQDQwen6ZMB00fKqr~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=NKSK%2FNPMtJzzI9LFDTl6Q8QurvE%3D&from=3218412987",
+      "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYDE3cq0F79PEHYAFHAXYIQDQwen6ZMB00fKqr~noop.jpeg?lk3s=bfd515bb&x-expires=1793815200&x-signature=mrRBnTjMVz%2BylSX0F8tWhpON1v8%3D&from=3218412987"
+     ]
+    },
+    "word_type": 1
+   }
+  ]
+ },
+ "extra": {
+  "logid": "2026110420173855155623CA6C0D445893",
+  "now": 1793794658000,
+  "time_cost": {
+   "stream_inner": 201
+  }
+ },
+ "log_pb": {
+  "impr_id": "2026110420173855155623CA6C0D445893"
+ },
+ "status_code": 0
+}

@@ -1,0 +1,170 @@
+{
+ "base": "img_v3_02174_5e166c00-361d-4cc6-992b-02595bb9bfcg",
+ "source": "img_v3_02174_5e166c00-361d-4cc6-992b-02595bb9bfcg.jpg",
+ "width": 1316,
+ "height": 2832,
+ "is_grid": false,
+ "is_detail": false,
+ "detail": {
+  "likes": "",
+  "comments": "",
+  "favorites": "",
+  "shares": "",
+  "caption": ""
+ },
+ "comment_total": "5266",
+ "search_term": "胰岛素抵抗怎么调理",
+ "video_desc": "",
+ "author": "",
+ "comments": [
+  {
+   "seq": 1,
+   "y": 1944.0,
+   "username": "小小阳葱头",
+   "body": "",
+   "date": "08-23",
+   "region": "浙江",
+   "likes": "3",
+   "reply_count": "",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.693,
+   "raw_username": "小小阳葱头",
+   "n_lines": 0,
+   "likes_src": "crop"
+  },
+  {
+   "seq": 2,
+   "y": 2216.0,
+   "username": "米麸子",
+   "body": "那为什么糖尿病人会慢慢变瘦？",
+   "date": "06-20",
+   "region": "湖南",
+   "likes": "9",
+   "reply_count": "6",
+   "reply_to": "",
+   "is_author": false,
+   "nested": false,
+   "conf": 0.995,
+   "raw_username": "米麸子",
+   "n_lines": 1,
+   "likes_src": "crop"
+  }
+ ],
+ "unparsed": [
+  {
+   "text": "X",
+   "y": 951.0,
+   "x": 1188.0,
+   "cls": "dark",
+   "score": 0.8107
+  },
+  {
+   "text": "减肥最重要的是先健脑，戒说谎。调整饮食结",
+   "y": 1191.0,
+   "x": 209.0,
+   "cls": "dark",
+   "score": 0.9973
+  },
+  {
+   "text": "构不但不会饿，有时候甚至还会有点撑。",
+   "y": 1263.0,
+   "x": 210.0,
+   "cls": "dark",
+   "score": 0.995
+  },
+  {
+   "text": "-16.45kg",
+   "y": 1334.0,
+   "x": 231.0,
+   "cls": "dark",
+   "score": 0.997
+  },
+  {
+   "text": "-5.7",
+   "y": 1338.0,
+   "x": 420.0,
+   "cls": "dark",
+   "score": 0.9972
+  },
+  {
+   "text": "BMI变化",
+   "y": 1375.0,
+   "x": 418.0,
+   "cls": "dark",
+   "score": 0.8897
+  },
+  {
+   "text": "体重变化",
+   "y": 1376.0,
+   "x": 233.0,
+   "cls": "dark",
+   "score": 0.9107
+  },
+  {
+   "text": "-11.8%",
+   "y": 1428.0,
+   "x": 234.0,
+   "cls": "dark",
+   "score": 0.8965
+  },
+  {
+   "text": "+11.4%",
+   "y": 1428.0,
+   "x": 421.0,
+   "cls": "dark",
+   "score": 0.9143
+  },
+  {
+   "text": "肌肉率变化",
+   "y": 1465.0,
+   "x": 420.0,
+   "cls": "dark",
+   "score": 0.7818
+  },
+  {
+   "text": "体留率变化",
+   "y": 1468.0,
+   "x": 234.0,
+   "cls": "dark",
+   "score": 0.8031
+  },
+  {
+   "text": "体重",
+   "y": 1562.0,
+   "x": 234.0,
+   "cls": "dark",
+   "score": 0.9999
+  },
+  {
+   "text": "70.60kg",
+   "y": 1586.0,
+   "x": 230.0,
+   "cls": "dark",
+   "score": 0.9828
+  },
+  {
+   "text": "2026/08/22 07:29",
+   "y": 1632.0,
+   "x": 233.0,
+   "cls": "dark",
+   "score": 0.9763
+  },
+  {
+   "text": "波妞喜欢中介",
+   "y": 2439.0,
+   "x": 210.0,
+   "cls": "light",
+   "score": 0.9976
+  },
+  {
+   "text": "善语结善缘，恶语伤人心",
+   "y": 2608.0,
+   "x": 80.0,
+   "cls": "meta",
+   "score": 0.9833
+  }
+ ],
+ "n_rows": 29
+}
